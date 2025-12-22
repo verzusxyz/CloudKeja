@@ -1,0 +1,950 @@
+{
+  "@@meta": {
+    "languageCode": "zh_ZH",
+    "languageName": "Chinese",
+    "version": "1.0.0"
+  },
+  "common": {
+    "profile": "个人资料",
+    "language": "语言",
+    "subscriptionPlan": "订阅计划",
+    "contactUs": "联系我们",
+    "termsAndConditions": "条款与条件",
+    "aboutUs": "关于我们",
+    "logout": "登出",
+    "editProfile": "编辑个人资料",
+    "fullName": "全名",
+    "email": "电子邮件",
+    "mobileNumber": "手机号码",
+    "address": "地址",
+    "postalCode": "邮政编码",
+    "city": "城市",
+    "country": "国家",
+    "state": "省份",
+    "password": "密码",
+    "forgotPassword": "忘记密码",
+    "tenant": "租户",
+    "landlord": "房东",
+    "cancelRenting": "取消租赁",
+    "startDate": "开始日期",
+    "endDate": "结束日期",
+    "fromDate": "起始日期",
+    "toDate": "结束日期",
+    "online": "在线",
+    "bankList": "银行列表",
+    "withdrawMethod": "提款方式",
+    "uploadPaymentReceipt": "上传付款凭证",
+    "offlinePaymentNote(rich)": "注意： ${note(付款需要管理员在)} ${duraion(24~48 小时内)} ${note(手动审批。)}",
+    "reviews": "评价",
+    "description": "描述",
+    "about": "关于",
+    "propertyTypes": "物业类型",
+    "features": "特色",
+    "floorPlans": "楼层平面图",
+    "buildingDetails": "建筑详情",
+    "buildingName": "建筑名称",
+    "propertyAddress": "物业地址",
+    "completionYear": "竣工年份",
+    "lotNumber": "地段号码",
+    "residentialType": "住宅类型",
+    "furnishings": "家具",
+    "floorRange": "楼层范围",
+    "bedrooms": "卧室",
+    "bathrooms": "浴室",
+    "propertySize": "物业面积",
+    "rentalPeriod": "租赁期限",
+    "securityDeposit": "保证金",
+    "utilityBill": "水电费",
+    "facilities": "设施",
+    "amenities": "便利设施",
+    "expiringReason": "到期原因",
+    "tenantDetails": "租户详情",
+    "typeOfTenant": "租户类型",
+    "tenantName": "租户姓名",
+    "nidPassport": "NID/护照",
+    "nidPassportId": "@:common.nidPassport ID",
+    "tenantId": "租户ID",
+    "dateOfBirth": "出生日期",
+    "gender": "性别",
+    "nominee": "被提名人",
+    "name": "姓名",
+    "optional": "可选的",
+    "nomineeName": "@:common.nominee @:common.name",
+    "nomineeEmail": "@:common.nominee @:common.email",
+    "nomineeMobile": {
+      "short": "@:common.nominee 手机号码",
+      "full": "@:common.nominee @:common.mobileNumber"
+    },
+    "emergencyContact": "紧急联络人",
+    "relation": "关系",
+    "relationWith": "@:common.relation 与",
+    "relationWithYou": "@:common.relationWith 您",
+    "company": "公司",
+    "companyName": "@:common.company @:common.name",
+    "companySSMNo": "@:common.company SSM No.",
+    "workplace": "工作地点",
+    "officePhoneNo": "办公室电话号码",
+    "officeMobileNo": "办公室手机号码",
+    "vehicle": "车辆",
+    "vehiclesInfo": {
+      "plain": "车辆信息",
+      "optional": "车辆信息 (@:common.optional)"
+    },
+    "vehiclesType": "@:common.vehicle 类型",
+    "vehicleRegistrationNo": {
+      "normal": "车辆注册号码",
+      "short": "注册号码",
+      "alt": "车牌号码"
+    },
+    "vehicleBrand": "@:common.vehicle 品牌",
+    "rentProperty": "出租物业",
+    "propertyDetails": "物业详情",
+    "propertyId": "物业ID",
+    "propertyType": "物业类型",
+    "propertyName": "物业名称",
+    "paymentDetails": "付款详情",
+    "monthlyRent": "月租",
+    "thisMonthPayment": "本月付款",
+    "totalPaidRent": "已付租金总额",
+    "dueRent": "未付租金",
+    "rentStartDate": "租金 @:common.startDate",
+    "rentEndDate": "租金 @:common.endDate",
+    "status": "状态",
+    "rentAgreementPdf": "租赁协议PDF",
+    "noFile": "无文件",
+    "tenantImageOp": "租户图像 @:common.optional",
+    "addNewVechicle": "添加新车辆",
+    "uploadNidPassport": "上传 NID/护照",
+    "nidPassportUploadNote": "仅接受文件类型图像。文件限制高达 2.5 MB。",
+    "search": "搜索",
+    "sortBy": "排序方式",
+    "subscription": "订阅",
+    "downloading": "下载中...",
+    "downloadSuccess": "文件下载成功！",
+    "addPropertyBannerTitle": "想要出租您的物业？",
+    "application": "申请",
+    "tenantHasPaidDeposit": "租户已支付押金。",
+    "askProcessingRentApplication": "您确定要处理此租金物业请求吗？",
+    "dateAndTime": "日期和时间",
+    "applicationDetails": "申请详情",
+    "depositStatus": "押金状态",
+    "uploadRentAgreement": "上传租赁协议",
+    "uploadFilePDF": "上传文件（PDF）",
+    "askSelectRentAgreement": "请选择协议文件。",
+    "landlordRentAgreementPDF": "房东租赁协议PDF",
+    "tenantRentAgreementPDF": "租户租赁协议PDF",
+    "landlordApplicationApproveNote(rich)": "注意： ${note(仅在租户支付押金后才批准申请。)}",
+    "reasonOfRejection": "拒绝原因",
+    "youveRejectedThisApplication": "您已拒绝此申请",
+    "landlordDetails": "房东详情",
+    "landlordName": "房东姓名",
+    "downloadRentAgreement": "下载租赁协议",
+    "acceptTermsConditions(rich)": "接受 ${toc(条款与条件)}",
+    "tenantAgreementSignNote1(rich)": "注意： ${note(请下载并阅读协议。请通过 WhatsApp 或电子邮件将签署的协议发送给房东。)}",
+    "tenantAgreementSignNote2(rich)": "注意： ${note(当租户支付保证金、水电费和一个月的预付租金时，房东批准申请。)}",
+    "completeRentAgreementPdf(rich)": "租赁协议 (PDF) ${complete(完整协议)}",
+    "tenantApplicationDepositNote(rich)": "注意： ${note(当租户支付保证金、水电费和一个月的预付租金时，房东批准申请。)}",
+    "whatsapp": "WhatsApp",
+    "applicationList": "申请列表",
+    "viewDetails": "查看详情",
+    "searchHint": "@:common.search...",
+    "home": "首页",
+    "dashboard": "仪表板",
+    "tenants": "租户",
+    "maintenance": "维护",
+    "maintenanceList": "维护列表",
+    "maintenanceReport": "维护报告",
+    "labor": "劳工",
+    "applications": "申请",
+    "rentInvitation": "租金邀请",
+    "payment": "付款",
+    "rentPayment": "租金支付",
+    "depositUtilityPayment": "押金和水电费支付",
+    "refundRequest": "退款请求",
+    "withdrawRequest": "提款请求",
+    "myProperty": "我的物业",
+    "myRent": "我的租金",
+    "wishlist": "收藏夹",
+    "properties": "物业",
+    "allProperties": "所有物业",
+    "totalPropery": "物业总数",
+    "occupied": "已占用",
+    "vacant": "空置",
+    "accounting": "会计",
+    "totalIncome": "总收入",
+    "totalExpense": "总支出",
+    "currentBalance": "当前余额",
+    "totalWithdrawal": "总提款",
+    "totalProperties": "物业总数",
+    "totalTenant": "租户总数",
+    "totalRentPaid": "已付租金总额",
+    "totalRentDue": "未付租金总额",
+    "totalApplication": "申请总数",
+    "pendingApplication": "待处理申请",
+    "processingApplication": "处理中申请",
+    "approveApplication": "批准申请",
+    "rejectApplication": "拒绝申请",
+    "maintenanceCost": "维护成本",
+    "transactionSummary": "交易摘要",
+    "maintenanceRequest": "维护请求",
+    "notifications": "通知",
+    "myProperties": "我的物业",
+    "recommendationProperties": "推荐物业",
+    "laborList": "劳工列表",
+    "addLabor": "添加劳工",
+    "laborDetails": "劳工详情",
+    "laborSalary": "劳工工资",
+    "editLabor": "编辑劳工",
+    "addNewLabor": "添加新劳工",
+    "enterAmount": "输入金额",
+    "maintenanceDetails": "维护详情",
+    "laborName": "劳工姓名",
+    "comment": "评论",
+    "image": "图像",
+    "complete": "完成",
+    "details": "详情",
+    "title": "标题",
+    "date": "日期",
+    "reason": "原因",
+    "edit": "编辑",
+    "property": "物业",
+    "completeYourProfile": "完善您的个人资料",
+    "profileImage": "头像",
+    "imagePickHint": "仅限 JPEG 和 PNG 图像，最大尺寸为 120x120 像素。",
+    "invoiceId": "发票ID",
+    "depositAmount": "押金金额",
+    "landlordPhone": "房东电话",
+    "rentalAdvance": "租金（预付）",
+    "totalAmount": "总金额",
+    "rentalAmount": "租金金额",
+    "adminCharge": "管理费",
+    "editAccount": "编辑帐户",
+    "addNewAccount": "添加新帐户",
+    "transactionId": "交易ID",
+    "transactionType": "交易类型",
+    "requestDate": "请求日期",
+    "amount": "金额",
+    "fee": "费用",
+    "paymentStatus": "付款状态",
+    "generatedTime": "生成时间",
+    "systemGeneratedReportHint(rich)": "这是 ${appName} 的系统生成报告",
+    "withdrawHistory": "提款历史",
+    "history": "历史记录",
+    "withdrawAmount": "提款金额",
+    "availableBalance": "可用余额",
+    "withdrawCharge": "提款费用",
+    "paymentMethod": "付款方式",
+    "requestSendSuccess": "请求发送成功！",
+    "paymentReceiptSubmitSuccess": "付款凭证提交成功。",
+    "refundReason": "退款原因",
+    "note": "注意",
+    "refundReceiveSuccess": "退款成功收到。",
+    "downloadPaymentReceipt": "下载付款凭证",
+    "invoice": "发票",
+    "selectPropertyToSeeInvoice": "选择物业以查看发票号码...",
+    "bankAccName": "银行账户名称",
+    "bankName": "银行名称",
+    "bankAccNum": "银行账号",
+    "thankYou": "谢谢您！",
+    "basicInfo": "基本信息",
+    "descriptionPricing": "描述和定价",
+    "contact": "联系方式",
+    "photos": "照片",
+    "successfullySubmitted": "成功提交！",
+    "editProperty": "编辑物业",
+    "addNewProperty": "添加新物业",
+    "propertyManageRequestSuccess": "您的广告已提交审核。",
+    "postAnotherProperty": "发布其他物业",
+    "browseYourProperty": "浏览您的物业",
+    "stepIndicator(rich)": "步骤 ${step} / ${totalSteps}",
+    "whatWouldYouLikeToPost": "您想发布什么？",
+    "category": "类别",
+    "invalidCategory": "无效类别",
+    "unitNumber": "单位号码",
+    "sqft": "平方英尺",
+    "propertySizeMustBeGreaterThan0": "物业面积应大于零",
+    "whatAreTheFacility": "有哪些设施？",
+    "whatAreTheAmenity": "有哪些便利设施？",
+    "parkingLot": "停车场",
+    "houseType": "房屋类型",
+    "value": "价值",
+    "unitLotSize": "单位/地块面积",
+    "landSize": "土地面积",
+    "acres": "英亩",
+    "roomSize": "房间大小",
+    "askTenantPreference": "您的租户偏好是什么？",
+    "couple": "情侣",
+    "describeTheProperty": "描述${propertyType: String}",
+    "adTitle": "广告标题",
+    "minimumRentalPeriod": "最短租赁期",
+    "whatsappNumber": "@:common.whatsapp 号码",
+    "hideOrDisplayEmail": "隐藏或显示电子邮件地址",
+    "thankYouForPostingProperty": "感谢您在 ${appName: String} 上发布！",
+    "propertyList": "物业列表",
+    "newInviteRent": "新的租赁邀请",
+    "rentAgreement": "租赁协议",
+    "rentDetails": "租金详情",
+    "landlordRentInvitationPendingNote(rich)": "注意： ${note(请等待租户接受邀请。)}",
+    "rent": "租金",
+    "editTenant": "编辑租户",
+    "addNewTenant": "添加新租户",
+    "shareInstallLink": "分享安装链接",
+    "tenantList": "租户列表",
+    "editMaintenanceRequest": "编辑维护请求",
+    "addNewMaintenance": "添加新维护",
+    "landlordId": "房东ID",
+    "tenantAgrementUnderReviewNote(rich)": "注意 ${note(您的协议正在审核中。请等待房东批准您的租金。)}",
+    "editReview": "编辑评价",
+    "writeAReview": "写评价",
+    "selectRating": "选择评分",
+    "enterYourOpinion": "输入您的意见",
+    "askToEnterReviewMsg": "请输入评价信息",
+    "pressBackAgainToExit": "再次按返回键退出。",
+    "selectPaymentMethod": "选择付款方式",
+    "filter": "筛选",
+    "perMonth": "/月",
+    "searchHintWithAppName": "在 ${appName: String} 中搜索任何内容..."
+  },
+  "exceptions": {
+    "somethingWentWrong": "发生了一些错误，请重试",
+    "noNidPassport": "未提供 NID/护照图像。",
+    "noRentPropertyFound": "此租户未找到出租物业。",
+    "noPropertyFoundWithKeyWord": "未找到物业！\n请尝试使用其他关键字",
+    "noSubscriptionFoundRefreshPage": "未找到订阅计划！\n请刷新页面并重试。",
+    "invalidApiDataRefreshPage": "无效的 ${dataType: String} 信息！请刷新页面并重试。",
+    "invalidDownloadUrl": "无效的下载链接！",
+    "failedToSaveFile": "保存文件失败！${error: String}",
+    "errorOpeningFile": "打开文件出错！${error: String}",
+    "noVehicleInfoProvided": "未提供车辆信息。",
+    "yourApplicationRejected": "您的申请已被拒绝",
+    "noApplicationFoundHint": {
+      "template": "未找到申请！\n${subject: String} 将在此处显示（如果可用）。",
+      "subjects": {
+        "tenant": "您的申请",
+        "landlord": "租户的申请"
+      }
+    },
+    "noPropertyFoundHint": {
+      "landlordHome": "未找到物业！\n请尝试添加物业以在此处查看。",
+      "tenantRecommended": "未找到推荐物业\n请稍后重试。",
+      "tenantAllProperty": "物业不可用\n请稍后重试。"
+    },
+    "noImageProvided": "未提供图像",
+    "noStatusMaintenantFound": {
+      "landlord": "未找到 ${status} 维护记录。",
+      "tenant": "未找到维护记录！您可以创建维护请求以在此处查看。"
+    },
+    "noDepositFound": "未找到保证金！\n您可以在可用时查看保证金",
+    "noRentPaymentFound": "未找到租金付款！\n您可以在可用时查看租金付款",
+    "transactionSummaryApiException": "获取交易摘要失败。",
+    "noWithdrawRequestFound": "未找到请求！\n请尝试创建提款请求以在此处查看。",
+    "withdrawRequestNotApproved": "此提款请求未被批准！",
+    "nonZeroError": "请输入大于零的有效金额。",
+    "minAmountError": "金额必须至少为 ${minValue: String}。",
+    "maxAmountError": "金额不得超过 ${maxValue: String}。",
+    "selectPaymentMethodHint": "请先选择付款方式。",
+    "noStatusRefundReqFound": {
+      "landlord": "未找到 ${status} 退款请求！\n您可以在可用时在此处查看退款请求。",
+      "tenant": "未找到退款请求！\n您可以创建退款请求以在此处查看。"
+    },
+    "refundRequestHint": {
+      "inTenantList": "租户在收到退款后将批准退款",
+      "tenantReqSuccess": "我们将审核退款请求并在 24 小时内批准。"
+    },
+    "oneToTenRequiredField": "请选择 ${value: String} 的数量",
+    "invalidDateRange": "无效的日期范围。",
+    "valueMustBeGreaterThanZero": "${value: String} 必须大于零。",
+    "editProperty": {
+      "rentalChange": "租赁物业正在更改。它必须仅对下个月的租金支付有效（生效）。",
+      "deleteOnRent": "您的物业已被租户租用。在移除租户之前无法删除它",
+      "alreayRented": "此物业已被出租。请稍后重试。\n或者您可以联系房东了解更多信息。"
+    },
+    "rentInvitation": {
+      "landlordNoRentInvitation": "未找到租赁邀请！\n请尝试创建租赁邀请以在此处查看。",
+      "tenantNoRentInvitation": "未找到租赁邀请！\n您可以在可用时在此处查看租赁邀请。"
+    },
+    "notenantFoundList": "没有租户！\n请尝试添加租户以在此处查看。",
+    "noFeaturesProvided": "未提供任何功能。",
+    "noNotificationFound": "没有可用的通知。\n您可以在可用时在此处查看您的通知。"
+  },
+  "prompt": {
+    "logout": {
+      "title": "@:common.logout",
+      "message": "您确定要登出吗？"
+    },
+    "application": {
+      "rejectTitle": "您为什么要拒绝此申请？",
+      "applicationSent": {
+        "successfully": "申请已成功发送！",
+        "sucessDescription": "您可以在您的申请列表中看到此申请"
+      }
+    },
+    "labor": {
+      "delete": {
+        "title": "删除劳工？",
+        "description": "您确定要删除此劳工吗？"
+      }
+    },
+    "maintenanceRequest": {
+      "rejectTitle": "您为什么拒绝此请求？",
+      "processTitle": "您确定要处理此维护请求吗？",
+      "completeTitle": "工作完成了吗？"
+    },
+    "withdrawMethod": {
+      "deleteTitle": "删除提款方式？",
+      "deleteDescription": "您确定要删除此提款方式吗？"
+    },
+    "unsavedChanges": {
+      "title": "您确定要返回吗？",
+      "message": "已更改的字段将不会被保存！"
+    },
+    "property": {
+      "delete": {
+        "title": "删除物业？",
+        "message": "您确定要删除此物业吗？"
+      }
+    },
+    "rentInvitation": {
+      "landlordApprove": {
+        "title": "您确定要批准此租金吗？",
+        "description": "请确保您已审核租户签署的协议。"
+      },
+      "tenantAccept": {
+        "title": "您确定要接受此邀请吗？",
+        "description": "请确保您已下载协议PDF文件！"
+      }
+    },
+    "sessionExpired": {
+      "title": "会话已过期",
+      "message": "您的会话已过期。请重新登录",
+      "action": "登录"
+    },
+    "noInternet": {
+      "title": "无网络连接",
+      "message": "请检查您的Wi-Fi移动网络连接并重试",
+      "action": "重试"
+    },
+    "permissionHandler": {
+      "title": "需要权限！",
+      "message": "您需要在应用设置中授予权限。您现在要打开设置吗？"
+    },
+    "imagePicker": {
+      "title": "选择选项",
+      "gallery": "相册",
+      "camera": "相机"
+    },
+    "verificationDialog": {
+      "title": "验证您的电子邮件",
+      "message": "我们已发送一封包含验证码的电子邮件",
+      "messageWithEmail": "@:prompt.verificationDialog.message 发送到 ${email: String?}"
+    },
+    "notification": {
+      "clearTitle": "清除通知？",
+      "clearMessage": "您确定要清除所有通知吗？"
+    }
+  },
+  "form": {
+    "fullName": {
+      "label": "@:common.fullName",
+      "hint": "输入 @:common.fullName",
+      "errors": {
+        "required": "请输入您的 @:common.fullName"
+      }
+    },
+    "email": {
+      "label": "@:common.email",
+      "hint": "输入您的 @:common.email",
+      "errors": {
+        "required": "请输入您的 @:common.email 地址",
+        "invalid": "⦸ 无效的电子邮件，请重试"
+      }
+    },
+    "password": {
+      "label": "@:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "请输入您的 @:common.password",
+        "minLength": "密码必须至少包含 ${count} 个字符！"
+      }
+    },
+    "confirmPassword": {
+      "label": "确认 @:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "请输入您的 @:common.password",
+        "notMatched": "确认密码不匹配！"
+      }
+    },
+    "mobileNumber": {
+      "label": "@:common.mobileNumber",
+      "hint": "(+60) 555-0123",
+      "errors": {
+        "required": "请输入您的 @:common.mobileNumber"
+      }
+    },
+    "address1": {
+      "label": "@:common.address 1",
+      "hint": "门牌号和街道名称",
+      "errors": {
+        "required": "请填写 @:form.address1.label"
+      }
+    },
+    "address2": {
+      "label": "@:common.address 2",
+      "hint": "公寓、套房、单元等",
+      "errors": {
+        "required": "请填写 @:form.address2.label"
+      }
+    },
+    "postalCode": {
+      "label": "@:common.postalCode",
+      "hint": "输入 @:common.postalCode",
+      "errors": {
+        "required": "请输入您的 @:common.postalCode"
+      }
+    },
+    "city": {
+      "label": "@:common.city",
+      "hint": "输入 @:common.city 名称。",
+      "errors": {
+        "required": "请输入您的 @:common.city 名称。"
+      }
+    },
+    "state": {
+      "label": "@:common.state",
+      "hint": "输入 @:common.state 名称。",
+      "errors": {
+        "required": "请输入您的 @:common.state 名称。"
+      }
+    },
+    "country": {
+      "label": "@:common.country",
+      "hint": "选择 @:common.country。",
+      "errors": {
+        "required": "请选择您的 @:common.country"
+      }
+    },
+    "otp": {
+      "errors": {
+        "required": "请填写验证码。",
+        "invalid": "请填写正确的验证码。"
+      }
+    },
+    "title": {
+      "label": "标题",
+      "hint": "输入标题",
+      "errors": {
+        "required": "请填写标题"
+      }
+    },
+    "date": {
+      "label": "${label: String}",
+      "hint": "选择 @:form.date.label",
+      "errors": {
+        "required": "请选择 @:form.date.label"
+      }
+    },
+    "reason": {
+      "label": "原因",
+      "hint": "输入原因",
+      "errors": {
+        "required": "请填写原因"
+      }
+    },
+    "withdrawMethod": {
+      "label": "@:common.withdrawMethod",
+      "hint": "选择 @:common.withdrawMethod",
+      "errors": {
+        "required": "请选择 @:common.withdrawMethod"
+      }
+    },
+    "fileField": {
+      "label": "${label: String}",
+      "hint": "上传 ${label: String}",
+      "errors": {
+        "required": "请选择 ${label: String}"
+      }
+    },
+    "note": {
+      "label": "${note: String}",
+      "hint": "输入 @:form.note.label",
+      "errors": {
+        "required": "请填写 @:form.note.label"
+      }
+    },
+    "gender": {
+      "label": "@:common.gender",
+      "hint": "选择 @:common.gender",
+      "errors": {
+        "required": "请选择 @:common.gender"
+      }
+    },
+    "anyField": {
+      "label": "${label: String}",
+      "hint": "输入 @:form.anyField.label",
+      "errors": {
+        "required": "请填写 @:form.anyField.label",
+        "invalid": "请填写有效的 @form.anyField.label"
+      }
+    },
+    "anyDropdown": {
+      "label": "${label: String}",
+      "hint": "选择 @:form.anyDropdown.label",
+      "errors": {
+        "required": "请选择 @:form.anyDropdown.label",
+        "invalid": "请选择有效的 @form.anyDropdown.label"
+      }
+    }
+  },
+  "action": {
+    "next": "下一步",
+    "getStarted": "开始",
+    "skip": "跳过",
+    "select": "选择",
+    "save": "保存",
+    "signIn": "登录",
+    "signUp": "注册",
+    "continue": "继续",
+    "clearAll": "全部清除",
+    "cancelRenting": "@:common.cancelRenting",
+    "send": "发送",
+    "pay": "支付",
+    "remove": "移除",
+    "goBack": "返回",
+    "buyNow": "立即购买",
+    "no": "否",
+    "open": "打开",
+    "addProperty": "添加物业",
+    "process": "处理",
+    "approve": "批准",
+    "reject": "拒绝",
+    "viewRent": "查看租金",
+    "openNavigationMenu": "打开导航菜单",
+    "seeAll": "查看全部",
+    "update": "更新",
+    "printTransaction": "打印交易",
+    "payoutRequest": "支付请求",
+    "addNew": "+ 添加新项目",
+    "sendRequest": "发送请求",
+    "print": "打印",
+    "requestForRefund": "申请退款",
+    "previous": "上一页",
+    "delete": "删除",
+    "applyProperty": "申请物业",
+    "viewApplication": "查看申请",
+    "inviteTenant": "邀请租户",
+    "inviteRent": "邀请出租",
+    "cancel": "取消",
+    "accept": "接受",
+    "submit": "提交",
+    "yes": "是",
+    "okay": "好的",
+    "confirm": "确认",
+    "apply": "应用",
+    "reset": "重置",
+    "retry": "重试",
+    "viewAll": "查看全部"
+  },
+  "pages": {
+    "language": {
+      "appbarTitle": "@:action.select @:common.language"
+    },
+    "onboard": {
+      "onboardData": {
+        "data1": {
+          "title": "寻找您的房产",
+          "description": "我们让寻找适合您生活的地方变得轻而易举——无论是房间、公寓还是房屋。"
+        },
+        "data2": {
+          "title": "城镇中的公寓",
+          "description": "我们通过在完美的房产消失之前迅速与您匹配，从而节省您的时间，这样您就可以享受您的新家，或者免费列出您自己的房产。"
+        },
+        "data3": {
+          "title": "舒适的家",
+          "description": "如果您正在寻找居住的地方，请看看我们出租的房屋。我们有各种各样的房屋供您选择，遍布全国各地。"
+        }
+      }
+    },
+    "signIn": {
+      "title": "欢迎回来",
+      "subtitle": "立即登录，开始一段美妙的旅程。",
+      "extra": {
+        "rememberMe": "记住我",
+        "signUpNavigator(rich)": "没有帐户？ ${getStarted(@:action.getStarted)}",
+        "forgotPassword": "@:common.forgotPassword？"
+      }
+    },
+    "forgotPassword": {
+      "title": "忘记密码",
+      "subtitle": "输入您的电子邮件地址以恢复您的密码。"
+    },
+    "otpVerification": {
+      "title": "验证",
+      "subtitle": "4 位数密码已发送到您的电子邮件地址。${email: String}",
+      "extra": {
+        "codeResend": {
+          "codeSendIn": "验证码将在 ${minutes}:${seconds} 内发送",
+          "resendCode(rich)": " ${resendCode(重新发送验证码)} "
+        }
+      }
+    },
+    "resetPassword": {
+      "title": "重置密码",
+      "subtitle": "重置您的密码以恢复并登录您的帐户",
+      "extra": {
+        "dialog": {
+          "title": "更改成功！",
+          "subtitle": "使用您的新密码登录。\n正在将您重定向到登录..."
+        }
+      }
+    },
+    "signUp": {
+      "title": "创建帐户",
+      "subtitle": "立即注册，开始一段美妙的旅程",
+      "extra": {
+        "signInNavigator(rich)": "已有帐户？ ${signIn(@:action.signIn)}"
+      }
+    },
+    "welcome": {
+      "title": "你是谁？",
+      "subtitle": "请选择以下选项。",
+      "extra": {
+        "landlordTag": "管理您自己的房产",
+        "tenantTag": "登录到您的租赁帐户"
+      }
+    },
+    "aboutUs": {
+      "appbarTitle": "@:common.aboutUs"
+    },
+    "termsAndConditions": {
+      "appbarTitle": "@:common.termsAndConditions"
+    },
+    "notificationList": {
+      "appbarTitle": "通知"
+    },
+    "contactUs": {
+      "appbarTitle": "@:common.contactUs",
+      "extra": {
+        "messageHint": "留言..."
+      }
+    },
+    "cancelRenting": {
+      "appbarTitle": "@:common.cancelRenting",
+      "title": "您为什么要 @:common.cancelRenting？",
+      "form": {
+        "reason": {
+          "hint": "填写原因",
+          "errors": {
+            "required": "请填写取消租赁的原因"
+          }
+        }
+      }
+    },
+    "invoiceDetails": {
+      "appbarTitle": "@:common.viewDetails"
+    },
+    "offlinePayment": {
+      "appbarTitle": "线下支付",
+      "form": {
+        "paymentNote": {
+          "label": "付款备注（@:common.optional）",
+          "hint": "输入一些文字..."
+        }
+      },
+      "extra": {
+        "payAmount(rich)": "支付金额： ${amount}",
+        "accountHolderName": "账户持有人姓名",
+        "accountNumber": "账户号码",
+        "swiftCode": "Swift 代码",
+        "branch": "分行",
+        "fileTypeHint(rich)": "仅选择 ${fileType(JPG, PNG,PDF)} 或 ${fileType(DOC)} 格式的文件。文件大小 ${fileSize(2000 KB)}"
+      }
+    },
+    "paymentStatus": {
+      "success": {
+        "actionButton": "查看发票",
+        "title": "@:common.thankYou",
+        "description": "我们将审核付款并在 24 小时内批准。"
+      },
+      "fail": {
+        "actionButton": "重试",
+        "title": "糟糕！付款失败",
+        "description": "由于一些技术错误，您的交易失败。"
+      }
+    },
+    "propertyDetails": {
+      "extra": {
+        "landlord(rich)": "@:common.landlord： ${landlordName}",
+        "ratingReviews(rich)": "${rating} ${reviews(@:common.reviews)}",
+        "features(rich)": "特色 ${fa((设施与便利设施))}",
+        "selectRentalPeriod": "选择租赁期",
+        "writeAReview": "+ 写评价"
+      }
+    },
+    "search": {
+      "appbarTitle": "搜索",
+      "extra": {
+        "hint": "搜索地块、公寓、房间...",
+        "noRecentSearch": "您没有最近的搜索。"
+      }
+    },
+    "subscriptionPlan": {
+      "appbarTitle": "选择您的计划",
+      "extra": {
+        "subscriptionPaymentSuccess": "订阅付款成功。\n您现在可以访问订阅的功能。"
+      }
+    },
+    "landlordMaintenanceReport": {
+      "totalMaintenanceCost(rich)": "维护总成本： ${amount: string}",
+      "maintenancePending": "@:common.maintenance @:enums.maintenanceStatus.pending",
+      "maintenanceProcessing": "@:common.maintenance @:enums.maintenanceStatus.processing",
+      "maintenanceCompleted": "@:common.maintenance @:enums.maintenanceStatus.completed",
+      "maintenanceRejected": "@:common.maintenance @:enums.maintenanceStatus.rejected"
+    }
+  },
+  "enums": {
+    "propertyStatus": {
+      "allProperty": "所有物业",
+      "pending": "待处理",
+      "active": "有效",
+      "inactive": "无效",
+      "rejected": "已拒绝"
+    },
+    "propertyType": {
+      "apartmentCondominium": "公寓/共管公寓",
+      "house": "房屋",
+      "commercialProperty": "商业地产",
+      "land": "土地",
+      "room": "房间"
+    },
+    "applicationStatus": {
+      "all": "全部",
+      "pending": "待处理",
+      "processing": "处理中",
+      "approved": "已批准",
+      "rejected": "已拒绝"
+    },
+    "myRentStatus": {
+      "pending": "待处理",
+      "processing": "处理中",
+      "active": "有效",
+      "expired": "已过期",
+      "cancelled": "已取消"
+    },
+    "maintenanceStatus": {
+      "pending": "待处理",
+      "processing": "处理中",
+      "rejected": "已拒绝",
+      "completed": "已完成"
+    },
+    "tenantProfileType": {
+      "privateIndividual": "个人",
+      "company": "公司"
+    },
+    "tenantType": {
+      "newTenant": "新租户",
+      "activeTenant": "有效租户",
+      "expiredTenant": "已过期租户"
+    },
+    "paymentStatus": {
+      "all": "全部",
+      "pending": "待处理",
+      "paid": "已支付",
+      "unpaid": "未支付",
+      "rejected": "已拒绝",
+      "refund": "退款"
+    },
+    "paymentOptions": {
+      "onlinePayment": "在线支付",
+      "offlinePayment": "线下支付"
+    },
+    "paymentType": {
+      "securityDeposit": "保证金",
+      "rentPayment": "租金支付",
+      "subscription": "订阅"
+    },
+    "gender": {
+      "male": "男",
+      "female": "女",
+      "other": "其他"
+    },
+    "ecRelation": {
+      "wife": "妻子",
+      "parent": "父母",
+      "friend": "朋友",
+      "brother": "兄弟",
+      "sister": "姐妹",
+      "child": "子女"
+    },
+    "vehicleType": {
+      "car": "汽车",
+      "motorcycles": "摩托车",
+      "lorry": "货车"
+    },
+    "sortBy": {
+      "lowToHigh": "从低到高",
+      "highToLow": "从高到低"
+    },
+    "residentialType": {
+      "flat": "单元房",
+      "apartment": "公寓",
+      "condominium": "共管公寓",
+      "serviceResidence": "服务式住宅",
+      "studio": "单间公寓",
+      "duplex": "复式公寓",
+      "townhouseCondo": "联排别墅式公寓",
+      "others": "其他"
+    },
+    "floorRange": {
+      "high": "高层",
+      "medium": "中层",
+      "low": "低层"
+    },
+    "furnishings": {
+      "fullyFurnished": "家具齐全",
+      "partiallyFurnished": "部分家具",
+      "notFurnished": "无家具"
+    },
+    "commercialPropertyType": {
+      "officeSpace": "办公空间",
+      "retailSpace": "零售空间",
+      "shopLot": "商铺",
+      "warehouseFactory": "仓库/工厂",
+      "hotelResort": "酒店/度假村",
+      "sofo": "Sofo",
+      "soho": "Soho",
+      "sovo": "Sovo",
+      "others": "其他"
+    },
+    "landPropertyType": {
+      "residential": "住宅用地",
+      "industrial": "工业用地",
+      "agricultural": "农业用地",
+      "commercial": "商业用地",
+      "mixedDevelopment": "综合开发用地",
+      "others": "其他"
+    },
+    "residentPropertyType": {
+      "condo": "公寓/服务式住宅/顶层公寓",
+      "apartment": "公寓/单元房",
+      "house": "房屋",
+      "shoplot": "商铺",
+      "sharing": "合租房屋/单元房",
+      "others": "其他"
+    },
+    "minimumRentalPeriod": {
+      "sixMonths": "6 个月",
+      "oneYear": "1 年",
+      "oneAndHalfYears": "1.5 年",
+      "twoYears": "2 年",
+      "twoAndHalfYears": "2.5 年"
+    },
+    "dropdownDateFilter": {
+      "daily": "每日",
+      "weekly": "每周",
+      "monthly": "每月",
+      "yearly": "每年",
+      "custom": "自定义"
+    }
+  }
+}

@@ -1,0 +1,950 @@
+{
+  "@@meta": {
+    "languageCode": "lv_LV",
+    "languageName": "Latvian",
+    "version": "1.0.0"
+  },
+  "common": {
+    "profile": "Profils",
+    "language": "Valoda",
+    "subscriptionPlan": "Abonēšanas plāns",
+    "contactUs": "Sazināties ar mums",
+    "termsAndConditions": "Noteikumi un nosacījumi",
+    "aboutUs": "Par mums",
+    "logout": "Iziet",
+    "editProfile": "Rediģēt profilu",
+    "fullName": "Pilns vārds",
+    "email": "E-pasts",
+    "mobileNumber": "Mobilais tālruņa numurs",
+    "address": "Adrese",
+    "postalCode": "Pasta indekss",
+    "city": "Pilsēta",
+    "country": "Valsts",
+    "state": "Štats",
+    "password": "Parole",
+    "forgotPassword": "Aizmirsāt paroli?",
+    "tenant": "Īrnieks",
+    "landlord": "Īpašnieks",
+    "cancelRenting": "Atcelt īri",
+    "startDate": "Sākuma datums",
+    "endDate": "Beigu datums",
+    "fromDate": "No datuma",
+    "toDate": "Līdz datumam",
+    "online": "Tiešsaistē",
+    "bankList": "Banku saraksts",
+    "withdrawMethod": "Izmaksas metode",
+    "uploadPaymentReceipt": "Augšupielādēt maksājuma kvīti",
+    "offlinePaymentNote(rich)": "Piezīme: ${note(Maksājums ir jāapstiprina administratoram)} ${duraion(24–48 stundu laikā)}",
+    "reviews": "Atsauksmes",
+    "description": "Apraksts",
+    "about": "Par",
+    "propertyTypes": "Īpašuma veidi",
+    "features": "Funkcijas",
+    "floorPlans": "Stāvu plāni",
+    "buildingDetails": "Informācija par ēku",
+    "buildingName": "Ēkas nosaukums",
+    "propertyAddress": "Īpašuma adrese",
+    "completionYear": "Pabeigšanas gads",
+    "lotNumber": "Partijas numurs",
+    "residentialType": "Dzīvojamais veids",
+    "furnishings": "Mēbelējums",
+    "floorRange": "Stāvu diapazons",
+    "bedrooms": "Guļamistabas",
+    "bathrooms": "Vannas istabas",
+    "propertySize": "Īpašuma izmērs",
+    "rentalPeriod": "Īres periods",
+    "securityDeposit": "Drošības nauda",
+    "utilityBill": "Komunālie maksājumi",
+    "facilities": "Iespējas",
+    "amenities": "Ērtības",
+    "expiringReason": "Derīguma termiņa beigšanās iemesls",
+    "tenantDetails": "Informācija par īrnieku",
+    "typeOfTenant": "Īrnieka veids",
+    "tenantName": "Īrnieka vārds",
+    "nidPassport": "NID/Pase",
+    "nidPassportId": "@:common.nidPassport ID",
+    "tenantId": "Īrnieka ID",
+    "dateOfBirth": "Dzimšanas datums",
+    "gender": "Dzimums",
+    "nominee": "Kandidāts",
+    "name": "Vārds",
+    "optional": "Nav obligāti",
+    "nomineeName": "@:common.nominee @:common.name",
+    "nomineeEmail": "@:common.nominee @:common.email",
+    "nomineeMobile": {
+      "short": "@:common.nominee Mob. Nr.",
+      "full": "@:common.nominee @:common.mobileNumber"
+    },
+    "emergencyContact": "Ārkārtas kontaktpersona",
+    "relation": "Attiecības",
+    "relationWith": "@:common.relation Ar",
+    "relationWithYou": "@:common.relationWith Jums",
+    "company": "Uzņēmums",
+    "companyName": "@:common.company @:common.name",
+    "companySSMNo": "@:common.company SSM Nr.",
+    "workplace": "Darbavieta",
+    "officePhoneNo": "Biroja tālruņa numurs",
+    "officeMobileNo": "Biroja @:common.mobileNumber",
+    "vehicle": "Transportlīdzeklis",
+    "vehiclesInfo": {
+      "plain": "Informācija par transportlīdzekļiem",
+      "optional": "Informācija par transportlīdzekļiem (@:common.optional)"
+    },
+    "vehiclesType": "@:common.vehicle Veids",
+    "vehicleRegistrationNo": {
+      "normal": "Transportlīdzekļa reģistrācijas numurs",
+      "short": "Reģistrācijas numurs",
+      "alt": "Numura zīme"
+    },
+    "vehicleBrand": "@:common.vehicle Zīmols",
+    "rentProperty": "Īrēt īpašumu",
+    "propertyDetails": "Informācija par īpašumu",
+    "propertyId": "Īpašuma ID",
+    "propertyType": "Īpašuma veids",
+    "propertyName": "Īpašuma nosaukums",
+    "paymentDetails": "Maksājuma informācija",
+    "monthlyRent": "Mēneša īre",
+    "thisMonthPayment": "Šī mēneša maksājums",
+    "totalPaidRent": "Kopējā samaksātā īre",
+    "dueRent": "Parāda īre",
+    "rentStartDate": "Īre @:common.startDate",
+    "rentEndDate": "Īre @:common.endDate",
+    "status": "Statuss",
+    "rentAgreementPdf": "Īres līguma PDF",
+    "noFile": "Nav faila",
+    "tenantImageOp": "Īrnieka attēls @:common.optional",
+    "addNewVechicle": "Pievienot jaunus transportlīdzekļus",
+    "uploadNidPassport": "Augšupielādēt NID/Pasi",
+    "nidPassportUploadNote": "Tiks pieņemti tikai faila tipa attēli. Faila ierobežojums līdz 2,5 MB.",
+    "search": "Meklēt",
+    "sortBy": "Kārtot pēc",
+    "subscription": "Abonements",
+    "downloading": "Lejupielāde...",
+    "downloadSuccess": "Fails veiksmīgi lejupielādēts!",
+    "addPropertyBannerTitle": "Vai vēlaties izīrēt savu īpašumu?",
+    "application": "Pieteikums",
+    "tenantHasPaidDeposit": "Īrnieks ir samaksājis depozītu.",
+    "askProcessingRentApplication": "Vai tiešām apstrādājat šo īres īpašuma pieprasījumu?",
+    "dateAndTime": "Datums un laiks",
+    "applicationDetails": "Pieteikuma informācija",
+    "depositStatus": "Depozīta statuss",
+    "uploadRentAgreement": "Augšupielādēt īres līgumu",
+    "uploadFilePDF": "Augšupielādēt failu (PDF)",
+    "askSelectRentAgreement": "Lūdzu, atlasiet līguma dokumenta failu.",
+    "landlordRentAgreementPDF": "Īpašnieka īres līguma PDF",
+    "tenantRentAgreementPDF": "Īrnieka īres līguma PDF",
+    "landlordApplicationApproveNote(rich)": "Piezīme: ${note(Apstipriniet pieteikumu tikai pēc tam, kad īrnieks ir veicis depozīta maksājumu.)}",
+    "reasonOfRejection": "Noraidījuma iemesls",
+    "youveRejectedThisApplication": "Jūs esat noraidījis šo pieteikumu",
+    "landlordDetails": "Informācija par īpašnieku",
+    "landlordName": "Īpašnieka vārds",
+    "downloadRentAgreement": "Lejupielādēt īres līgumu",
+    "acceptTermsConditions(rich)": "Piekrist ${toc(Noteikumiem un nosacījumiem)}",
+    "tenantAgreementSignNote1(rich)": "Piezīme: ${note(Lūdzu, lejupielādējiet un izlasiet līgumu. Lūdzu, nosūtiet parakstīto līgumu īpašniekam, izmantojot WhatsApp vai e-pastu.)}",
+    "tenantAgreementSignNote2(rich)": "Piezīme: ${note(Īpašnieks apstiprina pieteikumu, kad īrnieks samaksā drošības naudu, komunālos maksājumus un viena mēneša avansa īri.)}",
+    "completeRentAgreementPdf(rich)": "Īres līgums (PDF) ${complete(Pabeigts līgums)}",
+    "tenantApplicationDepositNote(rich)": "Piezīme: ${note(Īpašnieks apstiprina pieteikumu, kad īrnieks samaksā drošības naudu, komunālos maksājumus un viena mēneša avansa īri.)}",
+    "whatsapp": "Whatsapp",
+    "applicationList": "Pieteikumu saraksts",
+    "viewDetails": "Skatīt informāciju",
+    "searchHint": "@:common.search...",
+    "home": "Sākums",
+    "dashboard": "Informācijas panelis",
+    "tenants": "Īrnieki",
+    "maintenance": "Apkope",
+    "maintenanceList": "Apkopes saraksts",
+    "maintenanceReport": "Apkopes atskaite",
+    "labor": "Darbaspēks",
+    "applications": "Pieteikumi",
+    "rentInvitation": "Īres ielūgums",
+    "payment": "Maksājums",
+    "rentPayment": "Īres maksājums",
+    "depositUtilityPayment": "Depozīta un komunālo maksājumu maksājums",
+    "refundRequest": "Atmakas pieprasījums",
+    "withdrawRequest": "Izmaksas pieprasījums",
+    "myProperty": "Mans īpašums",
+    "myRent": "Mana īre",
+    "wishlist": "Vēlmju saraksts",
+    "properties": "Īpašumi",
+    "allProperties": "Visi īpašumi",
+    "totalPropery": "Kopējais īpašums",
+    "occupied": "Aizņemts",
+    "vacant": "Brīvs",
+    "accounting": "Grāmatvedība",
+    "totalIncome": "Kopējie ienākumi",
+    "totalExpense": "Kopējie izdevumi",
+    "currentBalance": "Pašreizējais atlikums",
+    "totalWithdrawal": "Kopējais (izmaksa)",
+    "totalProperties": "Kopējais īpašumu skaits",
+    "totalTenant": "Kopējais īrnieku skaits",
+    "totalRentPaid": "Kopējā samaksātā īre",
+    "totalRentDue": "Kopējā parāda īre",
+    "totalApplication": "Kopējais pieteikumu skaits",
+    "pendingApplication": "Gaidošs pieteikums",
+    "processingApplication": "Apstrādes pieteikums",
+    "approveApplication": "Apstiprināt pieteikumu",
+    "rejectApplication": "Noraidīt pieteikumu",
+    "maintenanceCost": "Apkopes izmaksas",
+    "transactionSummary": "Darījumu kopsavilkums",
+    "maintenanceRequest": "Apkopes pieprasījums",
+    "notifications": "Paziņojumi",
+    "myProperties": "Mani īpašumi",
+    "recommendationProperties": "Ieteikumu īpašumi",
+    "laborList": "Darbaspēka saraksts",
+    "addLabor": "Pievienot darbaspēku",
+    "laborDetails": "Informācija par darbaspēku",
+    "laborSalary": "Darbaspēka alga",
+    "editLabor": "Rediģēt darbaspēku",
+    "addNewLabor": "Pievienot jaunu darbaspēku",
+    "enterAmount": "Ievadīt summu",
+    "maintenanceDetails": "Informācija par apkopi",
+    "laborName": "Darbaspēka vārds",
+    "comment": "Komentārs",
+    "image": "Attēls",
+    "complete": "Pabeigt",
+    "details": "Informācija",
+    "title": "Nosaukums",
+    "date": "Datums",
+    "reason": "Iemesls",
+    "edit": "Rediģēt",
+    "property": "Īpašums",
+    "completeYourProfile": "Aizpildiet savu profilu",
+    "profileImage": "Profila attēls",
+    "imagePickHint": "Tiks pieņemts tikai JPEG un PNG attēls ar maksimālo izmēru 120x120 pikseļi.",
+    "invoiceId": "Rēķina ID",
+    "depositAmount": "Depozīta summa",
+    "landlordPhone": "Īpašnieka tālrunis",
+    "rentalAdvance": "Īre (avanss)",
+    "totalAmount": "Kopējā summa",
+    "rentalAmount": "Īres summa",
+    "adminCharge": "Administratīvā maksa",
+    "editAccount": "Rediģēt kontu",
+    "addNewAccount": "Pievienot jaunu kontu",
+    "transactionId": "Darījuma ID",
+    "transactionType": "Darījuma veids",
+    "requestDate": "Pieprasījuma datums",
+    "amount": "Summa",
+    "fee": "Maksa",
+    "paymentStatus": "Maksājuma statuss",
+    "generatedTime": "Ģenerēšanas laiks",
+    "systemGeneratedReportHint(rich)": "Šī ir sistēmas ģenerēta atskaite par ${appName}",
+    "withdrawHistory": "Izmaksu vēsture",
+    "history": "Vēsture",
+    "withdrawAmount": "Izmaksas summa",
+    "availableBalance": "Pieejamais atlikums",
+    "withdrawCharge": "Izmaksas maksa",
+    "paymentMethod": "Maksājuma metode",
+    "requestSendSuccess": "Pieprasījums veiksmīgi nosūtīts!",
+    "paymentReceiptSubmitSuccess": "Maksājuma kvīts veiksmīgi iesniegta.",
+    "refundReason": "Atmakas iemesls",
+    "note": "Piezīme",
+    "refundReceiveSuccess": "Atmaksa veiksmīgi saņemta.",
+    "downloadPaymentReceipt": "Lejupielādēt maksājuma kvīti",
+    "invoice": "Rēķins",
+    "selectPropertyToSeeInvoice": "Atlasiet īpašumu, lai redzētu rēķina numuru...",
+    "bankAccName": "Bankas konta nosaukums",
+    "bankName": "Bankas nosaukums",
+    "bankAccNum": "Bankas konta numurs",
+    "thankYou": "Paldies!",
+    "basicInfo": "Pamatinformācija",
+    "descriptionPricing": "Apraksts un cenas",
+    "contact": "Kontaktinformācija",
+    "photos": "Fotogrāfijas",
+    "successfullySubmitted": "Veiksmīgi iesniegts!",
+    "editProperty": "Rediģēt īpašumu",
+    "addNewProperty": "Pievienot jaunu īpašumu",
+    "propertyManageRequestSuccess": "Jūsu sludinājums ir iesniegts pārskatīšanai.",
+    "postAnotherProperty": "Publicēt citu īpašumu",
+    "browseYourProperty": "Pārlūkot savu īpašumu",
+    "stepIndicator(rich)": "Solis ${step} no ${totalSteps}",
+    "whatWouldYouLikeToPost": "Ko jūs vēlētos publicēt?",
+    "category": "Kategorija",
+    "invalidCategory": "Nederīga kategorija",
+    "unitNumber": "Vienības numurs",
+    "sqft": "kv.pēdas",
+    "propertySizeMustBeGreaterThan0": "Īpašuma izmēram jābūt lielākam par nulli",
+    "whatAreTheFacility": "Kādas ir iespējas?",
+    "whatAreTheAmenity": "Kādas ir ērtības?",
+    "parkingLot": "Autostāvvieta",
+    "houseType": "Mājas tips",
+    "value": "Vērtība",
+    "unitLotSize": "Vienības / zemes gabala izmērs",
+    "landSize": "Zemes izmērs",
+    "acres": "akrs(i)",
+    "roomSize": "Istabas izmērs",
+    "askTenantPreference": "Kāda ir jūsu īrnieka izvēle",
+    "couple": "Pāris",
+    "describeTheProperty": "Aprakstiet ${propertyType: String}",
+    "adTitle": "Sludinājuma nosaukums",
+    "minimumRentalPeriod": "Minimālais īres periods",
+    "whatsappNumber": "@:common.whatsapp Number",
+    "hideOrDisplayEmail": "Slēpt vai parādīt e-pasta adresi",
+    "thankYouForPostingProperty": "Paldies, ka publicējāt vietnē ${appName: String}!",
+    "propertyList": "Īpašumu saraksts",
+    "newInviteRent": "Jauns īres uzaicinājums",
+    "rentAgreement": "Īres līgums",
+    "rentDetails": "Īres informācija",
+    "landlordRentInvitationPendingNote(rich)": "Piezīme: ${note(Lūdzu, gaidiet, līdz īrnieks pieņems uzaicinājumu.)}",
+    "rent": "Īre",
+    "editTenant": "Rediģēt īrnieku",
+    "addNewTenant": "Pievienot jaunu īrnieku",
+    "shareInstallLink": "Kopīgot instalēšanas saiti",
+    "tenantList": "Īrnieku saraksts",
+    "editMaintenanceRequest": "Rediģēt apkopes pieprasījumu",
+    "addNewMaintenance": "Pievienot jaunu apkopi",
+    "landlordId": "Saimnieka ID",
+    "tenantAgrementUnderReviewNote(rich)": "Piezīme ${note(Jūsu līgums tiek pārskatīts. Lūdzu, gaidiet, līdz saimnieks apstiprinās jūsu īri.)}",
+    "editReview": "Rediģēt atsauksmi",
+    "writeAReview": "Uzrakstīt atsauksmi",
+    "selectRating": "Izvēlēties vērtējumu",
+    "enterYourOpinion": "Ievadiet savu viedokli",
+    "askToEnterReviewMsg": "Lūdzu, ievadiet atsauksmes ziņojumu",
+    "pressBackAgainToExit": "Nospiediet atpakaļ vēlreiz, lai izietu.",
+    "selectPaymentMethod": "Izvēlieties maksājuma metodi",
+    "filter": "Filtrs",
+    "perMonth": "/1 mēnesī",
+    "searchHintWithAppName": "Meklējiet jebko vietnē ${appName: String}..."
+  },
+  "exceptions": {
+    "somethingWentWrong": "Kaut kas nogāja greizi, lūdzu, mēģiniet vēlreiz",
+    "noNidPassport": "Nav norādīts NID/Pases attēls.",
+    "noRentPropertyFound": "Šim īrniekam nav atrasts īres īpašums.",
+    "noPropertyFoundWithKeyWord": "Īpašums nav atrasts!\nLūdzu, mēģiniet ar citiem atslēgvārdiem",
+    "noSubscriptionFoundRefreshPage": "Nav atrasts abonēšanas plāns!\nLūdzu, atsvaidziniet lapu un mēģiniet vēlreiz.",
+    "invalidApiDataRefreshPage": "Nederīga ${dataType: String} informācija! Lūdzu, atsvaidziniet lapu un mēģiniet vēlreiz.",
+    "invalidDownloadUrl": "Nederīgs lejupielādes URL!",
+    "failedToSaveFile": "Neizdevās saglabāt failu! ${error: String}",
+    "errorOpeningFile": "Kļūda, atverot failu! ${error: String}",
+    "noVehicleInfoProvided": "Nav sniegta informācija par transportlīdzekli.",
+    "yourApplicationRejected": "Jūsu pieteikums ir noraidīts",
+    "noApplicationFoundHint": {
+      "template": "Pieteikums nav atrasts!\n${subject: String} tiks parādīts šeit, kad būs pieejams.",
+      "subjects": {
+        "tenant": "Jūsu pieteikums",
+        "landlord": "Īrnieka pieteikums"
+      }
+    },
+    "noPropertyFoundHint": {
+      "landlordHome": "Īpašums nav atrasts!\nLūdzu, mēģiniet pievienot īpašumu, lai to šeit redzētu.",
+      "tenantRecommended": "Nav atrasti ieteicamie īpašumi\nLūdzu, mēģiniet vēlreiz vēlāk.",
+      "tenantAllProperty": "Īpašumi nav pieejami\nLūdzu, mēģiniet vēlreiz vēlāk."
+    },
+    "noImageProvided": "Nav norādīts attēls",
+    "noStatusMaintenantFound": {
+      "landlord": "Nav atrasta ${status} apkope.",
+      "tenant": "Apkope nav atrasta! Jūs varat izveidot apkopes pieprasījumu, lai to šeit redzētu."
+    },
+    "noDepositFound": "Nav atrasts drošības depozīts!\nLūdzu, varat redzēt drošības iemaksas, kad tās būs pieejamas",
+    "noRentPaymentFound": "Nav atrasts īres maksājums!\nLūdzu, varat redzēt īres maksājumus, kad tie būs pieejami",
+    "transactionSummaryApiException": "Neizdevās iegūt darījumu kopsavilkumu.",
+    "noWithdrawRequestFound": "Nav atrasts pieprasījums!\nLūdzu, mēģiniet izveidot izņemšanas pieprasījumu, lai to šeit redzētu.",
+    "withdrawRequestNotApproved": "Šis izņemšanas pieprasījums nav apstiprināts!.",
+    "nonZeroError": "Lūdzu, ievadiet derīgu summu, kas lielāka par nulli.",
+    "minAmountError": "Summai jābūt vismaz ${minValue: String}.",
+    "maxAmountError": "Summa nedrīkst pārsniegt ${maxValue: String}.",
+    "selectPaymentMethodHint": "Lūdzu, vispirms izvēlieties maksājuma metodi.",
+    "noStatusRefundReqFound": {
+      "landlord": "Nav atrasts ${status} atmaksas pieprasījums!\nJūs varat redzēt atmaksas pieprasījumu šeit, kad tas būs pieejams.",
+      "tenant": "Nav atrasts atmaksas pieprasījums!\nJūs varat izveidot atmaksas pieprasījumu, lai to šeit redzētu."
+    },
+    "refundRequestHint": {
+      "inTenantList": "Īrnieks apstiprinās atmaksu, kad viņš saņems naudu atpakaļ",
+      "tenantReqSuccess": "Mēs pārskatīsim atmaksas pieprasījumu un apstiprināsim to 24 stundu laikā."
+    },
+    "oneToTenRequiredField": "Lūdzu, izvēlieties ${value: String} skaitu",
+    "invalidDateRange": "Nederīgs datumu diapazons.",
+    "valueMustBeGreaterThanZero": "${value: String} jābūt lielākam par nulli.",
+    "editProperty": {
+      "rentalChange": "Īres īpašums mainās. Tam jābūt derīgam (spēkā) tikai nākamā mēneša īres maksājumam.",
+      "deleteOnRent": "Jūsu īpašums jau ir izīrēts īrniekam. Nevar izdzēst, kamēr vispirms neizņemsit īrnieku",
+      "alreayRented": "Šis īpašums jau ir izīrēts. Lūdzu, mēģiniet vēlreiz vēlāk.\nVai arī varat sazināties ar saimnieku, lai iegūtu vairāk informācijas."
+    },
+    "rentInvitation": {
+      "landlordNoRentInvitation": "Nav atrasts īres uzaicinājums!\nLūdzu, mēģiniet izveidot īres uzaicinājumu, lai to šeit redzētu.",
+      "tenantNoRentInvitation": "Nav atrasts īres uzaicinājums!\nJūs varat redzēt īres uzaicinājumu šeit, kad tas būs pieejams."
+    },
+    "notenantFoundList": "Nav īrnieku!\nLūdzu, mēģiniet pievienot īrnieku, lai to šeit redzētu.",
+    "noFeaturesProvided": "Nav norādītas funkcijas.",
+    "noNotificationFound": "Nav pieejams paziņojums.\nJūs varat redzēt savu paziņojumu šeit, kad tas būs pieejams."
+  },
+  "prompt": {
+    "logout": {
+      "title": "@:common.logout",
+      "message": "Vai tiešām vēlaties iziet?"
+    },
+    "application": {
+      "rejectTitle": "Kāpēc jūs noraidāt šo pieteikumu?",
+      "applicationSent": {
+        "successfully": "Pieteikums nosūtīts veiksmīgi!",
+        "sucessDescription": "Jūs varat redzēt šo pieteikumu savā pieteikumu sarakstā"
+      }
+    },
+    "labor": {
+      "delete": {
+        "title": "Dzēst darbu?",
+        "description": "Vai tiešām vēlaties dzēst šo darbu?"
+      }
+    },
+    "maintenanceRequest": {
+      "rejectTitle": "Kāpēc šis pieprasījums tiek noraidīts?",
+      "processTitle": "Vai tiešām apstrādājat šo apkopes pieprasījumu?",
+      "completeTitle": "Darbs pabeigts?"
+    },
+    "withdrawMethod": {
+      "deleteTitle": "Dzēst izņemšanas metodi?",
+      "deleteDescription": "Vai tiešām vēlaties dzēst šo izņemšanas metodi?"
+    },
+    "unsavedChanges": {
+      "title": "Vai tiešām vēlaties atgriezties?",
+      "message": "Mainītie lauki netiks saglabāti!"
+    },
+    "property": {
+      "delete": {
+        "title": "Dzēst īpašumu?",
+        "message": "Vai tiešām vēlaties dzēst šo īpašumu?"
+      }
+    },
+    "rentInvitation": {
+      "landlordApprove": {
+        "title": "Vai tiešām vēlaties apstiprināt šo īri?",
+        "description": "Pārliecinieties, ka esat pārskatījis īrnieka parakstīto līgumu."
+      },
+      "tenantAccept": {
+        "title": "Vai tiešām vēlaties pieņemt šo uzaicinājumu?",
+        "description": "Pārliecinieties, ka esat lejupielādējis līguma PDF failu!"
+      }
+    },
+    "sessionExpired": {
+      "title": "Sesija ir beigusies",
+      "message": "Jūsu sesija ir beigusies. Lūdzu, piesakieties vēlreiz",
+      "action": "Pieteikties"
+    },
+    "noInternet": {
+      "title": "Nav interneta savienojuma",
+      "message": "Lūdzu, pārbaudiet savu Wi-Fi mobilo tīkla savienojumu un mēģiniet vēlreiz",
+      "action": "Mēģināt vēlreiz"
+    },
+    "permissionHandler": {
+      "title": "Nepieciešama atļauja!",
+      "message": "Jums ir jāpiešķir atļaujas lietotnes iestatījumos. Vai vēlaties atvērt iestatījumus tagad?"
+    },
+    "imagePicker": {
+      "title": "Izvēlieties opciju",
+      "gallery": "Galerija",
+      "camera": "Kamera"
+    },
+    "verificationDialog": {
+      "title": "Verificējiet savu e-pastu",
+      "message": "Mēs esam nosūtījuši verifikācijas koda e-pastu",
+      "messageWithEmail": "@:prompt.verificationDialog.message uz ${email: String?}"
+    },
+    "notification": {
+      "clearTitle": "Notīrīt paziņojumus?",
+      "clearMessage": "Vai tiešām vēlaties notīrīt visus paziņojumus?"
+    }
+  },
+  "form": {
+    "fullName": {
+      "label": "@:common.fullName",
+      "hint": "Ievadiet @:common.fullName",
+      "errors": {
+        "required": "Lūdzu, ievadiet savu @:common.fullName"
+      }
+    },
+    "email": {
+      "label": "@:common.email",
+      "hint": "Ievadiet savu @:common.email",
+      "errors": {
+        "required": "Lūdzu, ievadiet savu @:common.email adresi",
+        "invalid": "⦸ Nederīgs e-pasts, lūdzu, mēģiniet vēlreiz"
+      }
+    },
+    "password": {
+      "label": "@:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Lūdzu, ievadiet savu @:common.password",
+        "minLength": "Parolei jābūt vismaz ${count} rakstzīmēm!"
+      }
+    },
+    "confirmPassword": {
+      "label": "Apstipriniet @:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Lūdzu, ievadiet savu @:common.password",
+        "notMatched": "Apstiprinātā parole nesakrīt!"
+      }
+    },
+    "mobileNumber": {
+      "label": "@:common.mobileNumber",
+      "hint": "(+60) 555-0123",
+      "errors": {
+        "required": "Lūdzu, ievadiet savu @:common.mobileNumber"
+      }
+    },
+    "address1": {
+      "label": "@:common.address 1",
+      "hint": "Mājas numurs un ielas nosaukums",
+      "errors": {
+        "required": "Lūdzu, ievadiet savu @:form.address1.label"
+      }
+    },
+    "address2": {
+      "label": "@:common.address 2",
+      "hint": "Dzīvoklis, komplekts, vienība utt.",
+      "errors": {
+        "required": "Lūdzu, ievadiet savu @:form.address2.label"
+      }
+    },
+    "postalCode": {
+      "label": "@:common.postalCode",
+      "hint": "Ievadiet @:common.postalCode",
+      "errors": {
+        "required": "Lūdzu, ievadiet savu @:common.postalCode"
+      }
+    },
+    "city": {
+      "label": "@:common.city",
+      "hint": "Ievadiet @:common.city nosaukumu.",
+      "errors": {
+        "required": "Lūdzu, ievadiet savu @:common.city nosaukumu."
+      }
+    },
+    "state": {
+      "label": "@:common.state",
+      "hint": "Ievadiet @:common.state nosaukumu.",
+      "errors": {
+        "required": "Lūdzu, ievadiet savu @:common.state nosaukumu."
+      }
+    },
+    "country": {
+      "label": "@:common.country",
+      "hint": "Izvēlieties @:common.country.",
+      "errors": {
+        "required": "Lūdzu, izvēlieties savu @:common.country"
+      }
+    },
+    "otp": {
+      "errors": {
+        "required": "Lūdzu, ievadiet OTP.",
+        "invalid": "Lūdzu, ievadiet pareizu OTP."
+      }
+    },
+    "title": {
+      "label": "Nosaukums",
+      "hint": "Ievadiet nosaukumu",
+      "errors": {
+        "required": "Lūdzu, ievadiet nosaukumu"
+      }
+    },
+    "date": {
+      "label": "${label: String}",
+      "hint": "Izvēlieties @:form.date.label",
+      "errors": {
+        "required": "Lūdzu, izvēlieties @:form.date.label"
+      }
+    },
+    "reason": {
+      "label": "Iemesls",
+      "hint": "Ievadiet iemeslu",
+      "errors": {
+        "required": "Lūdzu, ievadiet iemeslu"
+      }
+    },
+    "withdrawMethod": {
+      "label": "@:common.withdrawMethod",
+      "hint": "Izvēlieties @:common.withdrawMethod",
+      "errors": {
+        "required": "Lūdzu, izvēlieties @:common.withdrawMethod"
+      }
+    },
+    "fileField": {
+      "label": "${label: String}",
+      "hint": "Augšupielādējiet ${label: String}",
+      "errors": {
+        "required": "Lūdzu, izvēlieties ${label: String}"
+      }
+    },
+    "note": {
+      "label": "${note: String}",
+      "hint": "Ievadiet @:form.note.label",
+      "errors": {
+        "required": "Lūdzu, ievadiet @:form.note.label"
+      }
+    },
+    "gender": {
+      "label": "@:common.gender",
+      "hint": "Izvēlieties @:common.gender",
+      "errors": {
+        "required": "Lūdzu, izvēlieties @:common.gender"
+      }
+    },
+    "anyField": {
+      "label": "${label: String}",
+      "hint": "Ievadiet @:form.anyField.label",
+      "errors": {
+        "required": "Lūdzu, ievadiet @:form.anyField.label",
+        "invalid": "Lūdzu, ievadiet derīgu @form.anyField.label"
+      }
+    },
+    "anyDropdown": {
+      "label": "${label: String}",
+      "hint": "Izvēlieties @:form.anyDropdown.label",
+      "errors": {
+        "required": "Lūdzu, izvēlieties @:form.anyDropdown.label",
+        "invalid": "Lūdzu, izvēlieties derīgu @form.anyDropdown.label"
+      }
+    }
+  },
+  "action": {
+    "next": "Nākamais",
+    "getStarted": "Sākt darbu",
+    "skip": "Izlaist",
+    "select": "Atlasīt",
+    "save": "Saglabāt",
+    "signIn": "Pieteikties",
+    "signUp": "Reģistrēties",
+    "continue": "Turpināt",
+    "clearAll": "Notīrīt visu",
+    "cancelRenting": "@:common.cancelRenting",
+    "send": "Sūtīt",
+    "pay": "Maksāt",
+    "remove": "Noņemt",
+    "goBack": "Atgriezties",
+    "buyNow": "Pirkt tagad",
+    "no": "Nē",
+    "open": "Atvērt",
+    "addProperty": "Pievienot īpašumu",
+    "process": "Apstrādāt",
+    "approve": "Apstiprināt",
+    "reject": "Noraidīt",
+    "viewRent": "Skatīt īri",
+    "openNavigationMenu": "Atvērt navigācijas izvēlni",
+    "seeAll": "Skatīt visu",
+    "update": "Atjaunināt",
+    "printTransaction": "Drukāt darījumu",
+    "payoutRequest": "Izmaksas pieprasījums",
+    "addNew": "+ Pievienot jaunu",
+    "sendRequest": "Nosūtīt pieprasījumu",
+    "print": "Drukāt",
+    "requestForRefund": "Pieprasīt atmaksu",
+    "previous": "Iepriekšējais",
+    "delete": "Dzēst",
+    "applyProperty": "Pieteikties īpašumam",
+    "viewApplication": "Skatīt pieteikumu",
+    "inviteTenant": "Izaicināt īrnieku",
+    "inviteRent": "Izaicināt uz īri",
+    "cancel": "Atcelt",
+    "accept": "Pieņemt",
+    "submit": "Iesniegt",
+    "yes": "Jā",
+    "okay": "Labi",
+    "confirm": "Apstiprināt",
+    "apply": "Piemērot",
+    "reset": "Atiestatīt",
+    "retry": "Mēģināt vēlreiz",
+    "viewAll": "Skatīt visu"
+  },
+  "pages": {
+    "language": {
+      "appbarTitle": "@:action.select @:common.language"
+    },
+    "onboard": {
+      "onboardData": {
+        "data1": {
+          "title": "Atrodi savu īpašumu",
+          "description": "Mēs esam padarījuši to par vieglu, lai atrastu vietu, kas atbilst jūsu dzīvei — neatkarīgi no tā, vai tā ir istaba, dzīvoklis vai māja."
+        },
+        "data2": {
+          "title": "Dzīvoklis pilsētā",
+          "description": "Mēs ietaupām jūsu laiku, ātri saskaņojot jūs ar perfektu īpašumu, pirms tas ir pazudis, lai jūs varētu izbaudīt savu jauno mājokli vai bez maksas ievietot savu."
+        },
+        "data3": {
+          "title": "Jūsu komforta māja",
+          "description": "Ja meklējat vietu, kur dzīvot, apskatiet mūsu īres mājas. Mums ir plašs māju klāsts, no kura varat izvēlēties visā valstī."
+        }
+      }
+    },
+    "signIn": {
+      "title": "Esiet sveicināti atpakaļ",
+      "subtitle": "Piesakieties tūlīt, lai sāktu pārsteidzošu ceļojumu.",
+      "extra": {
+        "rememberMe": "Atcerēties mani",
+        "signUpNavigator(rich)": "Nav konta? ${getStarted(@:action.getStarted)}",
+        "forgotPassword": "@:common.forgotPassword?"
+      }
+    },
+    "forgotPassword": {
+      "title": "Aizmirsāt paroli",
+      "subtitle": "Ievadiet savu e-pasta adresi, lai atjaunotu paroli."
+    },
+    "otpVerification": {
+      "title": "Verifikācija",
+      "subtitle": "4 ciparu PIN ir nosūtīts uz jūsu e-pasta adresi. ${email: String}",
+      "extra": {
+        "codeResend": {
+          "codeSendIn": "Kods nosūtīts pēc ${minutes}:${seconds}",
+          "resendCode(rich)": " ${resendCode(Atkārtoti nosūtīt kodu)} "
+        }
+      }
+    },
+    "resetPassword": {
+      "title": "Atiestatīt paroli",
+      "subtitle": "Atiestatiet paroli, lai atgūtu un pieteiktos savā kontā",
+      "extra": {
+        "dialog": {
+          "title": "Mainīts veiksmīgi!",
+          "subtitle": "Piesakieties ar savu jauno paroli.\nPārvirzām jūs uz Pieteikties..."
+        }
+      }
+    },
+    "signUp": {
+      "title": "Izveidot kontu",
+      "subtitle": "Reģistrējieties tūlīt, lai sāktu pārsteidzošu ceļojumu",
+      "extra": {
+        "signInNavigator(rich)": "Ir konts? ${signIn(@:action.signIn)}"
+      }
+    },
+    "welcome": {
+      "title": "Kas tu esi?",
+      "subtitle": "Lūdzu, izvēlieties zemāk esošo opciju.",
+      "extra": {
+        "landlordTag": "Pārvaldiet savus īpašumus",
+        "tenantTag": "Piesakieties savā īres kontā"
+      }
+    },
+    "aboutUs": {
+      "appbarTitle": "@:common.aboutUs"
+    },
+    "termsAndConditions": {
+      "appbarTitle": "@:common.termsAndConditions"
+    },
+    "notificationList": {
+      "appbarTitle": "Paziņojumi"
+    },
+    "contactUs": {
+      "appbarTitle": "@:common.contactUs",
+      "extra": {
+        "messageHint": "Ziņa..."
+      }
+    },
+    "cancelRenting": {
+      "appbarTitle": "@:common.cancelRenting",
+      "title": "Kāpēc jūs @:common.cancelRenting?",
+      "form": {
+        "reason": {
+          "hint": "Uzrakstiet iemeslu",
+          "errors": {
+            "required": "Lūdzu, ievadiet īres atcelšanas iemeslu"
+          }
+        }
+      }
+    },
+    "invoiceDetails": {
+      "appbarTitle": "@:common.viewDetails"
+    },
+    "offlinePayment": {
+      "appbarTitle": "Bezsaistes maksājums",
+      "form": {
+        "paymentNote": {
+          "label": "Maksājuma piezīme (@:common.optional)",
+          "hint": "Ievadiet tekstu..."
+        }
+      },
+      "extra": {
+        "payAmount(rich)": "Maksājamā summa: ${amount}",
+        "accountHolderName": "Konta īpašnieka vārds",
+        "accountNumber": "Konta numurs",
+        "swiftCode": "Swift kods",
+        "branch": "Filiāle",
+        "fileTypeHint(rich)": "Izvēlieties tikai ${fileType(JPG, PNG,PDF)} vai ${fileType(DOC)} formāta failus. Failu izmērs ${fileSize(2000 KB)}"
+      }
+    },
+    "paymentStatus": {
+      "success": {
+        "actionButton": "Skatīt rēķinu",
+        "title": "@:common.thankYou",
+        "description": "Mēs pārskatīsim maksājumu un apstiprināsim to 24 stundu laikā."
+      },
+      "fail": {
+        "actionButton": "Mēģināt vēlreiz",
+        "title": "Ups! Maksājums neizdevās",
+        "description": "Jūsu darījums neizdevās kādas tehniskas kļūdas dēļ."
+      }
+    },
+    "propertyDetails": {
+      "extra": {
+        "landlord(rich)": "@:common.landlord: ${landlordName}",
+        "ratingReviews(rich)": "${rating} ${reviews(@:common.reviews)}",
+        "features(rich)": "Funkcijas ${fa((Ērtības un aprīkojums))}",
+        "selectRentalPeriod": "Izvēlieties īres periodu",
+        "writeAReview": "+ Uzrakstīt atsauksmi"
+      }
+    },
+    "search": {
+      "appbarTitle": "Meklēt",
+      "extra": {
+        "hint": "Meklējiet zemes gabalus, dzīvokļus, istabas...",
+        "noRecentSearch": "Jums nav nesenu meklējumu."
+      }
+    },
+    "subscriptionPlan": {
+      "appbarTitle": "Izvēlieties savu plānu",
+      "extra": {
+        "subscriptionPaymentSuccess": "Abonementa maksājums veiksmīgs.\nTagad varat piekļūt abonētajām funkcijām."
+      }
+    },
+    "landlordMaintenanceReport": {
+      "totalMaintenanceCost(rich)": "Kopējās apkopes izmaksas: ${amount: string}",
+      "maintenancePending": "@:common.maintenance @:enums.maintenanceStatus.pending",
+      "maintenanceProcessing": "@:common.maintenance @:enums.maintenanceStatus.processing",
+      "maintenanceCompleted": "@:common.maintenance @:enums.maintenanceStatus.completed",
+      "maintenanceRejected": "@:common.maintenance @:enums.maintenanceStatus.rejected"
+    }
+  },
+  "enums": {
+    "propertyStatus": {
+      "allProperty": "Visi īpašumi",
+      "pending": "Gaida apstiprinājumu",
+      "active": "Aktīvs",
+      "inactive": "Neaktīvs",
+      "rejected": "Noraidīts"
+    },
+    "propertyType": {
+      "apartmentCondominium": "Dzīvoklis/Kondominijs",
+      "house": "Māja",
+      "commercialProperty": "Komercīpašums",
+      "land": "Zeme",
+      "room": "Istaba"
+    },
+    "applicationStatus": {
+      "all": "Visi",
+      "pending": "Gaida apstiprinājumu",
+      "processing": "Apstrāde",
+      "approved": "Apstiprināts",
+      "rejected": "Noraidīts"
+    },
+    "myRentStatus": {
+      "pending": "Gaida apstiprinājumu",
+      "processing": "Apstrāde",
+      "active": "Aktīvs",
+      "expired": "Beidzies termiņš",
+      "cancelled": "Atcelts"
+    },
+    "maintenanceStatus": {
+      "pending": "Gaida apstiprinājumu",
+      "processing": "Apstrāde",
+      "rejected": "Noraidīts",
+      "completed": "Pabeigts"
+    },
+    "tenantProfileType": {
+      "privateIndividual": "Privāts (fiziska persona)",
+      "company": "Uzņēmums"
+    },
+    "tenantType": {
+      "newTenant": "Jauns īrnieks",
+      "activeTenant": "Aktīvs īrnieks",
+      "expiredTenant": "Beidzies termiņš īrniekam"
+    },
+    "paymentStatus": {
+      "all": "Visi",
+      "pending": "Gaida apstiprinājumu",
+      "paid": "Samaksāts",
+      "unpaid": "Nemaksāts",
+      "rejected": "Noraidīts",
+      "refund": "Atmaksa"
+    },
+    "paymentOptions": {
+      "onlinePayment": "Tiešsaistes maksājums",
+      "offlinePayment": "Bezsaistes maksājums"
+    },
+    "paymentType": {
+      "securityDeposit": "Drošības depozīts",
+      "rentPayment": "Īres maksājums",
+      "subscription": "Abonements"
+    },
+    "gender": {
+      "male": "Vīrietis",
+      "female": "Sieviete",
+      "other": "Cits"
+    },
+    "ecRelation": {
+      "wife": "Sieva",
+      "parent": "Vecāks",
+      "friend": "Draugs",
+      "brother": "Brālis",
+      "sister": "Māsa",
+      "child": "Bērns"
+    },
+    "vehicleType": {
+      "car": "Automašīna",
+      "motorcycles": "Motocikli",
+      "lorry": "Kravas automašīna"
+    },
+    "sortBy": {
+      "lowToHigh": "No zema uz augstu",
+      "highToLow": "No augsta uz zemu"
+    },
+    "residentialType": {
+      "flat": "Dzīvoklis",
+      "apartment": "Dzīvoklis",
+      "condominium": "Kondominijs",
+      "serviceResidence": "Apkalpojamā rezidence",
+      "studio": "Studija",
+      "duplex": "Duplekss",
+      "townhouseCondo": "Rindu māja/Kondominijs",
+      "others": "Citi"
+    },
+    "floorRange": {
+      "high": "Augsts",
+      "medium": "Vidējs",
+      "low": "Zems"
+    },
+    "furnishings": {
+      "fullyFurnished": "Pilnībā mēbelēts",
+      "partiallyFurnished": "Daļēji mēbelēts",
+      "notFurnished": "Nav mēbelēts"
+    },
+    "commercialPropertyType": {
+      "officeSpace": "Biroja telpas",
+      "retailSpace": "Mazumtirdzniecības telpas",
+      "shopLot": "Veikala vieta",
+      "warehouseFactory": "Noliktava / Rūpnīca",
+      "hotelResort": "Viesnīca / Kūrorts",
+      "sofo": "Sofo",
+      "soho": "Soho",
+      "sovo": "Sovo",
+      "others": "Citi"
+    },
+    "landPropertyType": {
+      "residential": "Dzīvojamā",
+      "industrial": "Rūpnieciskā",
+      "agricultural": "Lauksaimniecības",
+      "commercial": "Komercīpašums",
+      "mixedDevelopment": "Jaukta apbūve",
+      "others": "Citi"
+    },
+    "residentPropertyType": {
+      "condo": "Kondominijs / Apkalpojamā rezidence / Penthauss",
+      "apartment": "Dzīvoklis / Plakans",
+      "house": "Mājas",
+      "shoplot": "Veikals",
+      "sharing": "Kopīga māja / Dzīvoklis",
+      "others": "Citi"
+    },
+    "minimumRentalPeriod": {
+      "sixMonths": "6 mēneši",
+      "oneYear": "1 gads",
+      "oneAndHalfYears": "1,5 gadi",
+      "twoYears": "2 gadi",
+      "twoAndHalfYears": "2,5 gadi"
+    },
+    "dropdownDateFilter": {
+      "daily": "Katru dienu",
+      "weekly": "Katru nedēļu",
+      "monthly": "Katru mēnesi",
+      "yearly": "Katru gadu",
+      "custom": "Pielāgots"
+    }
+  }
+}

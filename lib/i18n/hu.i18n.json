@@ -1,0 +1,950 @@
+{
+  "@@meta": {
+    "languageCode": "hu_HU",
+    "languageName": "Hungarian",
+    "version": "1.0.0"
+  },
+  "common": {
+    "profile": "Profil",
+    "language": "Nyelv",
+    "subscriptionPlan": "Előfizetési terv",
+    "contactUs": "Kapcsolatfelvétel",
+    "termsAndConditions": "Általános Szerződési Feltételek",
+    "aboutUs": "Rólunk",
+    "logout": "Kijelentkezés",
+    "editProfile": "Profil szerkesztése",
+    "fullName": "Teljes név",
+    "email": "E-mail",
+    "mobileNumber": "Mobilszám",
+    "address": "Cím",
+    "postalCode": "Irányítószám",
+    "city": "Város",
+    "country": "Ország",
+    "state": "Állam",
+    "password": "Jelszó",
+    "forgotPassword": "Elfelejtett jelszó",
+    "tenant": "Bérlő",
+    "landlord": "Bérbeadó",
+    "cancelRenting": "Bérlés lemondása",
+    "startDate": "Kezdő dátum",
+    "endDate": "Befejező dátum",
+    "fromDate": "Mettől",
+    "toDate": "Meddig",
+    "online": "Online",
+    "bankList": "Banklista",
+    "withdrawMethod": "Kifizetési mód",
+    "uploadPaymentReceipt": "Fizetési bizonylat feltöltése",
+    "offlinePaymentNote(rich)": "Megjegyzés: ${note(A fizetés manuális jóváhagyást igényel a rendszergazdától)} ${duraion(24-48 órán belül.)}",
+    "reviews": "Vélemények",
+    "description": "Leírás",
+    "about": "Rólunk",
+    "propertyTypes": "Ingatlan típusok",
+    "features": "Jellemzők",
+    "floorPlans": "Alaprajzok",
+    "buildingDetails": "Épület részletei",
+    "buildingName": "Épület neve",
+    "propertyAddress": "Ingatlan címe",
+    "completionYear": "Építés éve",
+    "lotNumber": "Telekszám",
+    "residentialType": "Lakó típus",
+    "furnishings": "Berendezés",
+    "floorRange": "Emelet",
+    "bedrooms": "Hálószobák",
+    "bathrooms": "Fürdőszobák",
+    "propertySize": "Ingatlan mérete",
+    "rentalPeriod": "Bérleti időszak",
+    "securityDeposit": "Biztonsági letét",
+    "utilityBill": "Közüzemi számla",
+    "facilities": "Létesítmények",
+    "amenities": "Kényelmi szolgáltatások",
+    "expiringReason": "Lejárati ok",
+    "tenantDetails": "Bérlő adatai",
+    "typeOfTenant": "Bérlő típusa",
+    "tenantName": "Bérlő neve",
+    "nidPassport": "NID/Útlevél",
+    "nidPassportId": "@:common.nidPassport ID",
+    "tenantId": "Bérlő azonosító",
+    "dateOfBirth": "Születési dátum",
+    "gender": "Nem",
+    "nominee": "Jelölt",
+    "name": "Név",
+    "optional": "Opcionális",
+    "nomineeName": "@:common.nominee @:common.name",
+    "nomineeEmail": "@:common.nominee @:common.email",
+    "nomineeMobile": {
+      "short": "@:common.nominee Mobilszám",
+      "full": "@:common.nominee @:common.mobileNumber"
+    },
+    "emergencyContact": "Sürgősségi kapcsolat",
+    "relation": "Kapcsolat",
+    "relationWith": "@:common.relation -val",
+    "relationWithYou": "@:common.relationWith Önnel",
+    "company": "Cég",
+    "companyName": "@:common.company @:common.name",
+    "companySSMNo": "@:common.company SSM szám",
+    "workplace": "Munkahely",
+    "officePhoneNo": "Irodai telefonszám",
+    "officeMobileNo": "Irodai @:common.mobileNumber",
+    "vehicle": "Jármű",
+    "vehiclesInfo": {
+      "plain": "Jármű információk",
+      "optional": "Jármű információk (@:common.optional)"
+    },
+    "vehiclesType": "@:common.vehicle Típus",
+    "vehicleRegistrationNo": {
+      "normal": "Jármű rendszám",
+      "short": "Rendszám",
+      "alt": "Rendszámtábla szám"
+    },
+    "vehicleBrand": "@:common.vehicle Márka",
+    "rentProperty": "Bérlés ingatlan",
+    "propertyDetails": "Ingatlan részletei",
+    "propertyId": "Ingatlan azonosító",
+    "propertyType": "Ingatlan típusa",
+    "propertyName": "Ingatlan neve",
+    "paymentDetails": "Fizetési részletek",
+    "monthlyRent": "Havi bérleti díj",
+    "thisMonthPayment": "Ebben a hónapban fizetett összeg",
+    "totalPaidRent": "Összesen fizetett bérleti díj",
+    "dueRent": "Hátralévő bérleti díj",
+    "rentStartDate": "Bérleti szerződés kezdete @:common.startDate",
+    "rentEndDate": "Bérleti szerződés vége @:common.endDate",
+    "status": "Állapot",
+    "rentAgreementPdf": "Bérleti szerződés PDF",
+    "noFile": "Nincs fájl",
+    "tenantImageOp": "Bérlő képe @:common.optional",
+    "addNewVechicle": "Új jármű hozzáadása",
+    "uploadNidPassport": "NID/Útlevél feltöltése",
+    "nidPassportUploadNote": "Csak fájltípus kép fogadható el. Fájlméret legfeljebb 2,5 MB.",
+    "search": "Keresés",
+    "sortBy": "Rendezés",
+    "subscription": "Előfizetés",
+    "downloading": "Letöltés...",
+    "downloadSuccess": "A fájl sikeresen letöltve!",
+    "addPropertyBannerTitle": "Szeretné kiadni ingatlanát?",
+    "application": "Jelentkezés",
+    "tenantHasPaidDeposit": "A bérlő befizette a kauciót.",
+    "askProcessingRentApplication": "Biztosan feldolgozza ezt a bérleti ingatlanra vonatkozó kérelmet?",
+    "dateAndTime": "Dátum és idő",
+    "applicationDetails": "Jelentkezés részletei",
+    "depositStatus": "Kaució állapota",
+    "uploadRentAgreement": "Bérleti szerződés feltöltése",
+    "uploadFilePDF": "Fájl feltöltése (PDF)",
+    "askSelectRentAgreement": "Kérjük, válasszon egy szerződés dokumentumfájlt.",
+    "landlordRentAgreementPDF": "Bérbeadó bérleti szerződése PDF",
+    "tenantRentAgreementPDF": "Bérlő bérleti szerződése PDF",
+    "landlordApplicationApproveNote(rich)": "Megjegyzés: ${note(Csak akkor hagyja jóvá a kérelmet, miután a bérlő befizette a kauciót.)}",
+    "reasonOfRejection": "Az elutasítás oka",
+    "youveRejectedThisApplication": "Elutasította ezt a kérelmet",
+    "landlordDetails": "Bérbeadó adatai",
+    "landlordName": "Bérbeadó neve",
+    "downloadRentAgreement": "Bérleti szerződés letöltése",
+    "acceptTermsConditions(rich)": "Elfogadom a ${toc(Általános Szerződési Feltételeket)}",
+    "tenantAgreementSignNote1(rich)": "Megjegyzés: ${note(Kérjük, töltse le és olvassa el a szerződést. Kérjük, küldje el az aláírt szerződést a bérbeadónak WhatsApp-on vagy e-mailben.)}",
+    "tenantAgreementSignNote2(rich)": "Megjegyzés: ${note(A bérbeadó akkor hagyja jóvá a kérelmet, ha a bérlő befizeti a biztonsági, közüzemi és egyhavi előlegbérleti díjat.)}",
+    "completeRentAgreementPdf(rich)": "Bérleti szerződés (PDF) ${complete(Teljes szerződés)}",
+    "tenantApplicationDepositNote(rich)": "Megjegyzés: ${note(A bérbeadó akkor hagyja jóvá a kérelmet, ha a bérlő befizeti a biztonsági, közüzemi és egyhavi előlegbérleti díjat.)}",
+    "whatsapp": "Whatsapp",
+    "applicationList": "Jelentkezések listája",
+    "viewDetails": "Részletek megtekintése",
+    "searchHint": "@:common.search...",
+    "home": "Kezdőlap",
+    "dashboard": "Műszerfal",
+    "tenants": "Bérlők",
+    "maintenance": "Karbantartás",
+    "maintenanceList": "Karbantartási lista",
+    "maintenanceReport": "Karbantartási jelentés",
+    "labor": "Munkás",
+    "applications": "Jelentkezések",
+    "rentInvitation": "Bérleti meghívó",
+    "payment": "Fizetés",
+    "rentPayment": "Bérleti díj fizetés",
+    "depositUtilityPayment": "Kaució és közüzemi díj fizetés",
+    "refundRequest": "Visszatérítési kérelem",
+    "withdrawRequest": "Kifizetési kérelem",
+    "myProperty": "Saját ingatlan",
+    "myRent": "Saját bérlet",
+    "wishlist": "Kívánságlista",
+    "properties": "Ingatlanok",
+    "allProperties": "Összes ingatlan",
+    "totalPropery": "Összes ingatlan",
+    "occupied": "Foglalt",
+    "vacant": "Szabad",
+    "accounting": "Könyvelés",
+    "totalIncome": "Összes bevétel",
+    "totalExpense": "Összes kiadás",
+    "currentBalance": "Aktuális egyenleg",
+    "totalWithdrawal": "Összesen (Kifizetés)",
+    "totalProperties": "Összes ingatlan",
+    "totalTenant": "Összes bérlő",
+    "totalRentPaid": "Összes befizetett bérleti díj",
+    "totalRentDue": "Összes hátralévő bérleti díj",
+    "totalApplication": "Összes jelentkezés",
+    "pendingApplication": "Függőben lévő jelentkezés",
+    "processingApplication": "Feldolgozás alatt lévő jelentkezés",
+    "approveApplication": "Jelentkezés jóváhagyása",
+    "rejectApplication": "Jelentkezés elutasítása",
+    "maintenanceCost": "Karbantartási költség",
+    "transactionSummary": "Tranzakciós összefoglalás",
+    "maintenanceRequest": "Karbantartási kérelem",
+    "notifications": "Értesítések",
+    "myProperties": "Saját ingatlanok",
+    "recommendationProperties": "Ajánlott ingatlanok",
+    "laborList": "Munkáslista",
+    "addLabor": "Munkás hozzáadása",
+    "laborDetails": "Munkás részletei",
+    "laborSalary": "Munkás fizetése",
+    "editLabor": "Munkás szerkesztése",
+    "addNewLabor": "Új munkás hozzáadása",
+    "enterAmount": "Adja meg az összeget",
+    "maintenanceDetails": "Karbantartás részletei",
+    "laborName": "Munkás neve",
+    "comment": "Megjegyzés",
+    "image": "Kép",
+    "complete": "Befejezés",
+    "details": "Részletek",
+    "title": "Cím",
+    "date": "Dátum",
+    "reason": "Ok",
+    "edit": "Szerkesztés",
+    "property": "Ingatlan",
+    "completeYourProfile": "Töltse ki a profilját",
+    "profileImage": "Profilkép",
+    "imagePickHint": "Csak JPEG és PNG kép fogadható el, legfeljebb 120x120 képpont méretben.",
+    "invoiceId": "Számlaazonosító",
+    "depositAmount": "Kaució összege",
+    "landlordPhone": "Bérbeadó telefonszáma",
+    "rentalAdvance": "Bérleti díj (előleg)",
+    "totalAmount": "Összes összeg",
+    "rentalAmount": "Bérleti díj összege",
+    "adminCharge": "Adminisztrációs díj",
+    "editAccount": "Fiók szerkesztése",
+    "addNewAccount": "Új fiók hozzáadása",
+    "transactionId": "Tranzakciós azonosító",
+    "transactionType": "Tranzakció típusa",
+    "requestDate": "Kérelem dátuma",
+    "amount": "Összeg",
+    "fee": "Díj",
+    "paymentStatus": "Fizetési állapot",
+    "generatedTime": "Létrehozás ideje",
+    "systemGeneratedReportHint(rich)": "Ez egy rendszer által generált jelentés a(z) ${appName} alkalmazásról",
+    "withdrawHistory": "Kifizetési előzmények",
+    "history": "Előzmények",
+    "withdrawAmount": "Kifizetett összeg",
+    "availableBalance": "Elérhető egyenleg",
+    "withdrawCharge": "Kifizetési díj",
+    "paymentMethod": "Fizetési mód",
+    "requestSendSuccess": "A kérelem sikeresen elküldve!",
+    "paymentReceiptSubmitSuccess": "A fizetési bizonylat sikeresen elküldve.",
+    "refundReason": "Visszatérítés oka",
+    "note": "Megjegyzés",
+    "refundReceiveSuccess": "A visszatérítés sikeresen megérkezett.",
+    "downloadPaymentReceipt": "Fizetési bizonylat letöltése",
+    "invoice": "Számla",
+    "selectPropertyToSeeInvoice": "Válassza ki az ingatlant a számla megtekintéséhez...",
+    "bankAccName": "Bankszámla neve",
+    "bankName": "Bank neve",
+    "bankAccNum": "Bankszámlaszám",
+    "thankYou": "Köszönjük!",
+    "basicInfo": "Alapvető információk",
+    "descriptionPricing": "Leírás és árazás",
+    "contact": "Kapcsolat",
+    "photos": "Fotók",
+    "successfullySubmitted": "Sikeresen elküldve!",
+    "editProperty": "Ingatlan szerkesztése",
+    "addNewProperty": "Új ingatlan hozzáadása",
+    "propertyManageRequestSuccess": "Hirdetése elküldésre került felülvizsgálatra.",
+    "postAnotherProperty": "Újabb ingatlan hirdetése",
+    "browseYourProperty": "Ingatlan megtekintése",
+    "stepIndicator(rich)": "${step}. lépés a(z) ${totalSteps} lépésből",
+    "whatWouldYouLikeToPost": "Mit szeretne közzétenni?",
+    "category": "Kategória",
+    "invalidCategory": "Érvénytelen kategória",
+    "unitNumber": "Lakásszám",
+    "sqft": "nm",
+    "propertySizeMustBeGreaterThan0": "Az ingatlan méretének nullánál nagyobbnak kell lennie",
+    "whatAreTheFacility": "Milyen létesítmények állnak rendelkezésre?",
+    "whatAreTheAmenity": "Milyen szolgáltatások állnak rendelkezésre?",
+    "parkingLot": "Parkolóhely",
+    "houseType": "Ház típus",
+    "value": "Érték",
+    "unitLotSize": "Telek/Lakás mérete",
+    "landSize": "Telek mérete",
+    "acres": "hektár",
+    "roomSize": "Szoba mérete",
+    "askTenantPreference": "Mi a bérlői preferenciája?",
+    "couple": "Pár",
+    "describeTheProperty": "Írja le a(z) ${propertyType: String} ingatlant",
+    "adTitle": "Hirdetés címe",
+    "minimumRentalPeriod": "Minimum bérleti időszak",
+    "whatsappNumber": "@:common.whatsapp Szám",
+    "hideOrDisplayEmail": "E-mail cím elrejtése vagy megjelenítése",
+    "thankYouForPostingProperty": "Köszönjük, hogy hirdetett a(z) ${appName: String} oldalon!",
+    "propertyList": "Ingatlanok listája",
+    "newInviteRent": "Új bérleti meghívás",
+    "rentAgreement": "Bérleti szerződés",
+    "rentDetails": "Bérleti adatok",
+    "landlordRentInvitationPendingNote(rich)": "Megjegyzés: ${note(Kérjük, várja meg, amíg a bérlő elfogadja a meghívást.)}",
+    "rent": "Bérlet",
+    "editTenant": "Bérlő szerkesztése",
+    "addNewTenant": "Új bérlő hozzáadása",
+    "shareInstallLink": "Telepítési link megosztása",
+    "tenantList": "Bérlők listája",
+    "editMaintenanceRequest": "Karbantartási kérelem szerkesztése",
+    "addNewMaintenance": "Új karbantartás hozzáadása",
+    "landlordId": "Bérbeadó azonosító",
+    "tenantAgrementUnderReviewNote(rich)": "Megjegyzés: ${note(A szerződése felülvizsgálat alatt áll. Kérjük, várja meg, amíg a bérbeadó jóváhagyja a bérletet.)}",
+    "editReview": "Értékelés szerkesztése",
+    "writeAReview": "Értékelés írása",
+    "selectRating": "Értékelés kiválasztása",
+    "enterYourOpinion": "Írja be véleményét",
+    "askToEnterReviewMsg": "Kérjük, írjon egy értékelést",
+    "pressBackAgainToExit": "Nyomja meg újra a Vissza gombot a kilépéshez.",
+    "selectPaymentMethod": "Válasszon fizetési módot",
+    "filter": "Szűrő",
+    "perMonth": "/hónap",
+    "searchHintWithAppName": "Keressen bármit a(z) ${appName: String} alkalmazásban..."
+  },
+  "exceptions": {
+    "somethingWentWrong": "Valami hiba történt, kérjük, próbálja újra",
+    "noNidPassport": "Nincs megadva NID/Útlevél kép.",
+    "noRentPropertyFound": "Ehhez a bérlőhöz nem található bérelt ingatlan.",
+    "noPropertyFoundWithKeyWord": "Nem található ingatlan!\nKérjük, próbálja más kulcsszavakkal",
+    "noSubscriptionFoundRefreshPage": "Nem található előfizetési csomag!\nKérjük, frissítse az oldalt, és próbálja újra.",
+    "invalidApiDataRefreshPage": "Érvénytelen ${dataType: String} információ! Kérjük, frissítse az oldalt, és próbálja újra.",
+    "invalidDownloadUrl": "Érvénytelen letöltési URL!",
+    "failedToSaveFile": "Nem sikerült menteni a fájlt! ${error: String}",
+    "errorOpeningFile": "Hiba a fájl megnyitásakor! ${error: String}",
+    "noVehicleInfoProvided": "Nem adtak meg járműinformációt.",
+    "yourApplicationRejected": "A jelentkezését elutasították",
+    "noApplicationFoundHint": {
+      "template": "Nem található jelentkezés!\nA(z) ${subject: String} itt jelenik meg, ha elérhető lesz.",
+      "subjects": {
+        "tenant": "Az Ön jelentkezése",
+        "landlord": "A bérlő jelentkezése"
+      }
+    },
+    "noPropertyFoundHint": {
+      "landlordHome": "Nem található ingatlan!\nKérjük, adjon hozzá egy ingatlant, hogy itt megjelenjen.",
+      "tenantRecommended": "Nem található ajánlott ingatlan!\nKérjük, próbálja újra később.",
+      "tenantAllProperty": "Ingatlanok nem érhetők el!\nKérjük, próbálja újra később."
+    },
+    "noImageProvided": "Nem adtak meg képet",
+    "noStatusMaintenantFound": {
+      "landlord": "Nem található ${status} karbantartás.",
+      "tenant": "Nem található karbantartás! Létrehozhat karbantartási kérelmet, hogy itt megjelenjen."
+    },
+    "noDepositFound": "Nem található kaució!\nKérjük, itt láthatja a kauciókat, ha elérhetőek lesznek",
+    "noRentPaymentFound": "Nem található bérleti díj fizetés!\nKérjük, itt láthatja a bérleti díj fizetéseket, ha elérhetőek lesznek",
+    "transactionSummaryApiException": "Nem sikerült lekérni a tranzakciós összefoglalást.",
+    "noWithdrawRequestFound": "Nem található kérelem!\nKérjük, hozzon létre egy kifizetési kérelmet, hogy itt megjelenjen.",
+    "withdrawRequestNotApproved": "Ezt a kifizetési kérelmet nem hagyták jóvá!",
+    "nonZeroError": "Kérjük, nullánál nagyobb érvényes összeget adjon meg.",
+    "minAmountError": "Az összegnek legalább ${minValue: String} összegnek kell lennie.",
+    "maxAmountError": "Az összeg nem haladhatja meg a(z) ${maxValue: String} összeget.",
+    "selectPaymentMethodHint": "Kérjük, először válasszon fizetési módot.",
+    "noStatusRefundReqFound": {
+      "landlord": "Nem található ${status} visszatérítési kérelem!\nItt láthatja a visszatérítési kérelmet, ha elérhető lesz.",
+      "tenant": "Nem található visszatérítési kérelem!\nLétrehozhat visszatérítési kérelmet, hogy itt megjelenjen."
+    },
+    "refundRequestHint": {
+      "inTenantList": "A bérlő akkor hagyja jóvá a visszatérítést, amikor visszakapta a pénzt",
+      "tenantReqSuccess": "Áttekintjük a visszatérítési kérelmet, és 24 órán belül jóváhagyjuk."
+    },
+    "oneToTenRequiredField": "Kérjük, válassza ki a(z) ${value: String} számát",
+    "invalidDateRange": "Érvénytelen dátumtartomány.",
+    "valueMustBeGreaterThanZero": "A(z) ${value: String} nagyobb kell, hogy legyen nullánál.",
+    "editProperty": {
+      "rentalChange": "A bérleti ingatlan változik. Csak a következő havi bérleti díj fizetésére lehet érvényes (hatályos).",
+      "deleteOnRent": "Ingatlanát már bérli egy bérlő. Nem törölheti, amíg előbb el nem távolítja a bérlőt",
+      "alreayRented": "Ez az ingatlan már ki van bérelve. Kérjük, próbálja újra később.\nVagy további információkért forduljon a bérbeadóhoz."
+    },
+    "rentInvitation": {
+      "landlordNoRentInvitation": "Nem található bérleti meghívó!\nKérjük, hozzon létre egy bérleti meghívót, hogy itt megjelenjen.",
+      "tenantNoRentInvitation": "Nem található bérleti meghívó!\nItt láthatja a bérleti meghívót, ha elérhető lesz."
+    },
+    "notenantFoundList": "Nincsenek bérlők!\nKérjük, adjon hozzá egy bérlőt, hogy itt megjelenjen.",
+    "noFeaturesProvided": "Nincsenek megadott funkciók.",
+    "noNotificationFound": "Nincs elérhető értesítés.\nItt láthatja az értesítéseit, ha elérhetőek lesznek."
+  },
+  "prompt": {
+    "logout": {
+      "title": "@:common.logout",
+      "message": "Biztosan ki szeretne jelentkezni?"
+    },
+    "application": {
+      "rejectTitle": "Miért utasítja el ezt a jelentkezést?",
+      "applicationSent": {
+        "successfully": "A jelentkezés sikeresen elküldve!",
+        "sucessDescription": "Megtekintheti ezt a jelentkezést a jelentkezési listájában"
+      }
+    },
+    "labor": {
+      "delete": {
+        "title": "Törli a munkást?",
+        "description": "Biztosan törli ezt a munkást?"
+      }
+    },
+    "maintenanceRequest": {
+      "rejectTitle": "Miért utasítják el ezt a kérelmet?",
+      "processTitle": "Biztosan feldolgozza ezt a karbantartási kérelmet?",
+      "completeTitle": "Elvégezték a munkát?"
+    },
+    "withdrawMethod": {
+      "deleteTitle": "Törli a kifizetési módot?",
+      "deleteDescription": "Biztosan törli ezt a kifizetési módot?"
+    },
+    "unsavedChanges": {
+      "title": "Biztosan vissza szeretne menni?",
+      "message": "A módosított mezők nem lesznek mentve!"
+    },
+    "property": {
+      "delete": {
+        "title": "Törli az ingatlant?",
+        "message": "Biztosan törli ezt az ingatlant?"
+      }
+    },
+    "rentInvitation": {
+      "landlordApprove": {
+        "title": "Biztosan jóváhagyja ezt a bérletet?",
+        "description": "Győződjön meg róla, hogy áttekintette a bérlő által aláírt szerződést."
+      },
+      "tenantAccept": {
+        "title": "Biztosan elfogadja ezt a meghívást?",
+        "description": "Győződjön meg róla, hogy letöltötte a szerződés PDF fájlját!"
+      }
+    },
+    "sessionExpired": {
+      "title": "A munkamenet lejárt",
+      "message": "A munkamenete lejárt. Kérjük, jelentkezzen be újra",
+      "action": "Bejelentkezés"
+    },
+    "noInternet": {
+      "title": "Nincs internetkapcsolat",
+      "message": "Kérjük, ellenőrizze a Wi-Fi vagy mobilhálózat kapcsolatát, és próbálja újra",
+      "action": "Újrapróbálás"
+    },
+    "permissionHandler": {
+      "title": "Engedély szükséges!",
+      "message": "Engedélyeket kell adnia az alkalmazás beállításaiban. Szeretné most megnyitni a beállításokat?"
+    },
+    "imagePicker": {
+      "title": "Válasszon lehetőséget",
+      "gallery": "Galéria",
+      "camera": "Kamera"
+    },
+    "verificationDialog": {
+      "title": "Ellenőrizze az e-mail címét",
+      "message": "Küldtünk egy ellenőrző kódot tartalmazó e-mailt",
+      "messageWithEmail": "@:prompt.verificationDialog.message a(z) ${email: String?} címre"
+    },
+    "notification": {
+      "clearTitle": "Értesítések törlése?",
+      "clearMessage": "Biztosan törli az összes értesítést?"
+    }
+  },
+  "form": {
+    "fullName": {
+      "label": "@:common.fullName",
+      "hint": "Adja meg a(z) @:common.fullName nevet",
+      "errors": {
+        "required": "Kérjük, adja meg a(z) @:common.fullName nevet"
+      }
+    },
+    "email": {
+      "label": "@:common.email",
+      "hint": "Adja meg a(z) @:common.email címét",
+      "errors": {
+        "required": "Kérjük, adja meg a(z) @:common.email címet",
+        "invalid": "⦸ Érvénytelen e-mail cím, kérjük, próbálja újra"
+      }
+    },
+    "password": {
+      "label": "@:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Kérjük, adja meg a(z) @:common.password jelszót",
+        "minLength": "A jelszónak legalább ${count} karakterből kell állnia!"
+      }
+    },
+    "confirmPassword": {
+      "label": "Jelszó megerősítése @:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Kérjük, adja meg a(z) @:common.password jelszót",
+        "notMatched": "A megerősítő jelszó nem egyezik!"
+      }
+    },
+    "mobileNumber": {
+      "label": "@:common.mobileNumber",
+      "hint": "(+60) 555-0123",
+      "errors": {
+        "required": "Kérjük, adja meg a(z) @:common.mobileNumber telefonszámát"
+      }
+    },
+    "address1": {
+      "label": "@:common.address 1",
+      "hint": "Házszám és utcanév",
+      "errors": {
+        "required": "Kérjük, adja meg a(z) @:form.address1.label címet"
+      }
+    },
+    "address2": {
+      "label": "@:common.address 2",
+      "hint": "Lakás, lakosztály, egység stb.",
+      "errors": {
+        "required": "Kérjük, adja meg a(z) @:form.address2.label címet"
+      }
+    },
+    "postalCode": {
+      "label": "@:common.postalCode",
+      "hint": "Adja meg a(z) @:common.postalCode irányítószámot",
+      "errors": {
+        "required": "Kérjük, adja meg a(z) @:common.postalCode irányítószámot"
+      }
+    },
+    "city": {
+      "label": "@:common.city",
+      "hint": "Adja meg a(z) @:common.city város nevét.",
+      "errors": {
+        "required": "Kérjük, adja meg a(z) @:common.city város nevét."
+      }
+    },
+    "state": {
+      "label": "@:common.state",
+      "hint": "Adja meg a(z) @:common.state állam nevét.",
+      "errors": {
+        "required": "Kérjük, adja meg a(z) @:common.state állam nevét."
+      }
+    },
+    "country": {
+      "label": "@:common.country",
+      "hint": "Válassza ki a(z) @:common.country országot.",
+      "errors": {
+        "required": "Kérjük, válassza ki a(z) @:common.country országot"
+      }
+    },
+    "otp": {
+      "errors": {
+        "required": "Kérjük, adja meg az OTP-t.",
+        "invalid": "Kérjük, adja meg a helyes OTP-t."
+      }
+    },
+    "title": {
+      "label": "Cím",
+      "hint": "Adja meg a címet",
+      "errors": {
+        "required": "Kérjük, adja meg a címet"
+      }
+    },
+    "date": {
+      "label": "${label: String}",
+      "hint": "Válassza ki a(z) @:form.date.label dátumot",
+      "errors": {
+        "required": "Kérjük, válassza ki a(z) @:form.date.label dátumot"
+      }
+    },
+    "reason": {
+      "label": "Ok",
+      "hint": "Adja meg az okot",
+      "errors": {
+        "required": "Kérjük, adja meg az okot"
+      }
+    },
+    "withdrawMethod": {
+      "label": "@:common.withdrawMethod",
+      "hint": "Válassza ki a(z) @:common.withdrawMethod kifizetési módot",
+      "errors": {
+        "required": "Kérjük, válassza ki a(z) @:common.withdrawMethod kifizetési módot"
+      }
+    },
+    "fileField": {
+      "label": "${label: String}",
+      "hint": "Töltse fel a(z) ${label: String} fájlt",
+      "errors": {
+        "required": "Kérjük, válassza ki a(z) ${label: String} fájlt"
+      }
+    },
+    "note": {
+      "label": "${note: String}",
+      "hint": "Adja meg a(z) @:form.note.label megjegyzést",
+      "errors": {
+        "required": "Kérjük, adja meg a(z) @:form.note.label megjegyzést"
+      }
+    },
+    "gender": {
+      "label": "@:common.gender",
+      "hint": "Válassza ki a(z) @:common.gender nemet",
+      "errors": {
+        "required": "Kérjük, válassza ki a(z) @:common.gender nemet"
+      }
+    },
+    "anyField": {
+      "label": "${label: String}",
+      "hint": "Adja meg a(z) @:form.anyField.label értéket",
+      "errors": {
+        "required": "Kérjük, adja meg a(z) @:form.anyField.label értéket",
+        "invalid": "Kérjük, érvényes @form.anyField.label értéket adjon meg"
+      }
+    },
+    "anyDropdown": {
+      "label": "${label: String}",
+      "hint": "Válassza ki a(z) @:form.anyDropdown.label lehetőséget",
+      "errors": {
+        "required": "Kérjük, válassza ki a(z) @:form.anyDropdown.label lehetőséget",
+        "invalid": "Kérjük, érvényes @form.anyDropdown.label lehetőséget válasszon"
+      }
+    }
+  },
+  "action": {
+    "next": "Következő",
+    "getStarted": "Kezdés",
+    "skip": "Átugrás",
+    "select": "Kiválasztás",
+    "save": "Mentés",
+    "signIn": "Bejelentkezés",
+    "signUp": "Regisztráció",
+    "continue": "Folytatás",
+    "clearAll": "Összes törlése",
+    "cancelRenting": "@:common.cancelRenting",
+    "send": "Küldés",
+    "pay": "Fizetés",
+    "remove": "Eltávolítás",
+    "goBack": "Vissza",
+    "buyNow": "Vásárlás most",
+    "no": "Nem",
+    "open": "Megnyitás",
+    "addProperty": "Ingatlan hozzáadása",
+    "process": "Feldolgozás",
+    "approve": "Jóváhagyás",
+    "reject": "Elutasítás",
+    "viewRent": "Bérlet megtekintése",
+    "openNavigationMenu": "Navigációs menü megnyitása",
+    "seeAll": "Összes megtekintése",
+    "update": "Frissítés",
+    "printTransaction": "Tranzakció nyomtatása",
+    "payoutRequest": "Kifizetési kérelem",
+    "addNew": "+ Új hozzáadása",
+    "sendRequest": "Kérelem küldése",
+    "print": "Nyomtatás",
+    "requestForRefund": "Visszatérítés kérése",
+    "previous": "Előző",
+    "delete": "Törlés",
+    "applyProperty": "Ingatlan megpályázása",
+    "viewApplication": "Jelentkezés megtekintése",
+    "inviteTenant": "Bérlő meghívása",
+    "inviteRent": "Bérlet meghívása",
+    "cancel": "Mégsem",
+    "accept": "Elfogadás",
+    "submit": "Beküldés",
+    "yes": "Igen",
+    "okay": "Rendben",
+    "confirm": "Megerősítés",
+    "apply": "Alkalmazás",
+    "reset": "Visszaállítás",
+    "retry": "Újrapróbálás",
+    "viewAll": "Megtekintés"
+  },
+  "pages": {
+    "language": {
+      "appbarTitle": "@:action.select @:common.language"
+    },
+    "onboard": {
+      "onboardData": {
+        "data1": {
+          "title": "Találja meg ingatlanát",
+          "description": "Könnyedén megtalálhatja az életéhez illő helyet – legyen az szoba, lakás vagy ház."
+        },
+        "data2": {
+          "title": "Lakás a városban",
+          "description": "Időt takarítunk meg Önnek azáltal, hogy gyorsan megtaláljuk a tökéletes ingatlant, mielőtt az elfogyna, így élvezheti új otthonát, vagy ingyenesen listázhatja sajátját."
+        },
+        "data3": {
+          "title": "Az Ön kényelmes háza",
+          "description": "Ha lakóhelyet keres, tekintse meg kiadó házainkat. Országszerte számos ház közül választhat."
+        }
+      }
+    },
+    "signIn": {
+      "title": "Üdv újra",
+      "subtitle": "Jelentkezzen be most, hogy elindítson egy csodálatos utazást.",
+      "extra": {
+        "rememberMe": "Emlékezz rám",
+        "signUpNavigator(rich)": "Nincs fiókja? ${getStarted(@:action.getStarted)}",
+        "forgotPassword": "@:common.forgotPassword?"
+      }
+    },
+    "forgotPassword": {
+      "title": "Elfelejtett jelszó",
+      "subtitle": "Adja meg e-mail címét a jelszó helyreállításához."
+    },
+    "otpVerification": {
+      "title": "Ellenőrzés",
+      "subtitle": "Egy 4 jegyű PIN kódot küldtünk az e-mail címére. ${email: String}",
+      "extra": {
+        "codeResend": {
+          "codeSendIn": "A kód elküldése ${minutes}:${seconds} múlva",
+          "resendCode(rich)": " ${resendCode(Kód újraküldése)} "
+        }
+      }
+    },
+    "resetPassword": {
+      "title": "Jelszó visszaállítása",
+      "subtitle": "Állítsa vissza jelszavát a helyreállításhoz és jelentkezzen be fiókjába",
+      "extra": {
+        "dialog": {
+          "title": "Sikeresen megváltoztatva!",
+          "subtitle": "Jelentkezzen be új jelszavával.\nÁtirányítjuk a bejelentkezéshez..."
+        }
+      }
+    },
+    "signUp": {
+      "title": "Fiók létrehozása",
+      "subtitle": "Regisztráljon most, hogy elindítson egy csodálatos utazást",
+      "extra": {
+        "signInNavigator(rich)": "Van fiókja? ${signIn(@:action.signIn)}"
+      }
+    },
+    "welcome": {
+      "title": "Ki vagy te?",
+      "subtitle": "Kérjük, válassza ki az alábbi lehetőséget.",
+      "extra": {
+        "landlordTag": "Kezelje saját ingatlanait",
+        "tenantTag": "Jelentkezzen be bérleti fiókjába"
+      }
+    },
+    "aboutUs": {
+      "appbarTitle": "@:common.aboutUs"
+    },
+    "termsAndConditions": {
+      "appbarTitle": "@:common.termsAndConditions"
+    },
+    "notificationList": {
+      "appbarTitle": "Értesítések"
+    },
+    "contactUs": {
+      "appbarTitle": "@:common.contactUs",
+      "extra": {
+        "messageHint": "Üzenet..."
+      }
+    },
+    "cancelRenting": {
+      "appbarTitle": "@:common.cancelRenting",
+      "title": "Miért @:common.cancelRenting?",
+      "form": {
+        "reason": {
+          "hint": "Írja meg az okot",
+          "errors": {
+            "required": "Kérjük, adja meg a bérlet lemondásának okát"
+          }
+        }
+      }
+    },
+    "invoiceDetails": {
+      "appbarTitle": "@:common.viewDetails"
+    },
+    "offlinePayment": {
+      "appbarTitle": "Offline fizetés",
+      "form": {
+        "paymentNote": {
+          "label": "Fizetési megjegyzés (@:common.optional)",
+          "hint": "Írjon be néhány szöveget..."
+        }
+      },
+      "extra": {
+        "payAmount(rich)": "Fizetendő összeg: ${amount}",
+        "accountHolderName": "Számlatulajdonos neve",
+        "accountNumber": "Számlaszám",
+        "swiftCode": "Swift kód",
+        "branch": "Fiók",
+        "fileTypeHint(rich)": "Csak ${fileType(JPG, PNG, PDF)} vagy ${fileType(DOC)} formátumú fájlokat válasszon. Fájlméret ${fileSize(2000 KB)}"
+      }
+    },
+    "paymentStatus": {
+      "success": {
+        "actionButton": "Számla megtekintése",
+        "title": "@:common.thankYou",
+        "description": "Áttekintjük a fizetést, és 24 órán belül jóváhagyjuk."
+      },
+      "fail": {
+        "actionButton": "Újrapróbálás",
+        "title": "Hoppá! Sikertelen fizetés",
+        "description": "A tranzakció sikertelen volt valamilyen technikai hiba miatt."
+      }
+    },
+    "propertyDetails": {
+      "extra": {
+        "landlord(rich)": "@:common.landlord: ${landlordName}",
+        "ratingReviews(rich)": "${rating} ${reviews(@:common.reviews)}",
+        "features(rich)": "Jellemzők ${fa((Létesítmények és szolgáltatások))}",
+        "selectRentalPeriod": "Válassza ki a bérleti időszakot",
+        "writeAReview": "+ Írjon véleményt"
+      }
+    },
+    "search": {
+      "appbarTitle": "Keresés",
+      "extra": {
+        "hint": "Keressen telkeket, lakásokat, szobákat...",
+        "noRecentSearch": "Nincsenek legutóbbi keresései."
+      }
+    },
+    "subscriptionPlan": {
+      "appbarTitle": "Válassza ki a csomagot",
+      "extra": {
+        "subscriptionPaymentSuccess": "Az előfizetési fizetés sikeres volt.\nMostantól hozzáférhet az előfizetett funkciókhoz."
+      }
+    },
+    "landlordMaintenanceReport": {
+      "totalMaintenanceCost(rich)": "Összes karbantartási költség: ${amount: string}",
+      "maintenancePending": "@:common.maintenance @:enums.maintenanceStatus.pending",
+      "maintenanceProcessing": "@:common.maintenance @:enums.maintenanceStatus.processing",
+      "maintenanceCompleted": "@:common.maintenance @:enums.maintenanceStatus.completed",
+      "maintenanceRejected": "@:common.maintenance @:enums.maintenanceStatus.rejected"
+    }
+  },
+  "enums": {
+    "propertyStatus": {
+      "allProperty": "Összes ingatlan",
+      "pending": "Függőben lévő",
+      "active": "Aktív",
+      "inactive": "Inaktív",
+      "rejected": "Elutasított"
+    },
+    "propertyType": {
+      "apartmentCondominium": "Lakás/Társasház",
+      "house": "Ház",
+      "commercialProperty": "Kereskedelmi ingatlan",
+      "land": "Telek",
+      "room": "Szoba"
+    },
+    "applicationStatus": {
+      "all": "Összes",
+      "pending": "Függőben lévő",
+      "processing": "Feldolgozás alatt",
+      "approved": "Jóváhagyott",
+      "rejected": "Elutasított"
+    },
+    "myRentStatus": {
+      "pending": "Függőben lévő",
+      "processing": "Feldolgozás alatt",
+      "active": "Aktív",
+      "expired": "Lejárt",
+      "cancelled": "Törölt"
+    },
+    "maintenanceStatus": {
+      "pending": "Függőben lévő",
+      "processing": "Feldolgozás alatt",
+      "rejected": "Elutasított",
+      "completed": "Befejezett"
+    },
+    "tenantProfileType": {
+      "privateIndividual": "Magánszemély",
+      "company": "Cég"
+    },
+    "tenantType": {
+      "newTenant": "Új bérlő",
+      "activeTenant": "Aktív bérlő",
+      "expiredTenant": "Lejárt bérlő"
+    },
+    "paymentStatus": {
+      "all": "Összes",
+      "pending": "Függőben lévő",
+      "paid": "Fizetett",
+      "unpaid": "Nem fizetett",
+      "rejected": "Elutasított",
+      "refund": "Visszatérítés"
+    },
+    "paymentOptions": {
+      "onlinePayment": "Online fizetés",
+      "offlinePayment": "Offline fizetés"
+    },
+    "paymentType": {
+      "securityDeposit": "Kaució",
+      "rentPayment": "Bérleti díj fizetés",
+      "subscription": "Előfizetés"
+    },
+    "gender": {
+      "male": "Férfi",
+      "female": "Nő",
+      "other": "Egyéb"
+    },
+    "ecRelation": {
+      "wife": "Feleség",
+      "parent": "Szülő",
+      "friend": "Barát",
+      "brother": "Testvér (férfi)",
+      "sister": "Testvér (nő)",
+      "child": "Gyermek"
+    },
+    "vehicleType": {
+      "car": "Autó",
+      "motorcycles": "Motorkerékpár",
+      "lorry": "Teherautó"
+    },
+    "sortBy": {
+      "lowToHigh": "Alacsonytól magasig",
+      "highToLow": "Magastól alacsonyig"
+    },
+    "residentialType": {
+      "flat": "Lakás",
+      "apartment": "Apartman",
+      "condominium": "Társasház",
+      "serviceResidence": "Szolgáltatott lakás",
+      "studio": "Stúdió",
+      "duplex": "Duplex",
+      "townhouseCondo": "Sorház",
+      "others": "Egyéb"
+    },
+    "floorRange": {
+      "high": "Magas",
+      "medium": "Közepes",
+      "low": "Alacsony"
+    },
+    "furnishings": {
+      "fullyFurnished": "Teljesen bútorozott",
+      "partiallyFurnished": "Részben bútorozott",
+      "notFurnished": "Nem bútorozott"
+    },
+    "commercialPropertyType": {
+      "officeSpace": "Iroda",
+      "retailSpace": "Kiskereskedelmi tér",
+      "shopLot": "Üzlethelyiség",
+      "warehouseFactory": "Raktár/Gyár",
+      "hotelResort": "Hotel/Üdülőhely",
+      "sofo": "Sofo",
+      "soho": "Soho",
+      "sovo": "Sovo",
+      "others": "Egyéb"
+    },
+    "landPropertyType": {
+      "residential": "Lakóövezet",
+      "industrial": "Ipari",
+      "agricultural": "Mezőgazdasági",
+      "commercial": "Kereskedelmi",
+      "mixedDevelopment": "Vegyes fejlesztés",
+      "others": "Egyéb"
+    },
+    "residentPropertyType": {
+      "condo": "Társasház/Szolgáltatott lakás/Penthouse",
+      "apartment": "Lakás/Földszintes ház",
+      "house": "Házak",
+      "shoplot": "Üzlethelyiség",
+      "sharing": "Ház/lakás megosztása",
+      "others": "Egyéb"
+    },
+    "minimumRentalPeriod": {
+      "sixMonths": "6 hónap",
+      "oneYear": "1 év",
+      "oneAndHalfYears": "1,5 év",
+      "twoYears": "2 év",
+      "twoAndHalfYears": "2,5 év"
+    },
+    "dropdownDateFilter": {
+      "daily": "Napi",
+      "weekly": "Heti",
+      "monthly": "Havi",
+      "yearly": "Éves",
+      "custom": "Egyéni"
+    }
+  }
+}

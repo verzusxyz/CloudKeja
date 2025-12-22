@@ -1,0 +1,950 @@
+{
+  "@@meta": {
+    "languageCode": "fr_FR",
+    "languageName": "French",
+    "version": "1.0.0"
+  },
+  "common": {
+    "profile": "Profiili",
+    "language": "Kieli",
+    "subscriptionPlan": "Tilaussuunnitelma",
+    "contactUs": "Ota yhteyttä",
+    "termsAndConditions": "Käyttöehdot",
+    "aboutUs": "Meistä",
+    "logout": "Kirjaudu ulos",
+    "editProfile": "Muokkaa profiilia",
+    "fullName": "Koko nimi",
+    "email": "Sähköposti",
+    "mobileNumber": "Matkapuhelinnumero",
+    "address": "Osoite",
+    "postalCode": "Postinumero",
+    "city": "Kaupunki",
+    "country": "Maa",
+    "state": "Osavaltio",
+    "password": "Salasana",
+    "forgotPassword": "Unohtuiko salasana",
+    "tenant": "Vuokralainen",
+    "landlord": "Vuokranantaja",
+    "cancelRenting": "Peruuta vuokraus",
+    "startDate": "Aloituspäivä",
+    "endDate": "Päättymispäivä",
+    "fromDate": "Mistä päivästä",
+    "toDate": "Mihin päivään",
+    "online": "Online",
+    "bankList": "Pankkilista",
+    "withdrawMethod": "Nostotapa",
+    "uploadPaymentReceipt": "Lataa maksukuitti",
+    "offlinePaymentNote(rich)": "Huomautus: ${note(Maksu vaatii manuaalisen hyväksynnän järjestelmänvalvojalta)} ${duraion(24–48 tunnin sisällä.)}",
+    "reviews": "Arvostelut",
+    "description": "Kuvaus",
+    "about": "Tietoja",
+    "propertyTypes": "Kiinteistötyypit",
+    "features": "Ominaisuudet",
+    "floorPlans": "Pohjapiirrokset",
+    "buildingDetails": "Rakennuksen tiedot",
+    "buildingName": "Rakennuksen nimi",
+    "propertyAddress": "Kiinteistön osoite",
+    "completionYear": "Valmistumisvuosi",
+    "lotNumber": "Tonttinumero",
+    "residentialType": "Asumistyyppi",
+    "furnishings": "Kalusteet",
+    "floorRange": "Kerrosalue",
+    "bedrooms": "Makuuhuoneet",
+    "bathrooms": "Kylpyhuoneet",
+    "propertySize": "Kiinteistön koko",
+    "rentalPeriod": "Vuokra-aika",
+    "securityDeposit": "Vakuusmaksu",
+    "utilityBill": "Sähkölasku",
+    "facilities": "Palvelut",
+    "amenities": "Mukavuudet",
+    "expiringReason": "Vanhenemisen syy",
+    "tenantDetails": "Vuokralaisen tiedot",
+    "typeOfTenant": "Vuokralaisen tyyppi",
+    "tenantName": "Vuokralaisen nimi",
+    "nidPassport": "NID/Passeport",
+    "nidPassportId": "@:common.nidPassport ID",
+    "tenantId": "Vuokralaisen tunnus",
+    "dateOfBirth": "Syntymäaika",
+    "gender": "Sukupuoli",
+    "nominee": "Ehdokas",
+    "name": "Nimi",
+    "optional": "Valinnainen",
+    "nomineeName": "@:common.nominee @:common.name",
+    "nomineeEmail": "@:common.nominee @:common.email",
+    "nomineeMobile": {
+      "short": "@:common.nominee Puh. No.",
+      "full": "@:common.nominee @:common.mobileNumber"
+    },
+    "emergencyContact": "Hätäyhteyshenkilö",
+    "relation": "Suhde",
+    "relationWith": "@:common.relation With",
+    "relationWithYou": "@:common.relationWith Sinulle",
+    "company": "Yritys",
+    "companyName": "@:common.company @:common.name",
+    "companySSMNo": "@:common.company SSM No.",
+    "workplace": "Työpaikka",
+    "officePhoneNo": "Työpuhelinnumero",
+    "officeMobileNo": "Työ @:common.mobileNumber",
+    "vehicle": "Ajoneuvo",
+    "vehiclesInfo": {
+      "plain": "Ajoneuvotiedot",
+      "optional": "Ajoneuvotiedot (@:common.optional)"
+    },
+    "vehiclesType": "@:common.vehicle Type",
+    "vehicleRegistrationNo": {
+      "normal": "Ajoneuvon rekisterinumero",
+      "short": "Rekisterinumero",
+      "alt": "Rekisterikilpi"
+    },
+    "vehicleBrand": "@:common.vehicle Merkki",
+    "rentProperty": "Vuokraa kiinteistö",
+    "propertyDetails": "Kiinteistön tiedot",
+    "propertyId": "Kiinteistön ID",
+    "propertyType": "Kiinteistötyyppi",
+    "propertyName": "Kiinteistön nimi",
+    "paymentDetails": "Maksutiedot",
+    "monthlyRent": "Kuukausivuokra",
+    "thisMonthPayment": "Tämän kuun maksu",
+    "totalPaidRent": "Maksettu vuokra yhteensä",
+    "dueRent": "Erääntyvä vuokra",
+    "rentStartDate": "Vuokra @:common.startDate",
+    "rentEndDate": "Vuokra @:common.endDate",
+    "status": "Tila",
+    "rentAgreementPdf": "Vuokrasopimus PDF",
+    "noFile": "Ei tiedostoa",
+    "tenantImageOp": "Vuokralaisen kuva @:common.optional",
+    "addNewVechicle": "Lisää uusi ajoneuvo",
+    "uploadNidPassport": "Télécharger NID/Passeport",
+    "nidPassportUploadNote": "Seules les images de type fichier seront acceptées. Limite de taille de fichier jusqu'à 2,5 Mo.",
+    "search": "Haku",
+    "sortBy": "Lajittele",
+    "subscription": "Tilaus",
+    "downloading": "Ladataan...",
+    "downloadSuccess": "Tiedosto ladattu onnistuneesti!",
+    "addPropertyBannerTitle": "Haluatko vuokrata kiinteistösi?",
+    "application": "Hakemus",
+    "tenantHasPaidDeposit": "Vuokralainen on maksanut talletuksen.",
+    "askProcessingRentApplication": "Oletko varma, että käsittelet tämän vuokrakiinteistön pyynnön?",
+    "dateAndTime": "Päivämäärä ja aika",
+    "applicationDetails": "Hakemuksen tiedot",
+    "depositStatus": "Talletuksen tila",
+    "uploadRentAgreement": "Lataa vuokrasopimus",
+    "uploadFilePDF": "Lataa tiedosto (PDF)",
+    "askSelectRentAgreement": "Valitse sopimusasiakirjatiedosto.",
+    "landlordRentAgreementPDF": "Vuokranantajan vuokrasopimus PDF",
+    "tenantRentAgreementPDF": "Vuokralaisen vuokrasopimus PDF",
+    "landlordApplicationApproveNote(rich)": "Huomautus: ${note(Hyväksy hakemus vasta sen jälkeen, kun vuokralainen on suorittanut talletusmaksun.)}",
+    "reasonOfRejection": "Hylkäämisen syy",
+    "youveRejectedThisApplication": "Olet hylännyt tämän hakemuksen",
+    "landlordDetails": "Vuokranantajan tiedot",
+    "landlordName": "Vuokranantajan nimi",
+    "downloadRentAgreement": "Lataa vuokrasopimus",
+    "acceptTermsConditions(rich)": "Hyväksy ${toc(käyttöehdot)}",
+    "tenantAgreementSignNote1(rich)": "Huomautus: ${note(Lataa ja lue sopimus. Lähetä allekirjoitettu sopimus vuokranantajalle WhatsAppin tai sähköpostin välityksellä.)}",
+    "tenantAgreementSignNote2(rich)": "Huomautus: ${note(Vuokranantaja hyväksyy hakemuksen, kun vuokralainen maksaa vakuuden, sähkölaskun ja yhden kuukauden vuokran etukäteen.)}",
+    "completeRentAgreementPdf(rich)": "Vuokrasopimus (PDF) ${complete(Täytä sopimus)}",
+    "tenantApplicationDepositNote(rich)": "Huomautus : ${note(Vuokranantaja hyväksyy hakemuksen, kun vuokralainen maksaa vakuuden, sähkölaskun ja yhden kuukauden vuokran etukäteen.)}",
+    "whatsapp": "Whatsapp",
+    "applicationList": "Hakemusluettelo",
+    "viewDetails": "Näytä tiedot",
+    "searchHint": "@:common.search...",
+    "home": "Koti",
+    "dashboard": "Hallintapaneeli",
+    "tenants": "Vuokralaiset",
+    "maintenance": "Huolto",
+    "maintenanceList": "Huoltoluettelo",
+    "maintenanceReport": "Huoltoraportti",
+    "labor": "Työvoima",
+    "applications": "Hakemukset",
+    "rentInvitation": "Vuokrakutsu",
+    "payment": "Maksu",
+    "rentPayment": "Vuokranmaksu",
+    "depositUtilityPayment": "Talletus- ja sähkölaskun maksu",
+    "refundRequest": "Palautuspyyntö",
+    "withdrawRequest": "Nostopyyntö",
+    "myProperty": "Oma kiinteistöni",
+    "myRent": "Oma vuokrani",
+    "wishlist": "Toivelista",
+    "properties": "Kiinteistöt",
+    "allProperties": "Kaikki kiinteistöt",
+    "totalPropery": "Kiinteistöjä yhteensä",
+    "occupied": "Varattu",
+    "vacant": "Vapaa",
+    "accounting": "Kirjanpito",
+    "totalIncome": "Tulot yhteensä",
+    "totalExpense": "Menot yhteensä",
+    "currentBalance": "Nykyinen saldo",
+    "totalWithdrawal": "Nostot yhteensä",
+    "totalProperties": "Kiinteistöjä yhteensä",
+    "totalTenant": "Vuokralaisia yhteensä",
+    "totalRentPaid": "Maksettu vuokra yhteensä",
+    "totalRentDue": "Erääntyvä vuokra yhteensä",
+    "totalApplication": "Hakemuksia yhteensä",
+    "pendingApplication": "Odottaa hakemusta",
+    "processingApplication": "Käsittelyssä oleva hakemus",
+    "approveApplication": "Hyväksy hakemus",
+    "rejectApplication": "Hylkää hakemus",
+    "maintenanceCost": "Huoltokustannukset",
+    "transactionSummary": "Tapahtumien yhteenveto",
+    "maintenanceRequest": "Huoltopyyntö",
+    "notifications": "Ilmoitukset",
+    "myProperties": "Omat kiinteistöni",
+    "recommendationProperties": "Suositellut kiinteistöt",
+    "laborList": "Työvoimaluettelo",
+    "addLabor": "Lisää työvoimaa",
+    "laborDetails": "Työvoiman tiedot",
+    "laborSalary": "Työvoiman palkka",
+    "editLabor": "Muokkaa työvoimaa",
+    "addNewLabor": "Lisää uusi työvoima",
+    "enterAmount": "Syötä summa",
+    "maintenanceDetails": "Huoltotiedot",
+    "laborName": "Työvoiman nimi",
+    "comment": "Kommentti",
+    "image": "Kuva",
+    "complete": "Valmis",
+    "details": "Tiedot",
+    "title": "Otsikko",
+    "date": "Päivämäärä",
+    "reason": "Syy",
+    "edit": "Muokkaa",
+    "property": "Kiinteistö",
+    "completeYourProfile": "Täytä profiilisi",
+    "profileImage": "Profiilikuva",
+    "imagePickHint": "Vain JPEG- ja PNG-kuvat, joiden enimmäiskoko on 120x120 pikseliä.",
+    "invoiceId": "Laskun ID",
+    "depositAmount": "Talletussumma",
+    "landlordPhone": "Vuokranantajan puhelin",
+    "rentalAdvance": "Vuokra (ennakko)",
+    "totalAmount": "Summa yhteensä",
+    "rentalAmount": "Vuokrasumma",
+    "adminCharge": "Hallinnointimaksu",
+    "editAccount": "Muokkaa tiliä",
+    "addNewAccount": "Lisää uusi tili",
+    "transactionId": "Tapahtumien ID",
+    "transactionType": "Tapahtumatyyppi",
+    "requestDate": "Pyyntöpäivä",
+    "amount": "Summa",
+    "fee": "Maksu",
+    "paymentStatus": "Maksun tila",
+    "generatedTime": "Luontiaika",
+    "systemGeneratedReportHint(rich)": "Tämä on järjestelmän luoma raportti kohteesta ${appName}",
+    "withdrawHistory": "Nostohistoria",
+    "history": "Historia",
+    "withdrawAmount": "Nostosumma",
+    "availableBalance": "Käytettävissä oleva saldo",
+    "withdrawCharge": "Nostomaksu",
+    "paymentMethod": "Maksutapa",
+    "requestSendSuccess": "Pyyntö lähetetty onnistuneesti!",
+    "paymentReceiptSubmitSuccess": "Maksukuitti lähetetty onnistuneesti.",
+    "refundReason": "Palautuksen syy",
+    "note": "Huomautus",
+    "refundReceiveSuccess": "Palautus vastaanotettu onnistuneesti.",
+    "downloadPaymentReceipt": "Lataa maksukuitti",
+    "invoice": "Lasku",
+    "selectPropertyToSeeInvoice": "Valitse kiinteistö nähdäksesi laskunumeron...",
+    "bankAccName": "Pankkitilin nimi",
+    "bankName": "Pankin nimi",
+    "bankAccNum": "Pankkitilin numero",
+    "thankYou": "Kiitos!",
+    "basicInfo": "Perustiedot",
+    "descriptionPricing": "Kuvaus ja hinnoittelu",
+    "contact": "Yhteystiedot",
+    "photos": "Kuvat",
+    "successfullySubmitted": "Onnistuneesti lähetetty!",
+    "editProperty": "Muokkaa kiinteistöä",
+    "addNewProperty": "Lisää uusi kiinteistö",
+    "propertyManageRequestSuccess": "Mainoksesi on lähetetty tarkastettavaksi.",
+    "postAnotherProperty": "Lähetä toinen kiinteistö",
+    "browseYourProperty": "Selaa kiinteistöäsi",
+    "stepIndicator(rich)": "Vaihe ${step} / ${totalSteps}",
+    "whatWouldYouLikeToPost": "Mitä haluaisit lähettää?",
+    "category": "Kategoria",
+    "invalidCategory": "Virheellinen kategoria",
+    "unitNumber": "Yksikkönumero",
+    "sqft": "neliöjalkaa",
+    "propertySizeMustBeGreaterThan0": "Kiinteistön koon tulee olla suurempi kuin nolla",
+    "whatAreTheFacility": "Mitkä ovat palvelut?",
+    "whatAreTheAmenity": "Mitkä ovat mukavuudet?",
+    "parkingLot": "Pysäköintialue",
+    "houseType": "Majatyyppi",
+    "value": "Arvo",
+    "unitLotSize": "Yksikön / tontin koko",
+    "landSize": "Maan koko",
+    "acres": "hehtaari(a)",
+    "roomSize": "Huoneen koko",
+    "askTenantPreference": "Mikä on vuokralaispreferenceesi?",
+    "couple": "Pariskunta",
+    "describeTheProperty": "Kuvaile ${propertyType: String}",
+    "adTitle": "Mainoksen otsikko",
+    "minimumRentalPeriod": "Vähimmäisvuokra-aika",
+    "whatsappNumber": "@:common.whatsapp Numero",
+    "hideOrDisplayEmail": "Piilota tai näytä sähköpostiosoite",
+    "thankYouForPostingProperty": "Kiitos, että lähetit kohteen kohteeseen ${appName: String}!",
+    "propertyList": "Kiinteistöluettelo",
+    "newInviteRent": "Uusi vuokrakutsu",
+    "rentAgreement": "Vuokrasopimus",
+    "rentDetails": "Vuokratiedot",
+    "landlordRentInvitationPendingNote(rich)": "Huomautus: ${note(Odota, että vuokralainen hyväksyy kutsun.)}",
+    "rent": "Vuokra",
+    "editTenant": "Muokkaa vuokralaista",
+    "addNewTenant": "Lisää uusi vuokralainen",
+    "shareInstallLink": "Jaa asennuslinkki",
+    "tenantList": "Vuokralaisluettelo",
+    "editMaintenanceRequest": "Muokkaa huoltopyyntöä",
+    "addNewMaintenance": "Lisää uusi huolto",
+    "landlordId": "Vuokranantajan tunnus",
+    "tenantAgrementUnderReviewNote(rich)": "Huomautus ${note(Sopimuksesi on tarkastettavana. Odota, kunnes vuokranantaja hyväksyy vuokrasi.)}",
+    "editReview": "Muokkaa arvostelua",
+    "writeAReview": "Kirjoita arvostelu",
+    "selectRating": "Valitse luokitus",
+    "enterYourOpinion": "Kirjoita mielipiteesi",
+    "askToEnterReviewMsg": "Kirjoita arvosteluviesti",
+    "pressBackAgainToExit": "Paina uudelleen takaisin poistuaksesi.",
+    "selectPaymentMethod": "Valitse maksutapa",
+    "filter": "Suodata",
+    "perMonth": "/kk",
+    "searchHintWithAppName": "Etsi mitä tahansa kohteesta ${appName: String}..."
+  },
+  "exceptions": {
+    "somethingWentWrong": "Jokin meni pieleen, yritä uudelleen",
+    "noNidPassport": "Aucune image NID/Passeport fournie.",
+    "noRentPropertyFound": "Tälle vuokralaiselle ei löytynyt vuokrakiinteistöä.",
+    "noPropertyFoundWithKeyWord": "Kiinteistöä ei löytynyt!\nKokeile eri avainsanoilla",
+    "noSubscriptionFoundRefreshPage": "Tilaussuunnitelmaa ei löytynyt!\nPäivitä sivu ja yritä uudelleen.",
+    "invalidApiDataRefreshPage": "Virheelliset ${dataType: String} tiedot! Päivitä sivu ja yritä uudelleen.",
+    "invalidDownloadUrl": "Virheellinen latausosoite!",
+    "failedToSaveFile": "Tiedoston tallentaminen epäonnistui! ${error: String}",
+    "errorOpeningFile": "Virhe tiedoston avaamisessa! ${error: String}",
+    "noVehicleInfoProvided": "Ajoneuvotietoja ei ole toimitettu.",
+    "yourApplicationRejected": "Hakemuksesi on hylätty",
+    "noApplicationFoundHint": {
+      "template": "Hakemusta ei löytynyt!\n${subject: String} näytetään tässä, kun se on saatavilla.",
+      "subjects": {
+        "tenant": "Hakemuksesi",
+        "landlord": "Vuokralaisen hakemus"
+      }
+    },
+    "noPropertyFoundHint": {
+      "landlordHome": "Kiinteistöä ei löytynyt!\nLisää kiinteistö nähdäksesi sen tässä.",
+      "tenantRecommended": "Suositeltuja kiinteistöjä ei löytynyt\nYritä uudelleen myöhemmin.",
+      "tenantAllProperty": "Kiinteistöjä ei saatavilla\nYritä uudelleen myöhemmin."
+    },
+    "noImageProvided": "Kuvaa ei ole toimitettu",
+    "noStatusMaintenantFound": {
+      "landlord": "Ei ${status} huoltoa löytynyt.",
+      "tenant": "Huoltoa ei löytynyt! Voit luoda huoltopyynnön nähdäksesi sen tässä."
+    },
+    "noDepositFound": "Vakuusmaksua ei löytynyt!\nNäet vakuusmaksut, kun ne ovat saatavilla",
+    "noRentPaymentFound": "Vuokranmaksua ei löytynyt!\nNäet vuokranmaksut, kun ne ovat saatavilla",
+    "transactionSummaryApiException": "Tapahtumien yhteenvedon hakeminen epäonnistui.",
+    "noWithdrawRequestFound": "Pyyntöä ei löytynyt!\nLuo nostopyyntö nähdäksesi sen tässä.",
+    "withdrawRequestNotApproved": "Tätä nostopyyntöä ei ole hyväksytty!.",
+    "nonZeroError": "Anna kelvollinen summa, joka on suurempi kuin nolla.",
+    "minAmountError": "Summan on oltava vähintään ${minValue: String}.",
+    "maxAmountError": "Summa ei saa ylittää ${maxValue: String}.",
+    "selectPaymentMethodHint": "Valitse ensin maksutapa.",
+    "noStatusRefundReqFound": {
+      "landlord": "Ei ${status} palautuspyyntöä löytynyt!\nNäet palautuspyynnön tässä, kun se on saatavilla.",
+      "tenant": "Palautuspyyntöä ei löytynyt!\nVoit luoda palautuspyynnön nähdäksesi sen tässä."
+    },
+    "refundRequestHint": {
+      "inTenantList": "Vuokralainen hyväksyy palautuksen, kun hän saa rahat takaisin",
+      "tenantReqSuccess": "Käsittelemme palautuspyynnön ja hyväksymme sen 24 tunnin kuluessa."
+    },
+    "oneToTenRequiredField": "Valitse ${value: String} määrä",
+    "invalidDateRange": "Virheellinen aikaväli.",
+    "valueMustBeGreaterThanZero": "${value: String} on oltava suurempi kuin nolla.",
+    "editProperty": {
+      "rentalChange": "Vuokrakiinteistö on muuttumassa. Sen on oltava voimassa (tehokas) seuraavan kuukauden vuokranmaksua varten.",
+      "deleteOnRent": "Kiinteistösi on jo vuokrattu vuokralaiselle. Et voi poistaa sitä ennen kuin poistat vuokralaisen ensin",
+      "alreayRented": "Tämä kiinteistö on jo vuokrattu. Yritä uudelleen myöhemmin.\nTai voit ottaa yhteyttä vuokranantajaan saadaksesi lisätietoja."
+    },
+    "rentInvitation": {
+      "landlordNoRentInvitation": "Vuokrakutsua ei löytynyt!\nLuo vuokrakutsu nähdäksesi sen tässä.",
+      "tenantNoRentInvitation": "Vuokrakutsua ei löytynyt!\nNäet vuokrakutsun tässä, kun se on saatavilla."
+    },
+    "notenantFoundList": "Ei vuokralaisia!\nLisää vuokralainen nähdäksesi hänet tässä.",
+    "noFeaturesProvided": "Ominaisuuksia ei ole toimitettu.",
+    "noNotificationFound": "Ilmoituksia ei ole saatavilla.\nNäet ilmoituksesi tässä, kun niitä on saatavilla."
+  },
+  "prompt": {
+    "logout": {
+      "title": "@:common.logout",
+      "message": "Oletko varma, että haluat kirjautua ulos?"
+    },
+    "application": {
+      "rejectTitle": "Miksi hylkäät tämän hakemuksen?",
+      "applicationSent": {
+        "successfully": "Hakemus lähetetty onnistuneesti!",
+        "sucessDescription": "Näet tämän hakemuksen hakemusluettelossasi"
+      }
+    },
+    "labor": {
+      "delete": {
+        "title": "Poista työvoima?",
+        "description": "Oletko varma, että haluat poistaa tämän työntekijän?"
+      }
+    },
+    "maintenanceRequest": {
+      "rejectTitle": "Miksi tämä pyyntö hylätään?",
+      "processTitle": "Oletko varma, että käsittelet tämän huoltopyynnön?",
+      "completeTitle": "Työ suoritettu?"
+    },
+    "withdrawMethod": {
+      "deleteTitle": "Poista nostotapa?",
+      "deleteDescription": "Oletko varma, että haluat poistaa tämän nostotavan?"
+    },
+    "unsavedChanges": {
+      "title": "Oletko varma, että haluat palata takaisin?",
+      "message": "Muutettuja kenttiä ei tallenneta!"
+    },
+    "property": {
+      "delete": {
+        "title": "Poista kiinteistö?",
+        "message": "Oletko varma, että haluat poistaa tämän kiinteistön?"
+      }
+    },
+    "rentInvitation": {
+      "landlordApprove": {
+        "title": "Oletko varma, että haluat hyväksyä tämän vuokran?",
+        "description": "Varmista, että olet tarkistanut vuokralaisen allekirjoittaman sopimuksen."
+      },
+      "tenantAccept": {
+        "title": "Oletko varma, että haluat hyväksyä tämän kutsun?",
+        "description": "Varmista, että olet ladannut sopimus-pdf-tiedoston!"
+      }
+    },
+    "sessionExpired": {
+      "title": "Istunto on vanhentunut",
+      "message": "Istuntosi on vanhentunut. Kirjaudu sisään uudelleen.",
+      "action": "Kirjaudu sisään"
+    },
+    "noInternet": {
+      "title": "Ei इंटरनेट-yhteyttä",
+      "message": "Tarkista Wi-Fi-mobiiliverkkoyhteytesi ja yritä uudelleen.",
+      "action": "Yritä uudelleen"
+    },
+    "permissionHandler": {
+      "title": "Lupa vaaditaan!",
+      "message": "Sinun on myönnettävä käyttöoikeudet sovellusasetuksissa. Haluatko avata asetukset nyt?"
+    },
+    "imagePicker": {
+      "title": "Valitse vaihtoehto",
+      "gallery": "Galleria",
+      "camera": "Kamera"
+    },
+    "verificationDialog": {
+      "title": "Vahvista sähköpostisi",
+      "message": "Olemme lähettäneet vahvistuskoodin sähköpostiisi",
+      "messageWithEmail": "@:prompt.verificationDialog.message kohteeseen ${email: String?}"
+    },
+    "notification": {
+      "clearTitle": "Tyhjennä ilmoitukset?",
+      "clearMessage": "Oletko varma, että haluat tyhjentää kaikki ilmoitukset?"
+    }
+  },
+  "form": {
+    "fullName": {
+      "label": "@:common.fullName",
+      "hint": "Syötä @:common.fullName",
+      "errors": {
+        "required": "Anna @:common.fullName"
+      }
+    },
+    "email": {
+      "label": "@:common.email",
+      "hint": "Syötä @:common.email",
+      "errors": {
+        "required": "Anna @:common.email-osoitteesi",
+        "invalid": "⦸ Virheellinen sähköposti, yritä uudelleen"
+      }
+    },
+    "password": {
+      "label": "@:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Anna @:common.password",
+        "minLength": "Salasanan on oltava vähintään ${count} merkkiä!"
+      }
+    },
+    "confirmPassword": {
+      "label": "Vahvista @:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Anna @:common.password",
+        "notMatched": "Vahvistettu salasana ei täsmää!"
+      }
+    },
+    "mobileNumber": {
+      "label": "@:common.mobileNumber",
+      "hint": "(+60) 555-0123",
+      "errors": {
+        "required": "Anna @:common.mobileNumber"
+      }
+    },
+    "address1": {
+      "label": "@:common.address 1",
+      "hint": "Talon numero ja kadun nimi",
+      "errors": {
+        "required": "Anna @:form.address1.label"
+      }
+    },
+    "address2": {
+      "label": "@:common.address 2",
+      "hint": "Huoneisto, sviitti, yksikkö jne.",
+      "errors": {
+        "required": "Anna @:form.address2.label"
+      }
+    },
+    "postalCode": {
+      "label": "@:common.postalCode",
+      "hint": "Syötä @:common.postalCode",
+      "errors": {
+        "required": "Anna @:common.postalCode"
+      }
+    },
+    "city": {
+      "label": "@:common.city",
+      "hint": "Syötä @:common.city nimi.",
+      "errors": {
+        "required": "Anna @:common.city nimi."
+      }
+    },
+    "state": {
+      "label": "@:common.state",
+      "hint": "Syötä @:common.state nimi.",
+      "errors": {
+        "required": "Anna @:common.state nimi."
+      }
+    },
+    "country": {
+      "label": "@:common.country",
+      "hint": "Valitse @:common.country.",
+      "errors": {
+        "required": "Valitse @:common.country"
+      }
+    },
+    "otp": {
+      "errors": {
+        "required": "Anna otp.",
+        "invalid": "Anna oikea otp."
+      }
+    },
+    "title": {
+      "label": "Otsikko",
+      "hint": "Syötä otsikko",
+      "errors": {
+        "required": "Anna otsikko"
+      }
+    },
+    "date": {
+      "label": "${label: String}",
+      "hint": "Valitse @:form.date.label",
+      "errors": {
+        "required": "Valitse @:form.date.label"
+      }
+    },
+    "reason": {
+      "label": "Syy",
+      "hint": "Syötä syy",
+      "errors": {
+        "required": "Anna syy"
+      }
+    },
+    "withdrawMethod": {
+      "label": "@:common.withdrawMethod",
+      "hint": "Valitse @:common.withdrawMethod",
+      "errors": {
+        "required": "Valitse @:common.withdrawMethod"
+      }
+    },
+    "fileField": {
+      "label": "${label: String}",
+      "hint": "Lataa ${label: String}",
+      "errors": {
+        "required": "Valitse ${label: String}"
+      }
+    },
+    "note": {
+      "label": "${note: String}",
+      "hint": "Syötä @:form.note.label",
+      "errors": {
+        "required": "Syötä @:form.note.label"
+      }
+    },
+    "gender": {
+      "label": "@:common.gender",
+      "hint": "Valitse @:common.gender",
+      "errors": {
+        "required": "Valitse @:common.gender"
+      }
+    },
+    "anyField": {
+      "label": "${label: String}",
+      "hint": "Syötä @:form.anyField.label",
+      "errors": {
+        "required": "Syötä @:form.anyField.label",
+        "invalid": "Anna kelvollinen @form.anyField.label"
+      }
+    },
+    "anyDropdown": {
+      "label": "${label: String}",
+      "hint": "Valitse @:form.anyDropdown.label",
+      "errors": {
+        "required": "Valitse @:form.anyDropdown.label",
+        "invalid": "Valitse kelvollinen @form.anyDropdown.label"
+      }
+    }
+  },
+  "action": {
+    "next": "Seuraava",
+    "getStarted": "Aloita",
+    "skip": "Ohita",
+    "select": "Valitse",
+    "save": "Tallenna",
+    "signIn": "Kirjaudu sisään",
+    "signUp": "Rekisteröidy",
+    "continue": "Jatka",
+    "clearAll": "Tyhjennä kaikki",
+    "cancelRenting": "@:common.cancelRenting",
+    "send": "Lähetä",
+    "pay": "Maksa",
+    "remove": "Poista",
+    "goBack": "Mene takaisin",
+    "buyNow": "Osta nyt",
+    "no": "Ei",
+    "open": "Avaa",
+    "addProperty": "Lisää kiinteistö",
+    "process": "Käsittele",
+    "approve": "Hyväksy",
+    "reject": "Hylkää",
+    "viewRent": "Näytä vuokra",
+    "openNavigationMenu": "Avaa navigointivalikko",
+    "seeAll": "Näytä kaikki",
+    "update": "Päivitä",
+    "printTransaction": "Tulosta tapahtuma",
+    "payoutRequest": "Maksupyyntö",
+    "addNew": "+ Lisää uusi",
+    "sendRequest": "Lähetä pyyntö",
+    "print": "Tulosta",
+    "requestForRefund": "Pyydä palautusta",
+    "previous": "Edellinen",
+    "delete": "Poista",
+    "applyProperty": "Hae kiinteistöä",
+    "viewApplication": "Näytä hakemus",
+    "inviteTenant": "Kutsu vuokralainen",
+    "inviteRent": "Kutsu vuokraan",
+    "cancel": "Peruuta",
+    "accept": "Hyväksy",
+    "submit": "Lähetä",
+    "yes": "Kyllä",
+    "okay": "OK",
+    "confirm": "Vahvista",
+    "apply": "Hae",
+    "reset": "Nollaa",
+    "retry": "Yritä uudelleen",
+    "viewAll": "Näytä kaikki"
+  },
+  "pages": {
+    "language": {
+      "appbarTitle": "@:action.select @:common.language"
+    },
+    "onboard": {
+      "onboardData": {
+        "data1": {
+          "title": "Löydä kiinteistösi",
+          "description": "Olemme tehneet siitä helppoa löytää paikka, joka sopii elämääsi – olipa se huone, asunto tai talo."
+        },
+        "data2": {
+          "title": "Asunto kaupungissa",
+          "description": "Säästämme aikaasi yhdistämällä sinut nopeasti täydelliseen kiinteistöön ennen kuin se menee, jotta voit nauttia uudesta kodistasi tai listata omasi ilmaiseksi."
+        },
+        "data3": {
+          "title": "Mukava talosi",
+          "description": "Jos etsit asuinpaikkaa, tutustu vuokrattaviin taloihimme. Meillä on laaja valikoima taloja, joista voit valita ympäri maata."
+        }
+      }
+    },
+    "signIn": {
+      "title": "Tervetuloa takaisin",
+      "subtitle": "Kirjaudu sisään nyt aloittaaksesi upean matkan.",
+      "extra": {
+        "rememberMe": "Muista minut",
+        "signUpNavigator(rich)": "Eikö sinulla ole tiliä? ${getStarted(@:action.getStarted)}",
+        "forgotPassword": "@:common.forgotPassword?"
+      }
+    },
+    "forgotPassword": {
+      "title": "Unohtuiko salasana",
+      "subtitle": "Syötä sähköpostiosoitteesi salasanan palauttamista varten."
+    },
+    "otpVerification": {
+      "title": "Vahvistus",
+      "subtitle": "4-numeroinen koodi on lähetetty sähköpostiosoitteeseesi. ${email: String}",
+      "extra": {
+        "codeResend": {
+          "codeSendIn": "Koodi lähetetään ${minutes}:${seconds} kuluttua",
+          "resendCode(rich)": " ${resendCode(Lähetä koodi uudelleen)} "
+        }
+      }
+    },
+    "resetPassword": {
+      "title": "Nollaa salasana",
+      "subtitle": "Nollaa salasanasi palauttaaksesi sen ja kirjaudu tilillesi",
+      "extra": {
+        "dialog": {
+          "title": "Muutettu onnistuneesti!",
+          "subtitle": "Kirjaudu sisään uudella salasanallasi.\nSinut ohjataan kirjautumiseen..."
+        }
+      }
+    },
+    "signUp": {
+      "title": "Luo tili",
+      "subtitle": "Rekisteröidy nyt aloittaaksesi upean matkan",
+      "extra": {
+        "signInNavigator(rich)": "Onko sinulla tili? ${signIn(@:action.signIn)}"
+      }
+    },
+    "welcome": {
+      "title": "Kuka olet?",
+      "subtitle": "Valitse alla olevista vaihtoehdoista.",
+      "extra": {
+        "landlordTag": "Hallitse omia kiinteistöjäsi",
+        "tenantTag": "Kirjaudu vuokratilillesi"
+      }
+    },
+    "aboutUs": {
+      "appbarTitle": "@:common.aboutUs"
+    },
+    "termsAndConditions": {
+      "appbarTitle": "@:common.termsAndConditions"
+    },
+    "notificationList": {
+      "appbarTitle": "Ilmoitukset"
+    },
+    "contactUs": {
+      "appbarTitle": "@:common.contactUs",
+      "extra": {
+        "messageHint": "Viesti..."
+      }
+    },
+    "cancelRenting": {
+      "appbarTitle": "@:common.cancelRenting",
+      "title": "Miksi @:common.cancelRenting?",
+      "form": {
+        "reason": {
+          "hint": "Kirjoita syy",
+          "errors": {
+            "required": "Anna syy vuokran peruutukselle"
+          }
+        }
+      }
+    },
+    "invoiceDetails": {
+      "appbarTitle": "@:common.viewDetails"
+    },
+    "offlinePayment": {
+      "appbarTitle": "Offline-maksu",
+      "form": {
+        "paymentNote": {
+          "label": "Maksun huomautus (@:common.optional)",
+          "hint": "Kirjoita tekstiä..."
+        }
+      },
+      "extra": {
+        "payAmount(rich)": "Maksettava summa: ${amount}",
+        "accountHolderName": "Tilinhaltijan nimi",
+        "accountNumber": "Tilinumero",
+        "swiftCode": "Swift-koodi",
+        "branch": "Konttori",
+        "fileTypeHint(rich)": "Valitse vain ${fileType(JPG, PNG,PDF)} tai ${fileType(DOC)}-muotoiset tiedostot. Tiedoston koko ${fileSize(2000 KB)}"
+      }
+    },
+    "paymentStatus": {
+      "success": {
+        "actionButton": "Näytä lasku",
+        "title": "@:common.thankYou",
+        "description": "Käsittelemme maksun ja hyväksymme sen 24 tunnin kuluessa."
+      },
+      "fail": {
+        "actionButton": "Yritä uudelleen",
+        "title": "Oho! Maksu epäonnistui",
+        "description": "Tapahtumasi epäonnistui jonkin teknisen virheen vuoksi."
+      }
+    },
+    "propertyDetails": {
+      "extra": {
+        "landlord(rich)": "@:common.landlord: ${landlordName}",
+        "ratingReviews(rich)": "${rating} ${reviews(@:common.reviews)}",
+        "features(rich)": "Ominaisuudet ${fa((Palvelut ja mukavuudet))}",
+        "selectRentalPeriod": "Valitse vuokra-aika",
+        "writeAReview": "+ Kirjoita arvostelu"
+      }
+    },
+    "search": {
+      "appbarTitle": "Haku",
+      "extra": {
+        "hint": "Etsi tontteja, asuntoja, huoneita...",
+        "noRecentSearch": "Sinulla ei ole viimeaikaisia hakuja."
+      }
+    },
+    "subscriptionPlan": {
+      "appbarTitle": "Valitse suunnitelmasi",
+      "extra": {
+        "subscriptionPaymentSuccess": "Tilausmaksu onnistui.\nVoit käyttää tilattuja ominaisuuksia nyt."
+      }
+    },
+    "landlordMaintenanceReport": {
+      "totalMaintenanceCost(rich)": "Huoltokustannukset yhteensä: ${amount: string}",
+      "maintenancePending": "@:common.maintenance @:enums.maintenanceStatus.pending",
+      "maintenanceProcessing": "@:common.maintenance @:enums.maintenanceStatus.processing",
+      "maintenanceCompleted": "@:common.maintenance @:enums.maintenanceStatus.completed",
+      "maintenanceRejected": "@:common.maintenance @:enums.maintenanceStatus.rejected"
+    }
+  },
+  "enums": {
+    "propertyStatus": {
+      "allProperty": "Kaikki kiinteistöt",
+      "pending": "Odottaa",
+      "active": "Aktiivinen",
+      "inactive": "Passiivinen",
+      "rejected": "Hylätty"
+    },
+    "propertyType": {
+      "apartmentCondominium": "Asunto/Kerrostalo",
+      "house": "Talo",
+      "commercialProperty": "Liiketila",
+      "land": "Maa",
+      "room": "Huone"
+    },
+    "applicationStatus": {
+      "all": "Kaikki",
+      "pending": "Odottaa",
+      "processing": "Käsittelyssä",
+      "approved": "Hyväksytty",
+      "rejected": "Hylätty"
+    },
+    "myRentStatus": {
+      "pending": "Odottaa",
+      "processing": "Käsittelyssä",
+      "active": "Aktiivinen",
+      "expired": "Vanhentunut",
+      "cancelled": "Peruutettu"
+    },
+    "maintenanceStatus": {
+      "pending": "Odottaa",
+      "processing": "Käsittelyssä",
+      "rejected": "Hylätty",
+      "completed": "Valmis"
+    },
+    "tenantProfileType": {
+      "privateIndividual": "Yksityinen (henkilö)",
+      "company": "Yritys"
+    },
+    "tenantType": {
+      "newTenant": "Uusi vuokralainen",
+      "activeTenant": "Aktiivinen vuokralainen",
+      "expiredTenant": "Vanhentunut vuokralainen"
+    },
+    "paymentStatus": {
+      "all": "Kaikki",
+      "pending": "Odottaa",
+      "paid": "Maksettu",
+      "unpaid": "Maksamatta",
+      "rejected": "Hylätty",
+      "refund": "Palautus"
+    },
+    "paymentOptions": {
+      "onlinePayment": "Verkkomaksu",
+      "offlinePayment": "Offline-maksu"
+    },
+    "paymentType": {
+      "securityDeposit": "Vakuusmaksu",
+      "rentPayment": "Vuokranmaksu",
+      "subscription": "Tilaus"
+    },
+    "gender": {
+      "male": "Mies",
+      "female": "Nainen",
+      "other": "Muu"
+    },
+    "ecRelation": {
+      "wife": "Vaimo",
+      "parent": "Vanhempi",
+      "friend": "Ystävä",
+      "brother": "Veli",
+      "sister": "Sisar",
+      "child": "Lapsi"
+    },
+    "vehicleType": {
+      "car": "Auto",
+      "motorcycles": "Moottoripyörät",
+      "lorry": "Kuorma-auto"
+    },
+    "sortBy": {
+      "lowToHigh": "Matalasta korkeaan",
+      "highToLow": "Korkeasta matalaan"
+    },
+    "residentialType": {
+      "flat": "Kerrostaloasunto",
+      "apartment": "Asunto",
+      "condominium": "Kerrostalo",
+      "serviceResidence": "Palveluasunto",
+      "studio": "Studio",
+      "duplex": "Paritalo",
+      "townhouseCondo": "Rivitaloasunto",
+      "others": "Muut"
+    },
+    "floorRange": {
+      "high": "Korkea",
+      "medium": "Keski",
+      "low": "Matala"
+    },
+    "furnishings": {
+      "fullyFurnished": "Täysin kalustettu",
+      "partiallyFurnished": "Osittain kalustettu",
+      "notFurnished": "Ei kalustettu"
+    },
+    "commercialPropertyType": {
+      "officeSpace": "Toimistotila",
+      "retailSpace": "Vähittäismyyntitila",
+      "shopLot": "Liiketila",
+      "warehouseFactory": "Varasto / Tehdas",
+      "hotelResort": "Hotelli / Lomakeskus",
+      "sofo": "Sofo",
+      "soho": "Soho",
+      "sovo": "Sovo",
+      "others": "Muut"
+    },
+    "landPropertyType": {
+      "residential": "Asuin",
+      "industrial": "Teollisuus",
+      "agricultural": "Maatalous",
+      "commercial": "Kaupallinen",
+      "mixedDevelopment": "Sekakäyttöinen",
+      "others": "Muut"
+    },
+    "residentPropertyType": {
+      "condo": "Kerrostalo / Palveluasunto / Kattohuoneisto",
+      "apartment": "Asunto / Huoneisto",
+      "house": "Talot",
+      "shoplot": "Liiketila",
+      "sharing": "Asunnon / huoneiston jakaminen",
+      "others": "Muut"
+    },
+    "minimumRentalPeriod": {
+      "sixMonths": "6 kuukautta",
+      "oneYear": "1 vuosi",
+      "oneAndHalfYears": "1,5 vuotta",
+      "twoYears": "2 vuotta",
+      "twoAndHalfYears": "2,5 vuotta"
+    },
+    "dropdownDateFilter": {
+      "daily": "Päivittäin",
+      "weekly": "Viikoittain",
+      "monthly": "Kuukausittain",
+      "yearly": "Vuosittain",
+      "custom": "Mukautettu"
+    }
+  }
+}

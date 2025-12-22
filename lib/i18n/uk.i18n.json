@@ -1,0 +1,950 @@
+{
+  "@@meta": {
+    "languageCode": "uk_UK",
+    "languageName": "Ukrainian",
+    "version": "1.0.0"
+  },
+  "common": {
+    "profile": "Профіль",
+    "language": "Мова",
+    "subscriptionPlan": "План підписки",
+    "contactUs": "Зв'яжіться з нами",
+    "termsAndConditions": "Умови використання",
+    "aboutUs": "Про нас",
+    "logout": "Вийти",
+    "editProfile": "Редагувати профіль",
+    "fullName": "Повне ім'я",
+    "email": "Електронна пошта",
+    "mobileNumber": "Номер мобільного телефону",
+    "address": "Адреса",
+    "postalCode": "Поштовий індекс",
+    "city": "Місто",
+    "country": "Країна",
+    "state": "Область",
+    "password": "Пароль",
+    "forgotPassword": "Забули пароль?",
+    "tenant": "Орендар",
+    "landlord": "Орендодавець",
+    "cancelRenting": "Скасувати оренду",
+    "startDate": "Дата початку",
+    "endDate": "Дата закінчення",
+    "fromDate": "Від дати",
+    "toDate": "До дати",
+    "online": "Онлайн",
+    "bankList": "Список банків",
+    "withdrawMethod": "Спосіб виведення",
+    "uploadPaymentReceipt": "Завантажити квитанцію про оплату",
+    "offlinePaymentNote(rich)": "Примітка: ${note(Оплата потребує ручного схвалення адміністратором протягом)} ${duraion(24~48 годин.)}",
+    "reviews": "Відгуки",
+    "description": "Опис",
+    "about": "Про",
+    "propertyTypes": "Типи нерухомості",
+    "features": "Характеристики",
+    "floorPlans": "Плани поверхів",
+    "buildingDetails": "Деталі будівлі",
+    "buildingName": "Назва будівлі",
+    "propertyAddress": "Адреса нерухомості",
+    "completionYear": "Рік завершення будівництва",
+    "lotNumber": "Номер ділянки",
+    "residentialType": "Тип житла",
+    "furnishings": "Меблі",
+    "floorRange": "Діапазон поверхів",
+    "bedrooms": "Спальні",
+    "bathrooms": "Ванні кімнати",
+    "propertySize": "Розмір нерухомості",
+    "rentalPeriod": "Період оренди",
+    "securityDeposit": "Застава",
+    "utilityBill": "Комунальний рахунок",
+    "facilities": "Зручності",
+    "amenities": "Зручності",
+    "expiringReason": "Причина закінчення терміну дії",
+    "tenantDetails": "Деталі орендаря",
+    "typeOfTenant": "Тип орендаря",
+    "tenantName": "Ім'я орендаря",
+    "nidPassport": "NID/Паспорт",
+    "nidPassportId": "@:common.nidPassport ID",
+    "tenantId": "ID орендаря",
+    "dateOfBirth": "Дата народження",
+    "gender": "Стать",
+    "nominee": "Номінант",
+    "name": "Ім'я",
+    "optional": "Необов'язково",
+    "nomineeName": "@:common.nominee @:common.name",
+    "nomineeEmail": "@:common.nominee @:common.email",
+    "nomineeMobile": {
+      "short": "@:common.nominee Mo. No.",
+      "full": "@:common.nominee @:common.mobileNumber"
+    },
+    "emergencyContact": "Контактна особа у разі надзвичайних ситуацій",
+    "relation": "Відношення",
+    "relationWith": "@:common.relation With",
+    "relationWithYou": "@:common.relationWith You",
+    "company": "Компанія",
+    "companyName": "@:common.company @:common.name",
+    "companySSMNo": "@:common.company SSM No.",
+    "workplace": "Місце роботи",
+    "officePhoneNo": "Номер телефону офісу",
+    "officeMobileNo": "Офіс @:common.mobileNumber",
+    "vehicle": "Транспортний засіб",
+    "vehiclesInfo": {
+      "plain": "Інформація про транспортні засоби",
+      "optional": "Інформація про транспортні засоби (@:common.optional)"
+    },
+    "vehiclesType": "@:common.vehicle Type",
+    "vehicleRegistrationNo": {
+      "normal": "Номер реєстрації транспортного засобу",
+      "short": "Номер реєстрації",
+      "alt": "Номерний знак"
+    },
+    "vehicleBrand": "@:common.vehicle Brand",
+    "rentProperty": "Орендувати нерухомість",
+    "propertyDetails": "Деталі нерухомості",
+    "propertyId": "ID нерухомості",
+    "propertyType": "Тип нерухомості",
+    "propertyName": "Назва нерухомості",
+    "paymentDetails": "Деталі оплати",
+    "monthlyRent": "Місячна орендна плата",
+    "thisMonthPayment": "Оплата за цей місяць",
+    "totalPaidRent": "Загальна сума сплаченої орендної плати",
+    "dueRent": "Заборгованість по оренді",
+    "rentStartDate": "Оренда @:common.startDate",
+    "rentEndDate": "Оренда @:common.endDate",
+    "status": "Статус",
+    "rentAgreementPdf": "PDF-файл договору оренди",
+    "noFile": "Немає файлу",
+    "tenantImageOp": "Зображення орендаря @:common.optional",
+    "addNewVechicle": "Додати новий транспортний засіб",
+    "uploadNidPassport": "Завантажити NID/Паспорт",
+    "nidPassportUploadNote": "Прийматимуться лише зображення типу файлу. Обмеження розміру файлу до 2,5 МБ.",
+    "search": "Пошук",
+    "sortBy": "Сортувати за",
+    "subscription": "Підписка",
+    "downloading": "Завантаження...",
+    "downloadSuccess": "Файл успішно завантажено!",
+    "addPropertyBannerTitle": "Хочете здати свою нерухомість?",
+    "application": "Заявка",
+    "tenantHasPaidDeposit": "Орендар сплатив заставу.",
+    "askProcessingRentApplication": "Ви впевнені, що хочете обробити цей запит на оренду нерухомості?",
+    "dateAndTime": "Дата й час",
+    "applicationDetails": "Деталі заявки",
+    "depositStatus": "Статус застави",
+    "uploadRentAgreement": "Завантажити договір оренди",
+    "uploadFilePDF": "Завантажити файл (PDF)",
+    "askSelectRentAgreement": "Будь ласка, виберіть файл договору.",
+    "landlordRentAgreementPDF": "PDF-файл договору оренди для орендодавця",
+    "tenantRentAgreementPDF": "PDF-файл договору оренди для орендаря",
+    "landlordApplicationApproveNote(rich)": "Примітка: ${note(Схвалюйте заявку лише після того, як орендар внесе заставу.)}",
+    "reasonOfRejection": "Причина відхилення",
+    "youveRejectedThisApplication": "Ви відхилили цю заявку",
+    "landlordDetails": "Деталі орендодавця",
+    "landlordName": "Ім'я орендодавця",
+    "downloadRentAgreement": "Завантажити договір оренди",
+    "acceptTermsConditions(rich)": "Прийняти ${toc(Умови використання)}",
+    "tenantAgreementSignNote1(rich)": "Примітка: ${note(Будь ласка, завантажте та прочитайте договір. Надішліть підписаний договір орендодавцю через WhatsApp або електронну пошту.)}",
+    "tenantAgreementSignNote2(rich)": "Примітка: ${note(Орендодавець схвалює заявку, коли орендар сплачує заставу, комунальні послуги та орендну плату за один місяць наперед.)}",
+    "completeRentAgreementPdf(rich)": "Договір оренди (PDF) ${complete(Завершити договір)}",
+    "tenantApplicationDepositNote(rich)": "Примітка : ${note(Орендодавець схвалює заявку, коли орендар сплачує заставу, комунальні послуги та орендну плату за один місяць наперед.)}",
+    "whatsapp": "Whatsapp",
+    "applicationList": "Список заявок",
+    "viewDetails": "Переглянути деталі",
+    "searchHint": "@:common.search...",
+    "home": "Головна",
+    "dashboard": "Панель керування",
+    "tenants": "Орендарі",
+    "maintenance": "Обслуговування",
+    "maintenanceList": "Список обслуговування",
+    "maintenanceReport": "Звіт про обслуговування",
+    "labor": "Праця",
+    "applications": "Заявки",
+    "rentInvitation": "Запрошення на оренду",
+    "payment": "Оплата",
+    "rentPayment": "Оплата за оренду",
+    "depositUtilityPayment": "Оплата застави та комунальних послуг",
+    "refundRequest": "Запит на повернення коштів",
+    "withdrawRequest": "Запит на виведення коштів",
+    "myProperty": "Моя нерухомість",
+    "myRent": "Моя оренда",
+    "wishlist": "Список бажань",
+    "properties": "Властивості",
+    "allProperties": "Усі властивості",
+    "totalPropery": "Загальна кількість властивостей",
+    "occupied": "Зайнято",
+    "vacant": "Вільно",
+    "accounting": "Облік",
+    "totalIncome": "Загальний дохід",
+    "totalExpense": "Загальні витрати",
+    "currentBalance": "Поточний баланс",
+    "totalWithdrawal": "Загальна сума (Виведення)",
+    "totalProperties": "Загальна кількість об'єктів",
+    "totalTenant": "Загальна кількість орендарів",
+    "totalRentPaid": "Загальна сума сплаченої орендної плати",
+    "totalRentDue": "Загальна сума заборгованості з орендної плати",
+    "totalApplication": "Загальна кількість заявок",
+    "pendingApplication": "Заявки в очікуванні",
+    "processingApplication": "Заявки в обробці",
+    "approveApplication": "Схвалити заявку",
+    "rejectApplication": "Відхилити заявку",
+    "maintenanceCost": "Вартість обслуговування",
+    "transactionSummary": "Звіт про транзакції",
+    "maintenanceRequest": "Запит на обслуговування",
+    "notifications": "Сповіщення",
+    "myProperties": "Мої об'єкти",
+    "recommendationProperties": "Рекомендовані об'єкти",
+    "laborList": "Список робітників",
+    "addLabor": "Додати робітника",
+    "laborDetails": "Деталі про робітника",
+    "laborSalary": "Зарплата робітника",
+    "editLabor": "Редагувати дані про робітника",
+    "addNewLabor": "Додати нового робітника",
+    "enterAmount": "Введіть суму",
+    "maintenanceDetails": "Деталі обслуговування",
+    "laborName": "Ім'я робітника",
+    "comment": "Коментар",
+    "image": "Зображення",
+    "complete": "Завершено",
+    "details": "Деталі",
+    "title": "Назва",
+    "date": "Дата",
+    "reason": "Причина",
+    "edit": "Редагувати",
+    "property": "Нерухомість",
+    "completeYourProfile": "Заповніть свій профіль",
+    "profileImage": "Фото профілю",
+    "imagePickHint": "Тільки зображення JPEG та PNG розміром не більше 120x120 пікселів.",
+    "invoiceId": "ID рахунку-фактури",
+    "depositAmount": "Сума застави",
+    "landlordPhone": "Телефон орендодавця",
+    "rentalAdvance": "Оренда (аванс)",
+    "totalAmount": "Загальна сума",
+    "rentalAmount": "Сума оренди",
+    "adminCharge": "Адміністративна плата",
+    "editAccount": "Редагувати рахунок",
+    "addNewAccount": "Додати новий рахунок",
+    "transactionId": "ID транзакції",
+    "transactionType": "Тип транзакції",
+    "requestDate": "Дата запиту",
+    "amount": "Сума",
+    "fee": "Комісія",
+    "paymentStatus": "Статус оплати",
+    "generatedTime": "Час створення",
+    "systemGeneratedReportHint(rich)": "Це звіт, згенерований системою ${appName}",
+    "withdrawHistory": "Історія виведення коштів",
+    "history": "Історія",
+    "withdrawAmount": "Сума виведення",
+    "availableBalance": "Доступний баланс",
+    "withdrawCharge": "Комісія за виведення",
+    "paymentMethod": "Спосіб оплати",
+    "requestSendSuccess": "Запит успішно надіслано!",
+    "paymentReceiptSubmitSuccess": "Квитанція про оплату успішно подана.",
+    "refundReason": "Причина повернення коштів",
+    "note": "Примітка",
+    "refundReceiveSuccess": "Повернення коштів успішно отримано.",
+    "downloadPaymentReceipt": "Завантажити квитанцію про оплату",
+    "invoice": "Рахунок-фактура",
+    "selectPropertyToSeeInvoice": "Виберіть об'єкт, щоб побачити номер рахунку-фактури...",
+    "bankAccName": "Назва банківського рахунку",
+    "bankName": "Назва банку",
+    "bankAccNum": "Номер банківського рахунку",
+    "thankYou": "Дякуємо!",
+    "basicInfo": "Основна інформація",
+    "descriptionPricing": "Опис та ціни",
+    "contact": "Контакти",
+    "photos": "Фотографії",
+    "successfullySubmitted": "Успішно подано!",
+    "editProperty": "Редагувати об'єкт",
+    "addNewProperty": "Додати новий об'єкт",
+    "propertyManageRequestSuccess": "Ваше оголошення було подано на розгляд.",
+    "postAnotherProperty": "Опублікувати ще один об'єкт",
+    "browseYourProperty": "Переглянути свій об'єкт",
+    "stepIndicator(rich)": "Крок ${step} з ${totalSteps}",
+    "whatWouldYouLikeToPost": "Що б ви хотіли опублікувати?",
+    "category": "Категорія",
+    "invalidCategory": "Недійсна категорія",
+    "unitNumber": "Номер блоку",
+    "sqft": "кв. футів",
+    "propertySizeMustBeGreaterThan0": "Розмір нерухомості має бути більшим за нуль",
+    "whatAreTheFacility": "Які є зручності?",
+    "whatAreTheAmenity": "Які є зручності?",
+    "parkingLot": "Автостоянка",
+    "houseType": "Тип будинку",
+    "value": "Значення",
+    "unitLotSize": "Розмір блоку / ділянки",
+    "landSize": "Розмір земельної ділянки",
+    "acres": "акр(ів)",
+    "roomSize": "Розмір кімнати",
+    "askTenantPreference": "Які ваші побажання щодо орендарів?",
+    "couple": "Пара",
+    "describeTheProperty": "Опишіть ${propertyType: String}",
+    "adTitle": "Заголовок оголошення",
+    "minimumRentalPeriod": "Мінімальний термін оренди",
+    "whatsappNumber": "@:common.whatsapp Number",
+    "hideOrDisplayEmail": "Приховати або відобразити адресу електронної пошти",
+    "thankYouForPostingProperty": "Дякуємо за розміщення на ${appName: String}!",
+    "propertyList": "Список об'єктів",
+    "newInviteRent": "Нове запрошення на оренду",
+    "rentAgreement": "Договір оренди",
+    "rentDetails": "Деталі оренди",
+    "landlordRentInvitationPendingNote(rich)": "Примітка: ${note(Будь ласка, зачекайте, поки орендар прийме запрошення.)}",
+    "rent": "Оренда",
+    "editTenant": "Редагувати дані про орендаря",
+    "addNewTenant": "Додати нового орендаря",
+    "shareInstallLink": "Поділитися посиланням на встановлення",
+    "tenantList": "Список орендарів",
+    "editMaintenanceRequest": "Редагувати запит на обслуговування",
+    "addNewMaintenance": "Додати нове обслуговування",
+    "landlordId": "ID орендодавця",
+    "tenantAgrementUnderReviewNote(rich)": "Примітка ${note(Ваш договір знаходиться на розгляді. Будь ласка, зачекайте, поки орендодавець схвалить вашу оренду.)}",
+    "editReview": "Редагувати відгук",
+    "writeAReview": "Написати відгук",
+    "selectRating": "Вибрати рейтинг",
+    "enterYourOpinion": "Введіть свою думку",
+    "askToEnterReviewMsg": "Будь ласка, введіть текст відгуку",
+    "pressBackAgainToExit": "Натисніть знову назад, щоб вийти.",
+    "selectPaymentMethod": "Виберіть спосіб оплати",
+    "filter": "Фільтр",
+    "perMonth": "/1 місяць",
+    "searchHintWithAppName": "Шукайте що завгодно в ${appName: String}..."
+  },
+  "exceptions": {
+    "somethingWentWrong": "Щось пішло не так, будь ласка, спробуйте ще раз",
+    "noNidPassport": "Зображення NID/Паспорта не надано.",
+    "noRentPropertyFound": "Для цього орендаря не знайдено жодної орендованої нерухомості.",
+    "noPropertyFoundWithKeyWord": "Нерухомість не знайдена!\nБудь ласка, спробуйте з іншими ключовими словами",
+    "noSubscriptionFoundRefreshPage": "План підписки не знайдено!\nБудь ласка, оновіть сторінку та спробуйте ще раз.",
+    "invalidApiDataRefreshPage": "Недійсна інформація про ${dataType: String}! Будь ласка, оновіть сторінку та спробуйте ще раз.",
+    "invalidDownloadUrl": "Недійсна URL-адреса для завантаження!",
+    "failedToSaveFile": "Не вдалося зберегти файл! ${error: String}",
+    "errorOpeningFile": "Помилка відкриття файлу! ${error: String}",
+    "noVehicleInfoProvided": "Не надано інформацію про транспортний засіб.",
+    "yourApplicationRejected": "Вашу заявку відхилено",
+    "noApplicationFoundHint": {
+      "template": "Заявка не знайдена!\n${subject: String} відображатиметься тут, коли буде доступна.",
+      "subjects": {
+        "tenant": "Ваша заявка",
+        "landlord": "Заявка орендаря"
+      }
+    },
+    "noPropertyFoundHint": {
+      "landlordHome": "Нерухомість не знайдена!\nБудь ласка, додайте нерухомість, щоб побачити її тут.",
+      "tenantRecommended": "Рекомендовані об'єкти не знайдено\nБудь ласка, спробуйте пізніше.",
+      "tenantAllProperty": "Нерухомість недоступна\nБудь ласка, спробуйте пізніше."
+    },
+    "noImageProvided": "Зображення не надано",
+    "noStatusMaintenantFound": {
+      "landlord": "Не знайдено обслуговування зі статусом ${status}.",
+      "tenant": "Обслуговування не знайдено! Ви можете створити запит на обслуговування, щоб побачити його тут."
+    },
+    "noDepositFound": "Застава не знайдена!\nВи зможете побачити застави, коли вони будуть доступні",
+    "noRentPaymentFound": "Оплата за оренду не знайдена!\nВи зможете побачити платежі за оренду, коли вони будуть доступні",
+    "transactionSummaryApiException": "Не вдалося отримати звіт про транзакції.",
+    "noWithdrawRequestFound": "Запит не знайдено!\nБудь ласка, створіть запит на виведення коштів, щоб побачити його тут.",
+    "withdrawRequestNotApproved": "Цей запит на виведення коштів не був схвалений!.",
+    "nonZeroError": "Будь ласка, введіть дійсне число більше нуля.",
+    "minAmountError": "Сума має бути не менше ${minValue: String}.",
+    "maxAmountError": "Сума не повинна перевищувати ${maxValue: String}.",
+    "selectPaymentMethodHint": "Будь ласка, спочатку виберіть спосіб оплати.",
+    "noStatusRefundReqFound": {
+      "landlord": "Не знайдено запиту на повернення коштів зі статусом ${status}!\nВи зможете побачити запит на повернення тут, коли він буде доступний.",
+      "tenant": "Запит на повернення коштів не знайдено!\nВи можете створити запит на повернення коштів, щоб побачити його тут."
+    },
+    "refundRequestHint": {
+      "inTenantList": "Орендар схвалить повернення коштів, коли отримає гроші назад",
+      "tenantReqSuccess": "Ми розглянемо запит на повернення коштів та схвалимо його протягом 24 годин."
+    },
+    "oneToTenRequiredField": "Будь ласка, виберіть кількість ${value: String}",
+    "invalidDateRange": "Недійсний діапазон дат.",
+    "valueMustBeGreaterThanZero": "${value: String} має бути більше нуля.",
+    "editProperty": {
+      "rentalChange": "Орендна плата змінюється. Вона має бути дійсною (чинною) лише для оплати оренди за наступний місяць.",
+      "deleteOnRent": "Ваша нерухомість вже здана в оренду орендарем. Її не можна видалити, поки ви не видалите орендаря.",
+      "alreayRented": "Ця нерухомість вже здана в оренду. Будь ласка, спробуйте пізніше.\nАбо ви можете звернутися до орендодавця для отримання додаткової інформації."
+    },
+    "rentInvitation": {
+      "landlordNoRentInvitation": "Запрошення на оренду не знайдено!\nБудь ласка, створіть запрошення на оренду, щоб побачити його тут.",
+      "tenantNoRentInvitation": "Запрошення на оренду не знайдено!\nВи можете побачити запрошення на оренду тут, коли воно буде доступне."
+    },
+    "notenantFoundList": "Немає орендарів!\nБудь ласка, додайте орендаря, щоб побачити його тут.",
+    "noFeaturesProvided": "Не надано жодних характеристик.",
+    "noNotificationFound": "Сповіщення відсутні.\nВи зможете побачити свої сповіщення тут, коли вони будуть доступні."
+  },
+  "prompt": {
+    "logout": {
+      "title": "@:common.logout",
+      "message": "Ви впевнені, що хочете вийти?"
+    },
+    "application": {
+      "rejectTitle": "Чому ви відхиляєте цю заявку?",
+      "applicationSent": {
+        "successfully": "Заявку успішно надіслано!",
+        "sucessDescription": "Ви можете побачити цю заявку у списку своїх заявок"
+      }
+    },
+    "labor": {
+      "delete": {
+        "title": "Видалити робітника?",
+        "description": "Ви впевнені, що хочете видалити цього робітника?"
+      }
+    },
+    "maintenanceRequest": {
+      "rejectTitle": "Чому цей запит відхилено?",
+      "processTitle": "Ви впевнені, що хочете обробити цей запит на обслуговування?",
+      "completeTitle": "Роботу завершено?"
+    },
+    "withdrawMethod": {
+      "deleteTitle": "Видалити спосіб виведення?",
+      "deleteDescription": "Ви впевнені, що хочете видалити цей спосіб виведення?"
+    },
+    "unsavedChanges": {
+      "title": "Ви впевнені, що хочете повернутися?",
+      "message": "Змінені поля не будуть збережені!"
+    },
+    "property": {
+      "delete": {
+        "title": "Видалити нерухомість?",
+        "message": "Ви впевнені, що хочете видалити цю нерухомість?"
+      }
+    },
+    "rentInvitation": {
+      "landlordApprove": {
+        "title": "Ви впевнені, що хочете схвалити цю оренду?",
+        "description": "Переконайтеся, що ви переглянули договір, підписаний орендарем."
+      },
+      "tenantAccept": {
+        "title": "Ви впевнені, що хочете прийняти це запрошення?",
+        "description": "Переконайтеся, що ви завантажили PDF-файл договору!"
+      }
+    },
+    "sessionExpired": {
+      "title": "Сеанс завершено",
+      "message": "Термін дії вашого сеансу минув. Будь ласка, увійдіть знову",
+      "action": "Увійти"
+    },
+    "noInternet": {
+      "title": "Немає підключення до Інтернету",
+      "message": "Будь ласка, перевірте підключення до мережі Wi-Fi або мобільної мережі та спробуйте ще раз",
+      "action": "Спробувати знову"
+    },
+    "permissionHandler": {
+      "title": "Потрібен дозвіл!",
+      "message": "Вам потрібно надати дозволи в налаштуваннях програми. Хочете відкрити налаштування зараз?"
+    },
+    "imagePicker": {
+      "title": "Виберіть варіант",
+      "gallery": "Галерея",
+      "camera": "Камера"
+    },
+    "verificationDialog": {
+      "title": "Підтвердіть свою електронну пошту",
+      "message": "Ми надіслали код підтвердження на електронну пошту",
+      "messageWithEmail": "@:prompt.verificationDialog.message на ${email: String?}"
+    },
+    "notification": {
+      "clearTitle": "Очистити сповіщення?",
+      "clearMessage": "Ви впевнені, що хочете очистити всі сповіщення?"
+    }
+  },
+  "form": {
+    "fullName": {
+      "label": "@:common.fullName",
+      "hint": "Введіть @:common.fullName",
+      "errors": {
+        "required": "Будь ласка, введіть своє @:common.fullName"
+      }
+    },
+    "email": {
+      "label": "@:common.email",
+      "hint": "Введіть свій @:common.email",
+      "errors": {
+        "required": "Будь ласка, введіть свою адресу @:common.email",
+        "invalid": "⦸ Недійсна електронна пошта, будь ласка, спробуйте ще раз"
+      }
+    },
+    "password": {
+      "label": "@:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Будь ласка, введіть свій @:common.password",
+        "minLength": "Пароль має містити щонайменше ${count} символів!"
+      }
+    },
+    "confirmPassword": {
+      "label": "Підтвердіть @:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Будь ласка, введіть свій @:common.password",
+        "notMatched": "Паролі не збігаються!"
+      }
+    },
+    "mobileNumber": {
+      "label": "@:common.mobileNumber",
+      "hint": "(+60) 555-0123",
+      "errors": {
+        "required": "Будь ласка, введіть свій @:common.mobileNumber"
+      }
+    },
+    "address1": {
+      "label": "@:common.address 1",
+      "hint": "Номер будинку та назва вулиці",
+      "errors": {
+        "required": "Будь ласка, введіть свою @:form.address1.label"
+      }
+    },
+    "address2": {
+      "label": "@:common.address 2",
+      "hint": "Квартира, люкс, блок тощо",
+      "errors": {
+        "required": "Будь ласка, введіть свою @:form.address2.label"
+      }
+    },
+    "postalCode": {
+      "label": "@:common.postalCode",
+      "hint": "Введіть @:common.postalCode",
+      "errors": {
+        "required": "Будь ласка, введіть свій @:common.postalCode"
+      }
+    },
+    "city": {
+      "label": "@:common.city",
+      "hint": "Введіть назву @:common.city.",
+      "errors": {
+        "required": "Будь ласка, введіть назву @:common.city."
+      }
+    },
+    "state": {
+      "label": "@:common.state",
+      "hint": "Введіть назву @:common.state.",
+      "errors": {
+        "required": "Будь ласка, введіть назву @:common.state."
+      }
+    },
+    "country": {
+      "label": "@:common.country",
+      "hint": "Виберіть @:common.country.",
+      "errors": {
+        "required": "Будь ласка, виберіть свою @:common.country"
+      }
+    },
+    "otp": {
+      "errors": {
+        "required": "Будь ласка, введіть otp.",
+        "invalid": "Будь ласка, введіть коректний otp."
+      }
+    },
+    "title": {
+      "label": "Назва",
+      "hint": "Введіть назву",
+      "errors": {
+        "required": "Будь ласка, введіть назву"
+      }
+    },
+    "date": {
+      "label": "${label: String}",
+      "hint": "Виберіть @:form.date.label",
+      "errors": {
+        "required": "Будь ласка, виберіть @:form.date.label"
+      }
+    },
+    "reason": {
+      "label": "Причина",
+      "hint": "Введіть причину",
+      "errors": {
+        "required": "Будь ласка, введіть причину"
+      }
+    },
+    "withdrawMethod": {
+      "label": "@:common.withdrawMethod",
+      "hint": "Виберіть @:common.withdrawMethod",
+      "errors": {
+        "required": "Будь ласка, виберіть @:common.withdrawMethod"
+      }
+    },
+    "fileField": {
+      "label": "${label: String}",
+      "hint": "Завантажте ${label: String}",
+      "errors": {
+        "required": "Будь ласка, виберіть ${label: String}"
+      }
+    },
+    "note": {
+      "label": "${note: String}",
+      "hint": "Введіть @:form.note.label",
+      "errors": {
+        "required": "Будь ласка, введіть @:form.note.label"
+      }
+    },
+    "gender": {
+      "label": "@:common.gender",
+      "hint": "Виберіть @:common.gender",
+      "errors": {
+        "required": "Будь ласка, виберіть @:common.gender"
+      }
+    },
+    "anyField": {
+      "label": "${label: String}",
+      "hint": "Введіть @:form.anyField.label",
+      "errors": {
+        "required": "Будь ласка, введіть @:form.anyField.label",
+        "invalid": "Будь ласка, введіть дійсне @form.anyField.label"
+      }
+    },
+    "anyDropdown": {
+      "label": "${label: String}",
+      "hint": "Виберіть @:form.anyDropdown.label",
+      "errors": {
+        "required": "Будь ласка, виберіть @:form.anyDropdown.label",
+        "invalid": "Будь ласка, виберіть дійсне @form.anyDropdown.label"
+      }
+    }
+  },
+  "action": {
+    "next": "Далі",
+    "getStarted": "Почати",
+    "skip": "Пропустити",
+    "select": "Вибрати",
+    "save": "Зберегти",
+    "signIn": "Увійти",
+    "signUp": "Зареєструватися",
+    "continue": "Продовжити",
+    "clearAll": "Очистити все",
+    "cancelRenting": "@:common.cancelRenting",
+    "send": "Надіслати",
+    "pay": "Заплатити",
+    "remove": "Видалити",
+    "goBack": "Повернутися назад",
+    "buyNow": "Купити зараз",
+    "no": "Ні",
+    "open": "Відкрити",
+    "addProperty": "Додати нерухомість",
+    "process": "Обробляти",
+    "approve": "Схвалити",
+    "reject": "Відхилити",
+    "viewRent": "Переглянути оренду",
+    "openNavigationMenu": "Відкрити меню навігації",
+    "seeAll": "Побачити все",
+    "update": "Оновити",
+    "printTransaction": "Роздрукувати транзакцію",
+    "payoutRequest": "Запит на виплату",
+    "addNew": "+ Додати новий",
+    "sendRequest": "Надіслати запит",
+    "print": "Роздрукувати",
+    "requestForRefund": "Запит на повернення коштів",
+    "previous": "Попередній",
+    "delete": "Видалити",
+    "applyProperty": "Подати заявку на нерухомість",
+    "viewApplication": "Переглянути заявку",
+    "inviteTenant": "Запросити орендаря",
+    "inviteRent": "Запросити на оренду",
+    "cancel": "Скасувати",
+    "accept": "Прийняти",
+    "submit": "Подати",
+    "yes": "Так",
+    "okay": "Гаразд",
+    "confirm": "Підтвердити",
+    "apply": "Застосувати",
+    "reset": "Скинути",
+    "retry": "Повторити",
+    "viewAll": "Переглянути все"
+  },
+  "pages": {
+    "language": {
+      "appbarTitle": "@:action.select @:common.language"
+    },
+    "onboard": {
+      "onboardData": {
+        "data1": {
+          "title": "Знайдіть свою нерухомість",
+          "description": "Ми зробили пошук місця, яке відповідає вашому життю, легким — будь то кімната, квартира чи будинок."
+        },
+        "data2": {
+          "title": "Квартира в місті",
+          "description": "Ми заощаджуємо ваш час, швидко підбираючи для вас ідеальну нерухомість, поки вона не зникне, щоб ви могли насолоджуватися своїм новим домом, або розмістити свою безкоштовно."
+        },
+        "data3": {
+          "title": "Ваш комфортний будинок",
+          "description": "Якщо ви шукаєте місце для проживання, тоді перегляньте наші будинки в оренду. У нас є широкий вибір будинків для вас на вибір по всій країні."
+        }
+      }
+    },
+    "signIn": {
+      "title": "З поверненням",
+      "subtitle": "Увійдіть зараз, щоб розпочати дивовижну подорож.",
+      "extra": {
+        "rememberMe": "Запам'ятати мене",
+        "signUpNavigator(rich)": "Не маєте облікового запису? ${getStarted(@:action.getStarted)}",
+        "forgotPassword": "@:common.forgotPassword?"
+      }
+    },
+    "forgotPassword": {
+      "title": "Забули пароль?",
+      "subtitle": "Введіть свою адресу електронної пошти, щоб відновити свій пароль."
+    },
+    "otpVerification": {
+      "title": "Перевірка",
+      "subtitle": "4-значний пін-код було надіслано на вашу адресу електронної пошти. ${email: String}",
+      "extra": {
+        "codeResend": {
+          "codeSendIn": "Код буде надіслано через ${minutes}:${seconds}",
+          "resendCode(rich)": " ${resendCode(Надіслати код знову)} "
+        }
+      }
+    },
+    "resetPassword": {
+      "title": "Скинути пароль",
+      "subtitle": "Скиньте свій пароль для відновлення та увійдіть до свого облікового запису",
+      "extra": {
+        "dialog": {
+          "title": "Змінено успішно!",
+          "subtitle": "Увійдіть зі своїм новим паролем.\nПеренаправлення на сторінку входу..."
+        }
+      }
+    },
+    "signUp": {
+      "title": "Створити обліковий запис",
+      "subtitle": "Зареєструйтеся зараз, щоб розпочати дивовижну подорож",
+      "extra": {
+        "signInNavigator(rich)": "Маєте обліковий запис? ${signIn(@:action.signIn)}"
+      }
+    },
+    "welcome": {
+      "title": "Хто ви?",
+      "subtitle": "Будь ласка, виберіть варіант нижче.",
+      "extra": {
+        "landlordTag": "Керуйте власною нерухомістю",
+        "tenantTag": "Увійдіть до свого облікового запису орендаря"
+      }
+    },
+    "aboutUs": {
+      "appbarTitle": "@:common.aboutUs"
+    },
+    "termsAndConditions": {
+      "appbarTitle": "@:common.termsAndConditions"
+    },
+    "notificationList": {
+      "appbarTitle": "Сповіщення"
+    },
+    "contactUs": {
+      "appbarTitle": "@:common.contactUs",
+      "extra": {
+        "messageHint": "Повідомлення..."
+      }
+    },
+    "cancelRenting": {
+      "appbarTitle": "@:common.cancelRenting",
+      "title": "Чому ви @:common.cancelRenting?",
+      "form": {
+        "reason": {
+          "hint": "Напишіть причину",
+          "errors": {
+            "required": "Будь ласка, введіть причину скасування оренди"
+          }
+        }
+      }
+    },
+    "invoiceDetails": {
+      "appbarTitle": "@:common.viewDetails"
+    },
+    "offlinePayment": {
+      "appbarTitle": "Оплата офлайн",
+      "form": {
+        "paymentNote": {
+          "label": "Примітка до оплати (@:common.optional)",
+          "hint": "Введіть текст..."
+        }
+      },
+      "extra": {
+        "payAmount(rich)": "Сума оплати: ${amount}",
+        "accountHolderName": "Ім'я власника рахунку",
+        "accountNumber": "Номер рахунку",
+        "swiftCode": "Swift код",
+        "branch": "Відділення",
+        "fileTypeHint(rich)": "Обирайте файли формату ${fileType(JPG, PNG,PDF)} або ${fileType(DOC)} лише. Розмір файлу ${fileSize(2000 KB)}"
+      }
+    },
+    "paymentStatus": {
+      "success": {
+        "actionButton": "Переглянути рахунок-фактуру",
+        "title": "@:common.thankYou",
+        "description": "Ми розглянемо платіж та схвалимо його протягом 24 годин."
+      },
+      "fail": {
+        "actionButton": "Спробувати знову",
+        "title": "Ой! Помилка оплати",
+        "description": "Ваша транзакція не вдалася через деяку технічну помилку."
+      }
+    },
+    "propertyDetails": {
+      "extra": {
+        "landlord(rich)": "@:common.landlord: ${landlordName}",
+        "ratingReviews(rich)": "${rating} ${reviews(@:common.reviews)}",
+        "features(rich)": "Характеристики ${fa((Зручності та переваги))}",
+        "selectRentalPeriod": "Виберіть період оренди",
+        "writeAReview": "+ Написати відгук"
+      }
+    },
+    "search": {
+      "appbarTitle": "Пошук",
+      "extra": {
+        "hint": "Шукайте ділянки, квартири, кімнати...",
+        "noRecentSearch": "У вас немає нещодавніх пошукових запитів."
+      }
+    },
+    "subscriptionPlan": {
+      "appbarTitle": "Виберіть свій план",
+      "extra": {
+        "subscriptionPaymentSuccess": "Оплата підписки успішна.\nТепер ви можете отримати доступ до функцій підписки."
+      }
+    },
+    "landlordMaintenanceReport": {
+      "totalMaintenanceCost(rich)": "Загальна вартість обслуговування: ${amount: string}",
+      "maintenancePending": "@:common.maintenance @:enums.maintenanceStatus.pending",
+      "maintenanceProcessing": "@:common.maintenance @:enums.maintenanceStatus.processing",
+      "maintenanceCompleted": "@:common.maintenance @:enums.maintenanceStatus.completed",
+      "maintenanceRejected": "@:common.maintenance @:enums.maintenanceStatus.rejected"
+    }
+  },
+  "enums": {
+    "propertyStatus": {
+      "allProperty": "Усі об'єкти",
+      "pending": "В очікуванні",
+      "active": "Активні",
+      "inactive": "Неактивні",
+      "rejected": "Відхилено"
+    },
+    "propertyType": {
+      "apartmentCondominium": "Квартира/Кондомініум",
+      "house": "Будинок",
+      "commercialProperty": "Комерційна нерухомість",
+      "land": "Земля",
+      "room": "Кімната"
+    },
+    "applicationStatus": {
+      "all": "Усі",
+      "pending": "В очікуванні",
+      "processing": "В обробці",
+      "approved": "Схвалено",
+      "rejected": "Відхилено"
+    },
+    "myRentStatus": {
+      "pending": "В очікуванні",
+      "processing": "В обробці",
+      "active": "Активний",
+      "expired": "Прострочений",
+      "cancelled": "Скасовано"
+    },
+    "maintenanceStatus": {
+      "pending": "В очікуванні",
+      "processing": "В обробці",
+      "rejected": "Відхилено",
+      "completed": "Завершено"
+    },
+    "tenantProfileType": {
+      "privateIndividual": "Приватна особа",
+      "company": "Компанія"
+    },
+    "tenantType": {
+      "newTenant": "Новий орендар",
+      "activeTenant": "Активний орендар",
+      "expiredTenant": "Прострочений орендар"
+    },
+    "paymentStatus": {
+      "all": "Усі",
+      "pending": "В очікуванні",
+      "paid": "Сплачено",
+      "unpaid": "Не сплачено",
+      "rejected": "Відхилено",
+      "refund": "Повернення коштів"
+    },
+    "paymentOptions": {
+      "onlinePayment": "Онлайн-оплата",
+      "offlinePayment": "Оплата офлайн"
+    },
+    "paymentType": {
+      "securityDeposit": "Застава",
+      "rentPayment": "Оплата за оренду",
+      "subscription": "Підписка"
+    },
+    "gender": {
+      "male": "Чоловік",
+      "female": "Жінка",
+      "other": "Інше"
+    },
+    "ecRelation": {
+      "wife": "Дружина",
+      "parent": "Батько",
+      "friend": "Друг",
+      "brother": "Брат",
+      "sister": "Сестра",
+      "child": "Дитина"
+    },
+    "vehicleType": {
+      "car": "Автомобіль",
+      "motorcycles": "Мотоцикли",
+      "lorry": "Вантажівка"
+    },
+    "sortBy": {
+      "lowToHigh": "Від низького до високого",
+      "highToLow": "Від високого до низького"
+    },
+    "residentialType": {
+      "flat": "Квартира",
+      "apartment": "Апартаменти",
+      "condominium": "Кондомініум",
+      "serviceResidence": "Сервісна резиденція",
+      "studio": "Студія",
+      "duplex": "Дуплекс",
+      "townhouseCondo": "Таунхаус Кондо",
+      "others": "Інше"
+    },
+    "floorRange": {
+      "high": "Високий",
+      "medium": "Середній",
+      "low": "Низький"
+    },
+    "furnishings": {
+      "fullyFurnished": "Повністю мебльовано",
+      "partiallyFurnished": "Частково мебльовано",
+      "notFurnished": "Не мебльовано"
+    },
+    "commercialPropertyType": {
+      "officeSpace": "Офісне приміщення",
+      "retailSpace": "Торговельна площа",
+      "shopLot": "Магазин",
+      "warehouseFactory": "Склад / Фабрика",
+      "hotelResort": "Готель / Курорт",
+      "sofo": "Sofo",
+      "soho": "Soho",
+      "sovo": "Sovo",
+      "others": "Інше"
+    },
+    "landPropertyType": {
+      "residential": "Житлова",
+      "industrial": "Промислова",
+      "agricultural": "Сільськогосподарська",
+      "commercial": "Комерційна",
+      "mixedDevelopment": "Змішана забудова",
+      "others": "Інше"
+    },
+    "residentPropertyType": {
+      "condo": "Кондо / Сервісна резиденція / Пентхаус",
+      "apartment": "Квартира / Площа",
+      "house": "Будинки",
+      "shoplot": "Магазин",
+      "sharing": "Спільне проживання в будинку / квартирі",
+      "others": "Інше"
+    },
+    "minimumRentalPeriod": {
+      "sixMonths": "6 місяців",
+      "oneYear": "1 рік",
+      "oneAndHalfYears": "1,5 роки",
+      "twoYears": "2 роки",
+      "twoAndHalfYears": "2,5 роки"
+    },
+    "dropdownDateFilter": {
+      "daily": "Щодня",
+      "weekly": "Щотижня",
+      "monthly": "Щомісяця",
+      "yearly": "Щороку",
+      "custom": "Налаштування"
+    }
+  }
+}

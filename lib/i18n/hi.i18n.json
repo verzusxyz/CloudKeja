@@ -1,0 +1,950 @@
+{
+  "@@meta": {
+    "languageCode": "hi_HI",
+    "languageName": "Hindi",
+    "version": "1.0.0"
+  },
+  "common": {
+    "profile": "प्रोफ़ाइल",
+    "language": "भाषा",
+    "subscriptionPlan": "सदस्यता योजना",
+    "contactUs": "हमसे संपर्क करें",
+    "termsAndConditions": "नियम और शर्तें",
+    "aboutUs": "हमारे बारे में",
+    "logout": "लॉग आउट",
+    "editProfile": "प्रोफ़ाइल संपादित करें",
+    "fullName": "पूरा नाम",
+    "email": "ईमेल",
+    "mobileNumber": "मोबाइल नंबर",
+    "address": "पता",
+    "postalCode": "पिन कोड",
+    "city": "शहर",
+    "country": "देश",
+    "state": "राज्य",
+    "password": "पासवर्ड",
+    "forgotPassword": "पासवर्ड भूल गए",
+    "tenant": "किरायेदार",
+    "landlord": "मकान मालिक",
+    "cancelRenting": "किराया रद्द करें",
+    "startDate": "प्रारंभ तिथि",
+    "endDate": "अंतिम तिथि",
+    "fromDate": "से तिथि",
+    "toDate": "तक तिथि",
+    "online": "ऑनलाइन",
+    "bankList": "बैंक सूची",
+    "withdrawMethod": "निकासी विधि",
+    "uploadPaymentReceipt": "भुगतान रसीद अपलोड करें",
+    "offlinePaymentNote(rich)": "नोट: ${note(भुगतान के लिए व्यवस्थापक द्वारा मैन्युअल अनुमोदन की आवश्यकता होती है)} ${duraion(24~48 घंटों के भीतर)}",
+    "reviews": "समीक्षाएँ",
+    "description": "विवरण",
+    "about": "के बारे में",
+    "propertyTypes": "संपत्ति प्रकार",
+    "features": "विशेषताएँ",
+    "floorPlans": "मंजिल योजनाएँ",
+    "buildingDetails": "भवन विवरण",
+    "buildingName": "भवन का नाम",
+    "propertyAddress": "संपत्ति का पता",
+    "completionYear": "निर्माण वर्ष",
+    "lotNumber": "लॉट नंबर",
+    "residentialType": "आवासीय प्रकार",
+    "furnishings": "सज्जा",
+    "floorRange": "मंजिल रेंज",
+    "bedrooms": "शयनकक्ष",
+    "bathrooms": "स्नानघर",
+    "propertySize": "संपत्ति का आकार",
+    "rentalPeriod": "किराया अवधि",
+    "securityDeposit": "सुरक्षा जमा",
+    "utilityBill": "उपयोगिता बिल",
+    "facilities": "सुविधाएँ",
+    "amenities": "सुविधाएँ",
+    "expiringReason": "समाप्ति का कारण",
+    "tenantDetails": "किरायेदार विवरण",
+    "typeOfTenant": "किरायेदार का प्रकार",
+    "tenantName": "किरायेदार का नाम",
+    "nidPassport": "एनआईडी/पासपोर्ट",
+    "nidPassportId": "@:common.nidPassport आईडी",
+    "tenantId": "किरायेदार आईडी",
+    "dateOfBirth": "जन्म तिथि",
+    "gender": "लिंग",
+    "nominee": "नामित व्यक्ति",
+    "name": "नाम",
+    "optional": "वैकल्पिक",
+    "nomineeName": "@:common.nominee @:common.name",
+    "nomineeEmail": "@:common.nominee @:common.email",
+    "nomineeMobile": {
+      "short": "@:common.nominee मो. नंबर",
+      "full": "@:common.nominee @:common.mobileNumber"
+    },
+    "emergencyContact": "आपातकालीन संपर्क",
+    "relation": "संबंध",
+    "relationWith": "@:common.relation के साथ",
+    "relationWithYou": "@:common.relationWith आपके साथ",
+    "company": "कंपनी",
+    "companyName": "@:common.company @:common.name",
+    "companySSMNo": "@:common.company SSM नंबर",
+    "workplace": "कार्यस्थल",
+    "officePhoneNo": "कार्यालय फोन नंबर",
+    "officeMobileNo": "कार्यालय @:common.mobileNumber",
+    "vehicle": "वाहन",
+    "vehiclesInfo": {
+      "plain": "वाहन जानकारी",
+      "optional": "वाहन जानकारी (@:common.optional)"
+    },
+    "vehiclesType": "@:common.vehicle प्रकार",
+    "vehicleRegistrationNo": {
+      "normal": "वाहन पंजीकरण संख्या",
+      "short": "पंजीकरण संख्या",
+      "alt": "प्लेट नंबर"
+    },
+    "vehicleBrand": "@:common.vehicle ब्रांड",
+    "rentProperty": "संपत्ति किराए पर लें",
+    "propertyDetails": "संपत्ति विवरण",
+    "propertyId": "संपत्ति आईडी",
+    "propertyType": "संपत्ति प्रकार",
+    "propertyName": "संपत्ति का नाम",
+    "paymentDetails": "भुगतान विवरण",
+    "monthlyRent": "मासिक किराया",
+    "thisMonthPayment": "इस महीने का भुगतान",
+    "totalPaidRent": "कुल भुगतान किया गया किराया",
+    "dueRent": "देय किराया",
+    "rentStartDate": "किराया @:common.startDate",
+    "rentEndDate": "किराया @:common.endDate",
+    "status": "स्थिति",
+    "rentAgreementPdf": "किराया समझौता पीडीएफ",
+    "noFile": "कोई फ़ाइल नहीं",
+    "tenantImageOp": "किरायेदार छवि @:common.optional",
+    "addNewVechicle": "नए वाहन जोड़ें",
+    "uploadNidPassport": "एनआईडी/पासपोर्ट अपलोड करें",
+    "nidPassportUploadNote": "केवल फ़ाइल प्रकार छवि स्वीकार की जाएगी। फ़ाइल सीमा 2.5 एमबी तक।",
+    "search": "खोजें",
+    "sortBy": "इसके अनुसार Sort",
+    "subscription": "सदस्यता",
+    "downloading": "डाउनलोड हो रहा है...",
+    "downloadSuccess": "फ़ाइल सफलतापूर्वक डाउनलोड की गई!",
+    "addPropertyBannerTitle": "क्या आप अपनी संपत्ति किराए पर देना चाहते हैं?",
+    "application": "आवेदन",
+    "tenantHasPaidDeposit": "किरायेदार ने जमा राशि का भुगतान कर दिया है।",
+    "askProcessingRentApplication": "क्या आप वाकई किराए की संपत्ति के लिए इस अनुरोध को संसाधित कर रहे हैं?",
+    "dateAndTime": "दिनांक और समय",
+    "applicationDetails": "आवेदन विवरण",
+    "depositStatus": "जमा स्थिति",
+    "uploadRentAgreement": "किराया समझौता अपलोड करें",
+    "uploadFilePDF": "फ़ाइल अपलोड करें (पीडीएफ)",
+    "askSelectRentAgreement": "कृपया एक समझौता दस्तावेज़ फ़ाइल का चयन करें।",
+    "landlordRentAgreementPDF": "मकान मालिक किराया समझौता पीडीएफ",
+    "tenantRentAgreementPDF": "किरायेदार किराया समझौता पीडीएफ",
+    "landlordApplicationApproveNote(rich)": "नोट: ${note(किरायेदार द्वारा जमा भुगतान करने के बाद ही आवेदन को मंजूरी दें।)}",
+    "reasonOfRejection": "अस्वीकृति का कारण",
+    "youveRejectedThisApplication": "आपने इस आवेदन को अस्वीकार कर दिया है",
+    "landlordDetails": "मकान मालिक विवरण",
+    "landlordName": "मकान मालिक का नाम",
+    "downloadRentAgreement": "किराया समझौता डाउनलोड करें",
+    "acceptTermsConditions(rich)": "${toc(नियम और शर्तों)} स्वीकार करें",
+    "tenantAgreementSignNote1(rich)": "नोट: ${note(कृपया समझौता डाउनलोड करें और पढ़ें। कृपया हस्ताक्षरित समझौता व्हाट्सएप या ईमेल के माध्यम से मकान मालिक को भेजें।)}",
+    "tenantAgreementSignNote2(rich)": "नोट: ${note(मकान मालिक आवेदन को मंजूरी देता है, जब किरायेदार सुरक्षा, उपयोगिता और एक महीने का अग्रिम किराया भुगतान करता है।)}",
+    "completeRentAgreementPdf(rich)": "किराया समझौता (पीडीएफ) ${complete(पूरा समझौता)}",
+    "tenantApplicationDepositNote(rich)": "नोट: ${note(मकान मालिक आवेदन को मंजूरी देता है, जब किरायेदार सुरक्षा, उपयोगिता और एक महीने का अग्रिम किराया भुगतान करता है।)}",
+    "whatsapp": "व्हाट्सएप",
+    "applicationList": "आवेदन सूची",
+    "viewDetails": "विवरण देखें",
+    "searchHint": "@:common.search...",
+    "home": "होम",
+    "dashboard": "डैशबोर्ड",
+    "tenants": "किरायेदार",
+    "maintenance": "रखरखाव",
+    "maintenanceList": "रखरखाव सूची",
+    "maintenanceReport": "रखरखाव रिपोर्ट",
+    "labor": "श्रम",
+    "applications": "आवेदन",
+    "rentInvitation": "किराया आमंत्रण",
+    "payment": "भुगतान",
+    "rentPayment": "किराया भुगतान",
+    "depositUtilityPayment": "जमा और उपयोगिता भुगतान",
+    "refundRequest": "धनवापसी अनुरोध",
+    "withdrawRequest": "निकासी अनुरोध",
+    "myProperty": "मेरी संपत्ति",
+    "myRent": "मेरा किराया",
+    "wishlist": "विशलिस्ट",
+    "properties": "संपत्तियाँ",
+    "allProperties": "सभी संपत्तियाँ",
+    "totalPropery": "कुल संपत्ति",
+    "occupied": "अधिकृत",
+    "vacant": "रिक्त",
+    "accounting": "लेखांकन",
+    "totalIncome": "कुल आय",
+    "totalExpense": "कुल खर्च",
+    "currentBalance": "वर्तमान शेष",
+    "totalWithdrawal": "कुल (निकासी)",
+    "totalProperties": "कुल संपत्तियाँ",
+    "totalTenant": "कुल किरायेदार",
+    "totalRentPaid": "कुल किराया भुगतान किया गया",
+    "totalRentDue": "कुल किराया देय",
+    "totalApplication": "कुल आवेदन",
+    "pendingApplication": "लंबित आवेदन",
+    "processingApplication": "आवेदन संसाधित किया जा रहा है",
+    "approveApplication": "आवेदन स्वीकृत करें",
+    "rejectApplication": "आवेदन अस्वीकार करें",
+    "maintenanceCost": "रखरखाव लागत",
+    "transactionSummary": "लेनदेन सारांश",
+    "maintenanceRequest": "रखरखाव अनुरोध",
+    "notifications": "सूचनाएं",
+    "myProperties": "मेरी संपत्तियाँ",
+    "recommendationProperties": "अनुशंसा गुण",
+    "laborList": "श्रम सूची",
+    "addLabor": "श्रम जोड़ें",
+    "laborDetails": "श्रम विवरण",
+    "laborSalary": "श्रम वेतन",
+    "editLabor": "श्रम संपादित करें",
+    "addNewLabor": "नया श्रम जोड़ें",
+    "enterAmount": "राशि दर्ज करें",
+    "maintenanceDetails": "रखरखाव विवरण",
+    "laborName": "श्रम का नाम",
+    "comment": "टिप्पणी",
+    "image": "छवि",
+    "complete": "पूरा करें",
+    "details": "विवरण",
+    "title": "शीर्षक",
+    "date": "तिथि",
+    "reason": "कारण",
+    "edit": "संपादित करें",
+    "property": "संपत्ति",
+    "completeYourProfile": "अपनी प्रोफाइल पूरी करें",
+    "profileImage": "प्रोफ़ाइल छवि",
+    "imagePickHint": "अधिकतम आकार 120x120 पिक्सेल के साथ केवल जेपीईजी और पीएनजी छवि।",
+    "invoiceId": "चालान आईडी",
+    "depositAmount": "जमा राशि",
+    "landlordPhone": "मकान मालिक का फोन",
+    "rentalAdvance": "किराया (अग्रिम)",
+    "totalAmount": "कुल राशि",
+    "rentalAmount": "किराया राशि",
+    "adminCharge": "प्रशासन शुल्क",
+    "editAccount": "खाता संपादित करें",
+    "addNewAccount": "नया खाता जोड़ें",
+    "transactionId": "लेनदेन आईडी",
+    "transactionType": "लेनदेन प्रकार",
+    "requestDate": "अनुरोध तिथि",
+    "amount": "राशि",
+    "fee": "शुल्क",
+    "paymentStatus": "भुगतान स्थिति",
+    "generatedTime": "उत्पन्न समय",
+    "systemGeneratedReportHint(rich)": "यह ${appName} की एक सिस्टम जनरेटेड रिपोर्ट है",
+    "withdrawHistory": "निकासी इतिहास",
+    "history": "इतिहास",
+    "withdrawAmount": "निकासी राशि",
+    "availableBalance": "उपलब्ध शेष",
+    "withdrawCharge": "निकासी शुल्क",
+    "paymentMethod": "भुगतान विधि",
+    "requestSendSuccess": "अनुरोध सफलतापूर्वक भेजा गया!",
+    "paymentReceiptSubmitSuccess": "भुगतान रसीद सफलतापूर्वक जमा की गई।",
+    "refundReason": "धनवापसी का कारण",
+    "note": "नोट",
+    "refundReceiveSuccess": "धनवापसी सफलतापूर्वक प्राप्त हुई।",
+    "downloadPaymentReceipt": "भुगतान रसीद डाउनलोड करें",
+    "invoice": "चालान",
+    "selectPropertyToSeeInvoice": "चालान नंबर देखने के लिए संपत्ति का चयन करें...",
+    "bankAccName": "बैंक खाता नाम",
+    "bankName": "बैंक का नाम",
+    "bankAccNum": "बैंक खाता संख्या",
+    "thankYou": "धन्यवाद!",
+    "basicInfo": "मूल जानकारी",
+    "descriptionPricing": "विवरण और मूल्य निर्धारण",
+    "contact": "संपर्क करें",
+    "photos": "तस्वीरें",
+    "successfullySubmitted": "सफलतापूर्वक जमा किया गया!",
+    "editProperty": "संपत्ति संपादित करें",
+    "addNewProperty": "नई संपत्ति जोड़ें",
+    "propertyManageRequestSuccess": "आपका विज्ञापन समीक्षा के लिए सबमिट कर दिया गया है।",
+    "postAnotherProperty": "एक और संपत्ति पोस्ट करें",
+    "browseYourProperty": "अपनी संपत्ति ब्राउज़ करें",
+    "stepIndicator(rich)": "कदम ${step} का ${totalSteps}",
+    "whatWouldYouLikeToPost": "आप क्या पोस्ट करना चाहेंगे?",
+    "category": "श्रेणी",
+    "invalidCategory": "अमान्य श्रेणी",
+    "unitNumber": "इकाई संख्या",
+    "sqft": "वर्ग फुट",
+    "propertySizeMustBeGreaterThan0": "संपत्ति का आकार शून्य से अधिक होना चाहिए",
+    "whatAreTheFacility": "सुविधाएँ क्या हैं?",
+    "whatAreTheAmenity": "सुविधाएँ क्या हैं?",
+    "parkingLot": "पार्किंग स्थल",
+    "houseType": "घर का प्रकार",
+    "value": "मूल्य",
+    "unitLotSize": "इकाई / लॉट आकार",
+    "landSize": "भूमि का आकार",
+    "acres": "एकड़",
+    "roomSize": "कमरे का आकार",
+    "askTenantPreference": "आपकी किरायेदार प्राथमिकता क्या है",
+    "couple": "दंपति",
+    "describeTheProperty": "${propertyType: String} का वर्णन करें",
+    "adTitle": "विज्ञापन शीर्षक",
+    "minimumRentalPeriod": "न्यूनतम किराया अवधि",
+    "whatsappNumber": "@:common.whatsapp नंबर",
+    "hideOrDisplayEmail": "ईमेल पता छुपाएं या दिखाएं",
+    "thankYouForPostingProperty": "${appName: String} पर संपत्ति पोस्ट करने के लिए धन्यवाद!",
+    "propertyList": "संपत्ति सूची",
+    "newInviteRent": "नया आमंत्रण किराया",
+    "rentAgreement": "किराया समझौता",
+    "rentDetails": "किराया विवरण",
+    "landlordRentInvitationPendingNote(rich)": "नोट: ${note(कृपया किरायेदार द्वारा आमंत्रण स्वीकार करने तक प्रतीक्षा करें।)}",
+    "rent": "किराया",
+    "editTenant": "किरायेदार संपादित करें",
+    "addNewTenant": "नया किरायेदार जोड़ें",
+    "shareInstallLink": "इंस्टॉल लिंक साझा करें",
+    "tenantList": "किरायेदार सूची",
+    "editMaintenanceRequest": "रखरखाव अनुरोध संपादित करें",
+    "addNewMaintenance": "नया रखरखाव जोड़ें",
+    "landlordId": "मकान मालिक आईडी",
+    "tenantAgrementUnderReviewNote(rich)": "नोट ${note(आपका समझौता समीक्षाधीन है। कृपया मकान मालिक द्वारा आपके किराए को मंजूरी देने तक प्रतीक्षा करें।)}",
+    "editReview": "समीक्षा संपादित करें",
+    "writeAReview": "समीक्षा लिखें",
+    "selectRating": "रेटिंग का चयन करें",
+    "enterYourOpinion": "अपनी राय दर्ज करें",
+    "askToEnterReviewMsg": "कृपया एक समीक्षा संदेश दर्ज करें",
+    "pressBackAgainToExit": "बाहर निकलने के लिए फिर से बैक दबाएं।",
+    "selectPaymentMethod": "भुगतान विधि का चयन करें",
+    "filter": "फ़िल्टर",
+    "perMonth": "/1 महीना",
+    "searchHintWithAppName": "${appName: String} में कुछ भी खोजें..."
+  },
+  "exceptions": {
+    "somethingWentWrong": "कुछ गलत हो गया, कृपया पुन: प्रयास करें",
+    "noNidPassport": "कोई एनआईडी/पासपोर्ट छवि प्रदान नहीं की गई।",
+    "noRentPropertyFound": "इस किरायेदार के लिए कोई किराया पॉपर्टी नहीं मिली।",
+    "noPropertyFoundWithKeyWord": "कोई संपत्ति नहीं मिली!\nकृपया विभिन्न कीवर्ड के साथ प्रयास करें",
+    "noSubscriptionFoundRefreshPage": "कोई सदस्यता योजना नहीं मिली!\nकृपया पृष्ठ को ताज़ा करें और पुन: प्रयास करें।",
+    "invalidApiDataRefreshPage": "अमान्य ${dataType: String} जानकारी! कृपया पृष्ठ को ताज़ा करें और पुन: प्रयास करें।",
+    "invalidDownloadUrl": "अमान्य डाउनलोड यूआरएल!",
+    "failedToSaveFile": "फ़ाइल सहेजने में विफल! ${error: String}",
+    "errorOpeningFile": "फ़ाइल खोलने में त्रुटि! ${error: String}",
+    "noVehicleInfoProvided": "कोई वाहन जानकारी प्रदान नहीं की गई।",
+    "yourApplicationRejected": "आपका आवेदन अस्वीकार कर दिया गया है",
+    "noApplicationFoundHint": {
+      "template": "कोई आवेदन नहीं मिला!\n${subject: String} उपलब्ध होने पर यहां प्रदर्शित किया जाएगा।",
+      "subjects": {
+        "tenant": "आपका आवेदन",
+        "landlord": "किरायेदार का आवेदन"
+      }
+    },
+    "noPropertyFoundHint": {
+      "landlordHome": "कोई संपत्ति नहीं मिली!\nकृपया यहां देखने के लिए एक संपत्ति जोड़ने का प्रयास करें।",
+      "tenantRecommended": "कोई अनुशंसित संपत्तियाँ नहीं मिलीं\nकृपया बाद में पुन: प्रयास करें।",
+      "tenantAllProperty": "संपत्तियाँ उपलब्ध नहीं हैं\nकृपया बाद में पुन: प्रयास करें।"
+    },
+    "noImageProvided": "कोई छवि प्रदान नहीं की गई",
+    "noStatusMaintenantFound": {
+      "landlord": "कोई ${status} रखरखाव नहीं मिला।",
+      "tenant": "कोई रखरखाव नहीं मिला! आप यहां देखने के लिए रखरखाव अनुरोध बना सकते हैं।"
+    },
+    "noDepositFound": "कोई सुरक्षा जमा राशि नहीं मिली!\nकृपया सुरक्षा जमा राशि उपलब्ध होने पर देख सकते हैं",
+    "noRentPaymentFound": "कोई किराया भुगतान नहीं मिला!\nकृपया किराया भुगतान उपलब्ध होने पर देख सकते हैं",
+    "transactionSummaryApiException": "लेनदेन सारांश प्राप्त करने में विफल।",
+    "noWithdrawRequestFound": "कोई अनुरोध नहीं मिला!\nकृपया यहां देखने के लिए निकासी अनुरोध बनाने का प्रयास करें।",
+    "withdrawRequestNotApproved": "यह निकासी अनुरोध स्वीकृत नहीं किया गया है!.",
+    "nonZeroError": "कृपया शून्य से अधिक एक मान्य राशि दर्ज करें।",
+    "minAmountError": "राशि कम से कम ${minValue: String} होनी चाहिए।",
+    "maxAmountError": "राशि ${maxValue: String} से अधिक नहीं होनी चाहिए।",
+    "selectPaymentMethodHint": "कृपया पहले भुगतान विधि का चयन करें।",
+    "noStatusRefundReqFound": {
+      "landlord": "कोई ${status} धनवापसी अनुरोध नहीं मिला!\nआप धनवापसी अनुरोध यहां उपलब्ध होने पर देख सकते हैं।",
+      "tenant": "कोई धनवापसी अनुरोध नहीं मिला!\nआप यहां देखने के लिए धनवापसी अनुरोध बना सकते हैं।"
+    },
+    "refundRequestHint": {
+      "inTenantList": "किरायेदार धनवापसी को मंजूरी देगा जब उसे पैसे वापस मिल जाएंगे",
+      "tenantReqSuccess": "हम धनवापसी अनुरोध की समीक्षा करेंगे और 24 घंटों के भीतर इसे मंजूरी दे देंगे।"
+    },
+    "oneToTenRequiredField": "कृपया ${value: String} की संख्या का चयन करें",
+    "invalidDateRange": "अमान्य तिथि सीमा।",
+    "valueMustBeGreaterThanZero": "${value: String} शून्य से अधिक होना चाहिए।",
+    "editProperty": {
+      "rentalChange": "किराया संपत्ति बदल रही है। यह केवल अगले महीने के किराए के भुगतान के लिए मान्य (प्रभावी) होनी चाहिए।",
+      "deleteOnRent": "आपकी संपत्ति पहले से ही किरायेदार द्वारा किराए पर ली गई है। कृपया किरायेदार को पहले हटाने तक इसे हटा नहीं सकते",
+      "alreayRented": "यह संपत्ति पहले से ही किराए पर है। कृपया बाद में पुन: प्रयास करें।\nया आप अधिक जानकारी के लिए मकान मालिक से संपर्क कर सकते हैं।"
+    },
+    "rentInvitation": {
+      "landlordNoRentInvitation": "कोई किराया आमंत्रण नहीं मिला!\nकृपया यहां देखने के लिए एक किराया आमंत्रण बनाने का प्रयास करें।",
+      "tenantNoRentInvitation": "कोई किराया आमंत्रण नहीं मिला!\nआप किराया आमंत्रण यहां उपलब्ध होने पर देख सकते हैं।"
+    },
+    "notenantFoundList": "कोई किरायेदार नहीं!\nकृपया यहां देखने के लिए एक किरायेदार जोड़ने का प्रयास करें।",
+    "noFeaturesProvided": "कोई सुविधाएँ प्रदान नहीं की गईं।",
+    "noNotificationFound": "कोई सूचना उपलब्ध नहीं है।\nआप अपनी सूचना यहां उपलब्ध होने पर देख सकते हैं।"
+  },
+  "prompt": {
+    "logout": {
+      "title": "@:common.logout",
+      "message": "क्या आप वाकई लॉग आउट करना चाहते हैं?"
+    },
+    "application": {
+      "rejectTitle": "आप इस आवेदन को क्यों अस्वीकार कर रहे हैं?",
+      "applicationSent": {
+        "successfully": "आवेदन सफलतापूर्वक भेजा गया!",
+        "sucessDescription": "आप इस आवेदन को अपनी आवेदन सूची में देख सकते हैं"
+      }
+    },
+    "labor": {
+      "delete": {
+        "title": "श्रम हटाएं?",
+        "description": "क्या आप वाकई इस श्रम को हटाना चाहते हैं?"
+      }
+    },
+    "maintenanceRequest": {
+      "rejectTitle": "यह अनुरोध क्यों अस्वीकार किया जा रहा है?",
+      "processTitle": "क्या आप वाकई इस रखरखाव अनुरोध को संसाधित कर रहे हैं?",
+      "completeTitle": "कार्य पूरा हुआ?"
+    },
+    "withdrawMethod": {
+      "deleteTitle": "निकासी विधि हटाएं?",
+      "deleteDescription": "क्या आप वाकई इस निकासी विधि को हटाना चाहते हैं?"
+    },
+    "unsavedChanges": {
+      "title": "क्या आप वाकई वापस जाना चाहते हैं?",
+      "message": "परिवर्तित किए गए फ़ील्ड सहेजे नहीं जाएंगे!"
+    },
+    "property": {
+      "delete": {
+        "title": "संपत्ति हटाएं?",
+        "message": "क्या आप वाकई इस संपत्ति को हटाना चाहते हैं?"
+      }
+    },
+    "rentInvitation": {
+      "landlordApprove": {
+        "title": "क्या आप वाकई इस किराए को मंजूरी देना चाहते हैं?",
+        "description": "सुनिश्चित करें कि आपने किरायेदार द्वारा हस्ताक्षरित समझौते की समीक्षा कर ली है।"
+      },
+      "tenantAccept": {
+        "title": "क्या आप वाकई इस आमंत्रण को स्वीकार करना चाहते हैं?",
+        "description": "सुनिश्चित करें कि आपने समझौता पीडीएफ फाइल डाउनलोड कर ली है!"
+      }
+    },
+    "sessionExpired": {
+      "title": "सत्र समाप्त हो गया",
+      "message": "आपका सत्र समाप्त हो गया है। कृपया फिर से साइन इन करें",
+      "action": "साइन इन करें"
+    },
+    "noInternet": {
+      "title": "कोई इंटरनेट कनेक्शन नहीं",
+      "message": "कृपया अपना वाई-फाई मोबाइल नेटवर्क कनेक्शन जांचें और पुन: प्रयास करें",
+      "action": "पुनः प्रयास करें"
+    },
+    "permissionHandler": {
+      "title": "अनुमति आवश्यक है!",
+      "message": "आपको ऐप सेटिंग्स में अनुमतियां देने की आवश्यकता है। क्या आप अभी सेटिंग्स खोलना चाहेंगे?"
+    },
+    "imagePicker": {
+      "title": "विकल्प चुनें",
+      "gallery": "गैलरी",
+      "camera": "कैमरा"
+    },
+    "verificationDialog": {
+      "title": "अपना ईमेल सत्यापित करें",
+      "message": "हमने एक सत्यापन कोड ईमेल भेजा है",
+      "messageWithEmail": "@:prompt.verificationDialog.message ${email: String?} को"
+    },
+    "notification": {
+      "clearTitle": "सूचनाएं साफ़ करें?",
+      "clearMessage": "क्या आप वाकई सभी सूचनाओं को साफ़ करना चाहते हैं?"
+    }
+  },
+  "form": {
+    "fullName": {
+      "label": "@:common.fullName",
+      "hint": "@:common.fullName दर्ज करें",
+      "errors": {
+        "required": "कृपया अपना @:common.fullName दर्ज करें"
+      }
+    },
+    "email": {
+      "label": "@:common.email",
+      "hint": "अपना @:common.email दर्ज करें",
+      "errors": {
+        "required": "कृपया अपना @:common.email पता दर्ज करें",
+        "invalid": "⦸ अमान्य ईमेल, कृपया पुनः प्रयास करें"
+      }
+    },
+    "password": {
+      "label": "@:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "कृपया अपना @:common.password दर्ज करें",
+        "minLength": "पासवर्ड कम से कम ${count} अक्षर का होना चाहिए!"
+      }
+    },
+    "confirmPassword": {
+      "label": "@:common.password की पुष्टि करें",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "कृपया अपना @:common.password दर्ज करें",
+        "notMatched": "पुष्टि पासवर्ड मेल नहीं खाता!"
+      }
+    },
+    "mobileNumber": {
+      "label": "@:common.mobileNumber",
+      "hint": "(+60) 555-0123",
+      "errors": {
+        "required": "कृपया अपना @:common.mobileNumber दर्ज करें"
+      }
+    },
+    "address1": {
+      "label": "@:common.address 1",
+      "hint": "मकान नंबर और सड़क का नाम",
+      "errors": {
+        "required": "कृपया अपना @:form.address1.label दर्ज करें"
+      }
+    },
+    "address2": {
+      "label": "@:common.address 2",
+      "hint": "अपार्टमेंट, सुइट, यूनिट, आदि",
+      "errors": {
+        "required": "कृपया अपना @:form.address2.label दर्ज करें"
+      }
+    },
+    "postalCode": {
+      "label": "@:common.postalCode",
+      "hint": "@:common.postalCode दर्ज करें",
+      "errors": {
+        "required": "कृपया अपना @:common.postalCode दर्ज करें"
+      }
+    },
+    "city": {
+      "label": "@:common.city",
+      "hint": "@:common.city नाम दर्ज करें।",
+      "errors": {
+        "required": "कृपया अपना @:common.city नाम दर्ज करें।"
+      }
+    },
+    "state": {
+      "label": "@:common.state",
+      "hint": "@:common.state नाम दर्ज करें।",
+      "errors": {
+        "required": "कृपया अपना @:common.state नाम दर्ज करें।"
+      }
+    },
+    "country": {
+      "label": "@:common.country",
+      "hint": "@:common.country का चयन करें।",
+      "errors": {
+        "required": "कृपया अपना @:common.country चयन करें"
+      }
+    },
+    "otp": {
+      "errors": {
+        "required": "कृपया ओटीपी दर्ज करें।",
+        "invalid": "कृपया सही ओटीपी दर्ज करें।"
+      }
+    },
+    "title": {
+      "label": "शीर्षक",
+      "hint": "शीर्षक दर्ज करें",
+      "errors": {
+        "required": "कृपया शीर्षक दर्ज करें"
+      }
+    },
+    "date": {
+      "label": "${label: String}",
+      "hint": "@:form.date.label का चयन करें",
+      "errors": {
+        "required": "कृपया @:form.date.label का चयन करें"
+      }
+    },
+    "reason": {
+      "label": "कारण",
+      "hint": "कारण दर्ज करें",
+      "errors": {
+        "required": "कृपया कारण दर्ज करें"
+      }
+    },
+    "withdrawMethod": {
+      "label": "@:common.withdrawMethod",
+      "hint": "@:common.withdrawMethod का चयन करें",
+      "errors": {
+        "required": "कृपया @:common.withdrawMethod का चयन करें"
+      }
+    },
+    "fileField": {
+      "label": "${label: String}",
+      "hint": "${label: String} अपलोड करें",
+      "errors": {
+        "required": "कृपया ${label: String} का चयन करें"
+      }
+    },
+    "note": {
+      "label": "${note: String}",
+      "hint": "@:form.note.label दर्ज करें",
+      "errors": {
+        "required": "कृपया @:form.note.label दर्ज करें"
+      }
+    },
+    "gender": {
+      "label": "@:common.gender",
+      "hint": "@:common.gender का चयन करें",
+      "errors": {
+        "required": "कृपया @:common.gender का चयन करें"
+      }
+    },
+    "anyField": {
+      "label": "${label: String}",
+      "hint": "@:form.anyField.label दर्ज करें",
+      "errors": {
+        "required": "कृपया @:form.anyField.label दर्ज करें",
+        "invalid": "कृपया मान्य @form.anyField.label दर्ज करें"
+      }
+    },
+    "anyDropdown": {
+      "label": "${label: String}",
+      "hint": "@:form.anyDropdown.label का चयन करें",
+      "errors": {
+        "required": "कृपया @:form.anyDropdown.label का चयन करें",
+        "invalid": "कृपया मान्य @form.anyDropdown.label का चयन करें"
+      }
+    }
+  },
+  "action": {
+    "next": "अगला",
+    "getStarted": "शुरू हो जाओ",
+    "skip": "छोड़ें",
+    "select": "चयन करें",
+    "save": "सहेजें",
+    "signIn": "साइन इन करें",
+    "signUp": "साइन अप करें",
+    "continue": "जारी रखें",
+    "clearAll": "सब साफ़ करें",
+    "cancelRenting": "@:common.cancelRenting",
+    "send": "भेजें",
+    "pay": "भुगतान करें",
+    "remove": "हटाएं",
+    "goBack": "वापस जाएं",
+    "buyNow": "अभी खरीदें",
+    "no": "नहीं",
+    "open": "खोलें",
+    "addProperty": "संपत्ति जोड़ें",
+    "process": "संसाधित करें",
+    "approve": "मंजूर करें",
+    "reject": "अस्वीकार करें",
+    "viewRent": "किराया देखें",
+    "openNavigationMenu": "नेविगेशन मेनू खोलें",
+    "seeAll": "सभी देखें",
+    "update": "अपडेट करें",
+    "printTransaction": "लेनदेन प्रिंट करें",
+    "payoutRequest": "भुगतान अनुरोध",
+    "addNew": "+ नया जोड़ें",
+    "sendRequest": "अनुरोध भेजें",
+    "print": "प्रिंट करें",
+    "requestForRefund": "धनवापसी का अनुरोध करें",
+    "previous": "पिछला",
+    "delete": "हटाएं",
+    "applyProperty": "संपत्ति लागू करें",
+    "viewApplication": "आवेदन देखें",
+    "inviteTenant": "किरायेदार को आमंत्रित करें",
+    "inviteRent": "किराया आमंत्रित करें",
+    "cancel": "रद्द करें",
+    "accept": "स्वीकार करें",
+    "submit": "जमा करें",
+    "yes": "हाँ",
+    "okay": "ठीक है",
+    "confirm": "पुष्टि करें",
+    "apply": "लागू करें",
+    "reset": "रीसेट करें",
+    "retry": "पुनः प्रयास करें",
+    "viewAll": "सभी देखें"
+  },
+  "pages": {
+    "language": {
+      "appbarTitle": "@:action.select @:common.language"
+    },
+    "onboard": {
+      "onboardData": {
+        "data1": {
+          "title": "अपनी संपत्ति खोजें",
+          "description": "हमने आपके जीवन के अनुकूल जगह खोजना आसान बना दिया है — चाहे वह कमरा हो, अपार्टमेंट हो या घर।"
+        },
+        "data2": {
+          "title": "शहर में अपार्टमेंट",
+          "description": "हम आपको जल्दी से सही संपत्ति से मेल करके आपका समय बचाते हैं ताकि वह चला जाए, ताकि आप अपने नए घर का आनंद ले सकें, या अपनी खुद की मुफ्त सूची बना सकें।"
+        },
+        "data3": {
+          "title": "आपका आराम घर",
+          "description": "यदि आप रहने के लिए जगह की तलाश में हैं तो किराए के लिए हमारे घरों पर एक नज़र डालें। हमारे पास आपके लिए पूरे देश में चुनने के लिए घरों की एक विस्तृत श्रृंखला है।"
+        }
+      }
+    },
+    "signIn": {
+      "title": "वापस स्वागत है",
+      "subtitle": "एक अद्भुत यात्रा शुरू करने के लिए अभी साइन इन करें।",
+      "extra": {
+        "rememberMe": "मुझे याद रखें",
+        "signUpNavigator(rich)": "खाता नहीं है? ${getStarted(@:action.getStarted)}",
+        "forgotPassword": "@:common.forgotPassword?"
+      }
+    },
+    "forgotPassword": {
+      "title": "पासवर्ड भूल गए",
+      "subtitle": "अपना पासवर्ड रिकवर करने के लिए अपना ईमेल पता दर्ज करें।"
+    },
+    "otpVerification": {
+      "title": "सत्यापन",
+      "subtitle": "4-अंकों का पिन आपके ईमेल पते पर भेज दिया गया है। ${email: String}",
+      "extra": {
+        "codeResend": {
+          "codeSendIn": "कोड ${minutes}:${seconds} में भेजा गया है",
+          "resendCode(rich)": " ${resendCode(कोड पुनः भेजें)} "
+        }
+      }
+    },
+    "resetPassword": {
+      "title": "पासवर्ड रीसेट करें",
+      "subtitle": "रिकवरी और अपने खाते में लॉग इन करने के लिए अपना पासवर्ड रीसेट करें",
+      "extra": {
+        "dialog": {
+          "title": "सफलतापूर्वक बदला गया!",
+          "subtitle": "अपने नए पासवर्ड से साइन इन करें।\nआपको साइन इन करने के लिए रीडायरेक्ट किया जा रहा है..."
+        }
+      }
+    },
+    "signUp": {
+      "title": "एक खाता बनाएं",
+      "subtitle": "एक अद्भुत यात्रा शुरू करने के लिए अभी साइन अप करें",
+      "extra": {
+        "signInNavigator(rich)": "खाता है? ${signIn(@:action.signIn)}"
+      }
+    },
+    "welcome": {
+      "title": "आप कौन हैं?",
+      "subtitle": "कृपया नीचे दिए गए विकल्प का चयन करें।",
+      "extra": {
+        "landlordTag": "अपनी संपत्तियों का प्रबंधन करें",
+        "tenantTag": "अपने किराये के खाते में लॉग इन करें"
+      }
+    },
+    "aboutUs": {
+      "appbarTitle": "@:common.aboutUs"
+    },
+    "termsAndConditions": {
+      "appbarTitle": "@:common.termsAndConditions"
+    },
+    "notificationList": {
+      "appbarTitle": "सूचनाएं"
+    },
+    "contactUs": {
+      "appbarTitle": "@:common.contactUs",
+      "extra": {
+        "messageHint": "संदेश..."
+      }
+    },
+    "cancelRenting": {
+      "appbarTitle": "@:common.cancelRenting",
+      "title": "आप @:common.cancelRenting क्यों कर रहे हैं?",
+      "form": {
+        "reason": {
+          "hint": "कारण लिखें",
+          "errors": {
+            "required": "कृपया किराया रद्द करने का कारण दर्ज करें"
+          }
+        }
+      }
+    },
+    "invoiceDetails": {
+      "appbarTitle": "@:common.viewDetails"
+    },
+    "offlinePayment": {
+      "appbarTitle": "ऑफ़लाइन भुगतान",
+      "form": {
+        "paymentNote": {
+          "label": "भुगतान नोट (@:common.optional)",
+          "hint": "कुछ टेक्स्ट दर्ज करें..."
+        }
+      },
+      "extra": {
+        "payAmount(rich)": "भुगतान राशि: ${amount}",
+        "accountHolderName": "खाता धारक का नाम",
+        "accountNumber": "खाता संख्या",
+        "swiftCode": "स्विफ्ट कोड",
+        "branch": "शाखा",
+        "fileTypeHint(rich)": "केवल ${fileType(JPG, PNG,PDF)} या ${fileType(DOC)} फॉर्मेट फाइलें चुनें। फ़ाइल आकार ${fileSize(2000 KB)}"
+      }
+    },
+    "paymentStatus": {
+      "success": {
+        "actionButton": "चालान देखें",
+        "title": "@:common.thankYou",
+        "description": "हम भुगतान की समीक्षा करेंगे और 24 घंटे के भीतर इसे मंजूरी दे देंगे।"
+      },
+      "fail": {
+        "actionButton": "पुनः प्रयास करें",
+        "title": "Oops! भुगतान विफल",
+        "description": "कुछ तकनीकी त्रुटि के कारण आपका लेनदेन विफल हो गया है।"
+      }
+    },
+    "propertyDetails": {
+      "extra": {
+        "landlord(rich)": "@:common.landlord: ${landlordName}",
+        "ratingReviews(rich)": "${rating} ${reviews(@:common.reviews)}",
+        "features(rich)": "विशेषताएँ ${fa((सुविधाएँ और सुविधाएँ))}",
+        "selectRentalPeriod": "किराया अवधि का चयन करें",
+        "writeAReview": "+ समीक्षा लिखें"
+      }
+    },
+    "search": {
+      "appbarTitle": "खोजें",
+      "extra": {
+        "hint": "प्लॉट्स, फ्लैट्स, कमरे खोजें...",
+        "noRecentSearch": "आपकी कोई हालिया खोज नहीं है।"
+      }
+    },
+    "subscriptionPlan": {
+      "appbarTitle": "अपनी योजना चुनें",
+      "extra": {
+        "subscriptionPaymentSuccess": "सदस्यता भुगतान सफलतापूर्वक।\nअब आप सब्सक्राइब की गई सुविधाओं तक पहुंच सकते हैं।"
+      }
+    },
+    "landlordMaintenanceReport": {
+      "totalMaintenanceCost(rich)": "कुल रखरखाव लागत: ${amount: string}",
+      "maintenancePending": "@:common.maintenance @:enums.maintenanceStatus.pending",
+      "maintenanceProcessing": "@:common.maintenance @:enums.maintenanceStatus.processing",
+      "maintenanceCompleted": "@:common.maintenance @:enums.maintenanceStatus.completed",
+      "maintenanceRejected": "@:common.maintenance @:enums.maintenanceStatus.rejected"
+    }
+  },
+  "enums": {
+    "propertyStatus": {
+      "allProperty": "सभी संपत्ति",
+      "pending": "लंबित",
+      "active": "सक्रिय",
+      "inactive": "निष्क्रिय",
+      "rejected": "अस्वीकृत"
+    },
+    "propertyType": {
+      "apartmentCondominium": "अपार्टमेंट/कंडोमिनिअम",
+      "house": "मकान",
+      "commercialProperty": "व्यावसायिक संपत्ति",
+      "land": "भूमि",
+      "room": "कमरा"
+    },
+    "applicationStatus": {
+      "all": "सभी",
+      "pending": "लंबित",
+      "processing": "प्रसंस्करण",
+      "approved": "स्वीकृत",
+      "rejected": "अस्वीकृत"
+    },
+    "myRentStatus": {
+      "pending": "लंबित",
+      "processing": "प्रसंस्करण",
+      "active": "सक्रिय",
+      "expired": "समाप्त",
+      "cancelled": "रद्द"
+    },
+    "maintenanceStatus": {
+      "pending": "लंबित",
+      "processing": "प्रसंस्करण",
+      "rejected": "अस्वीकृत",
+      "completed": "संपन्न"
+    },
+    "tenantProfileType": {
+      "privateIndividual": "निजी (व्यक्तिगत)",
+      "company": "कंपनी"
+    },
+    "tenantType": {
+      "newTenant": "नया किरायेदार",
+      "activeTenant": "सक्रिय किरायेदार",
+      "expiredTenant": "समाप्त किरायेदार"
+    },
+    "paymentStatus": {
+      "all": "सभी",
+      "pending": "लंबित",
+      "paid": "भुगतान किया गया",
+      "unpaid": "अभुगतान",
+      "rejected": "अस्वीकृत",
+      "refund": "धनवापसी"
+    },
+    "paymentOptions": {
+      "onlinePayment": "ऑनलाइन भुगतान",
+      "offlinePayment": "ऑफ़लाइन भुगतान"
+    },
+    "paymentType": {
+      "securityDeposit": "सुरक्षा जमा",
+      "rentPayment": "किराया भुगतान",
+      "subscription": "सदस्यता"
+    },
+    "gender": {
+      "male": "पुरुष",
+      "female": "महिला",
+      "other": "अन्य"
+    },
+    "ecRelation": {
+      "wife": "पत्नी",
+      "parent": "माता-पिता",
+      "friend": "दोस्त",
+      "brother": "भाई",
+      "sister": "बहन",
+      "child": "बच्चा"
+    },
+    "vehicleType": {
+      "car": "कार",
+      "motorcycles": "मोटरसाइकिलें",
+      "lorry": "लॉरी"
+    },
+    "sortBy": {
+      "lowToHigh": "निम्न से उच्च",
+      "highToLow": "उच्च से निम्न"
+    },
+    "residentialType": {
+      "flat": "फ्लैट",
+      "apartment": "अपार्टमेंट",
+      "condominium": "कंडोमिनिअम",
+      "serviceResidence": "सर्विस रेजिडेंस",
+      "studio": "स्टूडियो",
+      "duplex": "डुप्लेक्स",
+      "townhouseCondo": "टाउनहाउस कंडो",
+      "others": "अन्य"
+    },
+    "floorRange": {
+      "high": "उच्च",
+      "medium": "मध्यम",
+      "low": "निम्न"
+    },
+    "furnishings": {
+      "fullyFurnished": "पूरी तरह से सुसज्जित",
+      "partiallyFurnished": "आंशिक रूप से सुसज्जित",
+      "notFurnished": "सज्जित नहीं"
+    },
+    "commercialPropertyType": {
+      "officeSpace": "कार्यालय स्थान",
+      "retailSpace": "खुदरा स्थान",
+      "shopLot": "दुकान लॉट",
+      "warehouseFactory": "गोदाम / कारखाना",
+      "hotelResort": "होटल / रिज़ॉर्ट",
+      "sofo": "सोफो",
+      "soho": "सोहो",
+      "sovo": "सोवो",
+      "others": "अन्य"
+    },
+    "landPropertyType": {
+      "residential": "आवासीय",
+      "industrial": "औद्योगिक",
+      "agricultural": "कृषि",
+      "commercial": "व्यावसायिक",
+      "mixedDevelopment": "मिश्रित विकास",
+      "others": "अन्य"
+    },
+    "residentPropertyType": {
+      "condo": "कंडो / सर्विसेज रेजिडेंस / पेंटहाउस",
+      "apartment": "अपार्टमेंट / फ्लैट",
+      "house": "मकान",
+      "shoplot": "शॉपलॉट",
+      "sharing": "एक घर / फ्लैट साझा करना",
+      "others": "अन्य"
+    },
+    "minimumRentalPeriod": {
+      "sixMonths": "6 महीने",
+      "oneYear": "1 वर्ष",
+      "oneAndHalfYears": "1.5 वर्ष",
+      "twoYears": "2 वर्ष",
+      "twoAndHalfYears": "2.5 वर्ष"
+    },
+    "dropdownDateFilter": {
+      "daily": "दैनिक",
+      "weekly": "साप्ताहिक",
+      "monthly": "मासिक",
+      "yearly": "वार्षिक",
+      "custom": "कस्टम"
+    }
+  }
+}

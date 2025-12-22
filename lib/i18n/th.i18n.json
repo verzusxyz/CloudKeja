@@ -1,0 +1,950 @@
+{
+  "@@meta": {
+    "languageCode": "th_TH",
+    "languageName": "Thai",
+    "version": "1.0.0"
+  },
+  "common": {
+    "profile": "ข้อมูลส่วนตัว",
+    "language": "ภาษา",
+    "subscriptionPlan": "แผนการสมัครสมาชิก",
+    "contactUs": "ติดต่อเรา",
+    "termsAndConditions": "ข้อกำหนดและเงื่อนไข",
+    "aboutUs": "เกี่ยวกับเรา",
+    "logout": "ออกจากระบบ",
+    "editProfile": "แก้ไขข้อมูลส่วนตัว",
+    "fullName": "ชื่อเต็ม",
+    "email": "อีเมล",
+    "mobileNumber": "หมายเลขโทรศัพท์มือถือ",
+    "address": "ที่อยู่",
+    "postalCode": "รหัสไปรษณีย์",
+    "city": "เมือง",
+    "country": "ประเทศ",
+    "state": "รัฐ",
+    "password": "รหัสผ่าน",
+    "forgotPassword": "ลืมรหัสผ่าน",
+    "tenant": "ผู้เช่า",
+    "landlord": "เจ้าของที่ดิน",
+    "cancelRenting": "ยกเลิกการเช่า",
+    "startDate": "วันที่เริ่มต้น",
+    "endDate": "วันที่สิ้นสุด",
+    "fromDate": "จากวันที่",
+    "toDate": "ถึงวันที่",
+    "online": "ออนไลน์",
+    "bankList": "รายการธนาคาร",
+    "withdrawMethod": "วิธีการถอนเงิน",
+    "uploadPaymentReceipt": "อัปโหลดใบเสร็จการชำระเงิน",
+    "offlinePaymentNote(rich)": "หมายเหตุ: ${note(การชำระเงินต้องได้รับการอนุมัติด้วยตนเองจากผู้ดูแลระบบภายใน)} ${duraion(24~48 ชั่วโมง)}",
+    "reviews": "รีวิว",
+    "description": "คำอธิบาย",
+    "about": "เกี่ยวกับ",
+    "propertyTypes": "ประเภทอสังหาริมทรัพย์",
+    "features": "คุณสมบัติ",
+    "floorPlans": "แปลนพื้น",
+    "buildingDetails": "รายละเอียดอาคาร",
+    "buildingName": "ชื่ออาคาร",
+    "propertyAddress": "ที่อยู่อสังหาริมทรัพย์",
+    "completionYear": "ปีที่สร้างเสร็จ",
+    "lotNumber": "หมายเลขแปลง",
+    "residentialType": "ประเภทที่อยู่อาศัย",
+    "furnishings": "เครื่องเรือน",
+    "floorRange": "ช่วงชั้น",
+    "bedrooms": "ห้องนอน",
+    "bathrooms": "ห้องน้ำ",
+    "propertySize": "ขนาดอสังหาริมทรัพย์",
+    "rentalPeriod": "ระยะเวลาการเช่า",
+    "securityDeposit": "เงินมัดจำ",
+    "utilityBill": "ค่าสาธารณูปโภค",
+    "facilities": "สิ่งอำนวยความสะดวก",
+    "amenities": "สิ่งอำนวยความสะดวก",
+    "expiringReason": "เหตุผลที่หมดอายุ",
+    "tenantDetails": "รายละเอียดผู้เช่า",
+    "typeOfTenant": "ประเภทผู้เช่า",
+    "tenantName": "ชื่อผู้เช่า",
+    "nidPassport": "NID/หนังสือเดินทาง",
+    "nidPassportId": "@:common.nidPassport ID",
+    "tenantId": "รหัสผู้เช่า",
+    "dateOfBirth": "วันเกิด",
+    "gender": "เพศ",
+    "nominee": "ผู้รับผลประโยชน์",
+    "name": "ชื่อ",
+    "optional": "ตัวเลือก",
+    "nomineeName": "@:common.nominee @:common.name",
+    "nomineeEmail": "@:common.nominee @:common.email",
+    "nomineeMobile": {
+      "short": "@:common.nominee Mo. No.",
+      "full": "@:common.nominee @:common.mobileNumber"
+    },
+    "emergencyContact": "ผู้ติดต่อฉุกเฉิน",
+    "relation": "ความสัมพันธ์",
+    "relationWith": "@:common.relation กับ",
+    "relationWithYou": "@:common.relationWith คุณ",
+    "company": "บริษัท",
+    "companyName": "@:common.company @:common.name",
+    "companySSMNo": "@:common.company SSM No.",
+    "workplace": "ที่ทำงาน",
+    "officePhoneNo": "หมายเลขโทรศัพท์สำนักงาน",
+    "officeMobileNo": "สำนักงาน @:common.mobileNumber",
+    "vehicle": "ยานพาหนะ",
+    "vehiclesInfo": {
+      "plain": "ข้อมูลยานพาหนะ",
+      "optional": "ข้อมูลยานพาหนะ (@:common.optional)"
+    },
+    "vehiclesType": "@:common.vehicle ประเภท",
+    "vehicleRegistrationNo": {
+      "normal": "หมายเลขทะเบียนรถ",
+      "short": "ทะเบียนรถ",
+      "alt": "ป้ายทะเบียน"
+    },
+    "vehicleBrand": "@:common.vehicle ยี่ห้อ",
+    "rentProperty": "เช่าทรัพย์สิน",
+    "propertyDetails": "รายละเอียดทรัพย์สิน",
+    "propertyId": "รหัสทรัพย์สิน",
+    "propertyType": "ประเภททรัพย์สิน",
+    "propertyName": "ชื่อทรัพย์สิน",
+    "paymentDetails": "รายละเอียดการชำระเงิน",
+    "monthlyRent": "ค่าเช่ารายเดือน",
+    "thisMonthPayment": "การชำระเงินเดือนนี้",
+    "totalPaidRent": "ค่าเช่าที่ชำระทั้งหมด",
+    "dueRent": "ค่าเช่าค้างชำระ",
+    "rentStartDate": "เช่า @:common.startDate",
+    "rentEndDate": "เช่า @:common.endDate",
+    "status": "สถานะ",
+    "rentAgreementPdf": "PDF สัญญาเช่า",
+    "noFile": "ไม่มีไฟล์",
+    "tenantImageOp": "รูปภาพผู้เช่า @:common.optional",
+    "addNewVechicle": "เพิ่มยานพาหนะใหม่",
+    "uploadNidPassport": "อัปโหลด NID/หนังสือเดินทาง",
+    "nidPassportUploadNote": "อนุญาตเฉพาะภาพประเภทไฟล์เท่านั้น ขนาดไฟล์จำกัดไม่เกิน 2.5 MB",
+    "search": "ค้นหา",
+    "sortBy": "เรียงตาม",
+    "subscription": "การสมัครสมาชิก",
+    "downloading": "กำลังดาวน์โหลด...",
+    "downloadSuccess": "ดาวน์โหลดไฟล์สำเร็จ!",
+    "addPropertyBannerTitle": "ต้องการปล่อยเช่าทรัพย์สินของคุณหรือไม่?",
+    "application": "แอปพลิเคชัน",
+    "tenantHasPaidDeposit": "ผู้เช่าได้ชำระเงินมัดจำแล้ว",
+    "askProcessingRentApplication": "คุณแน่ใจหรือไม่ว่าจะดำเนินการคำขอนี้สำหรับทรัพย์สินให้เช่า?",
+    "dateAndTime": "วันและเวลา",
+    "applicationDetails": "รายละเอียดแอปพลิเคชัน",
+    "depositStatus": "สถานะเงินมัดจำ",
+    "uploadRentAgreement": "อัปโหลดสัญญาเช่า",
+    "uploadFilePDF": "อัปโหลดไฟล์ (PDF)",
+    "askSelectRentAgreement": "โปรดเลือกไฟล์เอกสารข้อตกลง",
+    "landlordRentAgreementPDF": "PDF สัญญาเช่าของเจ้าของบ้าน",
+    "tenantRentAgreementPDF": "PDF สัญญาเช่าของผู้เช่า",
+    "landlordApplicationApproveNote(rich)": "หมายเหตุ: ${note(อนุมัติแอปพลิเคชันหลังจากผู้เช่าชำระเงินมัดจำแล้วเท่านั้น)}",
+    "reasonOfRejection": "เหตุผลในการปฏิเสธ",
+    "youveRejectedThisApplication": "คุณได้ปฏิเสธแอปพลิเคชันนี้แล้ว",
+    "landlordDetails": "รายละเอียดเจ้าของบ้าน",
+    "landlordName": "ชื่อเจ้าของบ้าน",
+    "downloadRentAgreement": "ดาวน์โหลดสัญญาเช่า",
+    "acceptTermsConditions(rich)": "ยอมรับ ${toc(ข้อกำหนดและเงื่อนไข)}",
+    "tenantAgreementSignNote1(rich)": "หมายเหตุ: ${note(โปรดดาวน์โหลดและอ่านข้อตกลง โปรดส่งข้อตกลงที่ลงนามแล้วไปยังเจ้าของบ้านผ่าน WhatsApp หรืออีเมล)}",
+    "tenantAgreementSignNote2(rich)": "หมายเหตุ: ${note(เจ้าของบ้านอนุมัติแอปพลิเคชันเมื่อผู้เช่าชำระเงินประกัน ความปลอดภัย ค่าสาธารณูปโภค และค่าเช่าล่วงหน้าหนึ่งเดือน)}",
+    "completeRentAgreementPdf(rich)": "สัญญาเช่า (PDF) ${complete(ข้อตกลงฉบับสมบูรณ์)}",
+    "tenantApplicationDepositNote(rich)": "หมายเหตุ : ${note(เจ้าของบ้านอนุมัติแอปพลิเคชันเมื่อผู้เช่าชำระเงินประกัน ความปลอดภัย ค่าสาธารณูปโภค และค่าเช่าล่วงหน้าหนึ่งเดือน)}",
+    "whatsapp": "Whatsapp",
+    "applicationList": "รายการแอปพลิเคชัน",
+    "viewDetails": "ดูรายละเอียด",
+    "searchHint": "@:common.search...",
+    "home": "หน้าแรก",
+    "dashboard": "แดชบอร์ด",
+    "tenants": "ผู้เช่า",
+    "maintenance": "การบำรุงรักษา",
+    "maintenanceList": "รายการบำรุงรักษา",
+    "maintenanceReport": "รายงานการบำรุงรักษา",
+    "labor": "แรงงาน",
+    "applications": "แอปพลิเคชัน",
+    "rentInvitation": "คำเชิญเช่า",
+    "payment": "การชำระเงิน",
+    "rentPayment": "การชำระค่าเช่า",
+    "depositUtilityPayment": "การชำระเงินมัดจำและค่าสาธารณูปโภค",
+    "refundRequest": "คำขอคืนเงิน",
+    "withdrawRequest": "คำขอถอนเงิน",
+    "myProperty": "ทรัพย์สินของฉัน",
+    "myRent": "ค่าเช่าของฉัน",
+    "wishlist": "สิ่งที่อยากได้",
+    "properties": "คุณสมบัติ",
+    "allProperties": "คุณสมบัติทั้งหมด",
+    "totalPropery": "ทรัพย์สินทั้งหมด",
+    "occupied": "ถูกครอบครอง",
+    "vacant": "ว่าง",
+    "accounting": "บัญชี",
+    "totalIncome": "รายได้ทั้งหมด",
+    "totalExpense": "ค่าใช้จ่ายทั้งหมด",
+    "currentBalance": "ยอดคงเหลือปัจจุบัน",
+    "totalWithdrawal": "รวม (ถอน)",
+    "totalProperties": "คุณสมบัติทั้งหมด",
+    "totalTenant": "ผู้เช่าทั้งหมด",
+    "totalRentPaid": "ค่าเช่าที่ชำระทั้งหมด",
+    "totalRentDue": "ค่าเช่าค้างชำระทั้งหมด",
+    "totalApplication": "แอปพลิเคชันทั้งหมด",
+    "pendingApplication": "แอปพลิเคชันที่รอดำเนินการ",
+    "processingApplication": "แอปพลิเคชันที่กำลังดำเนินการ",
+    "approveApplication": "อนุมัติแอปพลิเคชัน",
+    "rejectApplication": "ปฏิเสธแอปพลิเคชัน",
+    "maintenanceCost": "ค่าบำรุงรักษา",
+    "transactionSummary": "สรุปธุรกรรม",
+    "maintenanceRequest": "คำขอบำรุงรักษา",
+    "notifications": "การแจ้งเตือน",
+    "myProperties": "คุณสมบัติของฉัน",
+    "recommendationProperties": "คุณสมบัติแนะนำ",
+    "laborList": "รายการแรงงาน",
+    "addLabor": "เพิ่มแรงงาน",
+    "laborDetails": "รายละเอียดแรงงาน",
+    "laborSalary": "เงินเดือนแรงงาน",
+    "editLabor": "แก้ไขแรงงาน",
+    "addNewLabor": "เพิ่มแรงงานใหม่",
+    "enterAmount": "ป้อนจำนวนเงิน",
+    "maintenanceDetails": "รายละเอียดการบำรุงรักษา",
+    "laborName": "ชื่อแรงงาน",
+    "comment": "ความคิดเห็น",
+    "image": "รูปภาพ",
+    "complete": "เสร็จสมบูรณ์",
+    "details": "รายละเอียด",
+    "title": "ชื่อ",
+    "date": "วันที่",
+    "reason": "เหตุผล",
+    "edit": "แก้ไข",
+    "property": "ทรัพย์สิน",
+    "completeYourProfile": "กรอกโปรไฟล์ของคุณให้สมบูรณ์",
+    "profileImage": "รูปโปรไฟล์",
+    "imagePickHint": "อนุญาตเฉพาะรูปภาพ JPEG และ PNG ขนาดสูงสุด 120x120 พิกเซล",
+    "invoiceId": "หมายเลขใบแจ้งหนี้",
+    "depositAmount": "จำนวนเงินมัดจำ",
+    "landlordPhone": "โทรศัพท์เจ้าของบ้าน",
+    "rentalAdvance": "ค่าเช่า (ล่วงหน้า)",
+    "totalAmount": "จำนวนเงินทั้งหมด",
+    "rentalAmount": "จำนวนเงินค่าเช่า",
+    "adminCharge": "ค่าธรรมเนียมผู้ดูแลระบบ",
+    "editAccount": "แก้ไขบัญชี",
+    "addNewAccount": "เพิ่มบัญชีใหม่",
+    "transactionId": "รหัสธุรกรรม",
+    "transactionType": "ประเภทธุรกรรม",
+    "requestDate": "วันที่ร้องขอ",
+    "amount": "จำนวนเงิน",
+    "fee": "ค่าธรรมเนียม",
+    "paymentStatus": "สถานะการชำระเงิน",
+    "generatedTime": "เวลาที่สร้าง",
+    "systemGeneratedReportHint(rich)": "นี่คือรายงานที่สร้างขึ้นโดยระบบของ ${appName}",
+    "withdrawHistory": "ประวัติการถอน",
+    "history": "ประวัติ",
+    "withdrawAmount": "จำนวนเงินที่ถอน",
+    "availableBalance": "ยอดคงเหลือที่มีอยู่",
+    "withdrawCharge": "ค่าธรรมเนียมการถอน",
+    "paymentMethod": "วิธีการชำระเงิน",
+    "requestSendSuccess": "ส่งคำขอสำเร็จ!",
+    "paymentReceiptSubmitSuccess": "ส่งใบเสร็จการชำระเงินสำเร็จ",
+    "refundReason": "เหตุผลในการคืนเงิน",
+    "note": "หมายเหตุ",
+    "refundReceiveSuccess": "รับเงินคืนสำเร็จ",
+    "downloadPaymentReceipt": "ดาวน์โหลดใบเสร็จการชำระเงิน",
+    "invoice": "ใบแจ้งหนี้",
+    "selectPropertyToSeeInvoice": "เลือกทรัพย์สินเพื่อดูหมายเลขใบแจ้งหนี้...",
+    "bankAccName": "ชื่อบัญชีธนาคาร",
+    "bankName": "ชื่อธนาคาร",
+    "bankAccNum": "หมายเลขบัญชีธนาคาร",
+    "thankYou": "ขอบคุณ!",
+    "basicInfo": "ข้อมูลพื้นฐาน",
+    "descriptionPricing": "คำอธิบายและราคา",
+    "contact": "ติดต่อ",
+    "photos": "รูปภาพ",
+    "successfullySubmitted": "ส่งสำเร็จ!",
+    "editProperty": "แก้ไขทรัพย์สิน",
+    "addNewProperty": "เพิ่มทรัพย์สินใหม่",
+    "propertyManageRequestSuccess": "โฆษณาของคุณได้รับการส่งเพื่อตรวจสอบแล้ว",
+    "postAnotherProperty": "โพสต์ทรัพย์สินอื่น",
+    "browseYourProperty": "เรียกดูทรัพย์สินของคุณ",
+    "stepIndicator(rich)": "ขั้นตอน ${step} จาก ${totalSteps}",
+    "whatWouldYouLikeToPost": "คุณต้องการโพสต์อะไร?",
+    "category": "หมวดหมู่",
+    "invalidCategory": "หมวดหมู่ไม่ถูกต้อง",
+    "unitNumber": "หมายเลขหน่วย",
+    "sqft": "ตร.ฟุต",
+    "propertySizeMustBeGreaterThan0": "ขนาดทรัพย์สินต้องมากกว่าศูนย์",
+    "whatAreTheFacility": "สิ่งอำนวยความสะดวกคืออะไร?",
+    "whatAreTheAmenity": "สิ่งอำนวยความสะดวกคืออะไร?",
+    "parkingLot": "ที่จอดรถ",
+    "houseType": "ประเภทบ้าน",
+    "value": "มูลค่า",
+    "unitLotSize": "ขนาดหน่วย / ล็อต",
+    "landSize": "ขนาดที่ดิน",
+    "acres": "เอเคอร์",
+    "roomSize": "ขนาดห้อง",
+    "askTenantPreference": "ความต้องการของผู้เช่าของคุณคืออะไร",
+    "couple": "คู่",
+    "describeTheProperty": "อธิบาย ${propertyType: String}",
+    "adTitle": "ชื่อโฆษณา",
+    "minimumRentalPeriod": "ระยะเวลาการเช่าขั้นต่ำ",
+    "whatsappNumber": "@:common.whatsapp หมายเลข",
+    "hideOrDisplayEmail": "ซ่อนหรือแสดงที่อยู่อีเมล",
+    "thankYouForPostingProperty": "ขอบคุณสำหรับการโพสต์บน ${appName: String}!",
+    "propertyList": "รายการทรัพย์สิน",
+    "newInviteRent": "เช่าคำเชิญใหม่",
+    "rentAgreement": "สัญญาเช่า",
+    "rentDetails": "รายละเอียดการเช่า",
+    "landlordRentInvitationPendingNote(rich)": "หมายเหตุ: ${note(โปรดรอให้ผู้เช่ายอมรับคำเชิญ)}",
+    "rent": "เช่า",
+    "editTenant": "แก้ไขผู้เช่า",
+    "addNewTenant": "เพิ่มผู้เช่าใหม่",
+    "shareInstallLink": "แชร์ลิงก์การติดตั้ง",
+    "tenantList": "รายการผู้เช่า",
+    "editMaintenanceRequest": "แก้ไขคำขอบำรุงรักษา",
+    "addNewMaintenance": "เพิ่มการบำรุงรักษาใหม่",
+    "landlordId": "รหัสเจ้าของบ้าน",
+    "tenantAgrementUnderReviewNote(rich)": "หมายเหตุ ${note(ข้อตกลงของคุณอยู่ระหว่างการตรวจสอบ โปรดรอจนกว่าเจ้าของบ้านจะอนุมัติการเช่าของคุณ)}",
+    "editReview": "แก้ไขรีวิว",
+    "writeAReview": "เขียนรีวิว",
+    "selectRating": "เลือกระดับ",
+    "enterYourOpinion": "ป้อนความคิดเห็นของคุณ",
+    "askToEnterReviewMsg": "โปรดป้อนข้อความรีวิว",
+    "pressBackAgainToExit": "กดกลับอีกครั้งเพื่อออก",
+    "selectPaymentMethod": "เลือกวิธีการชำระเงิน",
+    "filter": "ตัวกรอง",
+    "perMonth": "/1 เดือน",
+    "searchHintWithAppName": "ค้นหาอะไรก็ได้ใน ${appName: String}..."
+  },
+  "exceptions": {
+    "somethingWentWrong": "มีบางอย่างผิดพลาด โปรดลองอีกครั้ง",
+    "noNidPassport": "ไม่มีรูปภาพ NID/หนังสือเดินทางให้ไว้",
+    "noRentPropertyFound": "ไม่พบคุณสมบัติการเช่าสำหรับผู้เช่ารายนี้",
+    "noPropertyFoundWithKeyWord": "ไม่พบคุณสมบัติ!\nโปรดลองใช้คำหลักอื่น",
+    "noSubscriptionFoundRefreshPage": "ไม่พบแผนการสมัครสมาชิก!\nโปรดรีเฟรชหน้าแล้วลองอีกครั้ง",
+    "invalidApiDataRefreshPage": "ข้อมูล ${dataType: String} ไม่ถูกต้อง! โปรดรีเฟรชหน้าแล้วลองอีกครั้ง",
+    "invalidDownloadUrl": "URL ดาวน์โหลดไม่ถูกต้อง!",
+    "failedToSaveFile": "บันทึกไฟล์ไม่สำเร็จ! ${error: String}",
+    "errorOpeningFile": "ข้อผิดพลาดในการเปิดไฟล์! ${error: String}",
+    "noVehicleInfoProvided": "ไม่มีข้อมูลยานพาหนะ",
+    "yourApplicationRejected": "แอปพลิเคชันของคุณถูกปฏิเสธแล้ว",
+    "noApplicationFoundHint": {
+      "template": "ไม่พบแอปพลิเคชัน!\n${subject: String} จะแสดงที่นี่เมื่อมี",
+      "subjects": {
+        "tenant": "แอปพลิเคชันของคุณ",
+        "landlord": "แอปพลิเคชันของผู้เช่า"
+      }
+    },
+    "noPropertyFoundHint": {
+      "landlordHome": "ไม่พบคุณสมบัติ!\nโปรดลองเพิ่มคุณสมบัติเพื่อดูที่นี่",
+      "tenantRecommended": "ไม่พบคุณสมบัติแนะนำ\nโปรดลองอีกครั้งในภายหลัง",
+      "tenantAllProperty": "คุณสมบัติไม่พร้อมใช้งาน\nโปรดลองอีกครั้งในภายหลัง"
+    },
+    "noImageProvided": "ไม่มีรูปภาพให้",
+    "noStatusMaintenantFound": {
+      "landlord": "ไม่พบการบำรุงรักษา ${status}",
+      "tenant": "ไม่พบการบำรุงรักษา! คุณสามารถสร้างคำขอบำรุงรักษาเพื่อดูที่นี่"
+    },
+    "noDepositFound": "ไม่พบเงินมัดจำ!\nโปรดดูเงินมัดจำเมื่อมี",
+    "noRentPaymentFound": "ไม่พบการชำระค่าเช่า!\nโปรดดูการชำระค่าเช่าเมื่อมี",
+    "transactionSummaryApiException": "รับข้อมูลสรุปธุรกรรมล้มเหลว",
+    "noWithdrawRequestFound": "ไม่พบคำขอ!\nโปรดลองสร้างคำขอถอนเพื่อดูที่นี่",
+    "withdrawRequestNotApproved": "คำขอถอนนี้ยังไม่ได้รับการอนุมัติ!",
+    "nonZeroError": "โปรดป้อนจำนวนเงินที่ถูกต้องมากกว่าศูนย์",
+    "minAmountError": "จำนวนเงินต้องมีอย่างน้อย ${minValue: String}",
+    "maxAmountError": "จำนวนเงินต้องไม่เกิน ${maxValue: String}",
+    "selectPaymentMethodHint": "โปรดเลือกวิธีการชำระเงินก่อน",
+    "noStatusRefundReqFound": {
+      "landlord": "ไม่พบคำขอคืนเงิน ${status}!\nคุณสามารถดูคำขอคืนเงินได้ที่นี่เมื่อมี",
+      "tenant": "ไม่พบคำขอคืนเงิน!\nคุณสามารถสร้างคำขอคืนเงินเพื่อดูที่นี่"
+    },
+    "refundRequestHint": {
+      "inTenantList": "ผู้เช่าจะอนุมัติการคืนเงินเมื่อเขาได้รับเงินคืน",
+      "tenantReqSuccess": "เราจะตรวจสอบคำขอคืนเงินและอนุมัติภายใน 24 ชั่วโมง"
+    },
+    "oneToTenRequiredField": "โปรดเลือกรอบของ ${value: String}",
+    "invalidDateRange": "ช่วงวันที่ไม่ถูกต้อง",
+    "valueMustBeGreaterThanZero": "${value: String} ต้องมากกว่าศูนย์",
+    "editProperty": {
+      "rentalChange": "คุณสมบัติการเช่ากำลังเปลี่ยนแปลง ต้องใช้ได้ (มีผล) สำหรับการชำระค่าเช่าเดือนถัดไปเท่านั้น",
+      "deleteOnRent": "ทรัพย์สินของคุณถูกเช่าโดยผู้เช่าแล้ว ไม่สามารถลบได้จนกว่าจะเอาผู้เช่าออกก่อน",
+      "alreayRented": "ทรัพย์สินนี้ถูกเช่าแล้ว โปรดลองอีกครั้งในภายหลัง\nหรือคุณสามารถติดต่อเจ้าของบ้านเพื่อขอข้อมูลเพิ่มเติมได้"
+    },
+    "rentInvitation": {
+      "landlordNoRentInvitation": "ไม่พบคำเชิญเช่า!\nโปรดลองสร้างคำเชิญเช่าเพื่อดูที่นี่",
+      "tenantNoRentInvitation": "ไม่พบคำเชิญเช่า!\nคุณสามารถดูคำเชิญเช่าได้ที่นี่เมื่อมี"
+    },
+    "notenantFoundList": "ไม่มีผู้เช่า!\nโปรดลองเพิ่มผู้เช่าเพื่อดูที่นี่",
+    "noFeaturesProvided": "ไม่มีคุณสมบัติให้",
+    "noNotificationFound": "ไม่มีการแจ้งเตือน\nคุณสามารถดูการแจ้งเตือนของคุณได้ที่นี่เมื่อมี"
+  },
+  "prompt": {
+    "logout": {
+      "title": "@:common.logout",
+      "message": "คุณแน่ใจหรือไม่ที่จะออกจากระบบ"
+    },
+    "application": {
+      "rejectTitle": "ทำไมคุณถึงปฏิเสธแอปพลิเคชันนี้?",
+      "applicationSent": {
+        "successfully": "ส่งแอปพลิเคชันสำเร็จ!",
+        "sucessDescription": "คุณสามารถดูแอปพลิเคชันนี้ในรายการแอปพลิเคชันของคุณ"
+      }
+    },
+    "labor": {
+      "delete": {
+        "title": "ลบแรงงาน?",
+        "description": "คุณแน่ใจหรือไม่ที่จะลบแรงงานคนนี้?"
+      }
+    },
+    "maintenanceRequest": {
+      "rejectTitle": "ทำไมคำขอนี้ถึงถูกปฏิเสธ?",
+      "processTitle": "คุณแน่ใจหรือไม่ว่าจะดำเนินการคำขอบำรุงรักษานี้?",
+      "completeTitle": "งานเสร็จสมบูรณ์แล้วหรือยัง?"
+    },
+    "withdrawMethod": {
+      "deleteTitle": "ลบวิธีการถอน?",
+      "deleteDescription": "คุณแน่ใจหรือไม่ที่จะลบวิธีการถอนนี้?"
+    },
+    "unsavedChanges": {
+      "title": "คุณแน่ใจหรือไม่ที่จะกลับไป?",
+      "message": "ฟิลด์ที่เปลี่ยนแปลงจะไม่ถูกบันทึก!"
+    },
+    "property": {
+      "delete": {
+        "title": "ลบทรัพย์สิน?",
+        "message": "คุณแน่ใจหรือไม่ที่จะลบทรัพย์สินนี้?"
+      }
+    },
+    "rentInvitation": {
+      "landlordApprove": {
+        "title": "คุณแน่ใจหรือไม่ที่จะอนุมัติการเช่านี้?",
+        "description": "ตรวจสอบให้แน่ใจว่าคุณได้ตรวจสอบข้อตกลงที่ผู้เช่าลงนามแล้ว"
+      },
+      "tenantAccept": {
+        "title": "คุณแน่ใจหรือไม่ที่จะรับคำเชิญนี้?",
+        "description": "ตรวจสอบให้แน่ใจว่าคุณได้ดาวน์โหลดไฟล์ PDF ข้อตกลงแล้ว!"
+      }
+    },
+    "sessionExpired": {
+      "title": "เซสชันหมดอายุ",
+      "message": "เซสชันของคุณหมดอายุแล้ว โปรดลงชื่อเข้าใช้อีกครั้ง",
+      "action": "ลงชื่อเข้าใช้"
+    },
+    "noInternet": {
+      "title": "ไม่มีการเชื่อมต่ออินเทอร์เน็ต",
+      "message": "โปรดตรวจสอบการเชื่อมต่อเครือข่ายมือถือ Wi-Fi ของคุณแล้วลองอีกครั้ง",
+      "action": "ลองอีกครั้ง"
+    },
+    "permissionHandler": {
+      "title": "ต้องได้รับอนุญาต!",
+      "message": "คุณต้องให้สิทธิ์ในการตั้งค่าแอป คุณต้องการเปิดการตั้งค่าตอนนี้หรือไม่?"
+    },
+    "imagePicker": {
+      "title": "เลือกตัวเลือก",
+      "gallery": "แกลเลอรี่",
+      "camera": "กล้อง"
+    },
+    "verificationDialog": {
+      "title": "ยืนยันอีเมลของคุณ",
+      "message": "เราได้ส่งอีเมลรหัสยืนยันแล้ว",
+      "messageWithEmail": "@:prompt.verificationDialog.message ไปที่ ${email: String?}"
+    },
+    "notification": {
+      "clearTitle": "ล้างการแจ้งเตือน?",
+      "clearMessage": "คุณแน่ใจหรือไม่ที่จะล้างการแจ้งเตือนทั้งหมด?"
+    }
+  },
+  "form": {
+    "fullName": {
+      "label": "@:common.fullName",
+      "hint": "ป้อน @:common.fullName",
+      "errors": {
+        "required": "โปรดป้อน @:common.fullName ของคุณ"
+      }
+    },
+    "email": {
+      "label": "@:common.email",
+      "hint": "ป้อน @:common.email ของคุณ",
+      "errors": {
+        "required": "โปรดป้อนที่อยู่ @:common.email ของคุณ",
+        "invalid": "⦸ อีเมลไม่ถูกต้อง โปรดลองอีกครั้ง"
+      }
+    },
+    "password": {
+      "label": "@:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "โปรดป้อน @:common.password ของคุณ",
+        "minLength": "รหัสผ่านต้องมีความยาวอย่างน้อย ${count} ตัวอักษร!"
+      }
+    },
+    "confirmPassword": {
+      "label": "ยืนยัน @:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "โปรดป้อน @:common.password ของคุณ",
+        "notMatched": "ยืนยันรหัสผ่านไม่ตรงกัน!"
+      }
+    },
+    "mobileNumber": {
+      "label": "@:common.mobileNumber",
+      "hint": "(+60) 555-0123",
+      "errors": {
+        "required": "โปรดป้อน @:common.mobileNumber ของคุณ"
+      }
+    },
+    "address1": {
+      "label": "@:common.address 1",
+      "hint": "หมายเลขบ้านและชื่อถนน",
+      "errors": {
+        "required": "โปรดป้อน @:form.address1.label ของคุณ"
+      }
+    },
+    "address2": {
+      "label": "@:common.address 2",
+      "hint": "อพาร์ตเมนต์, ห้องชุด, หน่วย, ฯลฯ",
+      "errors": {
+        "required": "โปรดป้อน @:form.address2.label ของคุณ"
+      }
+    },
+    "postalCode": {
+      "label": "@:common.postalCode",
+      "hint": "ป้อน @:common.postalCode",
+      "errors": {
+        "required": "โปรดป้อน @:common.postalCode ของคุณ"
+      }
+    },
+    "city": {
+      "label": "@:common.city",
+      "hint": "ป้อนชื่อ @:common.city",
+      "errors": {
+        "required": "โปรดป้อนชื่อ @:common.city ของคุณ"
+      }
+    },
+    "state": {
+      "label": "@:common.state",
+      "hint": "ป้อนชื่อ @:common.state",
+      "errors": {
+        "required": "โปรดป้อนชื่อ @:common.state ของคุณ"
+      }
+    },
+    "country": {
+      "label": "@:common.country",
+      "hint": "เลือก @:common.country",
+      "errors": {
+        "required": "โปรดเลือก @:common.country ของคุณ"
+      }
+    },
+    "otp": {
+      "errors": {
+        "required": "โปรดป้อน OTP",
+        "invalid": "โปรดป้อน OTP ที่ถูกต้อง"
+      }
+    },
+    "title": {
+      "label": "ชื่อ",
+      "hint": "ป้อนชื่อ",
+      "errors": {
+        "required": "โปรดป้อนชื่อ"
+      }
+    },
+    "date": {
+      "label": "${label: String}",
+      "hint": "เลือก @:form.date.label",
+      "errors": {
+        "required": "โปรดเลือก @:form.date.label"
+      }
+    },
+    "reason": {
+      "label": "เหตุผล",
+      "hint": "ป้อนเหตุผล",
+      "errors": {
+        "required": "โปรดป้อนเหตุผล"
+      }
+    },
+    "withdrawMethod": {
+      "label": "@:common.withdrawMethod",
+      "hint": "เลือก @:common.withdrawMethod",
+      "errors": {
+        "required": "โปรดเลือก @:common.withdrawMethod"
+      }
+    },
+    "fileField": {
+      "label": "${label: String}",
+      "hint": "อัปโหลด ${label: String}",
+      "errors": {
+        "required": "โปรดเลือก ${label: String}"
+      }
+    },
+    "note": {
+      "label": "${note: String}",
+      "hint": "ป้อน @:form.note.label",
+      "errors": {
+        "required": "โปรดป้อน @:form.note.label"
+      }
+    },
+    "gender": {
+      "label": "@:common.gender",
+      "hint": "เลือก @:common.gender",
+      "errors": {
+        "required": "โปรดเลือก @:common.gender"
+      }
+    },
+    "anyField": {
+      "label": "${label: String}",
+      "hint": "ป้อน @:form.anyField.label",
+      "errors": {
+        "required": "โปรดป้อน @:form.anyField.label",
+        "invalid": "โปรดป้อน @form.anyField.label ที่ถูกต้อง"
+      }
+    },
+    "anyDropdown": {
+      "label": "${label: String}",
+      "hint": "เลือก @:form.anyDropdown.label",
+      "errors": {
+        "required": "โปรดเลือก @:form.anyDropdown.label",
+        "invalid": "โปรดเลือก @form.anyDropdown.label ที่ถูกต้อง"
+      }
+    }
+  },
+  "action": {
+    "next": "ถัดไป",
+    "getStarted": "เริ่มต้น",
+    "skip": "ข้าม",
+    "select": "เลือก",
+    "save": "บันทึก",
+    "signIn": "เข้าสู่ระบบ",
+    "signUp": "สมัครสมาชิก",
+    "continue": "ดำเนินการต่อ",
+    "clearAll": "ลบทั้งหมด",
+    "cancelRenting": "@:common.cancelRenting",
+    "send": "ส่ง",
+    "pay": "ชำระเงิน",
+    "remove": "ลบ",
+    "goBack": "ย้อนกลับ",
+    "buyNow": "ซื้อเดี๋ยวนี้",
+    "no": "ไม่",
+    "open": "เปิด",
+    "addProperty": "เพิ่มทรัพย์สิน",
+    "process": "ดำเนินการ",
+    "approve": "อนุมัติ",
+    "reject": "ปฏิเสธ",
+    "viewRent": "ดูค่าเช่า",
+    "openNavigationMenu": "เปิดเมนูนำทาง",
+    "seeAll": "ดูทั้งหมด",
+    "update": "อัปเดต",
+    "printTransaction": "พิมพ์รายการธุรกรรม",
+    "payoutRequest": "คำขอจ่ายเงิน",
+    "addNew": "+ เพิ่มใหม่",
+    "sendRequest": "ส่งคำขอ",
+    "print": "พิมพ์",
+    "requestForRefund": "ขอคืนเงิน",
+    "previous": "ก่อนหน้า",
+    "delete": "ลบ",
+    "applyProperty": "สมัครทรัพย์สิน",
+    "viewApplication": "ดูใบสมัคร",
+    "inviteTenant": "เชิญผู้เช่า",
+    "inviteRent": "เชิญเช่า",
+    "cancel": "ยกเลิก",
+    "accept": "ยอมรับ",
+    "submit": "ส่ง",
+    "yes": "ใช่",
+    "okay": "ตกลง",
+    "confirm": "ยืนยัน",
+    "apply": "สมัคร",
+    "reset": "รีเซ็ต",
+    "retry": "ลองอีกครั้ง",
+    "viewAll": "ดูทั้งหมด"
+  },
+  "pages": {
+    "language": {
+      "appbarTitle": "@:action.select @:common.language"
+    },
+    "onboard": {
+      "onboardData": {
+        "data1": {
+          "title": "ค้นหาทรัพย์สินของคุณ",
+          "description": "เราทำให้การหาที่พักที่เหมาะสมกับชีวิตคุณเป็นเรื่องง่าย — ไม่ว่าจะเป็นห้อง, อพาร์ตเมนต์, หรือบ้าน."
+        },
+        "data2": {
+          "title": "อพาร์ตเมนต์ในเมือง",
+          "description": "เราประหยัดเวลาโดยการจับคู่คุณกับทรัพย์สินที่สมบูรณ์แบบก่อนที่จะหายไป เพื่อที่คุณจะได้เพลิดเพลินกับบ้านใหม่ของคุณ หรือจดทะเบียนทรัพย์สินของคุณเองได้ฟรี."
+        },
+        "data3": {
+          "title": "บ้านที่คุณสะดวกสบาย",
+          "description": "หากคุณกำลังมองหาที่พัก ลองดูบ้านให้เช่าของเราที่มีหลากหลายให้เลือกจากทั่วประเทศ."
+        }
+      }
+    },
+    "signIn": {
+      "title": "ยินดีต้อนรับกลับ",
+      "subtitle": "เข้าสู่ระบบตอนนี้เพื่อเริ่มการเดินทางที่ยอดเยี่ยม.",
+      "extra": {
+        "rememberMe": "จดจำฉัน",
+        "signUpNavigator(rich)": "ยังไม่มีบัญชี? ${getStarted(@:action.getStarted)}",
+        "forgotPassword": "@:common.forgotPassword?"
+      }
+    },
+    "forgotPassword": {
+      "title": "ลืมรหัสผ่าน",
+      "subtitle": "กรอกที่อยู่อีเมลของคุณเพื่อกู้คืนรหัสผ่าน."
+    },
+    "otpVerification": {
+      "title": "การยืนยันตัวตน",
+      "subtitle": "รหัส PIN 4 หลักถูกส่งไปยังที่อยู่อีเมลของคุณแล้ว ${email: String}",
+      "extra": {
+        "codeResend": {
+          "codeSendIn": "รหัสจะถูกส่งใน ${minutes}:${seconds}",
+          "resendCode(rich)": " ${resendCode(ส่งรหัสอีกครั้ง)} "
+        }
+      }
+    },
+    "resetPassword": {
+      "title": "รีเซ็ตรหัสผ่าน",
+      "subtitle": "รีเซ็ตรหัสผ่านของคุณเพื่อกู้คืนและเข้าสู่ระบบบัญชีของคุณ",
+      "extra": {
+        "dialog": {
+          "title": "เปลี่ยนรหัสสำเร็จ!",
+          "subtitle": "เข้าสู่ระบบด้วยรหัสผ่านใหม่ของคุณ.\n กำลังพาคุณไปยังหน้าล็อกอิน..."
+        }
+      }
+    },
+    "signUp": {
+      "title": "สร้างบัญชี",
+      "subtitle": "สมัครสมาชิกตอนนี้เพื่อเริ่มการเดินทางที่ยอดเยี่ยม",
+      "extra": {
+        "signInNavigator(rich)": "มีบัญชีแล้ว? ${signIn(@:action.signIn)}"
+      }
+    },
+    "welcome": {
+      "title": "คุณคือใคร?",
+      "subtitle": "โปรดเลือกตัวเลือกด้านล่าง.",
+      "extra": {
+        "landlordTag": "จัดการทรัพย์สินของคุณเอง",
+        "tenantTag": "เข้าสู่ระบบบัญชีเช่าของคุณ"
+      }
+    },
+    "aboutUs": {
+      "appbarTitle": "@:common.aboutUs"
+    },
+    "termsAndConditions": {
+      "appbarTitle": "@:common.termsAndConditions"
+    },
+    "notificationList": {
+      "appbarTitle": "การแจ้งเตือน"
+    },
+    "contactUs": {
+      "appbarTitle": "@:common.contactUs",
+      "extra": {
+        "messageHint": "ข้อความ..."
+      }
+    },
+    "cancelRenting": {
+      "appbarTitle": "@:common.cancelRenting",
+      "title": "ทำไมคุณถึง @:common.cancelRenting?",
+      "form": {
+        "reason": {
+          "hint": "เขียนเหตุผล",
+          "errors": {
+            "required": "กรุณากรอกเหตุผลในการยกเลิกการเช่า"
+          }
+        }
+      }
+    },
+    "invoiceDetails": {
+      "appbarTitle": "@:common.viewDetails"
+    },
+    "offlinePayment": {
+      "appbarTitle": "การชำระเงินออฟไลน์",
+      "form": {
+        "paymentNote": {
+          "label": "บันทึกการชำระเงิน (@:common.optional)",
+          "hint": "กรอกข้อความ..."
+        }
+      },
+      "extra": {
+        "payAmount(rich)": "จำนวนเงินที่ชำระ: ${amount}",
+        "accountHolderName": "ชื่อผู้ถือบัญชี",
+        "accountNumber": "หมายเลขบัญชี",
+        "swiftCode": "รหัส SWIFT",
+        "branch": "สาขา",
+        "fileTypeHint(rich)": "เลือกไฟล์ในรูปแบบ ${fileType(JPG, PNG,PDF)} หรือ ${fileType(DOC)} เท่านั้น ขนาดไฟล์ ${fileSize(2000 KB)}"
+      }
+    },
+    "paymentStatus": {
+      "success": {
+        "actionButton": "ดูใบแจ้งหนี้",
+        "title": "@:common.thankYou",
+        "description": "เราจะตรวจสอบการชำระเงินและอนุมัติภายใน 24 ชั่วโมง."
+      },
+      "fail": {
+        "actionButton": "ลองอีกครั้ง",
+        "title": "อุ๊บส์! การชำระเงินล้มเหลว",
+        "description": "การทำรายการของคุณล้มเหลวเนื่องจากข้อผิดพลาดทางเทคนิค."
+      }
+    },
+    "propertyDetails": {
+      "extra": {
+        "landlord(rich)": "@:common.landlord: ${landlordName}",
+        "ratingReviews(rich)": "${rating} ${reviews(@:common.reviews)}",
+        "features(rich)": "คุณสมบัติ ${fa((สิ่งอำนวยความสะดวก & สิ่งอำนวยความสะดวก))}",
+        "selectRentalPeriod": "เลือกระยะเวลาเช่า",
+        "writeAReview": "+ เขียนรีวิว"
+      }
+    },
+    "search": {
+      "appbarTitle": "ค้นหา",
+      "extra": {
+        "hint": "ค้นหาที่ดิน, แฟลต, ห้อง...",
+        "noRecentSearch": "คุณยังไม่มีการค้นหาล่าสุด."
+      }
+    },
+    "subscriptionPlan": {
+      "appbarTitle": "เลือกแผนของคุณ",
+      "extra": {
+        "subscriptionPaymentSuccess": "การชำระเงินสำหรับการสมัครสมาชิกสำเร็จ.\nคุณสามารถเข้าถึงคุณสมบัติที่สมัครสมาชิกได้แล้ว."
+      }
+    },
+    "landlordMaintenanceReport": {
+      "totalMaintenanceCost(rich)": "ค่าบำรุงรักษารวม: ${amount: string}",
+      "maintenancePending": "@:common.maintenance @:enums.maintenanceStatus.pending",
+      "maintenanceProcessing": "@:common.maintenance @:enums.maintenanceStatus.processing",
+      "maintenanceCompleted": "@:common.maintenance @:enums.maintenanceStatus.completed",
+      "maintenanceRejected": "@:common.maintenance @:enums.maintenanceStatus.rejected"
+    }
+  },
+  "enums": {
+    "propertyStatus": {
+      "allProperty": "ทรัพย์สินทั้งหมด",
+      "pending": "รอดำเนินการ",
+      "active": "ใช้งาน",
+      "inactive": "ไม่ใช้งาน",
+      "rejected": "ถูกปฏิเสธ"
+    },
+    "propertyType": {
+      "apartmentCondominium": "อพาร์ตเมนต์/คอนโดมิเนียม",
+      "house": "บ้าน",
+      "commercialProperty": "ทรัพย์สินเชิงพาณิชย์",
+      "land": "ที่ดิน",
+      "room": "ห้อง"
+    },
+    "applicationStatus": {
+      "all": "ทั้งหมด",
+      "pending": "รอดำเนินการ",
+      "processing": "กำลังดำเนินการ",
+      "approved": "ได้รับการอนุมัติ",
+      "rejected": "ถูกปฏิเสธ"
+    },
+    "myRentStatus": {
+      "pending": "รอดำเนินการ",
+      "processing": "กำลังดำเนินการ",
+      "active": "ใช้งาน",
+      "expired": "หมดอายุ",
+      "cancelled": "ยกเลิก"
+    },
+    "maintenanceStatus": {
+      "pending": "รอดำเนินการ",
+      "processing": "กำลังดำเนินการ",
+      "rejected": "ถูกปฏิเสธ",
+      "completed": "เสร็จสิ้น"
+    },
+    "tenantProfileType": {
+      "privateIndividual": "ส่วนบุคคล (บุคคล)",
+      "company": "บริษัท"
+    },
+    "tenantType": {
+      "newTenant": "ผู้เช่ารายใหม่",
+      "activeTenant": "ผู้เช่าที่ใช้งาน",
+      "expiredTenant": "ผู้เช่าที่หมดอายุ"
+    },
+    "paymentStatus": {
+      "all": "ทั้งหมด",
+      "pending": "รอดำเนินการ",
+      "paid": "ชำระแล้ว",
+      "unpaid": "ยังไม่ชำระ",
+      "rejected": "ถูกปฏิเสธ",
+      "refund": "คืนเงิน"
+    },
+    "paymentOptions": {
+      "onlinePayment": "การชำระเงินออนไลน์",
+      "offlinePayment": "การชำระเงินออฟไลน์"
+    },
+    "paymentType": {
+      "securityDeposit": "เงินมัดจำ",
+      "rentPayment": "การชำระค่าเช่า",
+      "subscription": "การสมัครสมาชิก"
+    },
+    "gender": {
+      "male": "ชาย",
+      "female": "หญิง",
+      "other": "อื่นๆ"
+    },
+    "ecRelation": {
+      "wife": "ภรรยา",
+      "parent": "พ่อแม่",
+      "friend": "เพื่อน",
+      "brother": "พี่ชาย/น้องชาย",
+      "sister": "พี่สาว/น้องสาว",
+      "child": "ลูก"
+    },
+    "vehicleType": {
+      "car": "รถยนต์",
+      "motorcycles": "จักรยานยนต์",
+      "lorry": "รถบรรทุก"
+    },
+    "sortBy": {
+      "lowToHigh": "จากต่ำไปสูง",
+      "highToLow": "จากสูงไปต่ำ"
+    },
+    "residentialType": {
+      "flat": "แฟลต",
+      "apartment": "อพาร์ตเมนต์",
+      "condominium": "คอนโดมิเนียม",
+      "serviceResidence": "เซอร์วิสอพาร์ตเมนต์",
+      "studio": "สตูดิโอ",
+      "duplex": "ดูเพล็กซ์",
+      "townhouseCondo": "ทาวน์เฮาส์คอนโด",
+      "others": "อื่นๆ"
+    },
+    "floorRange": {
+      "high": "สูง",
+      "medium": "กลาง",
+      "low": "ต่ำ"
+    },
+    "furnishings": {
+      "fullyFurnished": "ตกแต่งครบ",
+      "partiallyFurnished": "ตกแต่งบางส่วน",
+      "notFurnished": "ไม่ตกแต่ง"
+    },
+    "commercialPropertyType": {
+      "officeSpace": "พื้นที่สำนักงาน",
+      "retailSpace": "พื้นที่ค้าปลีก",
+      "shopLot": "แปลงที่ดินสำหรับร้านค้า",
+      "warehouseFactory": "โกดัง/โรงงาน",
+      "hotelResort": "โรงแรม/รีสอร์ท",
+      "sofo": "โซโฟ",
+      "soho": "โซโฮ",
+      "sovo": "โซโว",
+      "others": "อื่นๆ"
+    },
+    "landPropertyType": {
+      "residential": "ที่อยู่อาศัย",
+      "industrial": "อุตสาหกรรม",
+      "agricultural": "เกษตรกรรม",
+      "commercial": "พาณิชยกรรม",
+      "mixedDevelopment": "การพัฒนาผสม",
+      "others": "อื่นๆ"
+    },
+    "residentPropertyType": {
+      "condo": "คอนโด/เซอร์วิสอพาร์ตเมนต์/เพนท์เฮาส์",
+      "apartment": "อพาร์ตเมนต์/แฟลต",
+      "house": "บ้าน",
+      "shoplot": "ร้านค้า",
+      "sharing": "แชร์บ้าน/แฟลต",
+      "others": "อื่นๆ"
+    },
+    "minimumRentalPeriod": {
+      "sixMonths": "6 เดือน",
+      "oneYear": "1 ปี",
+      "oneAndHalfYears": "1.5 ปี",
+      "twoYears": "2 ปี",
+      "twoAndHalfYears": "2.5 ปี"
+    },
+    "dropdownDateFilter": {
+      "daily": "รายวัน",
+      "weekly": "รายสัปดาห์",
+      "monthly": "รายเดือน",
+      "yearly": "รายปี",
+      "custom": "กำหนดเอง"
+    }
+  }
+}

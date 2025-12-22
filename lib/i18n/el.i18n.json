@@ -1,0 +1,950 @@
+{
+  "@@meta": {
+    "languageCode": "el_EL",
+    "languageName": "Greek",
+    "version": "1.0.0"
+  },
+  "common": {
+    "profile": "Προφίλ",
+    "language": "Γλώσσα",
+    "subscriptionPlan": "Σχέδιο συνδρομής",
+    "contactUs": "Επικοινωνήστε μαζί μας",
+    "termsAndConditions": "Όροι & Προϋποθέσεις",
+    "aboutUs": "Σχετικά με εμάς",
+    "logout": "Αποσύνδεση",
+    "editProfile": "Επεξεργασία προφίλ",
+    "fullName": "Πλήρες όνομα",
+    "email": "Email",
+    "mobileNumber": "Αριθμός κινητού τηλεφώνου",
+    "address": "Διεύθυνση",
+    "postalCode": "Ταχυδρομικός κώδικας",
+    "city": "Πόλη",
+    "country": "Χώρα",
+    "state": "Πολιτεία",
+    "password": "Κωδικός πρόσβασης",
+    "forgotPassword": "Ξεχάσατε τον κωδικό πρόσβασης",
+    "tenant": "Ενοικιαστής",
+    "landlord": "Εκμισθωτής",
+    "cancelRenting": "Ακύρωση ενοικίασης",
+    "startDate": "Ημερομηνία έναρξης",
+    "endDate": "Ημερομηνία λήξης",
+    "fromDate": "Από ημερομηνία",
+    "toDate": "Έως ημερομηνία",
+    "online": "Online",
+    "bankList": "Λίστα τραπεζών",
+    "withdrawMethod": "Μέθοδος ανάληψης",
+    "uploadPaymentReceipt": "Ανέβασμα απόδειξης πληρωμής",
+    "offlinePaymentNote(rich)": "Σημείωση: ${note(Η πληρωμή απαιτεί χειροκίνητη έγκριση από τον διαχειριστή εντός)} ${duraion(24~48 ώρες.)}",
+    "reviews": "Κριτικές",
+    "description": "Περιγραφή",
+    "about": "Σχετικά",
+    "propertyTypes": "Τύποι ακινήτων",
+    "features": "Χαρακτηριστικά",
+    "floorPlans": "Κάτοψη",
+    "buildingDetails": "Λεπτομέρειες κτιρίου",
+    "buildingName": "Όνομα κτιρίου",
+    "propertyAddress": "Διεύθυνση ακινήτου",
+    "completionYear": "Έτος ολοκλήρωσης",
+    "lotNumber": "Αριθμός οικοπέδου",
+    "residentialType": "Τύπος κατοικίας",
+    "furnishings": "Επιπλώσεις",
+    "floorRange": "Εύρος ορόφων",
+    "bedrooms": "Υπνοδωμάτια",
+    "bathrooms": "Μπάνια",
+    "propertySize": "Μέγεθος ακινήτου",
+    "rentalPeriod": "Περίοδος ενοικίασης",
+    "securityDeposit": "Εγγύηση",
+    "utilityBill": "Λογαριασμός κοινής ωφέλειας",
+    "facilities": "Παροχές",
+    "amenities": "Ανέσεις",
+    "expiringReason": "Λόγος λήξης",
+    "tenantDetails": "Στοιχεία ενοικιαστή",
+    "typeOfTenant": "Τύπος ενοικιαστή",
+    "tenantName": "Όνομα ενοικιαστή",
+    "nidPassport": "NID/Διαβατήριο",
+    "nidPassportId": "@:common.nidPassport ID",
+    "tenantId": "Αναγνωριστικό ενοικιαστή",
+    "dateOfBirth": "Ημερομηνία γέννησης",
+    "gender": "Φύλο",
+    "nominee": "Υποψήφιος",
+    "name": "Όνομα",
+    "optional": "Προαιρετικό",
+    "nomineeName": "@:common.nominee @:common.name",
+    "nomineeEmail": "@:common.nominee @:common.email",
+    "nomineeMobile": {
+      "short": "@:common.nominee Αρ. Κιν.",
+      "full": "@:common.nominee @:common.mobileNumber"
+    },
+    "emergencyContact": "Επείγουσα επαφή",
+    "relation": "Σχέση",
+    "relationWith": "@:common.relation Με",
+    "relationWithYou": "@:common.relationWith Εσάς",
+    "company": "Εταιρεία",
+    "companyName": "@:common.company @:common.name",
+    "companySSMNo": "@:common.company Αρ. SSM",
+    "workplace": "Χώρος εργασίας",
+    "officePhoneNo": "Αριθμός τηλεφώνου γραφείου",
+    "officeMobileNo": "Γραφείο @:common.mobileNumber",
+    "vehicle": "Όχημα",
+    "vehiclesInfo": {
+      "plain": "Πληροφορίες οχημάτων",
+      "optional": "Πληροφορίες οχημάτων (@:common.optional)"
+    },
+    "vehiclesType": "@:common.vehicle Τύπος",
+    "vehicleRegistrationNo": {
+      "normal": "Αρ. κυκλοφορίας οχήματος",
+      "short": "Αρ. κυκλοφορίας",
+      "alt": "Αρ. πινακίδας"
+    },
+    "vehicleBrand": "@:common.vehicle Μάρκα",
+    "rentProperty": "Ενοικίαση ακινήτου",
+    "propertyDetails": "Λεπτομέρειες ακινήτου",
+    "propertyId": "Αναγνωριστικό ακινήτου",
+    "propertyType": "Τύπος ακινήτου",
+    "propertyName": "Όνομα ακινήτου",
+    "paymentDetails": "Λεπτομέρειες πληρωμής",
+    "monthlyRent": "Μηνιαίο ενοίκιο",
+    "thisMonthPayment": "Πληρωμή αυτού του μήνα",
+    "totalPaidRent": "Συνολικό πληρωμένο ενοίκιο",
+    "dueRent": "Οφειλόμενο ενοίκιο",
+    "rentStartDate": "Ενοίκιο @:common.startDate",
+    "rentEndDate": "Ενοίκιο @:common.endDate",
+    "status": "Κατάσταση",
+    "rentAgreementPdf": "PDF συμφωνίας ενοικίασης",
+    "noFile": "Κανένα αρχείο",
+    "tenantImageOp": "Εικόνα ενοικιαστή @:common.optional",
+    "addNewVechicle": "Προσθήκη νέων οχημάτων",
+    "uploadNidPassport": "Ανέβασμα NID/Διαβατηρίου",
+    "nidPassportUploadNote": "Θα γίνονται δεκτές μόνο εικόνες τύπου αρχείου. Όριο μεγέθους αρχείου έως 2,5 MB.",
+    "search": "Αναζήτηση",
+    "sortBy": "Ταξινόμηση κατά",
+    "subscription": "Συνδρομή",
+    "downloading": "Λήψη...",
+    "downloadSuccess": "Το αρχείο λήφθηκε με επιτυχία!",
+    "addPropertyBannerTitle": "Ψάχνετε να νοικιάσετε το ακίνητό σας;",
+    "application": "Αίτηση",
+    "tenantHasPaidDeposit": "Ο ενοικιαστής έχει πληρώσει την προκαταβολή.",
+    "askProcessingRentApplication": "Είστε σίγουροι ότι επεξεργάζεστε αυτό το αίτημα για ενοικίαση ακινήτου;",
+    "dateAndTime": "Ημερομηνία & ώρα",
+    "applicationDetails": "Λεπτομέρειες αίτησης",
+    "depositStatus": "Κατάσταση προκαταβολής",
+    "uploadRentAgreement": "Ανέβασμα συμφωνίας ενοικίασης",
+    "uploadFilePDF": "Ανέβασμα αρχείου (PDF)",
+    "askSelectRentAgreement": "Παρακαλώ επιλέξτε ένα αρχείο συμφωνητικού.",
+    "landlordRentAgreementPDF": "PDF συμφωνίας ενοικίασης εκμισθωτή",
+    "tenantRentAgreementPDF": "PDF συμφωνίας ενοικίασης ενοικιαστή",
+    "landlordApplicationApproveNote(rich)": "Σημείωση: ${note(Εγκρίνετε την αίτηση μόνο αφού ο ενοικιαστής καταβάλει την προκαταβολή.)}",
+    "reasonOfRejection": "Λόγος απόρριψης",
+    "youveRejectedThisApplication": "Απορρίψατε αυτήν την αίτηση",
+    "landlordDetails": "Στοιχεία εκμισθωτή",
+    "landlordName": "Όνομα εκμισθωτή",
+    "downloadRentAgreement": "Λήψη συμφωνίας ενοικίασης",
+    "acceptTermsConditions(rich)": "Αποδοχή ${toc(Όρων & Προϋποθέσεων)}",
+    "tenantAgreementSignNote1(rich)": "Σημείωση: ${note(Παρακαλώ κατεβάστε και διαβάστε τη συμφωνία. Στείλτε την υπογεγραμμένη συμφωνία στον εκμισθωτή μέσω WhatsApp ή email.)}",
+    "tenantAgreementSignNote2(rich)": "Σημείωση: ${note(Ο εκμισθωτής εγκρίνει την αίτηση, όταν ο ενοικιαστής πληρώσει την εγγύηση, τους λογαριασμούς κοινής ωφέλειας και την προκαταβολή ενοικίου ενός μήνα.)}",
+    "completeRentAgreementPdf(rich)": "Συμφωνία ενοικίασης (PDF) ${complete(Πλήρης συμφωνία)}",
+    "tenantApplicationDepositNote(rich)": "Σημείωση: ${note(Ο εκμισθωτής εγκρίνει την αίτηση, όταν ο ενοικιαστής πληρώσει την εγγύηση, τους λογαριασμούς κοινής ωφέλειας και την προκαταβολή ενοικίου ενός μήνα.)}",
+    "whatsapp": "Whatsapp",
+    "applicationList": "Λίστα αιτήσεων",
+    "viewDetails": "Προβολή λεπτομερειών",
+    "searchHint": "@:common.search...",
+    "home": "Αρχική σελίδα",
+    "dashboard": "Πίνακας ελέγχου",
+    "tenants": "Ενοικιαστές",
+    "maintenance": "Συντήρηση",
+    "maintenanceList": "Λίστα συντήρησης",
+    "maintenanceReport": "Αναφορά συντήρησης",
+    "labor": "Εργασία",
+    "applications": "Αιτήσεις",
+    "rentInvitation": "Πρόσκληση ενοικίασης",
+    "payment": "Πληρωμή",
+    "rentPayment": "Πληρωμή ενοικίου",
+    "depositUtilityPayment": "Πληρωμή προκαταβολής & λογαριασμών κοινής ωφέλειας",
+    "refundRequest": "Αίτημα επιστροφής χρημάτων",
+    "withdrawRequest": "Αίτημα ανάληψης",
+    "myProperty": "Η ιδιοκτησία μου",
+    "myRent": "Το ενοίκιό μου",
+    "wishlist": "Λίστα επιθυμιών",
+    "properties": "Ακίνητα",
+    "allProperties": "Όλα τα ακίνητα",
+    "totalPropery": "Συνολική ιδιοκτησία",
+    "occupied": "Κατειλημμένο",
+    "vacant": "Κενό",
+    "accounting": "Λογιστική",
+    "totalIncome": "Συνολικό εισόδημα",
+    "totalExpense": "Συνολικά έξοδα",
+    "currentBalance": "Τρέχον υπόλοιπο",
+    "totalWithdrawal": "Συνολική (Ανάληψη)",
+    "totalProperties": "Συνολικά ακίνητα",
+    "totalTenant": "Συνολικός ενοικιαστής",
+    "totalRentPaid": "Συνολικό ενοίκιο που καταβλήθηκε",
+    "totalRentDue": "Συνολικό οφειλόμενο ενοίκιο",
+    "totalApplication": "Συνολική αίτηση",
+    "pendingApplication": "Εκκρεμής αίτηση",
+    "processingApplication": "Αίτηση σε επεξεργασία",
+    "approveApplication": "Έγκριση αίτησης",
+    "rejectApplication": "Απόρριψη αίτησης",
+    "maintenanceCost": "Κόστος συντήρησης",
+    "transactionSummary": "Σύνοψη συναλλαγών",
+    "maintenanceRequest": "Αίτημα συντήρησης",
+    "notifications": "Ειδοποιήσεις",
+    "myProperties": "Οι ιδιοκτησίες μου",
+    "recommendationProperties": "Συνιστώμενα ακίνητα",
+    "laborList": "Λίστα εργαζομένων",
+    "addLabor": "Προσθήκη εργαζομένου",
+    "laborDetails": "Στοιχεία εργαζομένου",
+    "laborSalary": "Μισθός εργαζομένου",
+    "editLabor": "Επεξεργασία εργαζομένου",
+    "addNewLabor": "Προσθήκη νέου εργαζομένου",
+    "enterAmount": "Εισαγωγή ποσού",
+    "maintenanceDetails": "Λεπτομέρειες συντήρησης",
+    "laborName": "Όνομα εργαζομένου",
+    "comment": "Σχόλιο",
+    "image": "Εικόνα",
+    "complete": "Ολοκλήρωση",
+    "details": "Λεπτομέρειες",
+    "title": "Τίτλος",
+    "date": "Ημερομηνία",
+    "reason": "Λόγος",
+    "edit": "Επεξεργασία",
+    "property": "Ακίνητο",
+    "completeYourProfile": "Συμπληρώστε το προφίλ σας",
+    "profileImage": "Εικόνα προφίλ",
+    "imagePickHint": "Μόνο εικόνα JPEG & PNG με μέγιστο μέγεθος 120x120 pixels.",
+    "invoiceId": "Αναγνωριστικό τιμολογίου",
+    "depositAmount": "Ποσό προκαταβολής",
+    "landlordPhone": "Τηλέφωνο εκμισθωτή",
+    "rentalAdvance": "Ενοίκιο (Προκαταβολή)",
+    "totalAmount": "Συνολικό ποσό",
+    "rentalAmount": "Ποσό ενοικίου",
+    "adminCharge": "Χρέωση διαχειριστή",
+    "editAccount": "Επεξεργασία λογαριασμού",
+    "addNewAccount": "Προσθήκη νέου λογαριασμού",
+    "transactionId": "Αναγνωριστικό συναλλαγής",
+    "transactionType": "Τύπος συναλλαγής",
+    "requestDate": "Ημερομηνία αίτησης",
+    "amount": "Ποσό",
+    "fee": "Χρέωση",
+    "paymentStatus": "Κατάσταση πληρωμής",
+    "generatedTime": "Χρόνος δημιουργίας",
+    "systemGeneratedReportHint(rich)": "Αυτή είναι μια αναφορά που δημιουργήθηκε από το σύστημα του ${appName}",
+    "withdrawHistory": "Ιστορικό ανάληψης",
+    "history": "Ιστορικό",
+    "withdrawAmount": "Ποσό ανάληψης",
+    "availableBalance": "Διαθέσιμο υπόλοιπο",
+    "withdrawCharge": "Χρέωση ανάληψης",
+    "paymentMethod": "Μέθοδος πληρωμής",
+    "requestSendSuccess": "Το αίτημα στάλθηκε με επιτυχία!",
+    "paymentReceiptSubmitSuccess": "Η απόδειξη πληρωμής υποβλήθηκε με επιτυχία.",
+    "refundReason": "Λόγος επιστροφής χρημάτων",
+    "note": "Σημείωση",
+    "refundReceiveSuccess": "Η επιστροφή χρημάτων ελήφθη με επιτυχία.",
+    "downloadPaymentReceipt": "Λήψη απόδειξης πληρωμής",
+    "invoice": "Τιμολόγιο",
+    "selectPropertyToSeeInvoice": "Επιλέξτε ακίνητο για να δείτε τον αριθμό τιμολογίου...",
+    "bankAccName": "Όνομα τραπεζικού λογαριασμού",
+    "bankName": "Όνομα τράπεζας",
+    "bankAccNum": "Αριθμός τραπεζικού λογαριασμού",
+    "thankYou": "Ευχαριστώ!",
+    "basicInfo": "Βασικές πληροφορίες",
+    "descriptionPricing": "Περιγραφή & Τιμολόγηση",
+    "contact": "Επικοινωνία",
+    "photos": "Φωτογραφίες",
+    "successfullySubmitted": "Υποβλήθηκε με επιτυχία!",
+    "editProperty": "Επεξεργασία ακινήτου",
+    "addNewProperty": "Προσθήκη νέου ακινήτου",
+    "propertyManageRequestSuccess": "Η αγγελία σας υποβλήθηκε για έλεγχο.",
+    "postAnotherProperty": "Δημοσίευση άλλου ακινήτου",
+    "browseYourProperty": "Περιήγηση στο ακίνητό σας",
+    "stepIndicator(rich)": "Βήμα ${step} από ${totalSteps}",
+    "whatWouldYouLikeToPost": "Τι θα θέλατε να δημοσιεύσετε;",
+    "category": "Κατηγορία",
+    "invalidCategory": "Μη έγκυρη κατηγορία",
+    "unitNumber": "Αριθμός μονάδας",
+    "sqft": "τ.π.",
+    "propertySizeMustBeGreaterThan0": "Το μέγεθος του ακινήτου πρέπει να είναι μεγαλύτερο από μηδέν",
+    "whatAreTheFacility": "Ποιες είναι οι παροχές;",
+    "whatAreTheAmenity": "Ποιες είναι οι ανέσεις;",
+    "parkingLot": "Χώρος στάθμευσης",
+    "houseType": "Τύπος σπιτιού",
+    "value": "Αξία",
+    "unitLotSize": "Μέγεθος μονάδας / οικοπέδου",
+    "landSize": "Μέγεθος γης",
+    "acres": "έκταρ(ες)",
+    "roomSize": "Μέγεθος δωματίου",
+    "askTenantPreference": "Ποιες είναι οι προτιμήσεις σας για τον ενοικιαστή",
+    "couple": "Ζευγάρι",
+    "describeTheProperty": "Περιγράψτε το ${propertyType: String}",
+    "adTitle": "Τίτλος αγγελίας",
+    "minimumRentalPeriod": "Ελάχιστη περίοδος ενοικίασης",
+    "whatsappNumber": "@:common.whatsapp Αριθμός",
+    "hideOrDisplayEmail": "Απόκρυψη ή εμφάνιση διεύθυνσης email",
+    "thankYouForPostingProperty": "Σας ευχαριστούμε για την δημοσίευση στο ${appName: String}!",
+    "propertyList": "Λίστα ακινήτων",
+    "newInviteRent": "Νέα πρόσκληση ενοικίασης",
+    "rentAgreement": "Συμφωνία ενοικίασης",
+    "rentDetails": "Λεπτομέρειες ενοικίασης",
+    "landlordRentInvitationPendingNote(rich)": "Σημείωση: ${note(Παρακαλώ περιμένετε να αποδεχτεί ο ενοικιαστής την πρόσκληση.)}",
+    "rent": "Ενοίκιο",
+    "editTenant": "Επεξεργασία ενοικιαστή",
+    "addNewTenant": "Προσθήκη νέου ενοικιαστή",
+    "shareInstallLink": "Κοινή χρήση συνδέσμου εγκατάστασης",
+    "tenantList": "Λίστα ενοικιαστών",
+    "editMaintenanceRequest": "Επεξεργασία αιτήματος συντήρησης",
+    "addNewMaintenance": "Προσθήκη νέας συντήρησης",
+    "landlordId": "Αναγνωριστικό εκμισθωτή",
+    "tenantAgrementUnderReviewNote(rich)": "Σημείωση: ${note(Η συμφωνία σας είναι υπό έλεγχο. Παρακαλώ περιμένετε μέχρι να εγκρίνει ο εκμισθωτής την ενοικίασή σας.)}",
+    "editReview": "Επεξεργασία κριτικής",
+    "writeAReview": "Γράψτε μια κριτική",
+    "selectRating": "Επιλέξτε βαθμολογία",
+    "enterYourOpinion": "Εισάγετε τη γνώμη σας",
+    "askToEnterReviewMsg": "Παρακαλώ εισάγετε ένα μήνυμα κριτικής",
+    "pressBackAgainToExit": "Πατήστε ξανά πίσω για έξοδο.",
+    "selectPaymentMethod": "Επιλέξτε μέθοδο πληρωμής",
+    "filter": "Φίλτρο",
+    "perMonth": "/1 μήνα",
+    "searchHintWithAppName": "Αναζητήστε οτιδήποτε στο ${appName: String}..."
+  },
+  "exceptions": {
+    "somethingWentWrong": "Κάτι πήγε στραβά, παρακαλώ προσπαθήστε ξανά",
+    "noNidPassport": "Δεν παρέχεται εικόνα NID/Διαβατηρίου.",
+    "noRentPropertyFound": "Δεν βρέθηκε ακίνητο ενοικίασης για αυτόν τον ενοικιαστή.",
+    "noPropertyFoundWithKeyWord": "Δεν βρέθηκε ακίνητο!\nΠαρακαλώ δοκιμάστε με διαφορετικές λέξεις-κλειδιά",
+    "noSubscriptionFoundRefreshPage": "Δεν βρέθηκε πρόγραμμα συνδρομής!\nΠαρακαλώ ανανεώστε τη σελίδα και δοκιμάστε ξανά.",
+    "invalidApiDataRefreshPage": "Μη έγκυρες πληροφορίες ${dataType: String}! Παρακαλώ ανανεώστε τη σελίδα και δοκιμάστε ξανά.",
+    "invalidDownloadUrl": "Μη έγκυρη διεύθυνση URL λήψης!",
+    "failedToSaveFile": "Αποτυχία αποθήκευσης του αρχείου! ${error: String}",
+    "errorOpeningFile": "Σφάλμα ανοίγματος του αρχείου! ${error: String}",
+    "noVehicleInfoProvided": "Δεν παρέχονται πληροφορίες οχήματος.",
+    "yourApplicationRejected": "Η αίτησή σας έχει απορριφθεί",
+    "noApplicationFoundHint": {
+      "template": "Δεν βρέθηκε αίτηση!\n${subject: String} θα εμφανιστεί εδώ όταν είναι διαθέσιμη.",
+      "subjects": {
+        "tenant": "Η αίτησή σας",
+        "landlord": "Η αίτηση του ενοικιαστή"
+      }
+    },
+    "noPropertyFoundHint": {
+      "landlordHome": "Δεν βρέθηκε ακίνητο!\nΠαρακαλώ προσθέστε ένα ακίνητο για να το δείτε εδώ.",
+      "tenantRecommended": "Δεν βρέθηκαν προτεινόμενα ακίνητα\nΠαρακαλώ δοκιμάστε ξανά αργότερα.",
+      "tenantAllProperty": "Τα ακίνητα δεν είναι διαθέσιμα\nΠαρακαλώ δοκιμάστε ξανά αργότερα."
+    },
+    "noImageProvided": "Δεν παρέχεται εικόνα",
+    "noStatusMaintenantFound": {
+      "landlord": "Δεν βρέθηκε ${status} συντήρηση.",
+      "tenant": "Δεν βρέθηκε συντήρηση! Μπορείτε να δημιουργήσετε αίτημα συντήρησης για να το δείτε εδώ."
+    },
+    "noDepositFound": "Δεν βρέθηκε εγγύηση!\nΠαρακαλώ μπορείτε να δείτε τις εγγυήσεις όταν είναι διαθέσιμες",
+    "noRentPaymentFound": "Δεν βρέθηκε πληρωμή ενοικίου!\nΠαρακαλώ μπορείτε να δείτε τις πληρωμές ενοικίου όταν είναι διαθέσιμες",
+    "transactionSummaryApiException": "Αποτυχία λήψης σύνοψης συναλλαγών.",
+    "noWithdrawRequestFound": "Δεν βρέθηκε αίτημα!\nΠαρακαλώ δημιουργήστε ένα αίτημα ανάληψης για να το δείτε εδώ.",
+    "withdrawRequestNotApproved": "Αυτό το αίτημα ανάληψης δεν έχει εγκριθεί!.",
+    "nonZeroError": "Παρακαλώ εισάγετε ένα έγκυρο ποσό μεγαλύτερο από το μηδέν.",
+    "minAmountError": "Το ποσό πρέπει να είναι τουλάχιστον ${minValue: String}.",
+    "maxAmountError": "Το ποσό δεν πρέπει να υπερβαίνει το ${maxValue: String}.",
+    "selectPaymentMethodHint": "Παρακαλώ επιλέξτε πρώτα μια μέθοδο πληρωμής.",
+    "noStatusRefundReqFound": {
+      "landlord": "Δεν βρέθηκε αίτημα επιστροφής χρημάτων ${status}!\nΜπορείτε να δείτε το αίτημα επιστροφής χρημάτων εδώ όταν είναι διαθέσιμο.",
+      "tenant": "Δεν βρέθηκε αίτημα επιστροφής χρημάτων!\nΜπορείτε να δημιουργήσετε αίτημα επιστροφής χρημάτων για να το δείτε εδώ."
+    },
+    "refundRequestHint": {
+      "inTenantList": "Ο ενοικιαστής θα εγκρίνει την επιστροφή χρημάτων όταν λάβει τα χρήματα πίσω",
+      "tenantReqSuccess": "Θα εξετάσουμε το αίτημα επιστροφής χρημάτων και θα το εγκρίνουμε εντός 24 ωρών."
+    },
+    "oneToTenRequiredField": "Παρακαλώ επιλέξτε τον αριθμό των ${value: String}",
+    "invalidDateRange": "Μη έγκυρη σειρά ημερομηνιών.",
+    "valueMustBeGreaterThanZero": "Το ${value: String} πρέπει να είναι μεγαλύτερο από το μηδέν.",
+    "editProperty": {
+      "rentalChange": "Η ιδιοκτησία ενοικίασης αλλάζει. Πρέπει να είναι έγκυρη (σε ισχύ) μόνο για την πληρωμή ενοικίου του επόμενου μήνα.",
+      "deleteOnRent": "Το ακίνητό σας έχει ήδη ενοικιαστεί από τον ενοικιαστή. Δεν μπορείτε να το διαγράψετε μέχρι να αφαιρέσετε πρώτα τον ενοικιαστή",
+      "alreayRented": "Αυτό το ακίνητο είναι ήδη ενοικιασμένο. Παρακαλώ δοκιμάστε ξανά αργότερα.\nΉ μπορείτε να επικοινωνήσετε με τον εκμισθωτή για περισσότερες πληροφορίες."
+    },
+    "rentInvitation": {
+      "landlordNoRentInvitation": "Δεν βρέθηκε πρόσκληση ενοικίασης!\nΠαρακαλώ δημιουργήστε μια πρόσκληση ενοικίασης για να τη δείτε εδώ.",
+      "tenantNoRentInvitation": "Δεν βρέθηκε πρόσκληση ενοικίασης!\nΜπορείτε να δείτε την πρόσκληση ενοικίασης εδώ όταν είναι διαθέσιμη."
+    },
+    "notenantFoundList": "Κανένας ενοικιαστής!\nΠαρακαλώ προσθέστε έναν ενοικιαστή για να τον δείτε εδώ.",
+    "noFeaturesProvided": "Δεν παρέχονται χαρακτηριστικά.",
+    "noNotificationFound": "Δεν υπάρχει διαθέσιμη ειδοποίηση.\nΜπορείτε να δείτε την ειδοποίησή σας εδώ όταν είναι διαθέσιμη."
+  },
+  "prompt": {
+    "logout": {
+      "title": "@:common.logout",
+      "message": "Είστε σίγουροι ότι θέλετε να αποσυνδεθείτε;"
+    },
+    "application": {
+      "rejectTitle": "Γιατί απορρίπτετε αυτήν την αίτηση;",
+      "applicationSent": {
+        "successfully": "Η αίτηση στάλθηκε με επιτυχία!",
+        "sucessDescription": "Μπορείτε να δείτε αυτήν την αίτηση στη λίστα αιτήσεών σας"
+      }
+    },
+    "labor": {
+      "delete": {
+        "title": "Διαγραφή εργαζομένου;",
+        "description": "Είστε σίγουροι ότι θέλετε να διαγράψετε αυτόν τον εργαζόμενο;"
+      }
+    },
+    "maintenanceRequest": {
+      "rejectTitle": "Γιατί απορρίπτεται αυτό το αίτημα;",
+      "processTitle": "Είστε σίγουροι ότι επεξεργάζεστε αυτό το αίτημα συντήρησης;",
+      "completeTitle": "Η εργασία ολοκληρώθηκε;"
+    },
+    "withdrawMethod": {
+      "deleteTitle": "Διαγραφή μεθόδου ανάληψης;",
+      "deleteDescription": "Είστε σίγουροι ότι θέλετε να διαγράψετε αυτήν τη μέθοδο ανάληψης;"
+    },
+    "unsavedChanges": {
+      "title": "Είστε σίγουροι ότι θέλετε να επιστρέψετε;",
+      "message": "Τα πεδία που έχουν αλλάξει δεν θα αποθηκευτούν!"
+    },
+    "property": {
+      "delete": {
+        "title": "Διαγραφή ακινήτου;",
+        "message": "Είστε σίγουροι ότι θέλετε να διαγράψετε αυτό το ακίνητο;"
+      }
+    },
+    "rentInvitation": {
+      "landlordApprove": {
+        "title": "Είστε σίγουροι ότι θέλετε να εγκρίνετε αυτήν την ενοικίαση;",
+        "description": "Βεβαιωθείτε ότι έχετε εξετάσει τη συμφωνία που έχει υπογράψει ο ενοικιαστής."
+      },
+      "tenantAccept": {
+        "title": "Είστε σίγουροι ότι θέλετε να αποδεχτείτε αυτήν την πρόσκληση;",
+        "description": "Βεβαιωθείτε ότι έχετε κατεβάσει το αρχείο PDF της συμφωνίας!"
+      }
+    },
+    "sessionExpired": {
+      "title": "Η συνεδρία έληξε",
+      "message": "Η συνεδρία σας έχει λήξει. Παρακαλώ συνδεθείτε ξανά",
+      "action": "Σύνδεση"
+    },
+    "noInternet": {
+      "title": "Δεν υπάρχει σύνδεση στο Διαδίκτυο",
+      "message": "Παρακαλώ ελέγξτε τη σύνδεση Wi-Fi ή κινητού δικτύου και δοκιμάστε ξανά",
+      "action": "Δοκιμάστε ξανά"
+    },
+    "permissionHandler": {
+      "title": "Απαιτείται άδεια!",
+      "message": "Πρέπει να παραχωρήσετε δικαιώματα στις ρυθμίσεις της εφαρμογής. Θα θέλατε να ανοίξετε τις ρυθμίσεις τώρα;"
+    },
+    "imagePicker": {
+      "title": "Επιλέξτε επιλογή",
+      "gallery": "Συλλογή",
+      "camera": "Κάμερα"
+    },
+    "verificationDialog": {
+      "title": "Επαληθεύστε το email σας",
+      "message": "Έχουμε στείλει ένα email με κωδικό επαλήθευσης",
+      "messageWithEmail": "@:prompt.verificationDialog.message στο ${email: String?}"
+    },
+    "notification": {
+      "clearTitle": "Εκκαθάριση ειδοποιήσεων;",
+      "clearMessage": "Είστε σίγουροι ότι θέλετε να εκκαθαρίσετε όλες τις ειδοποιήσεις;"
+    }
+  },
+  "form": {
+    "fullName": {
+      "label": "@:common.fullName",
+      "hint": "Εισαγάγετε @:common.fullName",
+      "errors": {
+        "required": "Παρακαλώ εισάγετε το @:common.fullName σας"
+      }
+    },
+    "email": {
+      "label": "@:common.email",
+      "hint": "Εισαγάγετε το @:common.email σας",
+      "errors": {
+        "required": "Παρακαλώ εισάγετε τη διεύθυνση @:common.email σας",
+        "invalid": "⦸ Μη έγκυρο email, παρακαλώ δοκιμάστε ξανά"
+      }
+    },
+    "password": {
+      "label": "@:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Παρακαλώ εισάγετε τον @:common.password σας",
+        "minLength": "Ο κωδικός πρόσβασης πρέπει να έχει τουλάχιστον ${count} χαρακτήρες!"
+      }
+    },
+    "confirmPassword": {
+      "label": "Επιβεβαίωση @:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Παρακαλώ εισάγετε τον @:common.password σας",
+        "notMatched": "Η επιβεβαίωση κωδικού πρόσβασης δεν ταιριάζει!"
+      }
+    },
+    "mobileNumber": {
+      "label": "@:common.mobileNumber",
+      "hint": "(+60) 555-0123",
+      "errors": {
+        "required": "Παρακαλώ εισάγετε τον @:common.mobileNumber σας"
+      }
+    },
+    "address1": {
+      "label": "@:common.address 1",
+      "hint": "Αριθμός σπιτιού και όνομα οδού",
+      "errors": {
+        "required": "Παρακαλώ εισάγετε το @:form.address1.label σας"
+      }
+    },
+    "address2": {
+      "label": "@:common.address 2",
+      "hint": "Διαμέρισμα, σουίτα, μονάδα, κ.λπ.",
+      "errors": {
+        "required": "Παρακαλώ εισάγετε το @:form.address2.label σας"
+      }
+    },
+    "postalCode": {
+      "label": "@:common.postalCode",
+      "hint": "Εισαγάγετε @:common.postalCode",
+      "errors": {
+        "required": "Παρακαλώ εισάγετε το @:common.postalCode σας"
+      }
+    },
+    "city": {
+      "label": "@:common.city",
+      "hint": "Εισαγάγετε το όνομα @:common.city.",
+      "errors": {
+        "required": "Παρακαλώ εισάγετε το όνομα @:common.city σας."
+      }
+    },
+    "state": {
+      "label": "@:common.state",
+      "hint": "Εισαγάγετε το όνομα @:common.state.",
+      "errors": {
+        "required": "Παρακαλώ εισάγετε το όνομα @:common.state σας."
+      }
+    },
+    "country": {
+      "label": "@:common.country",
+      "hint": "Επιλέξτε @:common.country.",
+      "errors": {
+        "required": "Παρακαλώ επιλέξτε το @:common.country σας"
+      }
+    },
+    "otp": {
+      "errors": {
+        "required": "Παρακαλώ εισάγετε το otp.",
+        "invalid": "Παρακαλώ εισάγετε σωστό otp."
+      }
+    },
+    "title": {
+      "label": "Τίτλος",
+      "hint": "Εισαγωγή τίτλου",
+      "errors": {
+        "required": "Παρακαλώ εισάγετε τίτλο"
+      }
+    },
+    "date": {
+      "label": "${label: String}",
+      "hint": "Επιλέξτε @:form.date.label",
+      "errors": {
+        "required": "Παρακαλώ επιλέξτε @:form.date.label"
+      }
+    },
+    "reason": {
+      "label": "Λόγος",
+      "hint": "Εισαγωγή λόγου",
+      "errors": {
+        "required": "Παρακαλώ εισάγετε λόγο"
+      }
+    },
+    "withdrawMethod": {
+      "label": "@:common.withdrawMethod",
+      "hint": "Επιλέξτε @:common.withdrawMethod",
+      "errors": {
+        "required": "Παρακαλώ επιλέξτε @:common.withdrawMethod"
+      }
+    },
+    "fileField": {
+      "label": "${label: String}",
+      "hint": "Ανέβασμα ${label: String}",
+      "errors": {
+        "required": "Παρακαλώ επιλέξτε ${label: String}"
+      }
+    },
+    "note": {
+      "label": "${note: String}",
+      "hint": "Εισαγωγή @:form.note.label",
+      "errors": {
+        "required": "Παρακαλώ εισάγετε @:form.note.label"
+      }
+    },
+    "gender": {
+      "label": "@:common.gender",
+      "hint": "Επιλέξτε @:common.gender",
+      "errors": {
+        "required": "Παρακαλώ επιλέξτε @:common.gender"
+      }
+    },
+    "anyField": {
+      "label": "${label: String}",
+      "hint": "Εισαγωγή @:form.anyField.label",
+      "errors": {
+        "required": "Παρακαλώ εισάγετε @:form.anyField.label",
+        "invalid": "Παρακαλώ εισάγετε έγκυρο @form.anyField.label"
+      }
+    },
+    "anyDropdown": {
+      "label": "${label: String}",
+      "hint": "Επιλέξτε @:form.anyDropdown.label",
+      "errors": {
+        "required": "Παρακαλώ επιλέξτε @:form.anyDropdown.label",
+        "invalid": "Παρακαλώ επιλέξτε έγκυρο @form.anyDropdown.label"
+      }
+    }
+  },
+  "action": {
+    "next": "Επόμενο",
+    "getStarted": "Ξεκινήστε",
+    "skip": "Παράλειψη",
+    "select": "Επιλογή",
+    "save": "Αποθήκευση",
+    "signIn": "Σύνδεση",
+    "signUp": "Εγγραφή",
+    "continue": "Συνέχεια",
+    "clearAll": "Εκκαθάριση όλων",
+    "cancelRenting": "@:common.cancelRenting",
+    "send": "Αποστολή",
+    "pay": "Πληρωμή",
+    "remove": "Αφαίρεση",
+    "goBack": "Επιστροφή",
+    "buyNow": "Αγορά τώρα",
+    "no": "Όχι",
+    "open": "Άνοιγμα",
+    "addProperty": "Προσθήκη ακινήτου",
+    "process": "Επεξεργασία",
+    "approve": "Έγκριση",
+    "reject": "Απόρριψη",
+    "viewRent": "Προβολή ενοικίου",
+    "openNavigationMenu": "Άνοιγμα μενού πλοήγησης",
+    "seeAll": "Δείτε όλα",
+    "update": "Ενημέρωση",
+    "printTransaction": "Εκτύπωση συναλλαγής",
+    "payoutRequest": "Αίτημα πληρωμής",
+    "addNew": "+ Προσθήκη νέου",
+    "sendRequest": "Αποστολή αιτήματος",
+    "print": "Εκτύπωση",
+    "requestForRefund": "Αίτημα για επιστροφή χρημάτων",
+    "previous": "Προηγούμενο",
+    "delete": "Διαγραφή",
+    "applyProperty": "Εφαρμογή ακινήτου",
+    "viewApplication": "Προβολή αίτησης",
+    "inviteTenant": "Πρόσκληση ενοικιαστή",
+    "inviteRent": "Πρόσκληση ενοικίασης",
+    "cancel": "Ακύρωση",
+    "accept": "Αποδοχή",
+    "submit": "Υποβολή",
+    "yes": "Ναι",
+    "okay": "Εντάξει",
+    "confirm": "Επιβεβαίωση",
+    "apply": "Εφαρμογή",
+    "reset": "Επαναφορά",
+    "retry": "Επανάληψη",
+    "viewAll": "Προβολή όλα"
+  },
+  "pages": {
+    "language": {
+      "appbarTitle": "@:action.select @:common.language"
+    },
+    "onboard": {
+      "onboardData": {
+        "data1": {
+          "title": "Βρείτε το ακίνητό σας",
+          "description": "Έχουμε κάνει πολύ εύκολο να βρείτε ένα μέρος που να ταιριάζει στη ζωή σας - είτε πρόκειται για ένα δωμάτιο, ένα διαμέρισμα ή ένα σπίτι."
+        },
+        "data2": {
+          "title": "Διαμέρισμα στην πόλη",
+          "description": "Σας εξοικονομούμε χρόνο αντιστοιχίζοντάς σας γρήγορα με το τέλειο ακίνητο πριν χαθεί, ώστε να μπορείτε να απολαύσετε το νέο σας σπίτι ή να καταχωρίσετε το δικό σας δωρεάν."
+        },
+        "data3": {
+          "title": "Το άνετο σπίτι σας",
+          "description": "Αν ψάχνετε για ένα μέρος για να ζήσετε, τότε ρίξτε μια ματιά στα σπίτια μας προς ενοικίαση. Έχουμε μια μεγάλη γκάμα σπιτιών για να διαλέξετε σε όλη τη χώρα."
+        }
+      }
+    },
+    "signIn": {
+      "title": "Καλώς ήρθατε πίσω",
+      "subtitle": "Συνδεθείτε τώρα για να ξεκινήσετε ένα καταπληκτικό ταξίδι.",
+      "extra": {
+        "rememberMe": "Να με θυμάσαι",
+        "signUpNavigator(rich)": "Δεν έχετε λογαριασμό; ${getStarted(@:action.getStarted)}",
+        "forgotPassword": "@:common.forgotPassword;"
+      }
+    },
+    "forgotPassword": {
+      "title": "Ξεχάσατε τον κωδικό πρόσβασης",
+      "subtitle": "Εισαγάγετε τη διεύθυνση email σας για να ανακτήσετε τον κωδικό πρόσβασης."
+    },
+    "otpVerification": {
+      "title": "Επαλήθευση",
+      "subtitle": "Ένας 4-ψήφιος κωδικός έχει σταλεί στη διεύθυνση email σας. ${email: String}",
+      "extra": {
+        "codeResend": {
+          "codeSendIn": "Ο κωδικός θα σταλεί σε ${minutes}:${seconds}",
+          "resendCode(rich)": " ${resendCode(Επανάληψη αποστολής κωδικού)} "
+        }
+      }
+    },
+    "resetPassword": {
+      "title": "Επαναφορά κωδικού πρόσβασης",
+      "subtitle": "Επαναφέρετε τον κωδικό πρόσβασης για ανάκτηση και σύνδεση στον λογαριασμό σας",
+      "extra": {
+        "dialog": {
+          "title": "Αλλαγή με επιτυχία!",
+          "subtitle": "Συνδεθείτε με τον νέο σας κωδικό πρόσβασης.\nΑνακατεύθυνση στη Σύνδεση..."
+        }
+      }
+    },
+    "signUp": {
+      "title": "Δημιουργήστε έναν λογαριασμό",
+      "subtitle": "Εγγραφείτε τώρα για να ξεκινήσετε ένα καταπληκτικό ταξίδι",
+      "extra": {
+        "signInNavigator(rich)": "Έχετε λογαριασμό; ${signIn(@:action.signIn)}"
+      }
+    },
+    "welcome": {
+      "title": "Ποιος είσαι?",
+      "subtitle": "Παρακαλώ επιλέξτε την παρακάτω επιλογή.",
+      "extra": {
+        "landlordTag": "Διαχειριστείτε τις ιδιοκτησίες σας",
+        "tenantTag": "Συνδεθείτε στον λογαριασμό ενοικίασής σας"
+      }
+    },
+    "aboutUs": {
+      "appbarTitle": "@:common.aboutUs"
+    },
+    "termsAndConditions": {
+      "appbarTitle": "@:common.termsAndConditions"
+    },
+    "notificationList": {
+      "appbarTitle": "Ειδοποιήσεις"
+    },
+    "contactUs": {
+      "appbarTitle": "@:common.contactUs",
+      "extra": {
+        "messageHint": "Μήνυμα..."
+      }
+    },
+    "cancelRenting": {
+      "appbarTitle": "@:common.cancelRenting",
+      "title": "Γιατί @:common.cancelRenting;",
+      "form": {
+        "reason": {
+          "hint": "Γράψτε τον λόγο",
+          "errors": {
+            "required": "Παρακαλώ εισάγετε τον λόγο ακύρωσης της ενοικίασης"
+          }
+        }
+      }
+    },
+    "invoiceDetails": {
+      "appbarTitle": "@:common.viewDetails"
+    },
+    "offlinePayment": {
+      "appbarTitle": "Πληρωμή εκτός σύνδεσης",
+      "form": {
+        "paymentNote": {
+          "label": "Σημείωση πληρωμής (@:common.optional)",
+          "hint": "Εισαγάγετε κάποιο κείμενο..."
+        }
+      },
+      "extra": {
+        "payAmount(rich)": "Ποσό πληρωμής: ${amount}",
+        "accountHolderName": "Όνομα κατόχου λογαριασμού",
+        "accountNumber": "Αριθμός λογαριασμού",
+        "swiftCode": "Κωδικός Swift",
+        "branch": "Υποκατάστημα",
+        "fileTypeHint(rich)": "Επιλέξτε αρχεία μορφής ${fileType(JPG, PNG,PDF)} ή μόνο ${fileType(DOC)}. Μέγεθος αρχείου ${fileSize(2000 KB)}"
+      }
+    },
+    "paymentStatus": {
+      "success": {
+        "actionButton": "Προβολή τιμολογίου",
+        "title": "@:common.thankYou",
+        "description": "Θα εξετάσουμε την πληρωμή και θα την εγκρίνουμε εντός 24 ωρών."
+      },
+      "fail": {
+        "actionButton": "Δοκιμάστε ξανά",
+        "title": "Oops! Η πληρωμή απέτυχε",
+        "description": "Η συναλλαγή σας απέτυχε λόγω κάποιου τεχνικού σφάλματος."
+      }
+    },
+    "propertyDetails": {
+      "extra": {
+        "landlord(rich)": "@:common.landlord: ${landlordName}",
+        "ratingReviews(rich)": "${rating} ${reviews(@:common.reviews)}",
+        "features(rich)": "Χαρακτηριστικά ${fa((Παροχές & Ανέσεις))}",
+        "selectRentalPeriod": "Επιλέξτε περίοδο ενοικίασης",
+        "writeAReview": "+ Γράψτε μια κριτική"
+      }
+    },
+    "search": {
+      "appbarTitle": "Αναζήτηση",
+      "extra": {
+        "hint": "Αναζητήστε οικόπεδα, διαμερίσματα, δωμάτια...",
+        "noRecentSearch": "Δεν έχετε πρόσφατες αναζητήσεις."
+      }
+    },
+    "subscriptionPlan": {
+      "appbarTitle": "Επιλέξτε το πρόγραμμά σας",
+      "extra": {
+        "subscriptionPaymentSuccess": "Η πληρωμή συνδρομής έγινε με επιτυχία.\nΤώρα μπορείτε να έχετε πρόσβαση στις λειτουργίες της συνδρομής."
+      }
+    },
+    "landlordMaintenanceReport": {
+      "totalMaintenanceCost(rich)": "Συνολικό Κόστος Συντήρησης: ${amount: string}",
+      "maintenancePending": "@:common.maintenance @:enums.maintenanceStatus.pending",
+      "maintenanceProcessing": "@:common.maintenance @:enums.maintenanceStatus.processing",
+      "maintenanceCompleted": "@:common.maintenance @:enums.maintenanceStatus.completed",
+      "maintenanceRejected": "@:common.maintenance @:enums.maintenanceStatus.rejected"
+    }
+  },
+  "enums": {
+    "propertyStatus": {
+      "allProperty": "Όλα τα ακίνητα",
+      "pending": "Εκκρεμεί",
+      "active": "Ενεργό",
+      "inactive": "Ανενεργό",
+      "rejected": "Απορρίφθηκε"
+    },
+    "propertyType": {
+      "apartmentCondominium": "Διαμέρισμα/Συγκρότημα κατοικιών",
+      "house": "Σπίτι",
+      "commercialProperty": "Εμπορικό ακίνητο",
+      "land": "Γη",
+      "room": "Δωμάτιο"
+    },
+    "applicationStatus": {
+      "all": "Όλα",
+      "pending": "Εκκρεμεί",
+      "processing": "Σε επεξεργασία",
+      "approved": "Εγκρίθηκε",
+      "rejected": "Απορρίφθηκε"
+    },
+    "myRentStatus": {
+      "pending": "Εκκρεμεί",
+      "processing": "Σε επεξεργασία",
+      "active": "Ενεργό",
+      "expired": "Έληξε",
+      "cancelled": "Ακυρώθηκε"
+    },
+    "maintenanceStatus": {
+      "pending": "Εκκρεμεί",
+      "processing": "Σε επεξεργασία",
+      "rejected": "Απορρίφθηκε",
+      "completed": "Ολοκληρώθηκε"
+    },
+    "tenantProfileType": {
+      "privateIndividual": "Ιδιώτης (Άτομο)",
+      "company": "Εταιρεία"
+    },
+    "tenantType": {
+      "newTenant": "Νέος ενοικιαστής",
+      "activeTenant": "Ενεργός ενοικιαστής",
+      "expiredTenant": "Ενοικιαστής που έληξε"
+    },
+    "paymentStatus": {
+      "all": "Όλα",
+      "pending": "Εκκρεμεί",
+      "paid": "Πληρωμένο",
+      "unpaid": "Απλήρωτο",
+      "rejected": "Απορρίφθηκε",
+      "refund": "Επιστροφή χρημάτων"
+    },
+    "paymentOptions": {
+      "onlinePayment": "Online πληρωμή",
+      "offlinePayment": "Πληρωμή εκτός σύνδεσης"
+    },
+    "paymentType": {
+      "securityDeposit": "Εγγύηση",
+      "rentPayment": "Πληρωμή ενοικίου",
+      "subscription": "Συνδρομή"
+    },
+    "gender": {
+      "male": "Άρρεν",
+      "female": "Θήλυ",
+      "other": "Άλλο"
+    },
+    "ecRelation": {
+      "wife": "Σύζυγος",
+      "parent": "Γονέας",
+      "friend": "Φίλος",
+      "brother": "Αδελφός",
+      "sister": "Αδελφή",
+      "child": "Παιδί"
+    },
+    "vehicleType": {
+      "car": "Αυτοκίνητο",
+      "motorcycles": "Μοτοσικλέτες",
+      "lorry": "Φορτηγό"
+    },
+    "sortBy": {
+      "lowToHigh": "Από χαμηλό σε υψηλό",
+      "highToLow": "Από υψηλό σε χαμηλό"
+    },
+    "residentialType": {
+      "flat": "Διαμέρισμα",
+      "apartment": "Διαμέρισμα",
+      "condominium": "Συγκρότημα κατοικιών",
+      "serviceResidence": "Κατοικία υπηρεσιών",
+      "studio": "Στούντιο",
+      "duplex": "Διώροφο",
+      "townhouseCondo": "Συγκρότημα κατοικιών σε σειρά",
+      "others": "Άλλα"
+    },
+    "floorRange": {
+      "high": "Υψηλός",
+      "medium": "Μεσαίος",
+      "low": "Χαμηλός"
+    },
+    "furnishings": {
+      "fullyFurnished": "Πλήρως επιπλωμένο",
+      "partiallyFurnished": "Μερικώς επιπλωμένο",
+      "notFurnished": "Χωρίς έπιπλα"
+    },
+    "commercialPropertyType": {
+      "officeSpace": "Επαγγελματικός χώρος",
+      "retailSpace": "Χώρος λιανικής πώλησης",
+      "shopLot": "Κατάστημα",
+      "warehouseFactory": "Αποθήκη / Εργοστάσιο",
+      "hotelResort": "Ξενοδοχείο / θέρετρο",
+      "sofo": "Sofo",
+      "soho": "Soho",
+      "sovo": "Sovo",
+      "others": "Άλλα"
+    },
+    "landPropertyType": {
+      "residential": "Οικιστική",
+      "industrial": "Βιομηχανική",
+      "agricultural": "Αγροτική",
+      "commercial": "Εμπορική",
+      "mixedDevelopment": "Μικτή ανάπτυξη",
+      "others": "Άλλα"
+    },
+    "residentPropertyType": {
+      "condo": "Συγκρότημα κατοικιών / Κατοικία υπηρεσιών / Ρετιρέ",
+      "apartment": "Διαμέρισμα / Σοφίτα",
+      "house": "Σπίτια",
+      "shoplot": "Κατάστημα",
+      "sharing": "Μοιράζοντας ένα σπίτι / Διαμέρισμα",
+      "others": "Άλλα"
+    },
+    "minimumRentalPeriod": {
+      "sixMonths": "6 μήνες",
+      "oneYear": "1 έτος",
+      "oneAndHalfYears": "1,5 χρόνια",
+      "twoYears": "2 χρόνια",
+      "twoAndHalfYears": "2,5 χρόνια"
+    },
+    "dropdownDateFilter": {
+      "daily": "Ημερήσια",
+      "weekly": "Εβδομαδιαία",
+      "monthly": "Μηνιαία",
+      "yearly": "Ετήσια",
+      "custom": "Προσαρμοσμένη"
+    }
+  }
+}

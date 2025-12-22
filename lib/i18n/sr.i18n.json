@@ -1,0 +1,950 @@
+{
+  "@@meta": {
+    "languageCode": "sr_SR",
+    "languageName": "Serbian",
+    "version": "1.0.0"
+  },
+  "common": {
+    "profile": "Profil",
+    "language": "Jezik",
+    "subscriptionPlan": "Plan pretplate",
+    "contactUs": "Контактирајте нас",
+    "termsAndConditions": "Услови коришћења",
+    "aboutUs": "О нама",
+    "logout": "Одјава",
+    "editProfile": "Измени профил",
+    "fullName": "Пуно име",
+    "email": "Е-пошта",
+    "mobileNumber": "Број мобилног телефона",
+    "address": "Адреса",
+    "postalCode": "Поштански број",
+    "city": "Град",
+    "country": "Држава",
+    "state": "Држава",
+    "password": "Лозинка",
+    "forgotPassword": "Заборавили сте лозинку",
+    "tenant": "Станар",
+    "landlord": "Власник",
+    "cancelRenting": "Откажи изнајмљивање",
+    "startDate": "Датум почетка",
+    "endDate": "Датум завршетка",
+    "fromDate": "Од датума",
+    "toDate": "До датума",
+    "online": "Онлајн",
+    "bankList": "Листа банака",
+    "withdrawMethod": "Начин повлачења",
+    "uploadPaymentReceipt": "Отпремите потврду о уплати",
+    "offlinePaymentNote(rich)": "Напомена: ${note(За уплату је потребно ручно одобрење администратора у року од)} ${duraion(24~48 сати.)}",
+    "reviews": "Рецензије",
+    "description": "Опис",
+    "about": "О",
+    "propertyTypes": "Типови некретнина",
+    "features": "Карактеристике",
+    "floorPlans": "Планови спратова",
+    "buildingDetails": "Детаљи зграде",
+    "buildingName": "Име зграде",
+    "propertyAddress": "Адреса некретнине",
+    "completionYear": "Година завршетка",
+    "lotNumber": "Број парцеле",
+    "residentialType": "Резиденцијални тип",
+    "furnishings": "Намештај",
+    "floorRange": "Распон спратова",
+    "bedrooms": "Спаваће собе",
+    "bathrooms": "Купатила",
+    "propertySize": "Величина некретнине",
+    "rentalPeriod": "Период изнајмљивања",
+    "securityDeposit": "Депозит",
+    "utilityBill": "Рачун за комуналије",
+    "facilities": "Објекти",
+    "amenities": "Погодности",
+    "expiringReason": "Разлог истека",
+    "tenantDetails": "Детаљи о станару",
+    "typeOfTenant": "Тип станара",
+    "tenantName": "Име станара",
+    "nidPassport": "НИД/Пасош",
+    "nidPassportId": "@:common.nidPassport ID",
+    "tenantId": "ИД станара",
+    "dateOfBirth": "Датум рођења",
+    "gender": "Пол",
+    "nominee": "Номиновани",
+    "name": "Име",
+    "optional": "Опционо",
+    "nomineeName": "@:common.nominee @:common.name",
+    "nomineeEmail": "@:common.nominee @:common.email",
+    "nomineeMobile": {
+      "short": "@:common.nominee Mo. No.",
+      "full": "@:common.nominee @:common.mobileNumber"
+    },
+    "emergencyContact": "Контакт за хитне случајеве",
+    "relation": "Однос",
+    "relationWith": "@:common.relation With",
+    "relationWithYou": "@:common.relationWith You",
+    "company": "Компанија",
+    "companyName": "@:common.company @:common.name",
+    "companySSMNo": "@:common.company SSM No.",
+    "workplace": "Радно место",
+    "officePhoneNo": "Број телефона канцеларије",
+    "officeMobileNo": "Канцеларија @:common.mobileNumber",
+    "vehicle": "Возило",
+    "vehiclesInfo": {
+      "plain": "Информације о возилима",
+      "optional": "Информације о возилима (@:common.optional)"
+    },
+    "vehiclesType": "@:common.vehicle Type",
+    "vehicleRegistrationNo": {
+      "normal": "Регистрација возила бр.",
+      "short": "Регистрација бр.",
+      "alt": "Број таблице."
+    },
+    "vehicleBrand": "@:common.vehicle Brand",
+    "rentProperty": "Изнајми некретнину",
+    "propertyDetails": "Детаљи о некретнини",
+    "propertyId": "ИД некретнине",
+    "propertyType": "Тип некретнине",
+    "propertyName": "Име некретнине",
+    "paymentDetails": "Детаљи плаћања",
+    "monthlyRent": "Месечна кирија",
+    "thisMonthPayment": "Уплата за овај месец",
+    "totalPaidRent": "Укупна уплата кирије",
+    "dueRent": "Дугована кирија",
+    "rentStartDate": "Кирија @:common.startDate",
+    "rentEndDate": "Кирија @:common.endDate",
+    "status": "Статус",
+    "rentAgreementPdf": "ПДФ уговор о закупу",
+    "noFile": "Нема фајла",
+    "tenantImageOp": "Слика станара @:common.optional",
+    "addNewVechicle": "Додај нова возила",
+    "uploadNidPassport": "Уплоад НИД/Пасош",
+    "nidPassportUploadNote": "Биће прихваћене само слике типа датотеке. Ограничење величине датотеке до 2,5 МБ.",
+    "search": "Претрага",
+    "sortBy": "Сортирај по",
+    "subscription": "Претплата",
+    "downloading": "Преузимање...",
+    "downloadSuccess": "Фајл је успешно преузет!",
+    "addPropertyBannerTitle": "Желите да издате своју некретнину?",
+    "application": "Апликација",
+    "tenantHasPaidDeposit": "Станар је уплатио депозит.",
+    "askProcessingRentApplication": "Да ли сте сигурни да обрађујете овај захтев за изнајмљивање некретнине?",
+    "dateAndTime": "Датум и време",
+    "applicationDetails": "Детаљи апликације",
+    "depositStatus": "Статус депозита",
+    "uploadRentAgreement": "Отпреми уговор о закупу",
+    "uploadFilePDF": "Отпреми фајл (ПДФ)",
+    "askSelectRentAgreement": "Молимо, изаберите фајл документа уговора.",
+    "landlordRentAgreementPDF": "ПДФ уговор о закупу власника",
+    "tenantRentAgreementPDF": "ПДФ уговор о закупу станара",
+    "landlordApplicationApproveNote(rich)": "Напомена: ${note(Одобрите апликацију тек након што станар изврши уплату депозита.)}",
+    "reasonOfRejection": "Разлог одбијања",
+    "youveRejectedThisApplication": "Одбили сте ову апликацију",
+    "landlordDetails": "Детаљи о власнику",
+    "landlordName": "Име власника",
+    "downloadRentAgreement": "Преузмите уговор о закупу",
+    "acceptTermsConditions(rich)": "Прихватите ${toc(Услове коришћења)}",
+    "tenantAgreementSignNote1(rich)": "Напомена: ${note(Преузмите и прочитајте уговор. Пошаљите потписани уговор власнику путем ВхатсАпп-а или е-поште.)}",
+    "tenantAgreementSignNote2(rich)": "Напомена: ${note(Власник одобрава апликацију када станар уплати депозит, рачун за комуналије и једномесечну авансну кирију.)}",
+    "completeRentAgreementPdf(rich)": "Уговор о закупу (ПДФ) ${complete(Комплетан уговор)}",
+    "tenantApplicationDepositNote(rich)": "Напомена : ${note(Власник одобрава апликацију када станар уплати депозит, рачун за комуналије и једномесечну авансну кирију.)}",
+    "whatsapp": "Вхатсапп",
+    "applicationList": "Листа апликација",
+    "viewDetails": "Погледај детаље",
+    "searchHint": "@:common.search...",
+    "home": "Почетна",
+    "dashboard": "Контролна табла",
+    "tenants": "Станари",
+    "maintenance": "Одржавање",
+    "maintenanceList": "Листа одржавања",
+    "maintenanceReport": "Извештај о одржавању",
+    "labor": "Рад",
+    "applications": "Апликације",
+    "rentInvitation": "Позив за закуп",
+    "payment": "Плаћање",
+    "rentPayment": "Плаћање кирије",
+    "depositUtilityPayment": "Депозит и плаћање комуналија",
+    "refundRequest": "Захтев за повраћај новца",
+    "withdrawRequest": "Захтев за повлачење",
+    "myProperty": "Моја некретнина",
+    "myRent": "Мој закуп",
+    "wishlist": "Листа жеља",
+    "properties": "Некретнине",
+    "allProperties": "Све некретнине",
+    "totalPropery": "Укупна некретнина",
+    "occupied": "Заузето",
+    "vacant": "Слободно",
+    "accounting": "Рачуноводство",
+    "totalIncome": "Укупан приход",
+    "totalExpense": "Укупан трошак",
+    "currentBalance": "Тренутни баланс",
+    "totalWithdrawal": "Укупно (Повлачење)",
+    "totalProperties": "Укупно некретнина",
+    "totalTenant": "Укупно станара",
+    "totalRentPaid": "Укупно уплаћено кирије",
+    "totalRentDue": "Укупно дуговано кирије",
+    "totalApplication": "Укупно апликација",
+    "pendingApplication": "Апликација на чекању",
+    "processingApplication": "Апликација у обради",
+    "approveApplication": "Одобри апликацију",
+    "rejectApplication": "Одбиј апликацију",
+    "maintenanceCost": "Трошкови одржавања",
+    "transactionSummary": "Резиме трансакција",
+    "maintenanceRequest": "Захтев за одржавање",
+    "notifications": "Обавештења",
+    "myProperties": "Моје некретнине",
+    "recommendationProperties": "Препоручене некретнине",
+    "laborList": "Листа радника",
+    "addLabor": "Додај радника",
+    "laborDetails": "Детаљи о раднику",
+    "laborSalary": "Плаћа радника",
+    "editLabor": "Измени радника",
+    "addNewLabor": "Додај новог радника",
+    "enterAmount": "Унеси износ",
+    "maintenanceDetails": "Детаљи одржавања",
+    "laborName": "Име радника",
+    "comment": "Коментар",
+    "image": "Слика",
+    "complete": "Заврши",
+    "details": "Детаљи",
+    "title": "Наслов",
+    "date": "Датум",
+    "reason": "Разлог",
+    "edit": "Измени",
+    "property": "Некретнина",
+    "completeYourProfile": "Попуните свој профил",
+    "profileImage": "Слика профила",
+    "imagePickHint": "Прихватају се само ЈПЕГ и ПНГ слике максималне величине 120к120 пиксела.",
+    "invoiceId": "ИД фактуре",
+    "depositAmount": "Износ депозита",
+    "landlordPhone": "Телефон власника",
+    "rentalAdvance": "Закуп (Аванс)",
+    "totalAmount": "Укупан износ",
+    "rentalAmount": "Износ закупа",
+    "adminCharge": "Административна накнада",
+    "editAccount": "Измени налог",
+    "addNewAccount": "Додај нови налог",
+    "transactionId": "ИД трансакције",
+    "transactionType": "Тип трансакције",
+    "requestDate": "Датум захтева",
+    "amount": "Износ",
+    "fee": "Накнада",
+    "paymentStatus": "Статус плаћања",
+    "generatedTime": "Време генерисања",
+    "systemGeneratedReportHint(rich)": "Ово је системски генерисан извештај о ${appName}",
+    "withdrawHistory": "Историја повлачења",
+    "history": "Историја",
+    "withdrawAmount": "Износ повлачења",
+    "availableBalance": "Доступан баланс",
+    "withdrawCharge": "Накнада за повлачење",
+    "paymentMethod": "Начин плаћања",
+    "requestSendSuccess": "Захтев је успешно послат!",
+    "paymentReceiptSubmitSuccess": "Потврда о уплати је успешно послата.",
+    "refundReason": "Разлог за повраћај новца",
+    "note": "Напомена",
+    "refundReceiveSuccess": "Повраћај новца је успешно примљен.",
+    "downloadPaymentReceipt": "Преузмите потврду о уплати",
+    "invoice": "Фактура",
+    "selectPropertyToSeeInvoice": "Изаберите некретнину да бисте видели број фактуре...",
+    "bankAccName": "Име банковног рачуна",
+    "bankName": "Име банке",
+    "bankAccNum": "Број банковног рачуна",
+    "thankYou": "Хвала вам!",
+    "basicInfo": "Основне информације",
+    "descriptionPricing": "Опис и цене",
+    "contact": "Контакт",
+    "photos": "Фотографије",
+    "successfullySubmitted": "Успешно послато!",
+    "editProperty": "Измени некретнину",
+    "addNewProperty": "Додај нову некретнину",
+    "propertyManageRequestSuccess": "Ваш оглас је послат на рецензију.",
+    "postAnotherProperty": "Постави још једну некретнину",
+    "browseYourProperty": "Прегледајте своју некретнину",
+    "stepIndicator(rich)": "Корак ${step} од ${totalSteps}",
+    "whatWouldYouLikeToPost": "Шта бисте желели да објавите?",
+    "category": "Категорија",
+    "invalidCategory": "Неважећа категорија",
+    "unitNumber": "Број јединице",
+    "sqft": "кв. фт.",
+    "propertySizeMustBeGreaterThan0": "Величина некретнине мора бити већа од нуле",
+    "whatAreTheFacility": "Који су објекти?",
+    "whatAreTheAmenity": "Који су садржаји?",
+    "parkingLot": "Паркинг",
+    "houseType": "Тип куће",
+    "value": "Вредност",
+    "unitLotSize": "Величина јединице / парцеле",
+    "landSize": "Величина земљишта",
+    "acres": "акр(и)",
+    "roomSize": "Величина собе",
+    "askTenantPreference": "Које су ваше преференције за станаре",
+    "couple": "Пар",
+    "describeTheProperty": "Опишите ${propertyType: String}",
+    "adTitle": "Наслов огласа",
+    "minimumRentalPeriod": "Минимални период закупа",
+    "whatsappNumber": "@:common.whatsapp Број",
+    "hideOrDisplayEmail": "Сакриј или прикажи адресу е-поште",
+    "thankYouForPostingProperty": "Хвала вам што сте објавили на ${appName: String}!",
+    "propertyList": "Листа некретнина",
+    "newInviteRent": "Нови позив за закуп",
+    "rentAgreement": "Уговор о закупу",
+    "rentDetails": "Детаљи закупа",
+    "landlordRentInvitationPendingNote(rich)": "Напомена: ${note(Молимо сачекајте да станар прихвати позив.)}",
+    "rent": "Закуп",
+    "editTenant": "Измени станара",
+    "addNewTenant": "Додај новог станара",
+    "shareInstallLink": "Делите везу за инсталацију",
+    "tenantList": "Листа станара",
+    "editMaintenanceRequest": "Измени захтев за одржавање",
+    "addNewMaintenance": "Додај ново одржавање",
+    "landlordId": "ИД власника",
+    "tenantAgrementUnderReviewNote(rich)": "Напомена ${note(Ваш уговор је на рецензији. Молимо сачекајте док власник не одобри ваш закуп.)}",
+    "editReview": "Измени рецензију",
+    "writeAReview": "Напишите рецензију",
+    "selectRating": "Изаберите оцену",
+    "enterYourOpinion": "Унесите своје мишљење",
+    "askToEnterReviewMsg": "Молимо унесите поруку рецензије",
+    "pressBackAgainToExit": "Притисните поново назад да бисте изашли.",
+    "selectPaymentMethod": "Изаберите начин плаћања",
+    "filter": "Филтер",
+    "perMonth": "/1 месец",
+    "searchHintWithAppName": "Претражите било шта у ${appName: String}..."
+  },
+  "exceptions": {
+    "somethingWentWrong": "Нешто је кренуло наопако, молимо покушајте поново",
+    "noNidPassport": "Није достављена слика НИД/Пасоша.",
+    "noRentPropertyFound": "Није пронађена имовина за изнајмљивање за овог станара.",
+    "noPropertyFoundWithKeyWord": "Имовина није пронађена!\nМолимо покушајте са другим кључним речима",
+    "noSubscriptionFoundRefreshPage": "Није пронађен план претплате!\nМолимо освежите страницу и покушајте поново.",
+    "invalidApiDataRefreshPage": "Неважећи ${dataType: String} подаци! Молимо освежите страницу и покушајте поново.",
+    "invalidDownloadUrl": "Неважећи урл за преузимање!",
+    "failedToSaveFile": "Није успело чување датотеке! ${error: String}",
+    "errorOpeningFile": "Грешка при отварању датотеке! ${error: String}",
+    "noVehicleInfoProvided": "Нису пружене информације о возилу.",
+    "yourApplicationRejected": "Ваша пријава је одбијена",
+    "noApplicationFoundHint": {
+      "template": "Пријава није пронађена!\n${subject: String} ће бити приказана овде када буде доступна.",
+      "subjects": {
+        "tenant": "Ваша пријава",
+        "landlord": "Пријава станара"
+      }
+    },
+    "noPropertyFoundHint": {
+      "landlordHome": "Имовина није пронађена!\nМолимо покушајте да додате имовину да бисте је видели овде.",
+      "tenantRecommended": "Нису пронађене препоручене некретнине\nМолимо покушајте поново касније.",
+      "tenantAllProperty": "Некретнине нису доступне\nМолимо покушајте поново касније."
+    },
+    "noImageProvided": "Слика није пружена",
+    "noStatusMaintenantFound": {
+      "landlord": "Није пронађено ${status} одржавање.",
+      "tenant": "Одржавање није пронађено! Можете да креирате захтев за одржавање да бисте га видели овде."
+    },
+    "noDepositFound": "Сигурносни депозит није пронађен!\nМолимо, можете да видите сигурносне депозите када буду доступни",
+    "noRentPaymentFound": "Уплата за кирију није пронађена!\nМолимо, можете да видите уплате за кирију када буду доступне",
+    "transactionSummaryApiException": "Није успело преузимање резимеа трансакције.",
+    "noWithdrawRequestFound": "Захтев није пронађен!\nМолимо покушајте да креирате захтев за подизање да бисте га видели овде.",
+    "withdrawRequestNotApproved": "Овај захтев за подизање није одобрен!.",
+    "nonZeroError": "Молимо унесите важећи износ већи од нуле.",
+    "minAmountError": "Износ мора бити најмање ${minValue: String}.",
+    "maxAmountError": "Износ не сме да прелази ${maxValue: String}.",
+    "selectPaymentMethodHint": "Молимо, прво изаберите начин плаћања.",
+    "noStatusRefundReqFound": {
+      "landlord": "Није пронађен ${status} захтев за повраћај новца!\nМожете да видите захтев за повраћај новца овде када буде доступан.",
+      "tenant": "Захтев за повраћај новца није пронађен!\nМожете да креирате захтев за повраћај новца да бисте га видели овде."
+    },
+    "refundRequestHint": {
+      "inTenantList": "Станар ће одобрити повраћај новца када добије новац назад",
+      "tenantReqSuccess": "Прегледаћемо захтев за повраћај новца и одобрити га у року од 24 сата."
+    },
+    "oneToTenRequiredField": "Молимо изаберите број ${value: String}",
+    "invalidDateRange": "Неважећи опсег датума.",
+    "valueMustBeGreaterThanZero": "${value: String} мора бити веће од нуле.",
+    "editProperty": {
+      "rentalChange": "Имовина за изнајмљивање се мења. Мора бити важећа (на снази) само за уплату кирије за следећи месец.",
+      "deleteOnRent": "Вашу имовину је већ изнајмио станар. Не можете да је избришете док прво не уклоните станара",
+      "alreayRented": "Ова некретнина је већ изнајмљена. Молимо покушајте поново касније.\nИли можете да контактирате станодавца за више информација."
+    },
+    "rentInvitation": {
+      "landlordNoRentInvitation": "Није пронађен позив за кирију!\nМолимо покушајте да креирате позив за кирију да бисте га видели овде.",
+      "tenantNoRentInvitation": "Није пронађен позив за кирију!\nМожете да видите позив за кирију овде када буде доступан."
+    },
+    "notenantFoundList": "Нема станара!\nМолимо покушајте да додате станара да бисте га видели овде.",
+    "noFeaturesProvided": "Функције нису пружене.",
+    "noNotificationFound": "Обавештење није доступно.\nМожете да видите своје обавештење овде када буде доступно."
+  },
+  "prompt": {
+    "logout": {
+      "title": "@:common.logout",
+      "message": "Да ли сте сигурни да желите да се одјавите?"
+    },
+    "application": {
+      "rejectTitle": "Зашто одбијате ову пријаву?",
+      "applicationSent": {
+        "successfully": "Пријава је успешно послата!",
+        "sucessDescription": "Ову пријаву можете видети на листи ваших пријава"
+      }
+    },
+    "labor": {
+      "delete": {
+        "title": "Избрисати рад?",
+        "description": "Да ли сте сигурни да желите да избришете овај рад?"
+      }
+    },
+    "maintenanceRequest": {
+      "rejectTitle": "Зашто се овај захтев одбија?",
+      "processTitle": "Да ли сте сигурни да обрађујете овај захтев за одржавање?",
+      "completeTitle": "Да ли је посао завршен?"
+    },
+    "withdrawMethod": {
+      "deleteTitle": "Избрисати метод подизања?",
+      "deleteDescription": "Да ли сте сигурни да желите да избришете овај метод подизања?"
+    },
+    "unsavedChanges": {
+      "title": "Да ли сте сигурни да желите да се вратите назад?",
+      "message": "Поља која су промењена неће бити сачувана!"
+    },
+    "property": {
+      "delete": {
+        "title": "Избрисати имовину?",
+        "message": "Да ли сте сигурни да желите да избришете ову имовину?"
+      }
+    },
+    "rentInvitation": {
+      "landlordApprove": {
+        "title": "Да ли сте сигурни да желите да одобрите ову кирију?",
+        "description": "Уверите се да сте прегледали уговор који је потписао станар."
+      },
+      "tenantAccept": {
+        "title": "Да ли сте сигурни да прихватате ову позивницу?",
+        "description": "Уверите се да сте преузели пдф датотеку уговора!"
+      }
+    },
+    "sessionExpired": {
+      "title": "Сесија је истекла",
+      "message": "Ваша сесија је истекла. Молимо, пријавите се поново",
+      "action": "Пријавите се"
+    },
+    "noInternet": {
+      "title": "Нема интернет везе",
+      "message": "Молимо, проверите своју Ви-Фи везу са мобилном мрежом и покушајте поново",
+      "action": "Покушајте поново"
+    },
+    "permissionHandler": {
+      "title": "Потребна дозвола!",
+      "message": "Морате да доделите дозволе у подешавањима апликације. Да ли желите да отворите подешавања сада?"
+    },
+    "imagePicker": {
+      "title": "Изаберите опцију",
+      "gallery": "Галерија",
+      "camera": "Камера"
+    },
+    "verificationDialog": {
+      "title": "Верификујте своју е-пошту",
+      "message": "Послали смо е-пошту са верификационим кодом",
+      "messageWithEmail": "@:prompt.verificationDialog.message на ${email: String?}"
+    },
+    "notification": {
+      "clearTitle": "Обрисати обавештења?",
+      "clearMessage": "Да ли сте сигурни да желите да обришете сва обавештења?"
+    }
+  },
+  "form": {
+    "fullName": {
+      "label": "@:common.fullName",
+      "hint": "Унесите @:common.fullName",
+      "errors": {
+        "required": "Молимо унесите ваше @:common.fullName"
+      }
+    },
+    "email": {
+      "label": "@:common.email",
+      "hint": "Унесите вашу @:common.email",
+      "errors": {
+        "required": "Молимо унесите вашу @:common.email адресу",
+        "invalid": "⦸ Неважећа е-пошта, молимо покушајте поново"
+      }
+    },
+    "password": {
+      "label": "@:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Молимо унесите вашу @:common.password",
+        "minLength": "Лозинка мора да има најмање ${count} карактера!"
+      }
+    },
+    "confirmPassword": {
+      "label": "Потврдите @:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Молимо унесите вашу @:common.password",
+        "notMatched": "Потврда лозинке се не подудара!"
+      }
+    },
+    "mobileNumber": {
+      "label": "@:common.mobileNumber",
+      "hint": "(+60) 555-0123",
+      "errors": {
+        "required": "Молимо унесите ваш @:common.mobileNumber"
+      }
+    },
+    "address1": {
+      "label": "@:common.address 1",
+      "hint": "Број куће и назив улице",
+      "errors": {
+        "required": "Молимо унесите вашу @:form.address1.label"
+      }
+    },
+    "address2": {
+      "label": "@:common.address 2",
+      "hint": "Стан, апартман, јединица, итд.",
+      "errors": {
+        "required": "Молимо унесите вашу @:form.address2.label"
+      }
+    },
+    "postalCode": {
+      "label": "@:common.postalCode",
+      "hint": "Унесите @:common.postalCode",
+      "errors": {
+        "required": "Молимо унесите ваш @:common.postalCode"
+      }
+    },
+    "city": {
+      "label": "@:common.city",
+      "hint": "Унесите назив @:common.city града.",
+      "errors": {
+        "required": "Молимо унесите назив вашег @:common.city града."
+      }
+    },
+    "state": {
+      "label": "@:common.state",
+      "hint": "Унесите назив @:common.state државе.",
+      "errors": {
+        "required": "Молимо унесите назив ваше @:common.state државе."
+      }
+    },
+    "country": {
+      "label": "@:common.country",
+      "hint": "Изаберите @:common.country.",
+      "errors": {
+        "required": "Молимо изаберите вашу @:common.country"
+      }
+    },
+    "otp": {
+      "errors": {
+        "required": "Молимо унесите отп.",
+        "invalid": "Молимо унесите исправан отп."
+      }
+    },
+    "title": {
+      "label": "Наслов",
+      "hint": "Унесите наслов",
+      "errors": {
+        "required": "Молимо унесите наслов"
+      }
+    },
+    "date": {
+      "label": "${label: String}",
+      "hint": "Изаберите @:form.date.label",
+      "errors": {
+        "required": "Молимо изаберите @:form.date.label"
+      }
+    },
+    "reason": {
+      "label": "Разлог",
+      "hint": "Унесите разлог",
+      "errors": {
+        "required": "Молимо унесите разлог"
+      }
+    },
+    "withdrawMethod": {
+      "label": "@:common.withdrawMethod",
+      "hint": "Изаберите @:common.withdrawMethod",
+      "errors": {
+        "required": "Молимо изаберите @:common.withdrawMethod"
+      }
+    },
+    "fileField": {
+      "label": "${label: String}",
+      "hint": "Отпремите ${label: String}",
+      "errors": {
+        "required": "Молимо изаберите ${label: String}"
+      }
+    },
+    "note": {
+      "label": "${note: String}",
+      "hint": "Унесите @:form.note.label",
+      "errors": {
+        "required": "Молимо унесите @:form.note.label"
+      }
+    },
+    "gender": {
+      "label": "@:common.gender",
+      "hint": "Изаберите @:common.gender",
+      "errors": {
+        "required": "Молимо изаберите @:common.gender"
+      }
+    },
+    "anyField": {
+      "label": "${label: String}",
+      "hint": "Унесите @:form.anyField.label",
+      "errors": {
+        "required": "Молимо унесите @:form.anyField.label",
+        "invalid": "Молимо унесите важећи @form.anyField.label"
+      }
+    },
+    "anyDropdown": {
+      "label": "${label: String}",
+      "hint": "Изаберите @:form.anyDropdown.label",
+      "errors": {
+        "required": "Молимо изаберите @:form.anyDropdown.label",
+        "invalid": "Молимо изаберите важећи @form.anyDropdown.label"
+      }
+    }
+  },
+  "action": {
+    "next": "Следеће",
+    "getStarted": "Почните",
+    "skip": "Прескочи",
+    "select": "Изаберите",
+    "save": "Сачувај",
+    "signIn": "Пријавите се",
+    "signUp": "Региструјте се",
+    "continue": "Наставите",
+    "clearAll": "Обриши све",
+    "cancelRenting": "@:common.cancelRenting",
+    "send": "Пошаљи",
+    "pay": "Плати",
+    "remove": "Уклони",
+    "goBack": "Иди назад",
+    "buyNow": "Купи сада",
+    "no": "Не",
+    "open": "Отвори",
+    "addProperty": "Додај некретнину",
+    "process": "Обради",
+    "approve": "Одобри",
+    "reject": "Одбиј",
+    "viewRent": "Погледај кирију",
+    "openNavigationMenu": "Отвори навигациони мени",
+    "seeAll": "Погледај све",
+    "update": "Ажурирај",
+    "printTransaction": "Одштампај трансакцију",
+    "payoutRequest": "Захтев за исплату",
+    "addNew": "+ Додај ново",
+    "sendRequest": "Пошаљи захтев",
+    "print": "Штампај",
+    "requestForRefund": "Захтев за повраћај новца",
+    "previous": "Претходно",
+    "delete": "Избриши",
+    "applyProperty": "Пријави некретнину",
+    "viewApplication": "Погледај пријаву",
+    "inviteTenant": "Позови станара",
+    "inviteRent": "Позови за кирију",
+    "cancel": "Откажи",
+    "accept": "Прихвати",
+    "submit": "Поднеси",
+    "yes": "Да",
+    "okay": "У реду",
+    "confirm": "Потврди",
+    "apply": "Примени",
+    "reset": "Ресетуј",
+    "retry": "Покушај поново",
+    "viewAll": "Погледај све"
+  },
+  "pages": {
+    "language": {
+      "appbarTitle": "@:action.select @:common.language"
+    },
+    "onboard": {
+      "onboardData": {
+        "data1": {
+          "title": "Пронађите своју некретнину",
+          "description": "Олакшали смо проналазак места које одговара вашем животу — било да је то соба, стан или кућа."
+        },
+        "data2": {
+          "title": "Стан у граду",
+          "description": "Штедимо вам време тако што вас брзо спајамо са савршеном некретнином пре него што нестане, тако да можете да уживате у свом новом дому или да бесплатно огласите свој."
+        },
+        "data3": {
+          "title": "Ваша удобна кућа",
+          "description": "Ако тражите место за живот, погледајте наше куће за изнајмљивање. Имамо широк спектар кућа које можете да изаберете широм земље."
+        }
+      }
+    },
+    "signIn": {
+      "title": "Добродошли назад",
+      "subtitle": "Пријавите се сада да бисте започели невероватно путовање.",
+      "extra": {
+        "rememberMe": "Запамти ме",
+        "signUpNavigator(rich)": "Немате налог? ${getStarted(@:action.getStarted)}",
+        "forgotPassword": "@:common.forgotPassword?"
+      }
+    },
+    "forgotPassword": {
+      "title": "Заборављена лозинка",
+      "subtitle": "Унесите своју е-маил адресу да бисте повратили лозинку."
+    },
+    "otpVerification": {
+      "title": "Верификација",
+      "subtitle": "4-цифрени пин је послат на вашу е-маил адресу. ${email: String}",
+      "extra": {
+        "codeResend": {
+          "codeSendIn": "Код је послат за ${minutes}:${seconds}",
+          "resendCode(rich)": " ${resendCode(Пошаљи код поново)} "
+        }
+      }
+    },
+    "resetPassword": {
+      "title": "Ресетуј лозинку",
+      "subtitle": "Ресетујте лозинку за опоравак и пријавите се на свој налог",
+      "extra": {
+        "dialog": {
+          "title": "Успешно промењено!",
+          "subtitle": "Пријавите се са својом новом лозинком.\nПреусмеравамо вас на пријаву..."
+        }
+      }
+    },
+    "signUp": {
+      "title": "Направи налог",
+      "subtitle": "Пријавите се сада да бисте започели невероватно путовање",
+      "extra": {
+        "signInNavigator(rich)": "Већ имате налог? ${signIn(@:action.signIn)}"
+      }
+    },
+    "welcome": {
+      "title": "Ко сте ви?",
+      "subtitle": "Молимо, изаберите опцију испод.",
+      "extra": {
+        "landlordTag": "Управљајте својим некретнинама",
+        "tenantTag": "Пријавите се на свој налог за изнајмљивање"
+      }
+    },
+    "aboutUs": {
+      "appbarTitle": "@:common.aboutUs"
+    },
+    "termsAndConditions": {
+      "appbarTitle": "@:common.termsAndConditions"
+    },
+    "notificationList": {
+      "appbarTitle": "Обавештења"
+    },
+    "contactUs": {
+      "appbarTitle": "@:common.contactUs",
+      "extra": {
+        "messageHint": "Порука..."
+      }
+    },
+    "cancelRenting": {
+      "appbarTitle": "@:common.cancelRenting",
+      "title": "Зашто @:common.cancelRenting?",
+      "form": {
+        "reason": {
+          "hint": "Напишите разлог",
+          "errors": {
+            "required": "Молимо унесите разлог за отказивање кирије"
+          }
+        }
+      }
+    },
+    "invoiceDetails": {
+      "appbarTitle": "@:common.viewDetails"
+    },
+    "offlinePayment": {
+      "appbarTitle": "Офлајн плаћање",
+      "form": {
+        "paymentNote": {
+          "label": "Напомена о плаћању (@:common.optional)",
+          "hint": "Унесите неки текст..."
+        }
+      },
+      "extra": {
+        "payAmount(rich)": "Износ уплате: ${amount}",
+        "accountHolderName": "Име власника рачуна",
+        "accountNumber": "Број рачуна",
+        "swiftCode": "Свифт код",
+        "branch": "Филијала",
+        "fileTypeHint(rich)": "Изаберите ${fileType(JPG, PNG,PDF)} или ${fileType(DOC)} формате датотека. Величина датотеке ${fileSize(2000 KB)}"
+      }
+    },
+    "paymentStatus": {
+      "success": {
+        "actionButton": "Погледај фактуру",
+        "title": "@:common.thankYou",
+        "description": "Прегледаћемо уплату и одобрити је у року од 24 сата."
+      },
+      "fail": {
+        "actionButton": "Покушај поново",
+        "title": "Ух! Плаћање није успело",
+        "description": "Ваша трансакција није успела због неке техничке грешке."
+      }
+    },
+    "propertyDetails": {
+      "extra": {
+        "landlord(rich)": "@:common.landlord: ${landlordName}",
+        "ratingReviews(rich)": "${rating} ${reviews(@:common.reviews)}",
+        "features(rich)": "Карактеристике ${fa((Погодности и садржаји))}",
+        "selectRentalPeriod": "Изаберите период изнајмљивања",
+        "writeAReview": "+ Напишите рецензију"
+      }
+    },
+    "search": {
+      "appbarTitle": "Претрага",
+      "extra": {
+        "hint": "Претражите парцеле, станове, собе...",
+        "noRecentSearch": "Немате недавних претрага."
+      }
+    },
+    "subscriptionPlan": {
+      "appbarTitle": "Изаберите свој план",
+      "extra": {
+        "subscriptionPaymentSuccess": "Уплата за претплату је успешна.\nСада можете да приступите претплаћеним функцијама."
+      }
+    },
+    "landlordMaintenanceReport": {
+      "totalMaintenanceCost(rich)": "Укупни трошкови одржавања: ${amount: string}",
+      "maintenancePending": "@:common.maintenance @:enums.maintenanceStatus.pending",
+      "maintenanceProcessing": "@:common.maintenance @:enums.maintenanceStatus.processing",
+      "maintenanceCompleted": "@:common.maintenance @:enums.maintenanceStatus.completed",
+      "maintenanceRejected": "@:common.maintenance @:enums.maintenanceStatus.rejected"
+    }
+  },
+  "enums": {
+    "propertyStatus": {
+      "allProperty": "Сва некретнина",
+      "pending": "На чекању",
+      "active": "Активно",
+      "inactive": "Неактивно",
+      "rejected": "Одбијено"
+    },
+    "propertyType": {
+      "apartmentCondominium": "Стан/Кондоминијум",
+      "house": "Кућа",
+      "commercialProperty": "Комерцијална некретнина",
+      "land": "Земљиште",
+      "room": "Соба"
+    },
+    "applicationStatus": {
+      "all": "Све",
+      "pending": "На чекању",
+      "processing": "Обрада",
+      "approved": "Одобрено",
+      "rejected": "Одбијено"
+    },
+    "myRentStatus": {
+      "pending": "На чекању",
+      "processing": "Обрада",
+      "active": "Активно",
+      "expired": "Истекло",
+      "cancelled": "Отказано"
+    },
+    "maintenanceStatus": {
+      "pending": "На чекању",
+      "processing": "Обрада",
+      "rejected": "Одбијено",
+      "completed": "Завршено"
+    },
+    "tenantProfileType": {
+      "privateIndividual": "Приватно (Индивидуално)",
+      "company": "Компанија"
+    },
+    "tenantType": {
+      "newTenant": "Нови станар",
+      "activeTenant": "Активни станар",
+      "expiredTenant": "Истекли станар"
+    },
+    "paymentStatus": {
+      "all": "Све",
+      "pending": "На чекању",
+      "paid": "Плаћено",
+      "unpaid": "Неплаћено",
+      "rejected": "Одбијено",
+      "refund": "Повраћај новца"
+    },
+    "paymentOptions": {
+      "onlinePayment": "Онлајн плаћање",
+      "offlinePayment": "Офлајн плаћање"
+    },
+    "paymentType": {
+      "securityDeposit": "Сигурносни депозит",
+      "rentPayment": "Уплата кирије",
+      "subscription": "Претплата"
+    },
+    "gender": {
+      "male": "Мушко",
+      "female": "Женско",
+      "other": "Друго"
+    },
+    "ecRelation": {
+      "wife": "Супруга",
+      "parent": "Родитељ",
+      "friend": "Пријатељ",
+      "brother": "Брат",
+      "sister": "Сестра",
+      "child": "Дете"
+    },
+    "vehicleType": {
+      "car": "Аутомобил",
+      "motorcycles": "Мотоцикли",
+      "lorry": "Камион"
+    },
+    "sortBy": {
+      "lowToHigh": "Од ниског ка високом",
+      "highToLow": "Од високог ка ниском"
+    },
+    "residentialType": {
+      "flat": "Стан",
+      "apartment": "Апартман",
+      "condominium": "Кондоминијум",
+      "serviceResidence": "Резиденција са услугама",
+      "studio": "Студио",
+      "duplex": "Дуплекс",
+      "townhouseCondo": "Кућа у низу Кондо",
+      "others": "Остало"
+    },
+    "floorRange": {
+      "high": "Високо",
+      "medium": "Средње",
+      "low": "Ниско"
+    },
+    "furnishings": {
+      "fullyFurnished": "Потпуно намештено",
+      "partiallyFurnished": "Делимично намештено",
+      "notFurnished": "Није намештено"
+    },
+    "commercialPropertyType": {
+      "officeSpace": "Канцеларијски простор",
+      "retailSpace": "Простор за малопродају",
+      "shopLot": "Продавница",
+      "warehouseFactory": "Складиште / Фабрика",
+      "hotelResort": "Хотел / Ресорт",
+      "sofo": "Софо",
+      "soho": "Сохо",
+      "sovo": "Сово",
+      "others": "Остало"
+    },
+    "landPropertyType": {
+      "residential": "Резиденцијално",
+      "industrial": "Индустријско",
+      "agricultural": "Пољопривредно",
+      "commercial": "Комерцијално",
+      "mixedDevelopment": "Мешовити развој",
+      "others": "Остало"
+    },
+    "residentPropertyType": {
+      "condo": "Кондо / Резиденција са услугама / Пентхаус",
+      "apartment": "Апартман / Стан",
+      "house": "Куће",
+      "shoplot": "Продавница",
+      "sharing": "Дељење куће / стана",
+      "others": "Остало"
+    },
+    "minimumRentalPeriod": {
+      "sixMonths": "6 месеци",
+      "oneYear": "1 година",
+      "oneAndHalfYears": "1.5 године",
+      "twoYears": "2 године",
+      "twoAndHalfYears": "2.5 године"
+    },
+    "dropdownDateFilter": {
+      "daily": "Дневно",
+      "weekly": "Недељно",
+      "monthly": "Месечно",
+      "yearly": "Годишње",
+      "custom": "Прилагођено"
+    }
+  }
+}

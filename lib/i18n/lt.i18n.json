@@ -1,0 +1,950 @@
+{
+  "@@meta": {
+    "languageCode": "lt_LT",
+    "languageName": "Lithuanian",
+    "version": "1.0.0"
+  },
+  "common": {
+    "profile": "Profilis",
+    "language": "Kalba",
+    "subscriptionPlan": "Abonementas planas",
+    "contactUs": "Susisiekite su mumis",
+    "termsAndConditions": "Taisyklės ir sąlygos",
+    "aboutUs": "Apie mus",
+    "logout": "Atsijungti",
+    "editProfile": "Redaguoti profilį",
+    "fullName": "Vardas ir pavardė",
+    "email": "El. paštas",
+    "mobileNumber": "Mobilusis telefonas",
+    "address": "Adresas",
+    "postalCode": "Pašto kodas",
+    "city": "Miestas",
+    "country": "Šalis",
+    "state": "Valstybė",
+    "password": "Slaptažodis",
+    "forgotPassword": "Pamiršau slaptažodį",
+    "tenant": "Nuomininkas",
+    "landlord": "Nuomotojas",
+    "cancelRenting": "Atšaukti nuomą",
+    "startDate": "Pradžios data",
+    "endDate": "Pabaigos data",
+    "fromDate": "Nuo datos",
+    "toDate": "Iki datos",
+    "online": "Prisijungęs",
+    "bankList": "Bankų sąrašas",
+    "withdrawMethod": "Lėšų išėmimo būdas",
+    "uploadPaymentReceipt": "Įkelti mokėjimo kvitą",
+    "offlinePaymentNote(rich)": "Pastaba: ${note(Mokėjimas reikalauja rankinio patvirtinimo iš administratoriaus per)} ${duraion(24–48 valandas.)}",
+    "reviews": "Atsiliepimai",
+    "description": "Aprašymas",
+    "about": "Apie",
+    "propertyTypes": "Nekilnojamojo turto tipai",
+    "features": "Savybės",
+    "floorPlans": "Aukštų planai",
+    "buildingDetails": "Informacija apie pastatą",
+    "buildingName": "Pastato pavadinimas",
+    "propertyAddress": "Nekilnojamojo turto adresas",
+    "completionYear": "Baigimo metai",
+    "lotNumber": "Sklypo numeris",
+    "residentialType": "Gyvenamasis tipas",
+    "furnishings": "Baldai",
+    "floorRange": "Aukštų diapazonas",
+    "bedrooms": "Miegamieji",
+    "bathrooms": "Vonios kambariai",
+    "propertySize": "Nekilnojamojo turto dydis",
+    "rentalPeriod": "Nuomos laikotarpis",
+    "securityDeposit": "Užstatas",
+    "utilityBill": "Komunalinis mokestis",
+    "facilities": "Patogumai",
+    "amenities": "Patogumai",
+    "expiringReason": "Pasibaigimo priežastis",
+    "tenantDetails": "Nuomininko informacija",
+    "typeOfTenant": "Nuomininko tipas",
+    "tenantName": "Nuomininko vardas",
+    "nidPassport": "NID/Pasas",
+    "nidPassportId": "@:common.nidPassport ID",
+    "tenantId": "Nuomininko ID",
+    "dateOfBirth": "Gimimo data",
+    "gender": "Lytis",
+    "nominee": "Kandidatas",
+    "name": "Vardas",
+    "optional": "Neprivaloma",
+    "nomineeName": "@:common.nominee @:common.name",
+    "nomineeEmail": "@:common.nominee @:common.email",
+    "nomineeMobile": {
+      "short": "@:common.nominee Mo. No.",
+      "full": "@:common.nominee @:common.mobileNumber"
+    },
+    "emergencyContact": "Avarinis kontaktas",
+    "relation": "Ryšys",
+    "relationWith": "@:common.relation With",
+    "relationWithYou": "@:common.relationWith You",
+    "company": "Įmonė",
+    "companyName": "@:common.company @:common.name",
+    "companySSMNo": "@:common.company SSM No.",
+    "workplace": "Darbo vieta",
+    "officePhoneNo": "Telefono numeris biure",
+    "officeMobileNo": "Biuro @:common.mobileNumber",
+    "vehicle": "Transporto priemonė",
+    "vehiclesInfo": {
+      "plain": "Informacija apie transporto priemones",
+      "optional": "Informacija apie transporto priemones (@:common.optional)"
+    },
+    "vehiclesType": "@:common.vehicle Type",
+    "vehicleRegistrationNo": {
+      "normal": "Transporto priemonės registracijos Nr.",
+      "short": "Registracijos Nr.",
+      "alt": "Valstybinis numeris"
+    },
+    "vehicleBrand": "@:common.vehicle Brand",
+    "rentProperty": "Nuomoti nekilnojamąjį turtą",
+    "propertyDetails": "Informacija apie nekilnojamąjį turtą",
+    "propertyId": "Nekilnojamojo turto ID",
+    "propertyType": "Nekilnojamojo turto tipas",
+    "propertyName": "Nekilnojamojo turto pavadinimas",
+    "paymentDetails": "Mokėjimo informacija",
+    "monthlyRent": "Mėnesinė nuoma",
+    "thisMonthPayment": "Šio mėnesio mokėjimas",
+    "totalPaidRent": "Visa sumokėta nuoma",
+    "dueRent": "Nesumokėta nuoma",
+    "rentStartDate": "Nuoma @:common.startDate",
+    "rentEndDate": "Nuoma @:common.endDate",
+    "status": "Būsena",
+    "rentAgreementPdf": "Nuomos sutarties PDF",
+    "noFile": "Nėra failo",
+    "tenantImageOp": "Nuomininko nuotrauka @:common.optional",
+    "addNewVechicle": "Pridėti naują transporto priemonę",
+    "uploadNidPassport": "Įkelti NID/Pasą",
+    "nidPassportUploadNote": "Bus priimami tik failo tipo vaizdai. Failo dydžio apribojimas iki 2,5 MB.",
+    "search": "Paieška",
+    "sortBy": "Rūšiuoti pagal",
+    "subscription": "Abonementas",
+    "downloading": "Atsisiunčiama...",
+    "downloadSuccess": "Failas sėkmingai atsisiųstas!",
+    "addPropertyBannerTitle": "Norite išnuomoti savo nekilnojamąjį turtą?",
+    "application": "Paraiška",
+    "tenantHasPaidDeposit": "Nuomininkas sumokėjo užstatą.",
+    "askProcessingRentApplication": "Ar tikrai apdorojate šį prašymą dėl nuomojamo nekilnojamojo turto?",
+    "dateAndTime": "Data ir laikas",
+    "applicationDetails": "Išsami paraiškos informacija",
+    "depositStatus": "Užstato būsena",
+    "uploadRentAgreement": "Įkelti nuomos sutartį",
+    "uploadFilePDF": "Įkelti failą (PDF)",
+    "askSelectRentAgreement": "Prašome pasirinkti sutarties dokumento failą.",
+    "landlordRentAgreementPDF": "Nuomotojo nuomos sutarties PDF",
+    "tenantRentAgreementPDF": "Nuomininko nuomos sutarties PDF",
+    "landlordApplicationApproveNote(rich)": "Pastaba: ${note(Patvirtinkite paraišką tik po to, kai nuomininkas sumokės užstatą.)}",
+    "reasonOfRejection": "Atmetimo priežastis",
+    "youveRejectedThisApplication": "Jūs atmetėte šią paraišką",
+    "landlordDetails": "Nuomotojo informacija",
+    "landlordName": "Nuomotojo vardas",
+    "downloadRentAgreement": "Atsisiųsti nuomos sutartį",
+    "acceptTermsConditions(rich)": "Priimti ${toc(Taisyklės ir sąlygos)}",
+    "tenantAgreementSignNote1(rich)": "Pastaba: ${note(Prašome atsisiųsti ir perskaityti sutartį. Prašome nusiųsti pasirašytą sutartį nuomotojui per „WhatsApp“ arba el. paštu.)}",
+    "tenantAgreementSignNote2(rich)": "Pastaba: ${note(Nuomotojas patvirtina paraišką, kai nuomininkas sumoka užstatą, komunalinius mokesčius ir vieno mėnesio avansinį nuomos mokestį.)}",
+    "completeRentAgreementPdf(rich)": "Nuomos sutartis (PDF) ${complete(Visa sutartis)}",
+    "tenantApplicationDepositNote(rich)": "Pastaba: ${note(Nuomotojas patvirtina paraišką, kai nuomininkas sumoka užstatą, komunalinius mokesčius ir vieno mėnesio avansinį nuomos mokestį.)}",
+    "whatsapp": "Whatsapp",
+    "applicationList": "Paraiškų sąrašas",
+    "viewDetails": "Peržiūrėti išsamią informaciją",
+    "searchHint": "@:common.search...",
+    "home": "Pagrindinis",
+    "dashboard": "Informacijos suvestinė",
+    "tenants": "Nuomininkai",
+    "maintenance": "Priežiūra",
+    "maintenanceList": "Priežiūros sąrašas",
+    "maintenanceReport": "Priežiūros ataskaita",
+    "labor": "Darbas",
+    "applications": "Paraiškos",
+    "rentInvitation": "Kvietimas nuomotis",
+    "payment": "Mokėjimas",
+    "rentPayment": "Nuomos mokėjimas",
+    "depositUtilityPayment": "Užstatas ir komunalinių mokesčių mokėjimas",
+    "refundRequest": "Prašymas grąžinti pinigus",
+    "withdrawRequest": "Prašymas išsiimti lėšas",
+    "myProperty": "Mano nekilnojamasis turtas",
+    "myRent": "Mano nuoma",
+    "wishlist": "Pageidavimų sąrašas",
+    "properties": "Nekilnojamasis turtas",
+    "allProperties": "Visas nekilnojamasis turtas",
+    "totalPropery": "Iš viso nekilnojamojo turto",
+    "occupied": "Užimtas",
+    "vacant": "Laisvas",
+    "accounting": "Apskaita",
+    "totalIncome": "Visos pajamos",
+    "totalExpense": "Visos išlaidos",
+    "currentBalance": "Esamas balansas",
+    "totalWithdrawal": "Iš viso (išėmimas)",
+    "totalProperties": "Iš viso nekilnojamojo turto",
+    "totalTenant": "Iš viso nuomininkų",
+    "totalRentPaid": "Iš viso sumokėta nuoma",
+    "totalRentDue": "Iš viso nesumokėta nuoma",
+    "totalApplication": "Iš viso paraiškų",
+    "pendingApplication": "Neapdorota paraiška",
+    "processingApplication": "Apdorojama paraiška",
+    "approveApplication": "Patvirtinti paraišką",
+    "rejectApplication": "Atmesti paraišką",
+    "maintenanceCost": "Priežiūros kaina",
+    "transactionSummary": "Operacijų suvestinė",
+    "maintenanceRequest": "Priežiūros prašymas",
+    "notifications": "Pranešimai",
+    "myProperties": "Mano nekilnojamasis turtas",
+    "recommendationProperties": "Rekomenduojamas nekilnojamasis turtas",
+    "laborList": "Darbo sąrašas",
+    "addLabor": "Pridėti darbą",
+    "laborDetails": "Informacija apie darbą",
+    "laborSalary": "Darbo atlyginimas",
+    "editLabor": "Redaguoti darbą",
+    "addNewLabor": "Pridėti naują darbą",
+    "enterAmount": "Įvesti sumą",
+    "maintenanceDetails": "Išsami priežiūros informacija",
+    "laborName": "Darbininko vardas",
+    "comment": "Komentaras",
+    "image": "Vaizdas",
+    "complete": "Baigti",
+    "details": "Išsami informacija",
+    "title": "Pavadinimas",
+    "date": "Data",
+    "reason": "Priežastis",
+    "edit": "Redaguoti",
+    "property": "Nekilnojamasis turtas",
+    "completeYourProfile": "Užpildykite savo profilį",
+    "profileImage": "Profilio nuotrauka",
+    "imagePickHint": "Tik JPEG ir PNG vaizdas, maksimalus dydis 120x120 pikselių.",
+    "invoiceId": "Sąskaitos faktūros ID",
+    "depositAmount": "Užstato suma",
+    "landlordPhone": "Nuomotojo telefonas",
+    "rentalAdvance": "Nuoma (avansas)",
+    "totalAmount": "Visa suma",
+    "rentalAmount": "Nuomos suma",
+    "adminCharge": "Administracinis mokestis",
+    "editAccount": "Redaguoti paskyrą",
+    "addNewAccount": "Pridėti naują paskyrą",
+    "transactionId": "Operacijos ID",
+    "transactionType": "Operacijos tipas",
+    "requestDate": "Prašymo data",
+    "amount": "Suma",
+    "fee": "Mokestis",
+    "paymentStatus": "Mokėjimo būsena",
+    "generatedTime": "Sugeneravimo laikas",
+    "systemGeneratedReportHint(rich)": "Tai yra sistemos sugeneruota ataskaita apie ${appName}",
+    "withdrawHistory": "Išėmimo istorija",
+    "history": "Istorija",
+    "withdrawAmount": "Išėmimo suma",
+    "availableBalance": "Turimas balansas",
+    "withdrawCharge": "Išėmimo mokestis",
+    "paymentMethod": "Mokėjimo būdas",
+    "requestSendSuccess": "Prašymas sėkmingai išsiųstas!",
+    "paymentReceiptSubmitSuccess": "Mokėjimo kvitas sėkmingai pateiktas.",
+    "refundReason": "Grąžinimo priežastis",
+    "note": "Pastaba",
+    "refundReceiveSuccess": "Pinigai sėkmingai grąžinti.",
+    "downloadPaymentReceipt": "Atsisiųsti mokėjimo kvitą",
+    "invoice": "Sąskaita faktūra",
+    "selectPropertyToSeeInvoice": "Pasirinkite nekilnojamąjį turtą, kad pamatytumėte sąskaitos faktūros numerį...",
+    "bankAccName": "Banko sąskaitos pavadinimas",
+    "bankName": "Banko pavadinimas",
+    "bankAccNum": "Banko sąskaitos numeris",
+    "thankYou": "Ačiū!",
+    "basicInfo": "Pagrindinė informacija",
+    "descriptionPricing": "Aprašymas ir kainos",
+    "contact": "Kontaktas",
+    "photos": "Nuotraukos",
+    "successfullySubmitted": "Sėkmingai pateikta!",
+    "editProperty": "Redaguoti nekilnojamąjį turtą",
+    "addNewProperty": "Pridėti naują nekilnojamąjį turtą",
+    "propertyManageRequestSuccess": "Jūsų skelbimas buvo pateiktas peržiūrai.",
+    "postAnotherProperty": "Paskelbti kitą nekilnojamąjį turtą",
+    "browseYourProperty": "Naršyti savo nekilnojamąjį turtą",
+    "stepIndicator(rich)": "Žingsnis ${step} iš ${totalSteps}",
+    "whatWouldYouLikeToPost": "Ką norėtumėte paskelbti?",
+    "category": "Kategorija",
+    "invalidCategory": "Netinkama kategorija",
+    "unitNumber": "Vieneto numeris",
+    "sqft": "kv. pėdos",
+    "propertySizeMustBeGreaterThan0": "Nekilnojamojo turto dydis turi būti didesnis nei nulis",
+    "whatAreTheFacility": "Kokie yra patogumai?",
+    "whatAreTheAmenity": "Kokie yra patogumai?",
+    "parkingLot": "Automobilių stovėjimo aikštelė",
+    "houseType": "Namo tipas",
+    "value": "Vertė",
+    "unitLotSize": "Vieneto / sklypo dydis",
+    "landSize": "Žemės dydis",
+    "acres": "Akras(ai)",
+    "roomSize": "Kambario dydis",
+    "askTenantPreference": "Koks yra jūsų nuomininko pageidavimas",
+    "couple": "Pora",
+    "describeTheProperty": "Apibūdinkite ${propertyType: String}",
+    "adTitle": "Skelbimo pavadinimas",
+    "minimumRentalPeriod": "Minimalus nuomos laikotarpis",
+    "whatsappNumber": "@:common.whatsapp Number",
+    "hideOrDisplayEmail": "Slėpti arba rodyti el. pašto adresą",
+    "thankYouForPostingProperty": "Ačiū, kad paskelbėte svetainėje ${appName: String}!",
+    "propertyList": "Nekilnojamojo turto sąrašas",
+    "newInviteRent": "Naujas kvietimas nuomotis",
+    "rentAgreement": "Nuomos sutartis",
+    "rentDetails": "Išsami nuomos informacija",
+    "landlordRentInvitationPendingNote(rich)": "Pastaba: ${note(Prašome palaukti, kol nuomininkas priims kvietimą.)}",
+    "rent": "Nuoma",
+    "editTenant": "Redaguoti nuomininką",
+    "addNewTenant": "Pridėti naują nuomininką",
+    "shareInstallLink": "Bendrinti diegimo nuorodą",
+    "tenantList": "Nuomininkų sąrašas",
+    "editMaintenanceRequest": "Redaguoti priežiūros užklausą",
+    "addNewMaintenance": "Pridėti naują priežiūrą",
+    "landlordId": "Nuomotojo ID",
+    "tenantAgrementUnderReviewNote(rich)": "Pastaba ${note(Jūsų sutartis yra peržiūrima. Prašome palaukti, kol nuomotojas patvirtins jūsų nuomą.)}",
+    "editReview": "Redaguoti atsiliepimą",
+    "writeAReview": "Parašyti atsiliepimą",
+    "selectRating": "Pasirinkti įvertinimą",
+    "enterYourOpinion": "Įveskite savo nuomonę",
+    "askToEnterReviewMsg": "Prašome įvesti atsiliepimo pranešimą",
+    "pressBackAgainToExit": "Paspauskite atgal dar kartą, kad išeitumėte.",
+    "selectPaymentMethod": "Pasirinkite mokėjimo būdą",
+    "filter": "Filtras",
+    "perMonth": "/1 mėnesį",
+    "searchHintWithAppName": "Ieškokite bet ko svetainėje ${appName: String}..."
+  },
+  "exceptions": {
+    "somethingWentWrong": "Kažkas nutiko, bandykite dar kartą",
+    "noNidPassport": "Nėra pateikta NID/Paso nuotrauka.",
+    "noRentPropertyFound": "Nerasta nuomojamo turto šiam nuomininkui.",
+    "noPropertyFoundWithKeyWord": "Nekilnojamasis turtas nerastas!\nIšbandykite kitus raktažodžius",
+    "noSubscriptionFoundRefreshPage": "Nerastas prenumeratos planas!\nAtnaujinkite puslapį ir bandykite dar kartą.",
+    "invalidApiDataRefreshPage": "Netinkama ${dataType: String} informacija! Atnaujinkite puslapį ir bandykite dar kartą.",
+    "invalidDownloadUrl": "Netinkamas atsisiuntimo URL!",
+    "failedToSaveFile": "Nepavyko išsaugoti failo! ${error: String}",
+    "errorOpeningFile": "Klaida atidarant failą! ${error: String}",
+    "noVehicleInfoProvided": "Nepateikta informacija apie transporto priemonę.",
+    "yourApplicationRejected": "Jūsų paraiška buvo atmesta",
+    "noApplicationFoundHint": {
+      "template": "Paraiška nerasta!\n${subject: String} bus rodoma čia, kai bus prieinama.",
+      "subjects": {
+        "tenant": "Jūsų paraiška",
+        "landlord": "Nuomininko paraiška"
+      }
+    },
+    "noPropertyFoundHint": {
+      "landlordHome": "Nekilnojamasis turtas nerastas!\nPrašome pabandyti pridėti nekilnojamąjį turtą, kad pamatytumėte čia.",
+      "tenantRecommended": "Nerasta rekomenduojamo nekilnojamojo turto\nBandykite dar kartą vėliau.",
+      "tenantAllProperty": "Nekilnojamasis turtas neprieinamas\nBandykite dar kartą vėliau."
+    },
+    "noImageProvided": "Nepateiktas vaizdas",
+    "noStatusMaintenantFound": {
+      "landlord": "Nerasta ${status} priežiūra.",
+      "tenant": "Priežiūra nerasta! Galite sukurti priežiūros užklausą, kad pamatytumėte ją čia."
+    },
+    "noDepositFound": "Nerastas užstatas!\nPrašome pamatyti užstatus, kai jie bus prieinami",
+    "noRentPaymentFound": "Nerastas nuomos mokėjimas!\nPrašome pamatyti nuomos mokėjimus, kai jie bus prieinami",
+    "transactionSummaryApiException": "Nepavyko gauti operacijų suvestinės.",
+    "noWithdrawRequestFound": "Nerastas prašymas!\nPrašome pabandyti sukurti išėmimo prašymą, kad pamatytumėte jį čia.",
+    "withdrawRequestNotApproved": "Šis išėmimo prašymas nebuvo patvirtintas!.",
+    "nonZeroError": "Įveskite galiojančią sumą, didesnę už nulį.",
+    "minAmountError": "Suma turi būti ne mažesnė kaip ${minValue: String}.",
+    "maxAmountError": "Suma neturi viršyti ${maxValue: String}.",
+    "selectPaymentMethodHint": "Pirmiausia pasirinkite mokėjimo būdą.",
+    "noStatusRefundReqFound": {
+      "landlord": "Nerastas ${status} grąžinimo prašymas!\nGalite pamatyti grąžinimo prašymą čia, kai jis bus prieinamas.",
+      "tenant": "Nerastas grąžinimo prašymas!\nGalite sukurti grąžinimo prašymą, kad pamatytumėte jį čia."
+    },
+    "refundRequestHint": {
+      "inTenantList": "Nuomininkas patvirtins grąžinimą, kai atgaus pinigus",
+      "tenantReqSuccess": "Mes peržiūrėsime grąžinimo prašymą ir patvirtinsime jį per 24 valandas."
+    },
+    "oneToTenRequiredField": "Pasirinkite ${value: String} skaičių",
+    "invalidDateRange": "Netinkamas datų diapazonas.",
+    "valueMustBeGreaterThanZero": "${value: String} turi būti didesnis nei nulis.",
+    "editProperty": {
+      "rentalChange": "Nuomojamas nekilnojamasis turtas keičiasi. Jis turi būti galiojantis (galioti) tik kito mėnesio nuomos mokėjimui.",
+      "deleteOnRent": "Jūsų nekilnojamasis turtas jau yra išnuomotas nuomininkui. Negalima ištrinti, kol pirmiausia nepašalinsite nuomininko",
+      "alreayRented": "Šis nekilnojamasis turtas jau yra išnuomotas. Bandykite dar kartą vėliau.\nArba galite susisiekti su nuomotoju, kad gautumėte daugiau informacijos."
+    },
+    "rentInvitation": {
+      "landlordNoRentInvitation": "Nerastas kvietimas nuomotis!\nPrašome pabandyti sukurti kvietimą nuomotis, kad pamatytumėte jį čia.",
+      "tenantNoRentInvitation": "Nerastas kvietimas nuomotis!\nGalite pamatyti kvietimą nuomotis čia, kai jis bus prieinamas."
+    },
+    "notenantFoundList": "Nėra nuomininkų!\nPrašome pabandyti pridėti nuomininką, kad pamatytumėte jį čia.",
+    "noFeaturesProvided": "Nepateikta jokių funkcijų.",
+    "noNotificationFound": "Pranešimas neprieinamas.\nGalite pamatyti savo pranešimą čia, kai jis bus prieinamas."
+  },
+  "prompt": {
+    "logout": {
+      "title": "@:common.logout",
+      "message": "Ar tikrai norite atsijungti?"
+    },
+    "application": {
+      "rejectTitle": "Kodėl atmetate šią paraišką?",
+      "applicationSent": {
+        "successfully": "Paraiška sėkmingai išsiųsta!",
+        "sucessDescription": "Šią paraišką galite pamatyti savo paraiškų sąraše"
+      }
+    },
+    "labor": {
+      "delete": {
+        "title": "Ištrinti darbą?",
+        "description": "Ar tikrai norite ištrinti šį darbą?"
+      }
+    },
+    "maintenanceRequest": {
+      "rejectTitle": "Kodėl ši užklausa atmetama?",
+      "processTitle": "Ar tikrai apdorojate šią priežiūros užklausą?",
+      "completeTitle": "Darbas baigtas?"
+    },
+    "withdrawMethod": {
+      "deleteTitle": "Ištrinti lėšų išėmimo būdą?",
+      "deleteDescription": "Ar tikrai norite ištrinti šį lėšų išėmimo būdą?"
+    },
+    "unsavedChanges": {
+      "title": "Ar tikrai norite grįžti atgal?",
+      "message": "Pakeisti laukai nebus išsaugoti!"
+    },
+    "property": {
+      "delete": {
+        "title": "Ištrinti nekilnojamąjį turtą?",
+        "message": "Ar tikrai norite ištrinti šį nekilnojamąjį turtą?"
+      }
+    },
+    "rentInvitation": {
+      "landlordApprove": {
+        "title": "Ar tikrai norite patvirtinti šią nuomą?",
+        "description": "Įsitikinkite, kad peržiūrėjote nuomininko pasirašytą sutartį."
+      },
+      "tenantAccept": {
+        "title": "Ar tikrai norite priimti šį kvietimą?",
+        "description": "Įsitikinkite, kad atsisiuntėte sutarties PDF failą!"
+      }
+    },
+    "sessionExpired": {
+      "title": "Sesija baigėsi",
+      "message": "Jūsų sesija baigėsi. Prašome prisijungti dar kartą",
+      "action": "Prisijungti"
+    },
+    "noInternet": {
+      "title": "Nėra interneto ryšio",
+      "message": "Prašome patikrinti savo „Wi-Fi“ mobiliojo tinklo ryšį ir bandyti dar kartą",
+      "action": "Bandyti dar kartą"
+    },
+    "permissionHandler": {
+      "title": "Reikalingas leidimas!",
+      "message": "Turite suteikti leidimus programos nustatymuose. Ar norėtumėte atidaryti nustatymus dabar?"
+    },
+    "imagePicker": {
+      "title": "Pasirinkite parinktį",
+      "gallery": "Galerija",
+      "camera": "Kamera"
+    },
+    "verificationDialog": {
+      "title": "Patvirtinkite savo el. paštą",
+      "message": "Mes išsiuntėme patvirtinimo kodo el. laišką",
+      "messageWithEmail": "@:prompt.verificationDialog.message į ${email: String?}"
+    },
+    "notification": {
+      "clearTitle": "Išvalyti pranešimus?",
+      "clearMessage": "Ar tikrai norite išvalyti visus pranešimus?"
+    }
+  },
+  "form": {
+    "fullName": {
+      "label": "@:common.fullName",
+      "hint": "Įveskite @:common.fullName",
+      "errors": {
+        "required": "Įveskite savo @:common.fullName"
+      }
+    },
+    "email": {
+      "label": "@:common.email",
+      "hint": "Įveskite savo @:common.email",
+      "errors": {
+        "required": "Įveskite savo @:common.email adresą",
+        "invalid": "⦸ Netinkamas el. paštas, bandykite dar kartą"
+      }
+    },
+    "password": {
+      "label": "@:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Įveskite savo @:common.password",
+        "minLength": "Slaptažodis turi būti bent ${count} simbolių!"
+      }
+    },
+    "confirmPassword": {
+      "label": "Patvirtinkite @:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Įveskite savo @:common.password",
+        "notMatched": "Patvirtinimo slaptažodis nesutampa!"
+      }
+    },
+    "mobileNumber": {
+      "label": "@:common.mobileNumber",
+      "hint": "(+60) 555-0123",
+      "errors": {
+        "required": "Įveskite savo @:common.mobileNumber"
+      }
+    },
+    "address1": {
+      "label": "@:common.address 1",
+      "hint": "Namo numeris ir gatvės pavadinimas",
+      "errors": {
+        "required": "Įveskite savo @:form.address1.label"
+      }
+    },
+    "address2": {
+      "label": "@:common.address 2",
+      "hint": "Butas, liukso numeris, vienetas ir kt.",
+      "errors": {
+        "required": "Įveskite savo @:form.address2.label"
+      }
+    },
+    "postalCode": {
+      "label": "@:common.postalCode",
+      "hint": "Įveskite @:common.postalCode",
+      "errors": {
+        "required": "Įveskite savo @:common.postalCode"
+      }
+    },
+    "city": {
+      "label": "@:common.city",
+      "hint": "Įveskite @:common.city pavadinimą.",
+      "errors": {
+        "required": "Įveskite savo @:common.city pavadinimą."
+      }
+    },
+    "state": {
+      "label": "@:common.state",
+      "hint": "Įveskite @:common.state pavadinimą.",
+      "errors": {
+        "required": "Įveskite savo @:common.state pavadinimą."
+      }
+    },
+    "country": {
+      "label": "@:common.country",
+      "hint": "Pasirinkite @:common.country.",
+      "errors": {
+        "required": "Pasirinkite savo @:common.country"
+      }
+    },
+    "otp": {
+      "errors": {
+        "required": "Įveskite OTP.",
+        "invalid": "Įveskite teisingą OTP."
+      }
+    },
+    "title": {
+      "label": "Pavadinimas",
+      "hint": "Įveskite pavadinimą",
+      "errors": {
+        "required": "Įveskite pavadinimą"
+      }
+    },
+    "date": {
+      "label": "${label: String}",
+      "hint": "Pasirinkite @:form.date.label",
+      "errors": {
+        "required": "Pasirinkite @:form.date.label"
+      }
+    },
+    "reason": {
+      "label": "Priežastis",
+      "hint": "Įveskite priežastį",
+      "errors": {
+        "required": "Įveskite priežastį"
+      }
+    },
+    "withdrawMethod": {
+      "label": "@:common.withdrawMethod",
+      "hint": "Pasirinkite @:common.withdrawMethod",
+      "errors": {
+        "required": "Pasirinkite @:common.withdrawMethod"
+      }
+    },
+    "fileField": {
+      "label": "${label: String}",
+      "hint": "Įkelkite ${label: String}",
+      "errors": {
+        "required": "Pasirinkite ${label: String}"
+      }
+    },
+    "note": {
+      "label": "${note: String}",
+      "hint": "Įveskite @:form.note.label",
+      "errors": {
+        "required": "Įveskite @:form.note.label"
+      }
+    },
+    "gender": {
+      "label": "@:common.gender",
+      "hint": "Pasirinkite @:common.gender",
+      "errors": {
+        "required": "Pasirinkite @:common.gender"
+      }
+    },
+    "anyField": {
+      "label": "${label: String}",
+      "hint": "Įveskite @:form.anyField.label",
+      "errors": {
+        "required": "Įveskite @:form.anyField.label",
+        "invalid": "Įveskite galiojantį @form.anyField.label"
+      }
+    },
+    "anyDropdown": {
+      "label": "${label: String}",
+      "hint": "Pasirinkite @:form.anyDropdown.label",
+      "errors": {
+        "required": "Pasirinkite @:form.anyDropdown.label",
+        "invalid": "Pasirinkite galiojantį @form.anyDropdown.label"
+      }
+    }
+  },
+  "action": {
+    "next": "Kitas",
+    "getStarted": "Pradėti",
+    "skip": "Praleisti",
+    "select": "Pasirinkti",
+    "save": "Išsaugoti",
+    "signIn": "Prisijungti",
+    "signUp": "Registruotis",
+    "continue": "Tęsti",
+    "clearAll": "Išvalyti viską",
+    "cancelRenting": "@:common.cancelRenting",
+    "send": "Siųsti",
+    "pay": "Mokėti",
+    "remove": "Pašalinti",
+    "goBack": "Grįžti atgal",
+    "buyNow": "Pirkti dabar",
+    "no": "Ne",
+    "open": "Atidaryti",
+    "addProperty": "Pridėti nekilnojamąjį turtą",
+    "process": "Apdoroti",
+    "approve": "Patvirtinti",
+    "reject": "Atmesti",
+    "viewRent": "Peržiūrėti nuomą",
+    "openNavigationMenu": "Atidaryti navigacijos meniu",
+    "seeAll": "Pamatyti viską",
+    "update": "Atnaujinti",
+    "printTransaction": "Spausdinti operaciją",
+    "payoutRequest": "Išmokėjimo prašymas",
+    "addNew": "+ Pridėti naują",
+    "sendRequest": "Siųsti prašymą",
+    "print": "Spausdinti",
+    "requestForRefund": "Prašyti grąžinimo",
+    "previous": "Ankstesnis",
+    "delete": "Ištrinti",
+    "applyProperty": "Pateikti paraišką dėl nekilnojamojo turto",
+    "viewApplication": "Peržiūrėti paraišką",
+    "inviteTenant": "Pakviesti nuomininką",
+    "inviteRent": "Pakviesti nuomotis",
+    "cancel": "Atšaukti",
+    "accept": "Priimti",
+    "submit": "Pateikti",
+    "yes": "Taip",
+    "okay": "Gerai",
+    "confirm": "Patvirtinti",
+    "apply": "Taikyti",
+    "reset": "Atstatyti",
+    "retry": "Bandyti dar kartą",
+    "viewAll": "Peržiūrėti viską"
+  },
+  "pages": {
+    "language": {
+      "appbarTitle": "@:action.select @:common.language"
+    },
+    "onboard": {
+      "onboardData": {
+        "data1": {
+          "title": "Raskite savo nekilnojamąjį turtą",
+          "description": "Mes padarėme tai labai paprasta, kad rastumėte vietą, kuri atitiktų jūsų gyvenimą – nesvarbu, ar tai būtų kambarys, butas ar namas."
+        },
+        "data2": {
+          "title": "Butas mieste",
+          "description": "Mes taupome jūsų laiką, greitai suderindami jus su puikiu nekilnojamuoju turtu, kol jis neprapuls, kad galėtumėte mėgautis savo nauju būstu arba nemokamai įtraukti savo."
+        },
+        "data3": {
+          "title": "Jūsų patogus namas",
+          "description": "Jei ieškote vietos, kur gyventi, peržiūrėkite mūsų nuomojamus namus. Mes turime platų namų pasirinkimą visoje šalyje."
+        }
+      }
+    },
+    "signIn": {
+      "title": "Sveiki sugrįžę",
+      "subtitle": "Prisijunkite dabar, kad pradėtumėte nuostabų kelionę.",
+      "extra": {
+        "rememberMe": "Prisiminti mane",
+        "signUpNavigator(rich)": "Neturite paskyros? ${getStarted(@:action.getStarted)}",
+        "forgotPassword": "@:common.forgotPassword?"
+      }
+    },
+    "forgotPassword": {
+      "title": "Pamiršote slaptažodį",
+      "subtitle": "Įveskite savo el. pašto adresą, kad atgautumėte slaptažodį."
+    },
+    "otpVerification": {
+      "title": "Patvirtinimas",
+      "subtitle": "4 skaitmenų PIN kodas buvo išsiųstas jūsų el. pašto adresu. ${email: String}",
+      "extra": {
+        "codeResend": {
+          "codeSendIn": "Kodas išsiųstas po ${minutes}:${seconds}",
+          "resendCode(rich)": " ${resendCode(Siųsti kodą dar kartą)} "
+        }
+      }
+    },
+    "resetPassword": {
+      "title": "Atstatyti slaptažodį",
+      "subtitle": "Atstatykite slaptažodį, kad atgautumėte ir prisijungtumėte prie savo paskyros",
+      "extra": {
+        "dialog": {
+          "title": "Sėkmingai pakeista!",
+          "subtitle": "Prisijunkite su savo nauju slaptažodžiu.\nJus nukreipiame į Prisijungimą..."
+        }
+      }
+    },
+    "signUp": {
+      "title": "Sukurti paskyrą",
+      "subtitle": "Prisiregistruokite dabar, kad pradėtumėte nuostabų kelionę",
+      "extra": {
+        "signInNavigator(rich)": "Turite paskyrą? ${signIn(@:action.signIn)}"
+      }
+    },
+    "welcome": {
+      "title": "Kas tu esi?",
+      "subtitle": "Prašome pasirinkti toliau pateiktą parinktį.",
+      "extra": {
+        "landlordTag": "Valdykite savo nekilnojamąjį turtą",
+        "tenantTag": "Prisijunkite prie savo nuomos paskyros"
+      }
+    },
+    "aboutUs": {
+      "appbarTitle": "@:common.aboutUs"
+    },
+    "termsAndConditions": {
+      "appbarTitle": "@:common.termsAndConditions"
+    },
+    "notificationList": {
+      "appbarTitle": "Pranešimai"
+    },
+    "contactUs": {
+      "appbarTitle": "@:common.contactUs",
+      "extra": {
+        "messageHint": "Žinutė..."
+      }
+    },
+    "cancelRenting": {
+      "appbarTitle": "@:common.cancelRenting",
+      "title": "Kodėl jūs @:common.cancelRenting?",
+      "form": {
+        "reason": {
+          "hint": "Parašykite priežastį",
+          "errors": {
+            "required": "Įveskite nuomos atšaukimo priežastį"
+          }
+        }
+      }
+    },
+    "invoiceDetails": {
+      "appbarTitle": "@:common.viewDetails"
+    },
+    "offlinePayment": {
+      "appbarTitle": "Atsiskaitymas neprisijungus",
+      "form": {
+        "paymentNote": {
+          "label": "Mokėjimo pastaba (@:common.optional)",
+          "hint": "Įveskite tekstą..."
+        }
+      },
+      "extra": {
+        "payAmount(rich)": "Mokėtina suma: ${amount}",
+        "accountHolderName": "Sąskaitos savininko vardas",
+        "accountNumber": "Sąskaitos numeris",
+        "swiftCode": "SWIFT kodas",
+        "branch": "Filialas",
+        "fileTypeHint(rich)": "Pasirinkite tik ${fileType(JPG, PNG,PDF)} arba ${fileType(DOC)} formato failus. Failo dydis ${fileSize(2000 KB)}"
+      }
+    },
+    "paymentStatus": {
+      "success": {
+        "actionButton": "Peržiūrėti sąskaitą faktūrą",
+        "title": "@:common.thankYou",
+        "description": "Mes peržiūrėsime mokėjimą ir patvirtinsime jį per 24 valandas."
+      },
+      "fail": {
+        "actionButton": "Bandyti dar kartą",
+        "title": "Oi! Mokėjimas nepavyko",
+        "description": "Jūsų operacija nepavyko dėl kai kurių techninių klaidų."
+      }
+    },
+    "propertyDetails": {
+      "extra": {
+        "landlord(rich)": "@:common.landlord: ${landlordName}",
+        "ratingReviews(rich)": "${rating} ${reviews(@:common.reviews)}",
+        "features(rich)": "Savybės ${fa((Patogumai ir paslaugos))}",
+        "selectRentalPeriod": "Pasirinkite nuomos laikotarpį",
+        "writeAReview": "+ Parašyti atsiliepimą"
+      }
+    },
+    "search": {
+      "appbarTitle": "Paieška",
+      "extra": {
+        "hint": "Ieškokite sklypų, butų, kambarių...",
+        "noRecentSearch": "Neturite nesenų paieškų."
+      }
+    },
+    "subscriptionPlan": {
+      "appbarTitle": "Pasirinkite savo planą",
+      "extra": {
+        "subscriptionPaymentSuccess": "Prenumeratos mokėjimas sėkmingas.\nDabar galite pasiekti prenumeruojamas funkcijas."
+      }
+    },
+    "landlordMaintenanceReport": {
+      "totalMaintenanceCost(rich)": "Bendros priežiūros išlaidos: ${amount: string}",
+      "maintenancePending": "@:common.maintenance @:enums.maintenanceStatus.pending",
+      "maintenanceProcessing": "@:common.maintenance @:enums.maintenanceStatus.processing",
+      "maintenanceCompleted": "@:common.maintenance @:enums.maintenanceStatus.completed",
+      "maintenanceRejected": "@:common.maintenance @:enums.maintenanceStatus.rejected"
+    }
+  },
+  "enums": {
+    "propertyStatus": {
+      "allProperty": "Visas nekilnojamasis turtas",
+      "pending": "Laukiama",
+      "active": "Aktyvus",
+      "inactive": "Neaktyvus",
+      "rejected": "Atmestas"
+    },
+    "propertyType": {
+      "apartmentCondominium": "Butas/Kondominiumas",
+      "house": "Namas",
+      "commercialProperty": "Komercinis nekilnojamasis turtas",
+      "land": "Žemė",
+      "room": "Kambarys"
+    },
+    "applicationStatus": {
+      "all": "Visi",
+      "pending": "Laukiama",
+      "processing": "Apdorojama",
+      "approved": "Patvirtinta",
+      "rejected": "Atmesta"
+    },
+    "myRentStatus": {
+      "pending": "Laukiama",
+      "processing": "Apdorojama",
+      "active": "Aktyvi",
+      "expired": "Pasibaigęs",
+      "cancelled": "Atšaukta"
+    },
+    "maintenanceStatus": {
+      "pending": "Laukiama",
+      "processing": "Apdorojama",
+      "rejected": "Atmesta",
+      "completed": "Baigta"
+    },
+    "tenantProfileType": {
+      "privateIndividual": "Privatus (fizinis asmuo)",
+      "company": "Įmonė"
+    },
+    "tenantType": {
+      "newTenant": "Naujas nuomininkas",
+      "activeTenant": "Aktyvus nuomininkas",
+      "expiredTenant": "Pasibaigęs nuomininkas"
+    },
+    "paymentStatus": {
+      "all": "Visi",
+      "pending": "Laukiama",
+      "paid": "Sumokėta",
+      "unpaid": "Nesumokėta",
+      "rejected": "Atmesta",
+      "refund": "Grąžinimas"
+    },
+    "paymentOptions": {
+      "onlinePayment": "Mokėjimas internetu",
+      "offlinePayment": "Mokėjimas neprisijungus"
+    },
+    "paymentType": {
+      "securityDeposit": "Užstatas",
+      "rentPayment": "Nuomos mokėjimas",
+      "subscription": "Prenumerata"
+    },
+    "gender": {
+      "male": "Vyras",
+      "female": "Moteris",
+      "other": "Kita"
+    },
+    "ecRelation": {
+      "wife": "Žmona",
+      "parent": "Tėvas",
+      "friend": "Draugas",
+      "brother": "Brolis",
+      "sister": "Sesuo",
+      "child": "Vaikas"
+    },
+    "vehicleType": {
+      "car": "Automobilis",
+      "motorcycles": "Motociklai",
+      "lorry": "Sunkvežimis"
+    },
+    "sortBy": {
+      "lowToHigh": "Nuo žemiausio iki aukščiausio",
+      "highToLow": "Nuo aukščiausio iki žemiausio"
+    },
+    "residentialType": {
+      "flat": "Butas",
+      "apartment": "Butas",
+      "condominium": "Kondominiumas",
+      "serviceResidence": "Aptarnaujama rezidencija",
+      "studio": "Studija",
+      "duplex": "Dupleksas",
+      "townhouseCondo": "Kotedžas/Kondominiumas",
+      "others": "Kita"
+    },
+    "floorRange": {
+      "high": "Aukštas",
+      "medium": "Vidutinis",
+      "low": "Žemas"
+    },
+    "furnishings": {
+      "fullyFurnished": "Visiškai įrengtas",
+      "partiallyFurnished": "Iš dalies įrengtas",
+      "notFurnished": "Neįrengtas"
+    },
+    "commercialPropertyType": {
+      "officeSpace": "Biroo patalpos",
+      "retailSpace": "Mažmeninės prekybos patalpos",
+      "shopLot": "Parduotuvės vieta",
+      "warehouseFactory": "Sandėlis / Gamykla",
+      "hotelResort": "Viešbutis / Kurortas",
+      "sofo": "Sofo",
+      "soho": "Soho",
+      "sovo": "Sovo",
+      "others": "Kita"
+    },
+    "landPropertyType": {
+      "residential": "Gyvenamoji",
+      "industrial": "Pramoninė",
+      "agricultural": "Žemės ūkio",
+      "commercial": "Komercinė",
+      "mixedDevelopment": "Mišri plėtra",
+      "others": "Kita"
+    },
+    "residentPropertyType": {
+      "condo": "Kondominiumas / Aptarnaujama rezidencija / Penthausas",
+      "apartment": "Butas / Plokščias",
+      "house": "Namai",
+      "shoplot": "Parduotuvė",
+      "sharing": "Dalijimasis namu / Butu",
+      "others": "Kita"
+    },
+    "minimumRentalPeriod": {
+      "sixMonths": "6 mėnesiai",
+      "oneYear": "1 metai",
+      "oneAndHalfYears": "1,5 metai",
+      "twoYears": "2 metai",
+      "twoAndHalfYears": "2,5 metai"
+    },
+    "dropdownDateFilter": {
+      "daily": "Kasdien",
+      "weekly": "Kas savaitę",
+      "monthly": "Kas mėnesį",
+      "yearly": "Kasmet",
+      "custom": "Pritaikytas"
+    }
+  }
+}

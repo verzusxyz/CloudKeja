@@ -1,0 +1,950 @@
+{
+  "@@meta": {
+    "languageCode": "sv_SV",
+    "languageName": "Swedish",
+    "version": "1.0.0"
+  },
+  "common": {
+    "profile": "Profil",
+    "language": "Språk",
+    "subscriptionPlan": "Prenumerationsplan",
+    "contactUs": "Kontakta oss",
+    "termsAndConditions": "Villkor",
+    "aboutUs": "Om oss",
+    "logout": "Logga ut",
+    "editProfile": "Redigera profil",
+    "fullName": "Fullständigt namn",
+    "email": "E-post",
+    "mobileNumber": "Mobilnummer",
+    "address": "Adress",
+    "postalCode": "Postnummer",
+    "city": "Stad",
+    "country": "Land",
+    "state": "Län",
+    "password": "Lösenord",
+    "forgotPassword": "Glömt lösenord",
+    "tenant": "Hyresgäst",
+    "landlord": "Hyresvärd",
+    "cancelRenting": "Avbryt hyra",
+    "startDate": "Startdatum",
+    "endDate": "Slutdatum",
+    "fromDate": "Från datum",
+    "toDate": "Till datum",
+    "online": "Online",
+    "bankList": "Banklista",
+    "withdrawMethod": "Uttagsmetod",
+    "uploadPaymentReceipt": "Ladda upp betalningsbevis",
+    "offlinePaymentNote(rich)": "Obs: ${note(Betalningen kräver manuell godkännande av administratören inom)} ${duraion(24~48 timmar.)}",
+    "reviews": "Recensioner",
+    "description": "Beskrivning",
+    "about": "Om",
+    "propertyTypes": "Fastighetstyper",
+    "features": "Funktioner",
+    "floorPlans": "Våningsplaner",
+    "buildingDetails": "Byggnadsdetaljer",
+    "buildingName": "Byggnadsnamn",
+    "propertyAddress": "Fastighetsadress",
+    "completionYear": "Slutförandeår",
+    "lotNumber": "Lotnummer",
+    "residentialType": "Bostadstyp",
+    "furnishings": "Möblering",
+    "floorRange": "Våningsområde",
+    "bedrooms": "Sovrum",
+    "bathrooms": "Badrum",
+    "propertySize": "Fastighetsstorlek",
+    "rentalPeriod": "Hyresperiod",
+    "securityDeposit": "Säkerhetsdeposition",
+    "utilityBill": "Nyttjanderäkning",
+    "facilities": "Faciliteter",
+    "amenities": "Bekvämligheter",
+    "expiringReason": "Anledning till utgång",
+    "tenantDetails": "Hyresgästdetaljer",
+    "typeOfTenant": "Typ av hyresgäst",
+    "tenantName": "Hyresgästens namn",
+    "nidPassport": "NID/Pass",
+    "nidPassportId": "@:common.nidPassport ID",
+    "tenantId": "Hyresgäst-ID",
+    "dateOfBirth": "Födelsedatum",
+    "gender": "Kön",
+    "nominee": "Nominering",
+    "name": "Namn",
+    "optional": "Valfritt",
+    "nomineeName": "@:common.nominee @:common.name",
+    "nomineeEmail": "@:common.nominee @:common.email",
+    "nomineeMobile": {
+      "short": "@:common.nominee Mob.nr.",
+      "full": "@:common.nominee @:common.mobileNumber"
+    },
+    "emergencyContact": "Kontakt i nödfall",
+    "relation": "Relation",
+    "relationWith": "@:common.relation Med",
+    "relationWithYou": "@:common.relationWith Dig",
+    "company": "Företag",
+    "companyName": "@:common.company @:common.name",
+    "companySSMNo": "@:common.company SSM-nr.",
+    "workplace": "Arbetsplats",
+    "officePhoneNo": "Kontorsnummer",
+    "officeMobileNo": "Kontors @:common.mobileNumber",
+    "vehicle": "Fordon",
+    "vehiclesInfo": {
+      "plain": "Fordoninformation",
+      "optional": "Fordoninformation (@:common.optional)"
+    },
+    "vehiclesType": "@:common.vehicle Typ",
+    "vehicleRegistrationNo": {
+      "normal": "Fordonsregistreringsnr.",
+      "short": "Registreringsnr.",
+      "alt": "Plåtnr."
+    },
+    "vehicleBrand": "@:common.vehicle Märke",
+    "rentProperty": "Hyr Fastighet",
+    "propertyDetails": "Fastighetsdetaljer",
+    "propertyId": "Fastighets-ID",
+    "propertyType": "Fastighetstyp",
+    "propertyName": "Fastighetsnamn",
+    "paymentDetails": "Betalningsdetaljer",
+    "monthlyRent": "Månadshyra",
+    "thisMonthPayment": "Denna månads betalning",
+    "totalPaidRent": "Total betald hyra",
+    "dueRent": "Förfallen hyra",
+    "rentStartDate": "Hyra @:common.startDate",
+    "rentEndDate": "Hyra @:common.endDate",
+    "status": "Status",
+    "rentAgreementPdf": "Hyresavtal PDF",
+    "noFile": "Ingen fil",
+    "tenantImageOp": "Hyresgästbild @:common.optional",
+    "addNewVechicle": "Lägg till nya fordon",
+    "uploadNidPassport": "Ladda upp NID/Pass",
+    "nidPassportUploadNote": "Endast bildfiler kommer att accepteras. Filstorleksgräns upp till 2,5 MB.",
+    "search": "Sök",
+    "sortBy": "Sortera efter",
+    "subscription": "Prenumeration",
+    "downloading": "Laddar ner...",
+    "downloadSuccess": "Filen har laddats ner!",
+    "addPropertyBannerTitle": "Vill du hyra ut din fastighet?",
+    "application": "Ansökan",
+    "tenantHasPaidDeposit": "Hyresgästen har betalat depositionen.",
+    "askProcessingRentApplication": "Är du säker på att du behandlar den här begäran om hyresfastighet?",
+    "dateAndTime": "Datum & Tid",
+    "applicationDetails": "Ansökningsdetaljer",
+    "depositStatus": "Depositionsstatus",
+    "uploadRentAgreement": "Ladda upp hyresavtal",
+    "uploadFilePDF": "Ladda upp fil (PDF)",
+    "askSelectRentAgreement": "Välj en avtalsdokumentfil.",
+    "landlordRentAgreementPDF": "Hyresvärdens hyresavtal PDF",
+    "tenantRentAgreementPDF": "Hyresgästens hyresavtal PDF",
+    "landlordApplicationApproveNote(rich)": "Obs: ${note(Godkänn endast ansökan efter att hyresgästen har gjort en depositionsbetalning.)}",
+    "reasonOfRejection": "Anledning till avslag",
+    "youveRejectedThisApplication": "Du har avvisat den här ansökan",
+    "landlordDetails": "Hyresvärdsdetaljer",
+    "landlordName": "Hyresvärdens namn",
+    "downloadRentAgreement": "Ladda ner hyresavtal",
+    "acceptTermsConditions(rich)": "Acceptera ${toc(Villkor)}",
+    "tenantAgreementSignNote1(rich)": "Obs: ${note(Ladda ner och läs avtalet. Skicka det undertecknade avtalet till hyresvärden via WhatsApp eller e-post.)}",
+    "tenantAgreementSignNote2(rich)": "Obs: ${note(Hyresvärden godkänner ansökan när hyresgästen betalar säkerhets-, bruks- och en månads förskottsbetalning av hyran.)}",
+    "completeRentAgreementPdf(rich)": "Hyresavtal (PDF) ${complete(Fullständigt avtal)}",
+    "tenantApplicationDepositNote(rich)": "Obs: ${note(Hyresvärden godkänner ansökan när hyresgästen betalar säkerhets-, bruks- och en månads förskottsbetalning av hyran.)}",
+    "whatsapp": "Whatsapp",
+    "applicationList": "Ansökningslista",
+    "viewDetails": "Visa detaljer",
+    "searchHint": "@:common.search...",
+    "home": "Hem",
+    "dashboard": "Instrumentpanel",
+    "tenants": "Hyresgäster",
+    "maintenance": "Underhåll",
+    "maintenanceList": "Underhållslista",
+    "maintenanceReport": "Underhållsrapport",
+    "labor": "Arbete",
+    "applications": "Ansökningar",
+    "rentInvitation": "Hyresinvitation",
+    "payment": "Betalning",
+    "rentPayment": "Hyresbetalning",
+    "depositUtilityPayment": "Deposition & Bruksbetalning",
+    "refundRequest": "Återbetalningsbegäran",
+    "withdrawRequest": "Uttagsbegäran",
+    "myProperty": "Min Fastighet",
+    "myRent": "Min Hyra",
+    "wishlist": "Önskelista",
+    "properties": "Fastigheter",
+    "allProperties": "Alla Fastigheter",
+    "totalPropery": "Total Fastighet",
+    "occupied": "Upptagen",
+    "vacant": "Ledig",
+    "accounting": "Redovisning",
+    "totalIncome": "Total inkomst",
+    "totalExpense": "Total utgift",
+    "currentBalance": "Nuvarande saldo",
+    "totalWithdrawal": "Total (Uttag)",
+    "totalProperties": "Totala fastigheter",
+    "totalTenant": "Total hyresgäst",
+    "totalRentPaid": "Total betald hyra",
+    "totalRentDue": "Total förfallen hyra",
+    "totalApplication": "Total ansökan",
+    "pendingApplication": "Väntande ansökan",
+    "processingApplication": "Behandlar ansökan",
+    "approveApplication": "Godkänn ansökan",
+    "rejectApplication": "Avvisa ansökan",
+    "maintenanceCost": "Underhållskostnad",
+    "transactionSummary": "Transaktionssammanfattning",
+    "maintenanceRequest": "Underhållsbegäran",
+    "notifications": "Aviseringar",
+    "myProperties": "Mina fastigheter",
+    "recommendationProperties": "Rekommenderade fastigheter",
+    "laborList": "Arbetskraftslista",
+    "addLabor": "Lägg till arbetskraft",
+    "laborDetails": "Arbetskraftsdetaljer",
+    "laborSalary": "Arbetskraftslön",
+    "editLabor": "Redigera arbetskraft",
+    "addNewLabor": "Lägg till ny arbetskraft",
+    "enterAmount": "Ange belopp",
+    "maintenanceDetails": "Underhållsdetaljer",
+    "laborName": "Arbetskraftsnamn",
+    "comment": "Kommentar",
+    "image": "Bild",
+    "complete": "Slutför",
+    "details": "Detaljer",
+    "title": "Titel",
+    "date": "Datum",
+    "reason": "Anledning",
+    "edit": "Redigera",
+    "property": "Fastighet",
+    "completeYourProfile": "Slutför din profil",
+    "profileImage": "Profilbild",
+    "imagePickHint": "Endast JPEG- och PNG-bild med maxstorlek 120x120 pixlar.",
+    "invoiceId": "Faktura-ID",
+    "depositAmount": "Deposition",
+    "landlordPhone": "Hyresvärdens telefon",
+    "rentalAdvance": "Hyra (Förskott)",
+    "totalAmount": "Totalbelopp",
+    "rentalAmount": "Hyresbelopp",
+    "adminCharge": "Administrationsavgift",
+    "editAccount": "Redigera konto",
+    "addNewAccount": "Lägg till nytt konto",
+    "transactionId": "Transaktions-ID",
+    "transactionType": "Transaktionstyp",
+    "requestDate": "Begäransdatum",
+    "amount": "Belopp",
+    "fee": "Avgift",
+    "paymentStatus": "Betalningsstatus",
+    "generatedTime": "Genererad tid",
+    "systemGeneratedReportHint(rich)": "Detta är en systemgenererad rapport från ${appName}",
+    "withdrawHistory": "Uttagshistorik",
+    "history": "Historik",
+    "withdrawAmount": "Uttagsbelopp",
+    "availableBalance": "Tillgängligt saldo",
+    "withdrawCharge": "Uttagsavgift",
+    "paymentMethod": "Betalningsmetod",
+    "requestSendSuccess": "Begäran skickades!",
+    "paymentReceiptSubmitSuccess": "Betalningsbevis skickades.",
+    "refundReason": "Återbetalningsanledning",
+    "note": "Anteckning",
+    "refundReceiveSuccess": "Återbetalning mottagen.",
+    "downloadPaymentReceipt": "Ladda ner betalningsbevis",
+    "invoice": "Faktura",
+    "selectPropertyToSeeInvoice": "Välj fastighet för att se fakturanummer...",
+    "bankAccName": "Bankkontonamn",
+    "bankName": "Banknamn",
+    "bankAccNum": "Bankkontonummer",
+    "thankYou": "Tack!",
+    "basicInfo": "Grundläggande information",
+    "descriptionPricing": "Beskrivning och prissättning",
+    "contact": "Kontakt",
+    "photos": "Foton",
+    "successfullySubmitted": "Skickades!",
+    "editProperty": "Redigera fastighet",
+    "addNewProperty": "Lägg till ny fastighet",
+    "propertyManageRequestSuccess": "Din annons har skickats för granskning.",
+    "postAnotherProperty": "Publicera en annan fastighet",
+    "browseYourProperty": "Bläddra bland dina fastigheter",
+    "stepIndicator(rich)": "Steg ${step} av ${totalSteps}",
+    "whatWouldYouLikeToPost": "Vad vill du publicera?",
+    "category": "Kategori",
+    "invalidCategory": "Ogiltig kategori",
+    "unitNumber": "Enhetsnummer",
+    "sqft": "kv.ft.",
+    "propertySizeMustBeGreaterThan0": "Fastighetsstorleken måste vara större än noll",
+    "whatAreTheFacility": "Vilka faciliteter finns det?",
+    "whatAreTheAmenity": "Vilka bekvämligheter finns det?",
+    "parkingLot": "Parkeringsplats",
+    "houseType": "Hustyp",
+    "value": "Värde",
+    "unitLotSize": "Enhet / Tomtstorlek",
+    "landSize": "Markstorlek",
+    "acres": "acre(s)",
+    "roomSize": "Rumsstorlek",
+    "askTenantPreference": "Vilka är dina preferenser för hyresgäster?",
+    "couple": "Par",
+    "describeTheProperty": "Beskriv ${propertyType: String}",
+    "adTitle": "Annonsrubrik",
+    "minimumRentalPeriod": "Minsta hyresperiod",
+    "whatsappNumber": "@:common.whatsapp Nummer",
+    "hideOrDisplayEmail": "Dölj eller visa e-postadress",
+    "thankYouForPostingProperty": "Tack för att du publicerar på ${appName: String}!",
+    "propertyList": "Fastighetslista",
+    "newInviteRent": "Ny hyresinvitation",
+    "rentAgreement": "Hyresavtal",
+    "rentDetails": "Hyresdetaljer",
+    "landlordRentInvitationPendingNote(rich)": "Obs: ${note(Vänta på att hyresgästen accepterar inbjudan.)}",
+    "rent": "Hyra",
+    "editTenant": "Redigera hyresgäst",
+    "addNewTenant": "Lägg till ny hyresgäst",
+    "shareInstallLink": "Dela installationslänk",
+    "tenantList": "Hyresgästlista",
+    "editMaintenanceRequest": "Redigera underhållsbegäran",
+    "addNewMaintenance": "Lägg till nytt underhåll",
+    "landlordId": "Hyresvärds-ID",
+    "tenantAgrementUnderReviewNote(rich)": "Obs ${note(Ditt avtal granskas. Vänta tills hyresvärden godkänner din hyra.)}",
+    "editReview": "Redigera recension",
+    "writeAReview": "Skriv en recension",
+    "selectRating": "Välj betyg",
+    "enterYourOpinion": "Skriv din åsikt",
+    "askToEnterReviewMsg": "Ange ett recensionsmeddelande",
+    "pressBackAgainToExit": "Tryck tillbaka igen för att avsluta.",
+    "selectPaymentMethod": "Välj betalningsmetod",
+    "filter": "Filtrera",
+    "perMonth": "/1 Månad",
+    "searchHintWithAppName": "Sök efter vad som helst i ${appName: String}..."
+  },
+  "exceptions": {
+    "somethingWentWrong": "Något gick fel, försök igen",
+    "noNidPassport": "Ingen NID/Pass-bild tillhandahölls.",
+    "noRentPropertyFound": "Ingen hyresfastighet hittades för den här hyresgästen.",
+    "noPropertyFoundWithKeyWord": "Ingen fastighet hittades!\nFörsök med olika sökord",
+    "noSubscriptionFoundRefreshPage": "Ingen prenumerationsplan hittades!\nUppdatera sidan och försök igen.",
+    "invalidApiDataRefreshPage": "Ogiltig ${dataType: String}-info! Uppdatera sidan och försök igen.",
+    "invalidDownloadUrl": "Ogiltig nedladdnings-URL!",
+    "failedToSaveFile": "Misslyckades med att spara filen! ${error: String}",
+    "errorOpeningFile": "Fel vid öppning av filen! ${error: String}",
+    "noVehicleInfoProvided": "Ingen fordonsinformation tillhandahölls.",
+    "yourApplicationRejected": "Din ansökan har avslagits",
+    "noApplicationFoundHint": {
+      "template": "Ingen ansökan hittades!\n${subject: String} visas här när den är tillgänglig.",
+      "subjects": {
+        "tenant": "Din ansökan",
+        "landlord": "Hyresgästens ansökan"
+      }
+    },
+    "noPropertyFoundHint": {
+      "landlordHome": "Ingen fastighet hittades!\nFörsök att lägga till en fastighet för att se den här.",
+      "tenantRecommended": "Inga rekommenderade fastigheter hittades\nFörsök igen senare.",
+      "tenantAllProperty": "Fastigheter inte tillgängliga\nFörsök igen senare."
+    },
+    "noImageProvided": "Ingen bild tillhandahölls",
+    "noStatusMaintenantFound": {
+      "landlord": "Inget ${status}-underhåll hittades.",
+      "tenant": "Inget underhåll hittades! Du kan skapa en underhållsbegäran för att se den här."
+    },
+    "noDepositFound": "Ingen säkerhetsdeposition hittades!\nVänligen se säkerhetsdepositionerna när de är tillgängliga",
+    "noRentPaymentFound": "Ingen hyresbetalning hittades!\nVänligen se hyresbetalningarna när de är tillgängliga",
+    "transactionSummaryApiException": "Misslyckades med att hämta transaktionssammanfattning.",
+    "noWithdrawRequestFound": "Ingen begäran hittades!\nFörsök att skapa en uttagsbegäran för att se den här.",
+    "withdrawRequestNotApproved": "Denna uttagsbegäran har inte godkänts!.",
+    "nonZeroError": "Ange ett giltigt belopp större än noll.",
+    "minAmountError": "Beloppet måste vara minst ${minValue: String}.",
+    "maxAmountError": "Beloppet får inte överstiga ${maxValue: String}.",
+    "selectPaymentMethodHint": "Välj en betalningsmetod först.",
+    "noStatusRefundReqFound": {
+      "landlord": "Ingen ${status}-återbetalningsbegäran hittades!\nDu kan se återbetalningsbegäran här när den är tillgänglig.",
+      "tenant": "Ingen återbetalningsbegäran hittades!\nDu kan skapa en återbetalningsbegäran för att se den här."
+    },
+    "refundRequestHint": {
+      "inTenantList": "Hyresgästen kommer att godkänna återbetalningen när han får tillbaka pengarna",
+      "tenantReqSuccess": "Vi kommer att granska återbetalningsbegäran och godkänna den inom 24 timmar."
+    },
+    "oneToTenRequiredField": "Välj antalet ${value: String}",
+    "invalidDateRange": "Ogiltigt datumintervall.",
+    "valueMustBeGreaterThanZero": "${value: String} måste vara större än noll.",
+    "editProperty": {
+      "rentalChange": "Hyresfastigheten ändras. Den måste vara giltig (effektiv) endast för nästa månads hyresbetalning.",
+      "deleteOnRent": "Din fastighet är redan uthyrd av hyresgästen. Kan inte ta bort den förrän du tar bort hyresgästen först",
+      "alreayRented": "Den här fastigheten är redan uthyrd. Försök igen senare.\nEller så kan du kontakta hyresvärden för mer information."
+    },
+    "rentInvitation": {
+      "landlordNoRentInvitation": "Ingen hyresinvitation hittades!\nFörsök att skapa en hyresinvitation för att se den här.",
+      "tenantNoRentInvitation": "Ingen hyresinvitation hittades!\nDu kan se hyresinvitation här när den är tillgänglig."
+    },
+    "notenantFoundList": "Inga hyresgäster!\nFörsök att lägga till en hyresgäst för att se den här.",
+    "noFeaturesProvided": "Inga funktioner tillhandahölls.",
+    "noNotificationFound": "Ingen avisering tillgänglig.\nDu kan se din avisering här när den är tillgänglig."
+  },
+  "prompt": {
+    "logout": {
+      "title": "@:common.logout",
+      "message": "Är du säker på att du vill logga ut?"
+    },
+    "application": {
+      "rejectTitle": "Varför avvisar du den här ansökan?",
+      "applicationSent": {
+        "successfully": "Ansökan skickades!",
+        "sucessDescription": "Du kan se den här ansökan i din ansökningslista"
+      }
+    },
+    "labor": {
+      "delete": {
+        "title": "Ta bort arbetskraft?",
+        "description": "Är du säker på att du vill ta bort den här arbetskraften?"
+      }
+    },
+    "maintenanceRequest": {
+      "rejectTitle": "Varför avvisas den här begäran?",
+      "processTitle": "Är du säker på att du behandlar den här underhållsbegäran?",
+      "completeTitle": "Arbetet slutfört?"
+    },
+    "withdrawMethod": {
+      "deleteTitle": "Ta bort uttagsmetod?",
+      "deleteDescription": "Är du säker på att du vill ta bort den här uttagsmetoden?"
+    },
+    "unsavedChanges": {
+      "title": "Är du säker på att du vill gå tillbaka?",
+      "message": "Fält som ändrats kommer inte att sparas!"
+    },
+    "property": {
+      "delete": {
+        "title": "Ta bort fastighet?",
+        "message": "Är du säker på att du vill ta bort den här fastigheten?"
+      }
+    },
+    "rentInvitation": {
+      "landlordApprove": {
+        "title": "Är du säker på att du vill godkänna den här hyran?",
+        "description": "Se till att du har granskat avtalet som undertecknats av hyresgästen."
+      },
+      "tenantAccept": {
+        "title": "Är du säker på att du vill acceptera den här inbjudan?",
+        "description": "Se till att du har laddat ner avtalet i PDF-format!"
+      }
+    },
+    "sessionExpired": {
+      "title": "Sessionen har löpt ut",
+      "message": "Din session har löpt ut. Logga in igen",
+      "action": "Logga in"
+    },
+    "noInternet": {
+      "title": "Ingen internetanslutning",
+      "message": "Kontrollera din Wi-Fi-anslutning till mobilnätverket och försök igen",
+      "action": "Försök igen"
+    },
+    "permissionHandler": {
+      "title": "Behörighet krävs!",
+      "message": "Du måste ge behörigheter i appens inställningar. Vill du öppna inställningarna nu?"
+    },
+    "imagePicker": {
+      "title": "Välj alternativ",
+      "gallery": "Galleri",
+      "camera": "Kamera"
+    },
+    "verificationDialog": {
+      "title": "Verifiera din e-postadress",
+      "message": "Vi har skickat en e-post med en verifieringskod",
+      "messageWithEmail": "@:prompt.verificationDialog.message till ${email: String?}"
+    },
+    "notification": {
+      "clearTitle": "Rensa aviseringar?",
+      "clearMessage": "Är du säker på att du vill rensa alla aviseringar?"
+    }
+  },
+  "form": {
+    "fullName": {
+      "label": "@:common.fullName",
+      "hint": "Ange @:common.fullName",
+      "errors": {
+        "required": "Ange ditt @:common.fullName"
+      }
+    },
+    "email": {
+      "label": "@:common.email",
+      "hint": "Ange din @:common.email",
+      "errors": {
+        "required": "Ange din @:common.email-adress",
+        "invalid": "⦸ Ogiltig e-post, försök igen"
+      }
+    },
+    "password": {
+      "label": "@:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Ange ditt @:common.password",
+        "minLength": "Lösenordet måste vara minst ${count} tecken!"
+      }
+    },
+    "confirmPassword": {
+      "label": "Bekräfta @:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Ange ditt @:common.password",
+        "notMatched": "Bekräfta lösenordet matchar inte!"
+      }
+    },
+    "mobileNumber": {
+      "label": "@:common.mobileNumber",
+      "hint": "(+60) 555-0123",
+      "errors": {
+        "required": "Ange ditt @:common.mobileNumber"
+      }
+    },
+    "address1": {
+      "label": "@:common.address 1",
+      "hint": "Husnummer och gatunamn",
+      "errors": {
+        "required": "Ange din @:form.address1.label"
+      }
+    },
+    "address2": {
+      "label": "@:common.address 2",
+      "hint": "Lägenhet, svit, enhet, etc",
+      "errors": {
+        "required": "Ange din @:form.address2.label"
+      }
+    },
+    "postalCode": {
+      "label": "@:common.postalCode",
+      "hint": "Ange @:common.postalCode",
+      "errors": {
+        "required": "Ange ditt @:common.postalCode"
+      }
+    },
+    "city": {
+      "label": "@:common.city",
+      "hint": "Ange @:common.city-namn.",
+      "errors": {
+        "required": "Ange ditt @:common.city-namn."
+      }
+    },
+    "state": {
+      "label": "@:common.state",
+      "hint": "Ange @:common.state-namn.",
+      "errors": {
+        "required": "Ange ditt @:common.state-namn."
+      }
+    },
+    "country": {
+      "label": "@:common.country",
+      "hint": "Välj @:common.country.",
+      "errors": {
+        "required": "Välj ditt @:common.country"
+      }
+    },
+    "otp": {
+      "errors": {
+        "required": "Ange otp.",
+        "invalid": "Ange korrekt otp."
+      }
+    },
+    "title": {
+      "label": "Titel",
+      "hint": "Ange titel",
+      "errors": {
+        "required": "Ange titel"
+      }
+    },
+    "date": {
+      "label": "${label: String}",
+      "hint": "Välj @:form.date.label",
+      "errors": {
+        "required": "Välj @:form.date.label"
+      }
+    },
+    "reason": {
+      "label": "Anledning",
+      "hint": "Ange anledning",
+      "errors": {
+        "required": "Ange anledning"
+      }
+    },
+    "withdrawMethod": {
+      "label": "@:common.withdrawMethod",
+      "hint": "Välj @:common.withdrawMethod",
+      "errors": {
+        "required": "Välj @:common.withdrawMethod"
+      }
+    },
+    "fileField": {
+      "label": "${label: String}",
+      "hint": "Ladda upp ${label: String}",
+      "errors": {
+        "required": "Välj ${label: String}"
+      }
+    },
+    "note": {
+      "label": "${note: String}",
+      "hint": "Ange @:form.note.label",
+      "errors": {
+        "required": "Ange @:form.note.label"
+      }
+    },
+    "gender": {
+      "label": "@:common.gender",
+      "hint": "Välj @:common.gender",
+      "errors": {
+        "required": "Välj @:common.gender"
+      }
+    },
+    "anyField": {
+      "label": "${label: String}",
+      "hint": "Ange @:form.anyField.label",
+      "errors": {
+        "required": "Ange @:form.anyField.label",
+        "invalid": "Ange giltig @form.anyField.label"
+      }
+    },
+    "anyDropdown": {
+      "label": "${label: String}",
+      "hint": "Välj @:form.anyDropdown.label",
+      "errors": {
+        "required": "Välj @:form.anyDropdown.label",
+        "invalid": "Välj giltig @form.anyDropdown.label"
+      }
+    }
+  },
+  "action": {
+    "next": "Nästa",
+    "getStarted": "Kom igång",
+    "skip": "Hoppa över",
+    "select": "Välj",
+    "save": "Spara",
+    "signIn": "Logga in",
+    "signUp": "Registrera dig",
+    "continue": "Fortsätt",
+    "clearAll": "Rensa alla",
+    "cancelRenting": "@:common.cancelRenting",
+    "send": "Skicka",
+    "pay": "Betala",
+    "remove": "Ta bort",
+    "goBack": "Gå tillbaka",
+    "buyNow": "Köp nu",
+    "no": "Nej",
+    "open": "Öppna",
+    "addProperty": "Lägg till fastighet",
+    "process": "Bearbeta",
+    "approve": "Godkänn",
+    "reject": "Avvisa",
+    "viewRent": "Visa hyra",
+    "openNavigationMenu": "Öppna navigeringsmenyn",
+    "seeAll": "Se alla",
+    "update": "Uppdatera",
+    "printTransaction": "Skriv ut transaktion",
+    "payoutRequest": "Betalningsbegäran",
+    "addNew": "+ Lägg till ny",
+    "sendRequest": "Skicka begäran",
+    "print": "Skriv ut",
+    "requestForRefund": "Begär återbetalning",
+    "previous": "Föregående",
+    "delete": "Ta bort",
+    "applyProperty": "Ansök om fastighet",
+    "viewApplication": "Visa ansökan",
+    "inviteTenant": "Bjud in hyresgäst",
+    "inviteRent": "Bjud in hyra",
+    "cancel": "Avbryt",
+    "accept": "Acceptera",
+    "submit": "Skicka in",
+    "yes": "Ja",
+    "okay": "Okej",
+    "confirm": "Bekräfta",
+    "apply": "Använd",
+    "reset": "Återställ",
+    "retry": "Försök igen",
+    "viewAll": "Visa alla"
+  },
+  "pages": {
+    "language": {
+      "appbarTitle": "@:action.select @:common.language"
+    },
+    "onboard": {
+      "onboardData": {
+        "data1": {
+          "title": "Hitta din bostad",
+          "description": "Vi har gjort det enkelt att hitta en plats som passar ditt liv – oavsett om det är ett rum, en lägenhet eller ett hus."
+        },
+        "data2": {
+          "title": "Lägenhet i stan",
+          "description": "Vi sparar tid genom att snabbt matcha dig med den perfekta bostaden innan den är borta så att du kan njuta av ditt nya hem, eller lista din egen gratis."
+        },
+        "data3": {
+          "title": "Ditt bekväma hus",
+          "description": "Om du letar efter en plats att bo, ta en titt på våra hus att hyra. Vi har ett brett utbud av hus att välja mellan över hela landet."
+        }
+      }
+    },
+    "signIn": {
+      "title": "Välkommen tillbaka",
+      "subtitle": "Logga in nu för att börja en fantastisk resa.",
+      "extra": {
+        "rememberMe": "Kom ihåg mig",
+        "signUpNavigator(rich)": "Har du inget konto? ${getStarted(@:action.getStarted)}",
+        "forgotPassword": "@:common.forgotPassword?"
+      }
+    },
+    "forgotPassword": {
+      "title": "Glömt lösenord",
+      "subtitle": "Ange din e-postadress för att återställa ditt lösenord."
+    },
+    "otpVerification": {
+      "title": "Verifiering",
+      "subtitle": "En 4-siffrig kod har skickats till din e-postadress. ${email: String}",
+      "extra": {
+        "codeResend": {
+          "codeSendIn": "Koden skickas om ${minutes}:${seconds}",
+          "resendCode(rich)": " ${resendCode(Skicka koden igen)} "
+        }
+      }
+    },
+    "resetPassword": {
+      "title": "Återställ lösenord",
+      "subtitle": "Återställ ditt lösenord för att återställa och logga in på ditt konto",
+      "extra": {
+        "dialog": {
+          "title": "Ändrat framgångsrikt!",
+          "subtitle": "Logga in med ditt nya lösenord.\n Omdirigerar dig till Inloggning..."
+        }
+      }
+    },
+    "signUp": {
+      "title": "Skapa ett konto",
+      "subtitle": "Registrera dig nu för att börja en fantastisk resa",
+      "extra": {
+        "signInNavigator(rich)": "Har du ett konto? ${signIn(@:action.signIn)}"
+      }
+    },
+    "welcome": {
+      "title": "Vem är du?",
+      "subtitle": "Välj alternativet nedan.",
+      "extra": {
+        "landlordTag": "Hantera dina egna fastigheter",
+        "tenantTag": "Logga in på ditt hyreskonto"
+      }
+    },
+    "aboutUs": {
+      "appbarTitle": "@:common.aboutUs"
+    },
+    "termsAndConditions": {
+      "appbarTitle": "@:common.termsAndConditions"
+    },
+    "notificationList": {
+      "appbarTitle": "Aviseringar"
+    },
+    "contactUs": {
+      "appbarTitle": "@:common.contactUs",
+      "extra": {
+        "messageHint": "Meddelande..."
+      }
+    },
+    "cancelRenting": {
+      "appbarTitle": "@:common.cancelRenting",
+      "title": "Varför @:common.cancelRenting du?",
+      "form": {
+        "reason": {
+          "hint": "Skriv anledning",
+          "errors": {
+            "required": "Ange orsaken till hyresavbokningen"
+          }
+        }
+      }
+    },
+    "invoiceDetails": {
+      "appbarTitle": "@:common.viewDetails"
+    },
+    "offlinePayment": {
+      "appbarTitle": "Offlinebetalning",
+      "form": {
+        "paymentNote": {
+          "label": "Betalningsanteckning (@:common.optional)",
+          "hint": "Skriv lite text..."
+        }
+      },
+      "extra": {
+        "payAmount(rich)": "Betala belopp: ${amount}",
+        "accountHolderName": "Kontohavarens namn",
+        "accountNumber": "Kontonummer",
+        "swiftCode": "Swift-kod",
+        "branch": "Filial",
+        "fileTypeHint(rich)": "Välj ${fileType(JPG, PNG,PDF)} eller ${fileType(DOC)}-formatfiler endast. Filstorlek ${fileSize(2000 KB)}"
+      }
+    },
+    "paymentStatus": {
+      "success": {
+        "actionButton": "Visa faktura",
+        "title": "@:common.thankYou",
+        "description": "Vi kommer att granska betalningen och godkänna den inom 24 timmar."
+      },
+      "fail": {
+        "actionButton": "Försök igen",
+        "title": "Hoppsan! Betalningen misslyckades",
+        "description": "Din transaktion har misslyckats på grund av något tekniskt fel."
+      }
+    },
+    "propertyDetails": {
+      "extra": {
+        "landlord(rich)": "@:common.landlord: ${landlordName}",
+        "ratingReviews(rich)": "${rating} ${reviews(@:common.reviews)}",
+        "features(rich)": "Funktioner ${fa((Facilities & Amenities))}",
+        "selectRentalPeriod": "Välj hyresperiod",
+        "writeAReview": "+ Skriv en recension"
+      }
+    },
+    "search": {
+      "appbarTitle": "Sök",
+      "extra": {
+        "hint": "Sök efter tomter, lägenheter, rum...",
+        "noRecentSearch": "Du har inga senaste sökningar."
+      }
+    },
+    "subscriptionPlan": {
+      "appbarTitle": "Välj din plan",
+      "extra": {
+        "subscriptionPaymentSuccess": "Prenumerationsbetalning lyckades.\nDu kan nu komma åt de prenumererade funktionerna."
+      }
+    },
+    "landlordMaintenanceReport": {
+      "totalMaintenanceCost(rich)": "Total underhållskostnad: ${amount: string}",
+      "maintenancePending": "@:common.maintenance @:enums.maintenanceStatus.pending",
+      "maintenanceProcessing": "@:common.maintenance @:enums.maintenanceStatus.processing",
+      "maintenanceCompleted": "@:common.maintenance @:enums.maintenanceStatus.completed",
+      "maintenanceRejected": "@:common.maintenance @:enums.maintenanceStatus.rejected"
+    }
+  },
+  "enums": {
+    "propertyStatus": {
+      "allProperty": "All Egendom",
+      "pending": "Väntar",
+      "active": "Aktiv",
+      "inactive": "Inaktiv",
+      "rejected": "Avvisad"
+    },
+    "propertyType": {
+      "apartmentCondominium": "Lägenhet/Bostadsrätt",
+      "house": "Hus",
+      "commercialProperty": "Kommersiell Fastighet",
+      "land": "Mark",
+      "room": "Rum"
+    },
+    "applicationStatus": {
+      "all": "Alla",
+      "pending": "Väntar",
+      "processing": "Bearbetar",
+      "approved": "Godkänd",
+      "rejected": "Avvisad"
+    },
+    "myRentStatus": {
+      "pending": "Väntar",
+      "processing": "Bearbetar",
+      "active": "Aktiv",
+      "expired": "Utgången",
+      "cancelled": "Avbruten"
+    },
+    "maintenanceStatus": {
+      "pending": "Väntar",
+      "processing": "Bearbetar",
+      "rejected": "Avvisad",
+      "completed": "Slutförd"
+    },
+    "tenantProfileType": {
+      "privateIndividual": "Privat (Enskild)",
+      "company": "Företag"
+    },
+    "tenantType": {
+      "newTenant": "Ny Hyresgäst",
+      "activeTenant": "Aktiv Hyresgäst",
+      "expiredTenant": "Utgången Hyresgäst"
+    },
+    "paymentStatus": {
+      "all": "Alla",
+      "pending": "Väntar",
+      "paid": "Betald",
+      "unpaid": "Obetald",
+      "rejected": "Avvisad",
+      "refund": "Återbetalning"
+    },
+    "paymentOptions": {
+      "onlinePayment": "Onlinebetalning",
+      "offlinePayment": "Offlinebetalning"
+    },
+    "paymentType": {
+      "securityDeposit": "Säkerhetsdeposition",
+      "rentPayment": "Hyresbetalning",
+      "subscription": "Prenumeration"
+    },
+    "gender": {
+      "male": "Man",
+      "female": "Kvinna",
+      "other": "Annat"
+    },
+    "ecRelation": {
+      "wife": "Fru",
+      "parent": "Förälder",
+      "friend": "Vän",
+      "brother": "Bror",
+      "sister": "Syster",
+      "child": "Barn"
+    },
+    "vehicleType": {
+      "car": "Bil",
+      "motorcycles": "Motorcyklar",
+      "lorry": "Lastbil"
+    },
+    "sortBy": {
+      "lowToHigh": "Låg till Hög",
+      "highToLow": "Hög till Låg"
+    },
+    "residentialType": {
+      "flat": "Lägenhet",
+      "apartment": "Lägenhet",
+      "condominium": "Bostadsrätt",
+      "serviceResidence": "Servicebostad",
+      "studio": "Studio",
+      "duplex": "Duplex",
+      "townhouseCondo": "Radhusbostadsrätt",
+      "others": "Övrigt"
+    },
+    "floorRange": {
+      "high": "Hög",
+      "medium": "Medel",
+      "low": "Låg"
+    },
+    "furnishings": {
+      "fullyFurnished": "Fullt Möblerad",
+      "partiallyFurnished": "Delvis Möblerad",
+      "notFurnished": "Ej Möblerad"
+    },
+    "commercialPropertyType": {
+      "officeSpace": "Kontorsutrymme",
+      "retailSpace": "Butiksutrymme",
+      "shopLot": "Butikslokal",
+      "warehouseFactory": "Lager/Fabrik",
+      "hotelResort": "Hotell/Resort",
+      "sofo": "Sofo",
+      "soho": "Soho",
+      "sovo": "Sovo",
+      "others": "Övrigt"
+    },
+    "landPropertyType": {
+      "residential": "Bostäder",
+      "industrial": "Industri",
+      "agricultural": "Jordbruk",
+      "commercial": "Kommersiellt",
+      "mixedDevelopment": "Blandad Utveckling",
+      "others": "Övrigt"
+    },
+    "residentPropertyType": {
+      "condo": "Bostadsrätt/Servicebostad/Takvåning",
+      "apartment": "Lägenhet/Våning",
+      "house": "Hus",
+      "shoplot": "Butikslokal",
+      "sharing": "Dela hus/lägenhet",
+      "others": "Övrigt"
+    },
+    "minimumRentalPeriod": {
+      "sixMonths": "6 Månader",
+      "oneYear": "1 År",
+      "oneAndHalfYears": "1,5 År",
+      "twoYears": "2 År",
+      "twoAndHalfYears": "2,5 År"
+    },
+    "dropdownDateFilter": {
+      "daily": "Dagligen",
+      "weekly": "Veckovis",
+      "monthly": "Månadsvis",
+      "yearly": "Årligen",
+      "custom": "Anpassad"
+    }
+  }
+}

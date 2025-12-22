@@ -1,0 +1,950 @@
+{
+  "@@meta": {
+    "languageCode": "sl_SL",
+    "languageName": "Slovenian",
+    "version": "1.0.0"
+  },
+  "common": {
+    "profile": "Profil",
+    "language": "Jezik",
+    "subscriptionPlan": "Naročniški paket",
+    "contactUs": "Kontaktirajte nas",
+    "termsAndConditions": "Pogoji & Določila",
+    "aboutUs": "O nas",
+    "logout": "Odjava",
+    "editProfile": "Uredi profil",
+    "fullName": "Polno ime",
+    "email": "E-pošta",
+    "mobileNumber": "Mobilna številka",
+    "address": "Naslov",
+    "postalCode": "Poštna številka",
+    "city": "Mesto",
+    "country": "Država",
+    "state": "Država",
+    "password": "Geslo",
+    "forgotPassword": "Pozabljeno geslo",
+    "tenant": "Najemnik",
+    "landlord": "Najemodajalec",
+    "cancelRenting": "Preklic najema",
+    "startDate": "Datum začetka",
+    "endDate": "Datum konca",
+    "fromDate": "Od datuma",
+    "toDate": "Do datuma",
+    "online": "Spletno",
+    "bankList": "Seznam bank",
+    "withdrawMethod": "Način izplačila",
+    "uploadPaymentReceipt": "Naloži potrdilo o plačilu",
+    "offlinePaymentNote(rich)": "Opomba: ${note(Plačilo zahteva ročno odobritev s strani skrbnika v roku)} ${duraion(24~48 ur.)}",
+    "reviews": "Mnenja",
+    "description": "Opis",
+    "about": "O",
+    "propertyTypes": "Vrste nepremičnin",
+    "features": "Lastnosti",
+    "floorPlans": "Tlorisi",
+    "buildingDetails": "Podrobnosti o zgradbi",
+    "buildingName": "Ime zgradbe",
+    "propertyAddress": "Naslov nepremičnine",
+    "completionYear": "Leto dokončanja",
+    "lotNumber": "Številka parcele",
+    "residentialType": "Vrsta stanovanja",
+    "furnishings": "Oprema",
+    "floorRange": "Razpon nadstropij",
+    "bedrooms": "Spalnice",
+    "bathrooms": "Kopalnice",
+    "propertySize": "Velikost nepremičnine",
+    "rentalPeriod": "Obdobje najema",
+    "securityDeposit": "Varnostni depozit",
+    "utilityBill": "Strošek komunalnih storitev",
+    "facilities": "Objekti",
+    "amenities": "Ugodnosti",
+    "expiringReason": "Razlog za prenehanje veljavnosti",
+    "tenantDetails": "Podrobnosti o najemniku",
+    "typeOfTenant": "Vrsta najemnika",
+    "tenantName": "Ime najemnika",
+    "nidPassport": "NID/Potni list",
+    "nidPassportId": "@:common.nidPassport ID",
+    "tenantId": "ID najemnika",
+    "dateOfBirth": "Datum rojstva",
+    "gender": "Spol",
+    "nominee": "Nominiranec",
+    "name": "Ime",
+    "optional": "Izbirno",
+    "nomineeName": "@:common.nominee @:common.name",
+    "nomineeEmail": "@:common.nominee @:common.email",
+    "nomineeMobile": {
+      "short": "@:common.nominee Št. mob.",
+      "full": "@:common.nominee @:common.mobileNumber"
+    },
+    "emergencyContact": "Kontakt za nujne primere",
+    "relation": "Razmerje",
+    "relationWith": "@:common.relation Z",
+    "relationWithYou": "@:common.relationWith Vi",
+    "company": "Podjetje",
+    "companyName": "@:common.company @:common.name",
+    "companySSMNo": "@:common.company SSM Št.",
+    "workplace": "Delovno mesto",
+    "officePhoneNo": "Telefonska številka pisarne",
+    "officeMobileNo": "Pisarna @:common.mobileNumber",
+    "vehicle": "Vozilo",
+    "vehiclesInfo": {
+      "plain": "Informacije o vozilih",
+      "optional": "Informacije o vozilih (@:common.optional)"
+    },
+    "vehiclesType": "@:common.vehicle Vrsta",
+    "vehicleRegistrationNo": {
+      "normal": "Registrska številka vozila",
+      "short": "Registrska št.",
+      "alt": "Številka tablice"
+    },
+    "vehicleBrand": "@:common.vehicle Znamka",
+    "rentProperty": "Najem nepremičnine",
+    "propertyDetails": "Podrobnosti o nepremičnini",
+    "propertyId": "ID nepremičnine",
+    "propertyType": "Vrsta nepremičnine",
+    "propertyName": "Ime nepremičnine",
+    "paymentDetails": "Podrobnosti o plačilu",
+    "monthlyRent": "Mesečna najemnina",
+    "thisMonthPayment": "Plačilo za ta mesec",
+    "totalPaidRent": "Skupna plačana najemnina",
+    "dueRent": "Neplačana najemnina",
+    "rentStartDate": "Najem @:common.startDate",
+    "rentEndDate": "Najem @:common.endDate",
+    "status": "Status",
+    "rentAgreementPdf": "PDF pogodbe o najemu",
+    "noFile": "Datoteka ni na voljo",
+    "tenantImageOp": "Slika najemnika @:common.optional",
+    "addNewVechicle": "Dodaj novo vozilo",
+    "uploadNidPassport": "Naloži NID/Potni list",
+    "nidPassportUploadNote": "Sprejete bodo samo slike tipa datoteke. Omejitev datoteke do 2,5 MB.",
+    "search": "Iskanje",
+    "sortBy": "Razvrsti po",
+    "subscription": "Naročnina",
+    "downloading": "Prenos ...",
+    "downloadSuccess": "Datoteka je bila uspešno prenesena!",
+    "addPropertyBannerTitle": "Želite oddati svojo nepremičnino?",
+    "application": "Prijava",
+    "tenantHasPaidDeposit": "Najemnik je plačal depozit.",
+    "askProcessingRentApplication": "Ali ste prepričani, da želite obdelati to zahtevo za najem nepremičnine?",
+    "dateAndTime": "Datum in čas",
+    "applicationDetails": "Podrobnosti o prijavi",
+    "depositStatus": "Status depozita",
+    "uploadRentAgreement": "Naloži pogodbo o najemu",
+    "uploadFilePDF": "Naloži datoteko (PDF)",
+    "askSelectRentAgreement": "Prosimo, izberite datoteko pogodbe.",
+    "landlordRentAgreementPDF": "PDF pogodbe o najemu (najemodajalec)",
+    "tenantRentAgreementPDF": "PDF pogodbe o najemu (najemnik)",
+    "landlordApplicationApproveNote(rich)": "Opomba: ${note(Zahtevo odobrite šele, ko najemnik izvede plačilo depozita.)}",
+    "reasonOfRejection": "Razlog za zavrnitev",
+    "youveRejectedThisApplication": "Zavrnili ste to prijavo",
+    "landlordDetails": "Podrobnosti o najemodajalcu",
+    "landlordName": "Ime najemodajalca",
+    "downloadRentAgreement": "Prenesi pogodbo o najemu",
+    "acceptTermsConditions(rich)": "Sprejmi ${toc(Pogoje in določila)}",
+    "tenantAgreementSignNote1(rich)": "Opomba: ${note(Prosimo, prenesite in preberite pogodbo. Podpisano pogodbo pošljite najemodajalcu prek WhatsAppa ali e-pošte.)}",
+    "tenantAgreementSignNote2(rich)": "Opomba: ${note(Najemodajalec odobri prijavo, ko najemnik plača varnostni depozit, stroške komunalnih storitev in enomesečno predplačilo najemnine.)}",
+    "completeRentAgreementPdf(rich)": "Pogodba o najemu (PDF) ${complete(Celotna pogodba)}",
+    "tenantApplicationDepositNote(rich)": "Opomba: ${note(Najemodajalec odobri prijavo, ko najemnik plača varnostni depozit, stroške komunalnih storitev in enomesečno predplačilo najemnine.)}",
+    "whatsapp": "Whatsapp",
+    "applicationList": "Seznam prijav",
+    "viewDetails": "Ogled podrobnosti",
+    "searchHint": "@:common.search ...",
+    "home": "Domov",
+    "dashboard": "Nadzorna plošča",
+    "tenants": "Najemniki",
+    "maintenance": "Vzdrževanje",
+    "maintenanceList": "Seznam vzdrževanja",
+    "maintenanceReport": "Poročilo o vzdrževanju",
+    "labor": "Delo",
+    "applications": "Prijave",
+    "rentInvitation": "Povabilo k najemu",
+    "payment": "Plačilo",
+    "rentPayment": "Plačilo najemnine",
+    "depositUtilityPayment": "Plačilo depozita in komunalnih storitev",
+    "refundRequest": "Zahteva za povračilo",
+    "withdrawRequest": "Zahteva za izplačilo",
+    "myProperty": "Moja nepremičnina",
+    "myRent": "Moj najem",
+    "wishlist": "Seznam želja",
+    "properties": "Nepremičnine",
+    "allProperties": "Vse nepremičnine",
+    "totalPropery": "Skupno število nepremičnin",
+    "occupied": "Zasedeno",
+    "vacant": "Prosto",
+    "accounting": "Računovodstvo",
+    "totalIncome": "Skupni prihodki",
+    "totalExpense": "Skupni stroški",
+    "currentBalance": "Trenutno stanje",
+    "totalWithdrawal": "Skupni znesek (dvig)",
+    "totalProperties": "Skupno število nepremičnin",
+    "totalTenant": "Skupno število najemnikov",
+    "totalRentPaid": "Skupno plačilo najemnine",
+    "totalRentDue": "Skupni neplačani znesek najemnine",
+    "totalApplication": "Skupno število prijav",
+    "pendingApplication": "Pričakujoče prijave",
+    "processingApplication": "Prijave v obdelavi",
+    "approveApplication": "Odobrene prijave",
+    "rejectApplication": "Zavrnjene prijave",
+    "maintenanceCost": "Stroški vzdrževanja",
+    "transactionSummary": "Povzetek transakcij",
+    "maintenanceRequest": "Zahteva za vzdrževanje",
+    "notifications": "Obvestila",
+    "myProperties": "Moje nepremičnine",
+    "recommendationProperties": "Priporočene nepremičnine",
+    "laborList": "Seznam delavcev",
+    "addLabor": "Dodaj delavca",
+    "laborDetails": "Podrobnosti o delavcu",
+    "laborSalary": "Plača delavca",
+    "editLabor": "Uredi delavca",
+    "addNewLabor": "Dodaj novega delavca",
+    "enterAmount": "Vnesite znesek",
+    "maintenanceDetails": "Podrobnosti o vzdrževanju",
+    "laborName": "Ime delavca",
+    "comment": "Komentar",
+    "image": "Slika",
+    "complete": "Dokončano",
+    "details": "Podrobnosti",
+    "title": "Naslov",
+    "date": "Datum",
+    "reason": "Razlog",
+    "edit": "Uredi",
+    "property": "Nepremičnina",
+    "completeYourProfile": "Izpolnite svoj profil",
+    "profileImage": "Profilna slika",
+    "imagePickHint": "Samo slika JPEG in PNG z največjo velikostjo 120x120 slikovnih pik.",
+    "invoiceId": "ID računa",
+    "depositAmount": "Znesek depozita",
+    "landlordPhone": "Telefonska številka najemodajalca",
+    "rentalAdvance": "Najemnina (vnaprej)",
+    "totalAmount": "Skupni znesek",
+    "rentalAmount": "Znesek najemnine",
+    "adminCharge": "Administrativni stroški",
+    "editAccount": "Uredi račun",
+    "addNewAccount": "Dodaj nov račun",
+    "transactionId": "ID transakcije",
+    "transactionType": "Vrsta transakcije",
+    "requestDate": "Datum zahteve",
+    "amount": "Znesek",
+    "fee": "Provizija",
+    "paymentStatus": "Status plačila",
+    "generatedTime": "Čas ustvarjanja",
+    "systemGeneratedReportHint(rich)": "To je sistemsko ustvarjeno poročilo o ${appName}",
+    "withdrawHistory": "Zgodovina dvigov",
+    "history": "Zgodovina",
+    "withdrawAmount": "Znesek dviga",
+    "availableBalance": "Razpoložljivo stanje",
+    "withdrawCharge": "Stroški dviga",
+    "paymentMethod": "Način plačila",
+    "requestSendSuccess": "Zahteva je bila uspešno poslana!",
+    "paymentReceiptSubmitSuccess": "Potrdilo o plačilu je bilo uspešno oddano.",
+    "refundReason": "Razlog za vračilo",
+    "note": "Opomba",
+    "refundReceiveSuccess": "Vračilo je bilo uspešno prejeto.",
+    "downloadPaymentReceipt": "Prenesi potrdilo o plačilu",
+    "invoice": "Račun",
+    "selectPropertyToSeeInvoice": "Izberite nepremičnino, da si ogledate številko računa ...",
+    "bankAccName": "Ime bančnega računa",
+    "bankName": "Ime banke",
+    "bankAccNum": "Številka bančnega računa",
+    "thankYou": "Hvala vam!",
+    "basicInfo": "Osnovne informacije",
+    "descriptionPricing": "Opis in cene",
+    "contact": "Kontakt",
+    "photos": "Fotografije",
+    "successfullySubmitted": "Uspešno oddano!",
+    "editProperty": "Uredi nepremičnino",
+    "addNewProperty": "Dodaj novo nepremičnino",
+    "propertyManageRequestSuccess": "Vaš oglas je bil poslan v pregled.",
+    "postAnotherProperty": "Objavi drugo nepremičnino",
+    "browseYourProperty": "Prebrskajte svojo nepremičnino",
+    "stepIndicator(rich)": "Korak ${step} od ${totalSteps}",
+    "whatWouldYouLikeToPost": "Kaj bi radi objavili?",
+    "category": "Kategorija",
+    "invalidCategory": "Neveljavna kategorija",
+    "unitNumber": "Številka enote",
+    "sqft": "kv. ft.",
+    "propertySizeMustBeGreaterThan0": "Velikost nepremičnine mora biti večja od nič",
+    "whatAreTheFacility": "Katere so zmogljivosti?",
+    "whatAreTheAmenity": "Katere so ugodnosti?",
+    "parkingLot": "Parkirišče",
+    "houseType": "Vrsta hiše",
+    "value": "Vrednost",
+    "unitLotSize": "Velikost enote / parcele",
+    "landSize": "Velikost zemljišča",
+    "acres": "akrov",
+    "roomSize": "Velikost sobe",
+    "askTenantPreference": "Kakšne so vaše želje glede najemnika",
+    "couple": "Par",
+    "describeTheProperty": "Opišite ${propertyType: String}",
+    "adTitle": "Naslov oglasa",
+    "minimumRentalPeriod": "Minimalno obdobje najema",
+    "whatsappNumber": "@:common.whatsapp Številka",
+    "hideOrDisplayEmail": "Skrij ali prikaži e-poštni naslov",
+    "thankYouForPostingProperty": "Hvala, ker ste objavili na ${appName: String}!",
+    "propertyList": "Seznam nepremičnin",
+    "newInviteRent": "Novo povabilo k najemu",
+    "rentAgreement": "Pogodba o najemu",
+    "rentDetails": "Podrobnosti o najemu",
+    "landlordRentInvitationPendingNote(rich)": "Opomba: ${note(Prosimo, počakajte, da najemnik sprejme povabilo.)}",
+    "rent": "Najem",
+    "editTenant": "Uredi najemnika",
+    "addNewTenant": "Dodaj novega najemnika",
+    "shareInstallLink": "Delite povezavo za namestitev",
+    "tenantList": "Seznam najemnikov",
+    "editMaintenanceRequest": "Uredi zahtevo za vzdrževanje",
+    "addNewMaintenance": "Dodaj novo vzdrževanje",
+    "landlordId": "ID najemodajalca",
+    "tenantAgrementUnderReviewNote(rich)": "Opomba: ${note(Vaša pogodba je v pregledu. Prosimo, počakajte, da najemodajalec odobri vaš najem.)}",
+    "editReview": "Uredi mnenje",
+    "writeAReview": "Napišite mnenje",
+    "selectRating": "Izberite oceno",
+    "enterYourOpinion": "Vnesite svoje mnenje",
+    "askToEnterReviewMsg": "Prosimo, vnesite sporočilo z mnenjem",
+    "pressBackAgainToExit": "Pritisnite nazaj še enkrat, da izstopite.",
+    "selectPaymentMethod": "Izberite način plačila",
+    "filter": "Filter",
+    "perMonth": "/1 mesec",
+    "searchHintWithAppName": "Iščite karkoli v ${appName: String} ..."
+  },
+  "exceptions": {
+    "somethingWentWrong": "Nekaj je šlo narobe, poskusite znova",
+    "noNidPassport": "Slika NID/Potnega lista ni bila priložena.",
+    "noRentPropertyFound": "Za tega najemnika ni bila najdena nobena nepremičnina za najem.",
+    "noPropertyFoundWithKeyWord": "Nepremičnina ni bila najdena!\nPoskusite z drugimi ključnimi besedami",
+    "noSubscriptionFoundRefreshPage": "Ni naročniškega paketa!\nOsvežite stran in poskusite znova.",
+    "invalidApiDataRefreshPage": "Neveljavne informacije o ${dataType: String}! Osvežite stran in poskusite znova.",
+    "invalidDownloadUrl": "Neveljaven URL za prenos!",
+    "failedToSaveFile": "Datoteke ni bilo mogoče shraniti! ${error: String}",
+    "errorOpeningFile": "Napaka pri odpiranju datoteke! ${error: String}",
+    "noVehicleInfoProvided": "Informacije o vozilu niso bile priložene.",
+    "yourApplicationRejected": "Vaša prijava je bila zavrnjena",
+    "noApplicationFoundHint": {
+      "template": "Prijava ni bila najdena!\n${subject: String} bo prikazan tukaj, ko bo na voljo.",
+      "subjects": {
+        "tenant": "Vaša prijava",
+        "landlord": "Najemnikova prijava"
+      }
+    },
+    "noPropertyFoundHint": {
+      "landlordHome": "Nepremičnina ni bila najdena!\nProsimo, dodajte nepremičnino, da jo vidite tukaj.",
+      "tenantRecommended": "Priporočene nepremičnine niso bile najdene\nPoskusite znova pozneje.",
+      "tenantAllProperty": "Nepremičnine niso na voljo\nPoskusite znova pozneje."
+    },
+    "noImageProvided": "Slika ni bila priložena",
+    "noStatusMaintenantFound": {
+      "landlord": "Vzdrževanje s statusom ${status} ni bilo najdeno.",
+      "tenant": "Vzdrževanje ni bilo najdeno! Zahtevo za vzdrževanje lahko ustvarite tukaj."
+    },
+    "noDepositFound": "Varnostni depozit ni bil najden!\nOgled varnostnih depozitov bo možen, ko bodo na voljo",
+    "noRentPaymentFound": "Plačilo najemnine ni bilo najdeno!\nOgled plačil najemnine bo možen, ko bodo na voljo",
+    "transactionSummaryApiException": "Pridobivanje povzetka transakcij ni uspelo.",
+    "noWithdrawRequestFound": "Zahteva ni bila najdena!\nProsimo, ustvarite zahtevo za izplačilo, da jo vidite tukaj.",
+    "withdrawRequestNotApproved": "Ta zahteva za izplačilo ni bila odobrena!.",
+    "nonZeroError": "Vnesite veljaven znesek, večji od nič.",
+    "minAmountError": "Znesek mora biti najmanj ${minValue: String}.",
+    "maxAmountError": "Znesek ne sme preseči ${maxValue: String}.",
+    "selectPaymentMethodHint": "Najprej izberite način plačila.",
+    "noStatusRefundReqFound": {
+      "landlord": "Zahteva za vračilo s statusom ${status} ni bila najdena!\nZahtevo za vračilo si lahko ogledate tukaj, ko bo na voljo.",
+      "tenant": "Zahteva za vračilo ni bila najdena!\nZahtevo za vračilo lahko ustvarite tukaj."
+    },
+    "refundRequestHint": {
+      "inTenantList": "Najemnik bo odobril vračilo, ko bo prejel denar nazaj",
+      "tenantReqSuccess": "Pregledali bomo zahtevo za vračilo in jo odobrili v 24 urah."
+    },
+    "oneToTenRequiredField": "Izberite število ${value: String}",
+    "invalidDateRange": "Neveljaven datumski razpon.",
+    "valueMustBeGreaterThanZero": "${value: String} mora biti večje od nič.",
+    "editProperty": {
+      "rentalChange": "Najemna nepremičnina se spreminja. Veljavna mora biti le za plačilo najemnine za naslednji mesec.",
+      "deleteOnRent": "Vašo nepremičnino že najema najemnik. Ne morete je izbrisati, dokler najemnika ne odstranite.",
+      "alreayRented": "Ta nepremičnina je že oddana. Poskusite znova pozneje.\nLahko pa se obrnete na najemodajalca za več informacij."
+    },
+    "rentInvitation": {
+      "landlordNoRentInvitation": "Povabilo k najemu ni bilo najdeno!\nProsimo, ustvarite povabilo k najemu, da ga vidite tukaj.",
+      "tenantNoRentInvitation": "Povabilo k najemu ni bilo najdeno!\nPovabilo k najemu si lahko ogledate tukaj, ko bo na voljo."
+    },
+    "notenantFoundList": "Ni najemnikov!\nProsimo, dodajte najemnika, da ga vidite tukaj.",
+    "noFeaturesProvided": "Funkcije niso bile priložene.",
+    "noNotificationFound": "Obvestila niso na voljo.\nObvestila si lahko ogledate tukaj, ko bodo na voljo."
+  },
+  "prompt": {
+    "logout": {
+      "title": "@:common.logout",
+      "message": "Ali ste prepričani, da se želite odjaviti?"
+    },
+    "application": {
+      "rejectTitle": "Zakaj zavračate to prijavo?",
+      "applicationSent": {
+        "successfully": "Prijava je bila uspešno poslana!",
+        "sucessDescription": "To prijavo si lahko ogledate na seznamu prijav"
+      }
+    },
+    "labor": {
+      "delete": {
+        "title": "Izbriši delavca?",
+        "description": "Ali ste prepričani, da želite izbrisati tega delavca?"
+      }
+    },
+    "maintenanceRequest": {
+      "rejectTitle": "Zakaj je ta zahteva zavrnjena?",
+      "processTitle": "Ali ste prepričani, da želite obdelati to zahtevo za vzdrževanje?",
+      "completeTitle": "Ali je delo končano?"
+    },
+    "withdrawMethod": {
+      "deleteTitle": "Izbriši način izplačila?",
+      "deleteDescription": "Ali ste prepričani, da želite izbrisati ta način izplačila?"
+    },
+    "unsavedChanges": {
+      "title": "Ali ste prepričani, da se želite vrniti nazaj?",
+      "message": "Spremenjena polja ne bodo shranjena!"
+    },
+    "property": {
+      "delete": {
+        "title": "Izbriši nepremičnino?",
+        "message": "Ali ste prepričani, da želite izbrisati to nepremičnino?"
+      }
+    },
+    "rentInvitation": {
+      "landlordApprove": {
+        "title": "Ali ste prepričani, da želite odobriti ta najem?",
+        "description": "Prepričajte se, da ste pregledali pogodbo, ki jo je podpisal najemnik."
+      },
+      "tenantAccept": {
+        "title": "Ali ste prepričani, da želite sprejeti to povabilo?",
+        "description": "Prepričajte se, da ste prenesli datoteko PDF s pogodbo!"
+      }
+    },
+    "sessionExpired": {
+      "title": "Seja je potekla",
+      "message": "Vaša seja je potekla. Prosimo, prijavite se znova",
+      "action": "Prijava"
+    },
+    "noInternet": {
+      "title": "Ni internetne povezave",
+      "message": "Preverite povezavo Wi-Fi ali mobilno omrežje in poskusite znova",
+      "action": "Poskusite znova"
+    },
+    "permissionHandler": {
+      "title": "Potrebno je dovoljenje!",
+      "message": "Dovoljenja morate odobriti v nastavitvah aplikacije. Ali želite zdaj odpreti nastavitve?"
+    },
+    "imagePicker": {
+      "title": "Izberite možnost",
+      "gallery": "Galerija",
+      "camera": "Kamera"
+    },
+    "verificationDialog": {
+      "title": "Preverite svoj e-poštni naslov",
+      "message": "Na e-poštni naslov smo poslali overitveno kodo",
+      "messageWithEmail": "@:prompt.verificationDialog.message na ${email: String?}"
+    },
+    "notification": {
+      "clearTitle": "Počisti obvestila?",
+      "clearMessage": "Ali ste prepričani, da želite počistiti vsa obvestila?"
+    }
+  },
+  "form": {
+    "fullName": {
+      "label": "@:common.fullName",
+      "hint": "Vnesite @:common.fullName",
+      "errors": {
+        "required": "Prosimo, vnesite vaše @:common.fullName"
+      }
+    },
+    "email": {
+      "label": "@:common.email",
+      "hint": "Vnesite vaš @:common.email",
+      "errors": {
+        "required": "Prosimo, vnesite vaš e-poštni naslov @:common.email",
+        "invalid": "⦸ Neveljaven e-poštni naslov, poskusite znova"
+      }
+    },
+    "password": {
+      "label": "@:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Prosimo, vnesite vaše @:common.password",
+        "minLength": "Geslo mora vsebovati vsaj ${count} znakov!"
+      }
+    },
+    "confirmPassword": {
+      "label": "Potrdite @:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Prosimo, vnesite vaše @:common.password",
+        "notMatched": "Potrditveno geslo se ne ujema!"
+      }
+    },
+    "mobileNumber": {
+      "label": "@:common.mobileNumber",
+      "hint": "(+60) 555-0123",
+      "errors": {
+        "required": "Prosimo, vnesite vašo @:common.mobileNumber"
+      }
+    },
+    "address1": {
+      "label": "@:common.address 1",
+      "hint": "Hišna številka in ime ulice",
+      "errors": {
+        "required": "Prosimo, vnesite vaš @:form.address1.label"
+      }
+    },
+    "address2": {
+      "label": "@:common.address 2",
+      "hint": "Stanovanje, apartma, enota itd.",
+      "errors": {
+        "required": "Prosimo, vnesite vaš @:form.address2.label"
+      }
+    },
+    "postalCode": {
+      "label": "@:common.postalCode",
+      "hint": "Vnesite @:common.postalCode",
+      "errors": {
+        "required": "Prosimo, vnesite vaš @:common.postalCode"
+      }
+    },
+    "city": {
+      "label": "@:common.city",
+      "hint": "Vnesite ime @:common.city.",
+      "errors": {
+        "required": "Prosimo, vnesite ime @:common.city."
+      }
+    },
+    "state": {
+      "label": "@:common.state",
+      "hint": "Vnesite ime @:common.state.",
+      "errors": {
+        "required": "Prosimo, vnesite ime @:common.state."
+      }
+    },
+    "country": {
+      "label": "@:common.country",
+      "hint": "Izberite @:common.country.",
+      "errors": {
+        "required": "Prosimo, izberite vaš @:common.country"
+      }
+    },
+    "otp": {
+      "errors": {
+        "required": "Prosimo, vnesite OTP.",
+        "invalid": "Prosimo, vnesite pravilen OTP."
+      }
+    },
+    "title": {
+      "label": "Naslov",
+      "hint": "Vnesite naslov",
+      "errors": {
+        "required": "Prosimo, vnesite naslov"
+      }
+    },
+    "date": {
+      "label": "${label: String}",
+      "hint": "Izberite @:form.date.label",
+      "errors": {
+        "required": "Prosimo, izberite @:form.date.label"
+      }
+    },
+    "reason": {
+      "label": "Razlog",
+      "hint": "Vnesite razlog",
+      "errors": {
+        "required": "Prosimo, vnesite razlog"
+      }
+    },
+    "withdrawMethod": {
+      "label": "@:common.withdrawMethod",
+      "hint": "Izberite @:common.withdrawMethod",
+      "errors": {
+        "required": "Prosimo, izberite @:common.withdrawMethod"
+      }
+    },
+    "fileField": {
+      "label": "${label: String}",
+      "hint": "Naložite ${label: String}",
+      "errors": {
+        "required": "Prosimo, izberite ${label: String}"
+      }
+    },
+    "note": {
+      "label": "${note: String}",
+      "hint": "Vnesite @:form.note.label",
+      "errors": {
+        "required": "Prosimo, vnesite @:form.note.label"
+      }
+    },
+    "gender": {
+      "label": "@:common.gender",
+      "hint": "Izberite @:common.gender",
+      "errors": {
+        "required": "Prosimo, izberite @:common.gender"
+      }
+    },
+    "anyField": {
+      "label": "${label: String}",
+      "hint": "Vnesite @:form.anyField.label",
+      "errors": {
+        "required": "Prosimo, vnesite @:form.anyField.label",
+        "invalid": "Prosimo, vnesite veljaven @form.anyField.label"
+      }
+    },
+    "anyDropdown": {
+      "label": "${label: String}",
+      "hint": "Izberite @:form.anyDropdown.label",
+      "errors": {
+        "required": "Prosimo, izberite @:form.anyDropdown.label",
+        "invalid": "Prosimo, izberite veljaven @form.anyDropdown.label"
+      }
+    }
+  },
+  "action": {
+    "next": "Naprej",
+    "getStarted": "Začni",
+    "skip": "Preskoči",
+    "select": "Izberi",
+    "save": "Shrani",
+    "signIn": "Prijava",
+    "signUp": "Registracija",
+    "continue": "Nadaljuj",
+    "clearAll": "Počisti vse",
+    "cancelRenting": "@:common.cancelRenting",
+    "send": "Pošlji",
+    "pay": "Plačaj",
+    "remove": "Odstrani",
+    "goBack": "Pojdi nazaj",
+    "buyNow": "Kupi zdaj",
+    "no": "Ne",
+    "open": "Odpri",
+    "addProperty": "Dodaj nepremičnino",
+    "process": "Obdelaj",
+    "approve": "Odobri",
+    "reject": "Zavrni",
+    "viewRent": "Ogled najemnine",
+    "openNavigationMenu": "Odpri navigacijski meni",
+    "seeAll": "Prikaži vse",
+    "update": "Posodobi",
+    "printTransaction": "Natisni transakcijo",
+    "payoutRequest": "Zahteva za izplačilo",
+    "addNew": "+ Dodaj novo",
+    "sendRequest": "Pošlji zahtevo",
+    "print": "Natisni",
+    "requestForRefund": "Zahteva za vračilo",
+    "previous": "Prejšnji",
+    "delete": "Izbriši",
+    "applyProperty": "Prijavi se za nepremičnino",
+    "viewApplication": "Ogled prijave",
+    "inviteTenant": "Povabi najemnika",
+    "inviteRent": "Povabi k najemu",
+    "cancel": "Prekliči",
+    "accept": "Sprejmi",
+    "submit": "Oddaj",
+    "yes": "Da",
+    "okay": "V redu",
+    "confirm": "Potrdi",
+    "apply": "Uporabi",
+    "reset": "Ponastavi",
+    "retry": "Ponovi",
+    "viewAll": "Prikaži vse"
+  },
+  "pages": {
+    "language": {
+      "appbarTitle": "@:action.select @:common.language"
+    },
+    "onboard": {
+      "onboardData": {
+        "data1": {
+          "title": "Poiščite svojo nepremičnino",
+          "description": "Iskanje prostora, ki ustreza vašemu življenju – ne glede na to, ali gre za sobo, stanovanje ali hišo – smo vam olajšali."
+        },
+        "data2": {
+          "title": "Stanovanje v mestu",
+          "description": "Prihranimo vam čas tako, da vas hitro povežemo z idealno nepremičnino, preden ta izgine, da boste lahko uživali v svojem novem domu, ali pa brezplačno objavite svojega."
+        },
+        "data3": {
+          "title": "Vaša udobna hiša",
+          "description": "Če iščete kraj bivanja, si oglejte naše hiše za najem. Imamo široko ponudbo hiš, med katerimi lahko izbirate po vsej državi."
+        }
+      }
+    },
+    "signIn": {
+      "title": "Dobrodošli nazaj",
+      "subtitle": "Prijavite se zdaj in začnite neverjetno potovanje.",
+      "extra": {
+        "rememberMe": "Zapomni si me",
+        "signUpNavigator(rich)": "Nimate računa? ${getStarted(@:action.getStarted)}",
+        "forgotPassword": "@:common.forgotPassword?"
+      }
+    },
+    "forgotPassword": {
+      "title": "Pozabljeno geslo",
+      "subtitle": "Vnesite svoj e-poštni naslov, da si opomorete geslo."
+    },
+    "otpVerification": {
+      "title": "Preverjanje",
+      "subtitle": "4-mestna koda je bila poslana na vaš e-poštni naslov. ${email: String}",
+      "extra": {
+        "codeResend": {
+          "codeSendIn": "Koda bo poslana čez ${minutes}:${seconds}",
+          "resendCode(rich)": " ${resendCode(Ponovno pošlji kodo)} "
+        }
+      }
+    },
+    "resetPassword": {
+      "title": "Ponastavitev gesla",
+      "subtitle": "Ponastavite geslo za obnovitev in se prijavite v svoj račun.",
+      "extra": {
+        "dialog": {
+          "title": "Uspešno spremenjeno!",
+          "subtitle": "Prijavite se z novim geslom.\nPreusmerjam vas na prijavo ..."
+        }
+      }
+    },
+    "signUp": {
+      "title": "Ustvari račun",
+      "subtitle": "Prijavite se zdaj in začnite neverjetno potovanje.",
+      "extra": {
+        "signInNavigator(rich)": "Imate račun? ${signIn(@:action.signIn)}"
+      }
+    },
+    "welcome": {
+      "title": "Kdo ste?",
+      "subtitle": "Izberite spodnjo možnost.",
+      "extra": {
+        "landlordTag": "Upravljajte svoje nepremičnine",
+        "tenantTag": "Prijavite se v svoj najemniški račun"
+      }
+    },
+    "aboutUs": {
+      "appbarTitle": "@:common.aboutUs"
+    },
+    "termsAndConditions": {
+      "appbarTitle": "@:common.termsAndConditions"
+    },
+    "notificationList": {
+      "appbarTitle": "Obvestila"
+    },
+    "contactUs": {
+      "appbarTitle": "@:common.contactUs",
+      "extra": {
+        "messageHint": "Sporočilo ..."
+      }
+    },
+    "cancelRenting": {
+      "appbarTitle": "@:common.cancelRenting",
+      "title": "Zakaj @:common.cancelRenting?",
+      "form": {
+        "reason": {
+          "hint": "Napišite razlog",
+          "errors": {
+            "required": "Prosimo, vnesite razlog za odpoved najema"
+          }
+        }
+      }
+    },
+    "invoiceDetails": {
+      "appbarTitle": "@:common.viewDetails"
+    },
+    "offlinePayment": {
+      "appbarTitle": "Offline plačilo",
+      "form": {
+        "paymentNote": {
+          "label": "Opomba o plačilu (@:common.optional)",
+          "hint": "Vnesite nekaj besedila ..."
+        }
+      },
+      "extra": {
+        "payAmount(rich)": "Znesek plačila: ${amount}",
+        "accountHolderName": "Ime imetnika računa",
+        "accountNumber": "Številka računa",
+        "swiftCode": "Swift koda",
+        "branch": "Podružnica",
+        "fileTypeHint(rich)": "Izberite samo datoteke formata ${fileType(JPG, PNG,PDF)} ali ${fileType(DOC)}. Velikost datoteke ${fileSize(2000 KB)}"
+      }
+    },
+    "paymentStatus": {
+      "success": {
+        "actionButton": "Ogled računa",
+        "title": "@:common.thankYou",
+        "description": "Pregledali bomo plačilo in ga odobrili v 24 urah."
+      },
+      "fail": {
+        "actionButton": "Poskusite znova",
+        "title": "Ups! Plačilo ni uspelo",
+        "description": "Vaša transakcija ni uspela zaradi nekaterih tehničnih napak."
+      }
+    },
+    "propertyDetails": {
+      "extra": {
+        "landlord(rich)": "@:common.landlord: ${landlordName}",
+        "ratingReviews(rich)": "${rating} ${reviews(@:common.reviews)}",
+        "features(rich)": "Lastnosti ${fa((Objekti in ugodnosti))}",
+        "selectRentalPeriod": "Izberite obdobje najema",
+        "writeAReview": "+ Napišite mnenje"
+      }
+    },
+    "search": {
+      "appbarTitle": "Iskanje",
+      "extra": {
+        "hint": "Iščite parcele, stanovanja, sobe ...",
+        "noRecentSearch": "Nimate nedavnih iskanj."
+      }
+    },
+    "subscriptionPlan": {
+      "appbarTitle": "Izberite svoj načrt",
+      "extra": {
+        "subscriptionPaymentSuccess": "Plačilo naročnine uspešno.\nZdaj lahko dostopate do naročenih funkcij."
+      }
+    },
+    "landlordMaintenanceReport": {
+      "totalMaintenanceCost(rich)": "Skupni stroški vzdrževanja: ${amount: string}",
+      "maintenancePending": "@:common.maintenance @:enums.maintenanceStatus.pending",
+      "maintenanceProcessing": "@:common.maintenance @:enums.maintenanceStatus.processing",
+      "maintenanceCompleted": "@:common.maintenance @:enums.maintenanceStatus.completed",
+      "maintenanceRejected": "@:common.maintenance @:enums.maintenanceStatus.rejected"
+    }
+  },
+  "enums": {
+    "propertyStatus": {
+      "allProperty": "Vse nepremičnine",
+      "pending": "Neodločeno",
+      "active": "Aktivno",
+      "inactive": "Neaktivno",
+      "rejected": "Zavrnjeno"
+    },
+    "propertyType": {
+      "apartmentCondominium": "Stanovanje/Kondominij",
+      "house": "Hiša",
+      "commercialProperty": "Poslovni prostor",
+      "land": "Zemljišče",
+      "room": "Soba"
+    },
+    "applicationStatus": {
+      "all": "Vse",
+      "pending": "Neodločeno",
+      "processing": "V obdelavi",
+      "approved": "Odobreno",
+      "rejected": "Zavrnjeno"
+    },
+    "myRentStatus": {
+      "pending": "Neodločeno",
+      "processing": "V obdelavi",
+      "active": "Aktivno",
+      "expired": "Poteklo",
+      "cancelled": "Preklicano"
+    },
+    "maintenanceStatus": {
+      "pending": "Neodločeno",
+      "processing": "V obdelavi",
+      "rejected": "Zavrnjeno",
+      "completed": "Dokončano"
+    },
+    "tenantProfileType": {
+      "privateIndividual": "Zasebno (posameznik)",
+      "company": "Podjetje"
+    },
+    "tenantType": {
+      "newTenant": "Novi najemnik",
+      "activeTenant": "Aktivni najemnik",
+      "expiredTenant": "Potekli najemnik"
+    },
+    "paymentStatus": {
+      "all": "Vse",
+      "pending": "Neodločeno",
+      "paid": "Plačano",
+      "unpaid": "Neplačano",
+      "rejected": "Zavrnjeno",
+      "refund": "Vračilo"
+    },
+    "paymentOptions": {
+      "onlinePayment": "Spletno plačilo",
+      "offlinePayment": "Offline plačilo"
+    },
+    "paymentType": {
+      "securityDeposit": "Varnostni depozit",
+      "rentPayment": "Plačilo najemnine",
+      "subscription": "Naročnina"
+    },
+    "gender": {
+      "male": "Moški",
+      "female": "Ženska",
+      "other": "Drugo"
+    },
+    "ecRelation": {
+      "wife": "Žena",
+      "parent": "Starš",
+      "friend": "Prijatelj",
+      "brother": "Brat",
+      "sister": "Sestra",
+      "child": "Otrok"
+    },
+    "vehicleType": {
+      "car": "Avto",
+      "motorcycles": "Motorji",
+      "lorry": "Tovornjak"
+    },
+    "sortBy": {
+      "lowToHigh": "Od nizke do visoke",
+      "highToLow": "Od visoke do nizke"
+    },
+    "residentialType": {
+      "flat": "Stanovanje",
+      "apartment": "Apartma",
+      "condominium": "Kondominij",
+      "serviceResidence": "Rezidenca s storitvami",
+      "studio": "Studio",
+      "duplex": "Dupleks",
+      "townhouseCondo": "Mestna hiša/Kondominij",
+      "others": "Drugo"
+    },
+    "floorRange": {
+      "high": "Visoko",
+      "medium": "Srednje",
+      "low": "Nizko"
+    },
+    "furnishings": {
+      "fullyFurnished": "Popolnoma opremljeno",
+      "partiallyFurnished": "Delno opremljeno",
+      "notFurnished": "Neopremljeno"
+    },
+    "commercialPropertyType": {
+      "officeSpace": "Pisarniški prostor",
+      "retailSpace": "Maloprodajni prostor",
+      "shopLot": "Trgovina",
+      "warehouseFactory": "Skladišče / Tovarna",
+      "hotelResort": "Hotel / Letovišče",
+      "sofo": "Sofo",
+      "soho": "Soho",
+      "sovo": "Sovo",
+      "others": "Drugo"
+    },
+    "landPropertyType": {
+      "residential": "Stanovanjsko",
+      "industrial": "Industrijsko",
+      "agricultural": "Kmetijsko",
+      "commercial": "Poslovno",
+      "mixedDevelopment": "Mešani razvoj",
+      "others": "Drugo"
+    },
+    "residentPropertyType": {
+      "condo": "Kondominij / Rezidenca s storitvami / Penthouse",
+      "apartment": "Apartma / Stanovanje",
+      "house": "Hiše",
+      "shoplot": "Trgovina",
+      "sharing": "Delitev hiše / stanovanja",
+      "others": "Drugo"
+    },
+    "minimumRentalPeriod": {
+      "sixMonths": "6 mesecev",
+      "oneYear": "1 leto",
+      "oneAndHalfYears": "1,5 leta",
+      "twoYears": "2 leti",
+      "twoAndHalfYears": "2,5 leta"
+    },
+    "dropdownDateFilter": {
+      "daily": "Dnevno",
+      "weekly": "Tedensko",
+      "monthly": "Mesečno",
+      "yearly": "Letno",
+      "custom": "Po meri"
+    }
+  }
+}

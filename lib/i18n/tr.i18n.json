@@ -1,0 +1,950 @@
+{
+  "@@meta": {
+    "languageCode": "tr_TR",
+    "languageName": "Turkish",
+    "version": "1.0.0"
+  },
+  "common": {
+    "profile": "Profil",
+    "language": "Dil",
+    "subscriptionPlan": "Abonelik Planı",
+    "contactUs": "Bize Ulaşın",
+    "termsAndConditions": "Şartlar ve Koşullar",
+    "aboutUs": "Hakkımızda",
+    "logout": "Çıkış Yap",
+    "editProfile": "Profili Düzenle",
+    "fullName": "Tam Ad",
+    "email": "E-posta",
+    "mobileNumber": "Mobil Numara",
+    "address": "Adres",
+    "postalCode": "Posta Kodu",
+    "city": "Şehir",
+    "country": "Ülke",
+    "state": "Eyalet",
+    "password": "Parola",
+    "forgotPassword": "Şifremi Unuttum",
+    "tenant": "Kiracı",
+    "landlord": "Ev Sahibi",
+    "cancelRenting": "Kiralamayı İptal Et",
+    "startDate": "Başlangıç Tarihi",
+    "endDate": "Bitiş Tarihi",
+    "fromDate": "Başlangıç Tarihi",
+    "toDate": "Bitiş Tarihi",
+    "online": "Çevrimiçi",
+    "bankList": "Banka Listesi",
+    "withdrawMethod": "Çekim Yöntemi",
+    "uploadPaymentReceipt": "Ödeme Makbuzu Yükle",
+    "offlinePaymentNote(rich)": "Not: ${note(Ödeme, admin tarafından manuel onay gerektirir)} ${duraion(24~48 saat içinde.)}",
+    "reviews": "Yorumlar",
+    "description": "Açıklama",
+    "about": "Hakkında",
+    "propertyTypes": "Mülk Türleri",
+    "features": "Özellikler",
+    "floorPlans": "Kat Planları",
+    "buildingDetails": "Bina Detayları",
+    "buildingName": "Bina Adı",
+    "propertyAddress": "Mülk Adresi",
+    "completionYear": "Tamamlama Yılı",
+    "lotNumber": "Parsel Numarası",
+    "residentialType": "Konut Türü",
+    "furnishings": "Eşya Durumu",
+    "floorRange": "Kat Aralığı",
+    "bedrooms": "Yatak Odası",
+    "bathrooms": "Banyolar",
+    "propertySize": "Mülk Büyüklüğü",
+    "rentalPeriod": "Kiralama Süresi",
+    "securityDeposit": "Güvenlik Depozitosu",
+    "utilityBill": "Fatura",
+    "facilities": "İmkanlar",
+    "amenities": "Olanaklar",
+    "expiringReason": "Sona Erme Nedeni",
+    "tenantDetails": "Kiracı Detayları",
+    "typeOfTenant": "Kiracı Türü",
+    "tenantName": "Kiracı Adı",
+    "nidPassport": "NID/Pasaport",
+    "nidPassportId": "@:common.nidPassport ID",
+    "tenantId": "Kiracı ID",
+    "dateOfBirth": "Doğum Tarihi",
+    "gender": "Cinsiyet",
+    "nominee": "Aday",
+    "name": "Ad",
+    "optional": "Opsiyonel",
+    "nomineeName": "@:common.nominee @:common.nominee",
+    "nomineeEmail": "@:common.nominee @:common.email",
+    "nomineeMobile": {
+      "short": "@:common.nominee Mo. No.",
+      "full": "@:common.nominee @:common.mobileNumber"
+    },
+    "emergencyContact": "Acil Durum İrtibatı",
+    "relation": "İlişki",
+    "relationWith": "@:common.relation With",
+    "relationWithYou": "@:common.relationWith You",
+    "company": "Şirket",
+    "companyName": "@:common.company @:common.name",
+    "companySSMNo": "@:common.company SSM No.",
+    "workplace": "İşyeri",
+    "officePhoneNo": "Ofis Telefon Numarası",
+    "officeMobileNo": "Ofis @:common.mobileNumber",
+    "vehicle": "Araç",
+    "vehiclesInfo": {
+      "plain": "Araç Bilgileri",
+      "optional": "Araç Bilgileri (@:common.optional)"
+    },
+    "vehiclesType": "@:common.vehicle Type",
+    "vehicleRegistrationNo": {
+      "normal": "Araç Tescil Numarası",
+      "short": "Tescil Numarası",
+      "alt": "Plaka Numarası"
+    },
+    "vehicleBrand": "@:common.vehicle Brand",
+    "rentProperty": "Emlak Kirala",
+    "propertyDetails": "Emlak Detayları",
+    "propertyId": "Emlak Kimliği",
+    "propertyType": "Emlak Türü",
+    "propertyName": "Emlak Adı",
+    "paymentDetails": "Ödeme Detayları",
+    "monthlyRent": "Aylık Kira",
+    "thisMonthPayment": "Bu Ayki Ödeme",
+    "totalPaidRent": "Toplam Ödenen Kira",
+    "dueRent": "Ödenmemiş Kira",
+    "rentStartDate": "Kira @:common.startDate",
+    "rentEndDate": "Kira @:common.endDate",
+    "status": "Durum",
+    "rentAgreementPdf": "Kira Sözleşmesi PDF'i",
+    "noFile": "Dosya Yok",
+    "tenantImageOp": "Kiracı Resmi @:common.optional",
+    "addNewVechicle": "Yeni Araç Ekle",
+    "uploadNidPassport": "NID/Pasaport Yükle",
+    "nidPassportUploadNote": "Sadece dosya türü resim kabul edilecektir. Dosya limiti 2,5 MB'a kadar.",
+    "search": "Ara",
+    "sortBy": "Sırala",
+    "subscription": "Abonelik",
+    "downloading": "İndiriliyor...",
+    "downloadSuccess": "Dosya başarıyla indirildi!",
+    "addPropertyBannerTitle": "Mülkünüzü Kiraya Vermek mi İstiyorsunuz?",
+    "application": "Başvuru",
+    "tenantHasPaidDeposit": "Kiracı depozitoyu ödedi.",
+    "askProcessingRentApplication": "Kira emlak için bu isteği işlediğinizden emin misiniz?",
+    "dateAndTime": "Tarih ve Saat",
+    "applicationDetails": "Başvuru Detayları",
+    "depositStatus": "Depozito Durumu",
+    "uploadRentAgreement": "Kira Sözleşmesi Yükle",
+    "uploadFilePDF": "Dosya Yükle (PDF)",
+    "askSelectRentAgreement": "Lütfen bir sözleşme belgesi dosyası seçin.",
+    "landlordRentAgreementPDF": "Ev Sahibi Kira Sözleşmesi PDF'i",
+    "tenantRentAgreementPDF": "Kiracı Kira Sözleşmesi PDF'i",
+    "landlordApplicationApproveNote(rich)": "Not: ${note(Yalnızca kiracı depozito ödemesi yaptıktan sonra başvuruyu onaylayın.)}",
+    "reasonOfRejection": "Reddetme Nedeni",
+    "youveRejectedThisApplication": "Bu başvuruyu reddettiniz",
+    "landlordDetails": "Ev Sahibi Detayları",
+    "landlordName": "Ev Sahibi Adı",
+    "downloadRentAgreement": "Kira Sözleşmesini İndir",
+    "acceptTermsConditions(rich)": "${toc(Şartlar ve Koşulları)} Kabul Et",
+    "tenantAgreementSignNote1(rich)": "Not: ${note(Lütfen sözleşmeyi indirin ve okuyun. Lütfen imzalı sözleşmeyi WhatsApp veya e-posta yoluyla ev sahibine gönderin.)}",
+    "tenantAgreementSignNote2(rich)": "Not: ${note(Kiracı, güvenlik, fatura ve bir aylık peşin kira ödemesini yaptığında ev sahibi başvuruyu onaylar.)}",
+    "completeRentAgreementPdf(rich)": "Kira Sözleşmesi (PDF) ${complete(Sözleşmeyi Tamamla)}",
+    "tenantApplicationDepositNote(rich)": "Not : ${note(Kiracı, güvenlik, fatura ve bir aylık peşin kira ödemesini yaptığında ev sahibi başvuruyu onaylar.)}",
+    "whatsapp": "Whatsapp",
+    "applicationList": "Başvuru Listesi",
+    "viewDetails": "Detayları Görüntüle",
+    "searchHint": "@:common.search...",
+    "home": "Ana Sayfa",
+    "dashboard": "Gösterge Paneli",
+    "tenants": "Kiracılar",
+    "maintenance": "Bakım",
+    "maintenanceList": "Bakım Listesi",
+    "maintenanceReport": "Bakım Raporu",
+    "labor": "İşçilik",
+    "applications": "Başvurular",
+    "rentInvitation": "Kira Daveti",
+    "payment": "Ödeme",
+    "rentPayment": "Kira Ödemesi",
+    "depositUtilityPayment": "Depozito ve Fatura Ödemesi",
+    "refundRequest": "Geri Ödeme İsteği",
+    "withdrawRequest": "Para Çekme İsteği",
+    "myProperty": "Mülküm",
+    "myRent": "Kiram",
+    "wishlist": "İstek Listesi",
+    "properties": "Emlaklar",
+    "allProperties": "Tüm Emlaklar",
+    "totalPropery": "Toplam Emlak",
+    "occupied": "Dolu",
+    "vacant": "Boş",
+    "accounting": "Muhasebe",
+    "totalIncome": "Toplam Gelir",
+    "totalExpense": "Toplam Gider",
+    "currentBalance": "Mevcut Bakiye",
+    "totalWithdrawal": "Toplam (Çekme)",
+    "totalProperties": "Toplam Emlak",
+    "totalTenant": "Toplam Kiracı",
+    "totalRentPaid": "Toplam Ödenen Kira",
+    "totalRentDue": "Toplam Ödenmemiş Kira",
+    "totalApplication": "Toplam Başvuru",
+    "pendingApplication": "Bekleyen Başvuru",
+    "processingApplication": "İşlenen Başvuru",
+    "approveApplication": "Başvuruyu Onayla",
+    "rejectApplication": "Başvuruyu Reddet",
+    "maintenanceCost": "Bakım Maliyeti",
+    "transactionSummary": "İşlem Özeti",
+    "maintenanceRequest": "Bakım Talebi",
+    "notifications": "Bildirimler",
+    "myProperties": "Emlaklarım",
+    "recommendationProperties": "Öneri Emlaklar",
+    "laborList": "İşçi Listesi",
+    "addLabor": "İşçi Ekle",
+    "laborDetails": "İşçi Detayları",
+    "laborSalary": "İşçi Maaşı",
+    "editLabor": "İşçiyi Düzenle",
+    "addNewLabor": "Yeni İşçi Ekle",
+    "enterAmount": "Tutar Girin",
+    "maintenanceDetails": "Bakım Detayları",
+    "laborName": "İşçi Adı",
+    "comment": "Yorum",
+    "image": "Resim",
+    "complete": "Tamamla",
+    "details": "Detaylar",
+    "title": "Başlık",
+    "date": "Tarih",
+    "reason": "Neden",
+    "edit": "Düzenle",
+    "property": "Emlak",
+    "completeYourProfile": "Profilinizi Tamamlayın",
+    "profileImage": "Profil Resmi",
+    "imagePickHint": "Maksimum 120x120 piksel boyutunda yalnızca JPEG ve PNG Resimleri.",
+    "invoiceId": "Fatura Numarası",
+    "depositAmount": "Depozito Tutarı",
+    "landlordPhone": "Ev Sahibi Telefonu",
+    "rentalAdvance": "Kira (Peşin)",
+    "totalAmount": "Toplam Tutar",
+    "rentalAmount": "Kira Tutarı",
+    "adminCharge": "Yönetici Ücreti",
+    "editAccount": "Hesabı Düzenle",
+    "addNewAccount": "Yeni Hesap Ekle",
+    "transactionId": "İşlem Kimliği",
+    "transactionType": "İşlem Türü",
+    "requestDate": "Talep Tarihi",
+    "amount": "Tutar",
+    "fee": "Ücret",
+    "paymentStatus": "Ödeme Durumu",
+    "generatedTime": "Oluşturulma Zamanı",
+    "systemGeneratedReportHint(rich)": "Bu, ${appName} tarafından oluşturulan sistem tarafından oluşturulan bir rapordur",
+    "withdrawHistory": "Çekme Geçmişi",
+    "history": "Geçmiş",
+    "withdrawAmount": "Çekme Tutarı",
+    "availableBalance": "Kullanılabilir Bakiye",
+    "withdrawCharge": "Çekme Ücreti",
+    "paymentMethod": "Ödeme Yöntemi",
+    "requestSendSuccess": "İstek başarıyla gönderildi!",
+    "paymentReceiptSubmitSuccess": "Ödeme makbuzu başarıyla gönderildi.",
+    "refundReason": "Geri Ödeme Nedeni",
+    "note": "Not",
+    "refundReceiveSuccess": "Geri ödeme başarıyla alındı.",
+    "downloadPaymentReceipt": "Ödeme Makbuzunu İndir",
+    "invoice": "Fatura",
+    "selectPropertyToSeeInvoice": "Fatura numarasını görmek için emlak seçin...",
+    "bankAccName": "Banka Hesap Adı",
+    "bankName": "Banka Adı",
+    "bankAccNum": "Banka Hesap Numarası",
+    "thankYou": "Teşekkür Ederiz!",
+    "basicInfo": "Temel Bilgiler",
+    "descriptionPricing": "Açıklama ve Fiyatlandırma",
+    "contact": "İletişim",
+    "photos": "Fotoğraflar",
+    "successfullySubmitted": "Başarıyla Gönderildi!",
+    "editProperty": "Emlak Düzenle",
+    "addNewProperty": "Yeni Emlak Ekle",
+    "propertyManageRequestSuccess": "İlanınız inceleme için gönderildi.",
+    "postAnotherProperty": "Başka Bir Emlak Gönder",
+    "browseYourProperty": "Emlakınıza Göz Atın",
+    "stepIndicator(rich)": "Adım ${step} / ${totalSteps}",
+    "whatWouldYouLikeToPost": "Ne Göndermek İstersiniz?",
+    "category": "Kategori",
+    "invalidCategory": "Geçersiz Kategori",
+    "unitNumber": "Birim Numarası",
+    "sqft": "m2",
+    "propertySizeMustBeGreaterThan0": "Emlak boyutu sıfırdan büyük olmalıdır",
+    "whatAreTheFacility": "Tesisler nelerdir?",
+    "whatAreTheAmenity": "Olanaklar nelerdir?",
+    "parkingLot": "Otopark",
+    "houseType": "Ev türü",
+    "value": "Değer",
+    "unitLotSize": "Birim / Arsa Boyutu",
+    "landSize": "Arsa Boyutu",
+    "acres": "dönüm",
+    "roomSize": "Oda boyutu",
+    "askTenantPreference": "Kiracı tercihiniz nedir?",
+    "couple": "Çift",
+    "describeTheProperty": "${propertyType: String} açıklayın",
+    "adTitle": "İlan Başlığı",
+    "minimumRentalPeriod": "Minimum Kiralama Süresi",
+    "whatsappNumber": "@:common.whatsapp Numarası",
+    "hideOrDisplayEmail": "E-posta adresini gizle veya göster",
+    "thankYouForPostingProperty": "${appName: String} üzerinde ilan verdiğiniz için teşekkür ederiz!",
+    "propertyList": "Emlak Listesi",
+    "newInviteRent": "Yeni Kira Daveti",
+    "rentAgreement": "Kira Sözleşmesi",
+    "rentDetails": "Kira Detayları",
+    "landlordRentInvitationPendingNote(rich)": "Not: ${note(Lütfen kiracının daveti kabul etmesini bekleyin.)}",
+    "rent": "Kira",
+    "editTenant": "Kiracıyı Düzenle",
+    "addNewTenant": "Yeni Kiracı Ekle",
+    "shareInstallLink": "Kurulum bağlantısını paylaş",
+    "tenantList": "Kiracı Listesi",
+    "editMaintenanceRequest": "Bakım Talebini Düzenle",
+    "addNewMaintenance": "Yeni Bakım Ekle",
+    "landlordId": "Ev Sahibi Kimliği",
+    "tenantAgrementUnderReviewNote(rich)": "Not ${note(Sözleşmeniz inceleniyor. Lütfen ev sahibinin kiranızı onaylamasını bekleyin.)}",
+    "editReview": "Yorumu Düzenle",
+    "writeAReview": "Yorum Yaz",
+    "selectRating": "Puan Seçin",
+    "enterYourOpinion": "Fikrinizi Girin",
+    "askToEnterReviewMsg": "Lütfen bir yorum mesajı girin",
+    "pressBackAgainToExit": "Çıkmak için tekrar geri basın.",
+    "selectPaymentMethod": "Ödeme Yöntemi Seçin",
+    "filter": "Filtre",
+    "perMonth": "/1 Ay",
+    "searchHintWithAppName": "${appName: String} içinde herhangi bir şey arayın..."
+  },
+  "exceptions": {
+    "somethingWentWrong": "Bir şeyler ters gitti, lütfen tekrar deneyin",
+    "noNidPassport": "NID/Pasaport resmi sağlanmadı.",
+    "noRentPropertyFound": "Bu kiracı için kiralık emlak bulunamadı.",
+    "noPropertyFoundWithKeyWord": "Emlak bulunamadı!\nLütfen farklı anahtar kelimelerle deneyin",
+    "noSubscriptionFoundRefreshPage": "Abonelik planı bulunamadı!\nLütfen sayfayı yenileyin ve tekrar deneyin.",
+    "invalidApiDataRefreshPage": "Geçersiz ${dataType: String} bilgisi! Lütfen sayfayı yenileyin ve tekrar deneyin.",
+    "invalidDownloadUrl": "Geçersiz indirme URL'si!",
+    "failedToSaveFile": "Dosya kaydedilemedi! ${error: String}",
+    "errorOpeningFile": "Dosya açılırken hata oluştu! ${error: String}",
+    "noVehicleInfoProvided": "Araç bilgisi sağlanmadı.",
+    "yourApplicationRejected": "Başvurunuz reddedildi",
+    "noApplicationFoundHint": {
+      "template": "Başvuru bulunamadı!\n${subject: String} burada mevcut olduğunda görüntülenecektir.",
+      "subjects": {
+        "tenant": "Başvurunuz",
+        "landlord": "Kiracının başvurusu"
+      }
+    },
+    "noPropertyFoundHint": {
+      "landlordHome": "Emlak bulunamadı!\nLütfen burada görmek için bir emlak eklemeyi deneyin.",
+      "tenantRecommended": "Önerilen Emlak Bulunamadı\nLütfen daha sonra tekrar deneyin.",
+      "tenantAllProperty": "Emlaklar mevcut değil\nLütfen daha sonra tekrar deneyin."
+    },
+    "noImageProvided": "Resim Sağlanmadı",
+    "noStatusMaintenantFound": {
+      "landlord": "Hiçbir ${status} bakım bulunamadı.",
+      "tenant": "Bakım bulunamadı! Burada görmek için bakım talebi oluşturabilirsiniz."
+    },
+    "noDepositFound": "Güvenlik depozitosu bulunamadı!\nLütfen güvenlik depozitolarını mevcut olduğunda görebilirsiniz",
+    "noRentPaymentFound": "Kira ödemesi bulunamadı!\nLütfen kira ödemelerini mevcut olduğunda görebilirsiniz",
+    "transactionSummaryApiException": "İşlem özeti alınamadı.",
+    "noWithdrawRequestFound": "İstek bulunamadı!\nLütfen burada görmek için bir para çekme isteği oluşturmayı deneyin.",
+    "withdrawRequestNotApproved": "Bu para çekme isteği onaylanmadı!.",
+    "nonZeroError": "Lütfen sıfırdan büyük geçerli bir tutar girin.",
+    "minAmountError": "Tutar en az ${minValue: String} olmalıdır.",
+    "maxAmountError": "Tutar ${maxValue: String} aşmamalıdır.",
+    "selectPaymentMethodHint": "Lütfen önce bir ödeme yöntemi seçin.",
+    "noStatusRefundReqFound": {
+      "landlord": "Hiçbir ${status} geri ödeme isteği bulunamadı!\nBurada mevcut olduğunda geri ödeme isteğini görebilirsiniz.",
+      "tenant": "Geri ödeme isteği bulunamadı!\nBurada görmek için geri ödeme isteği oluşturabilirsiniz."
+    },
+    "refundRequestHint": {
+      "inTenantList": "Kiracı, parayı geri aldığında geri ödemeyi onaylayacaktır",
+      "tenantReqSuccess": "Geri ödeme isteğini inceleyeceğiz ve 24 saat içinde onaylayacağız."
+    },
+    "oneToTenRequiredField": "Lütfen ${value: String} sayısını seçin",
+    "invalidDateRange": "Geçersiz tarih aralığı.",
+    "valueMustBeGreaterThanZero": "${value: String} sıfırdan büyük olmalıdır.",
+    "editProperty": {
+      "rentalChange": "Kiralık emlak değişiyor. Yalnızca gelecek ayın kira ödemesi için geçerli (etkili) olmalıdır.",
+      "deleteOnRent": "Emlakınız zaten kiracı tarafından kiralanmış. Önce kiracıyı kaldırmadan silemezsiniz",
+      "alreayRented": "Bu emlak zaten kiralandı. Lütfen daha sonra tekrar deneyin.\nVeya daha fazla bilgi için ev sahibiyle iletişime geçebilirsiniz."
+    },
+    "rentInvitation": {
+      "landlordNoRentInvitation": "Kira daveti bulunamadı!\nLütfen burada görmek için bir kira daveti oluşturmayı deneyin.",
+      "tenantNoRentInvitation": "Kira daveti bulunamadı!\nKira davetini burada mevcut olduğunda görebilirsiniz."
+    },
+    "notenantFoundList": "Kiracı yok!\nLütfen burada görmek için bir kiracı eklemeyi deneyin.",
+    "noFeaturesProvided": "Özellik sağlanmadı.",
+    "noNotificationFound": "Bildirim yok.\nBildirimlerinizi burada mevcut olduğunda görebilirsiniz."
+  },
+  "prompt": {
+    "logout": {
+      "title": "@:common.logout",
+      "message": "Çıkış yapmak istediğinizden emin misiniz?"
+    },
+    "application": {
+      "rejectTitle": "Bu başvuruyu neden reddediyorsunuz?",
+      "applicationSent": {
+        "successfully": "Başvuru başarıyla gönderildi!",
+        "sucessDescription": "Bu başvuruyu başvuru listenizde görebilirsiniz"
+      }
+    },
+    "labor": {
+      "delete": {
+        "title": "İşçiyi Sil?",
+        "description": "Bu işçiyi silmek istediğinizden emin misiniz?"
+      }
+    },
+    "maintenanceRequest": {
+      "rejectTitle": "Bu istek neden reddediliyor?",
+      "processTitle": "Bu Bakım isteğini işlediğinizden emin misiniz?",
+      "completeTitle": "İş tamamlandı mı?"
+    },
+    "withdrawMethod": {
+      "deleteTitle": "Para Çekme Yöntemini Sil?",
+      "deleteDescription": "Bu para çekme yöntemini silmek istediğinizden emin misiniz?"
+    },
+    "unsavedChanges": {
+      "title": "Geri dönmek istediğinizden emin misiniz?",
+      "message": "Değiştirilen alanlar kaydedilmeyecek!"
+    },
+    "property": {
+      "delete": {
+        "title": "Emlakı Sil?",
+        "message": "Bu emlağı silmek istediğinizden emin misiniz?"
+      }
+    },
+    "rentInvitation": {
+      "landlordApprove": {
+        "title": "Bu kirayı onaylamak istediğinizden emin misiniz?",
+        "description": "Kiracı tarafından imzalanan sözleşmeyi incelediğinizden emin olun."
+      },
+      "tenantAccept": {
+        "title": "Bu daveti kabul etmek istediğinizden emin misiniz?",
+        "description": "Sözleşme pdf dosyasını indirdiğinizden emin olun!"
+      }
+    },
+    "sessionExpired": {
+      "title": "Oturum sona erdi",
+      "message": "Oturumunuz sona erdi. Lütfen tekrar giriş yapın",
+      "action": "Giriş Yap"
+    },
+    "noInternet": {
+      "title": "İnternet Bağlantısı Yok",
+      "message": "Lütfen Wi-Fi mobil ağ bağlantınızı kontrol edin ve tekrar deneyin",
+      "action": "Tekrar Dene"
+    },
+    "permissionHandler": {
+      "title": "İzin Gerekli!",
+      "message": "Uygulama ayarlarından izin vermeniz gerekiyor. Şimdi ayarları açmak ister misiniz?"
+    },
+    "imagePicker": {
+      "title": "Seçenek Seçin",
+      "gallery": "Galeri",
+      "camera": "Kamera"
+    },
+    "verificationDialog": {
+      "title": "E-postanızı Doğrulayın",
+      "message": "Bir doğrulama kodu e-postası gönderdik",
+      "messageWithEmail": "@:prompt.verificationDialog.message ${email: String?} adresine"
+    },
+    "notification": {
+      "clearTitle": "Bildirimleri temizle?",
+      "clearMessage": "Tüm bildirimleri temizlemek istediğinizden emin misiniz?"
+    }
+  },
+  "form": {
+    "fullName": {
+      "label": "@:common.fullName",
+      "hint": "@:common.fullName Girin",
+      "errors": {
+        "required": "@:common.fullName girin"
+      }
+    },
+    "email": {
+      "label": "@:common.email",
+      "hint": "@:common.email adresinizi girin",
+      "errors": {
+        "required": "@:common.email adresinizi girin",
+        "invalid": "⦸ Geçersiz E-posta, Lütfen Tekrar Deneyin"
+      }
+    },
+    "password": {
+      "label": "@:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "@:common.password girin",
+        "minLength": "Şifre en az ${count} karakter olmalı!"
+      }
+    },
+    "confirmPassword": {
+      "label": "@:common.password Onaylayın",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "@:common.password girin",
+        "notMatched": "Şifreler eşleşmiyor!"
+      }
+    },
+    "mobileNumber": {
+      "label": "@:common.mobileNumber",
+      "hint": "(+60) 555-0123",
+      "errors": {
+        "required": "@:common.mobileNumber girin"
+      }
+    },
+    "address1": {
+      "label": "@:common.address 1",
+      "hint": "Ev numarası ve sokak adı",
+      "errors": {
+        "required": "@:form.address1.label girin"
+      }
+    },
+    "address2": {
+      "label": "@:common.address 2",
+      "hint": "Daire, süit, birim vb.",
+      "errors": {
+        "required": "@:form.address2.label girin"
+      }
+    },
+    "postalCode": {
+      "label": "@:common.postalCode",
+      "hint": "@:common.postalCode Girin",
+      "errors": {
+        "required": "@:common.postalCode girin"
+      }
+    },
+    "city": {
+      "label": "@:common.city",
+      "hint": "@:common.city adını girin.",
+      "errors": {
+        "required": "@:common.city adınızı girin."
+      }
+    },
+    "state": {
+      "label": "@:common.state",
+      "hint": "@:common.state adını girin.",
+      "errors": {
+        "required": "@:common.state adınızı girin."
+      }
+    },
+    "country": {
+      "label": "@:common.country",
+      "hint": "@:common.country seçin.",
+      "errors": {
+        "required": "@:common.country seçin"
+      }
+    },
+    "otp": {
+      "errors": {
+        "required": "Lütfen otp girin.",
+        "invalid": "Lütfen doğru otp girin."
+      }
+    },
+    "title": {
+      "label": "Başlık",
+      "hint": "Başlık girin",
+      "errors": {
+        "required": "Lütfen başlık girin"
+      }
+    },
+    "date": {
+      "label": "${label: String}",
+      "hint": "@:form.date.label Seçin",
+      "errors": {
+        "required": "@:form.date.label seçin"
+      }
+    },
+    "reason": {
+      "label": "Neden",
+      "hint": "Neden girin",
+      "errors": {
+        "required": "Lütfen neden girin"
+      }
+    },
+    "withdrawMethod": {
+      "label": "@:common.withdrawMethod",
+      "hint": "@:common.withdrawMethod Seçin",
+      "errors": {
+        "required": "@:common.withdrawMethod seçin"
+      }
+    },
+    "fileField": {
+      "label": "${label: String}",
+      "hint": "${label: String} Yükle",
+      "errors": {
+        "required": "${label: String} seçin"
+      }
+    },
+    "note": {
+      "label": "${note: String}",
+      "hint": "@:form.note.label Girin",
+      "errors": {
+        "required": "@:form.note.label girin"
+      }
+    },
+    "gender": {
+      "label": "@:common.gender",
+      "hint": "@:common.gender Seçin",
+      "errors": {
+        "required": "@:common.gender seçin"
+      }
+    },
+    "anyField": {
+      "label": "${label: String}",
+      "hint": "@:form.anyField.label Girin",
+      "errors": {
+        "required": "@:form.anyField.label girin",
+        "invalid": "Lütfen geçerli @form.anyField.label girin"
+      }
+    },
+    "anyDropdown": {
+      "label": "${label: String}",
+      "hint": "@:form.anyDropdown.label Seçin",
+      "errors": {
+        "required": "@:form.anyDropdown.label seçin",
+        "invalid": "Lütfen geçerli @form.anyDropdown.label seçin"
+      }
+    }
+  },
+  "action": {
+    "next": "Sonraki",
+    "getStarted": "Başlayın",
+    "skip": "Geç",
+    "select": "Seç",
+    "save": "Kaydet",
+    "signIn": "Giriş Yap",
+    "signUp": "Kaydol",
+    "continue": "Devam Et",
+    "clearAll": "Tümünü Temizle",
+    "cancelRenting": "@:common.cancelRenting",
+    "send": "Gönder",
+    "pay": "Öde",
+    "remove": "Kaldır",
+    "goBack": "Geri Git",
+    "buyNow": "Şimdi Satın Al",
+    "no": "Hayır",
+    "open": "Aç",
+    "addProperty": "Emlak Ekle",
+    "process": "İşle",
+    "approve": "Onayla",
+    "reject": "Reddet",
+    "viewRent": "Kirayı Görüntüle",
+    "openNavigationMenu": "Gezinti menüsünü aç",
+    "seeAll": "Tümünü Gör",
+    "update": "Güncelle",
+    "printTransaction": "İşlemi Yazdır",
+    "payoutRequest": "Ödeme İsteği",
+    "addNew": "+ Yeni Ekle",
+    "sendRequest": "İstek Gönder",
+    "print": "Yazdır",
+    "requestForRefund": "Geri Ödeme İsteği",
+    "previous": "Önceki",
+    "delete": "Sil",
+    "applyProperty": "Emlak Başvurusu",
+    "viewApplication": "Başvuruyu Görüntüle",
+    "inviteTenant": "Kiracı Davet Et",
+    "inviteRent": "Kira Davet Et",
+    "cancel": "İptal",
+    "accept": "Kabul Et",
+    "submit": "Gönder",
+    "yes": "Evet",
+    "okay": "Tamam",
+    "confirm": "Onayla",
+    "apply": "Uygula",
+    "reset": "Sıfırla",
+    "retry": "Tekrar Dene",
+    "viewAll": "Tümunu Gör"
+  },
+  "pages": {
+    "language": {
+      "appbarTitle": "@:action.select @:common.language"
+    },
+    "onboard": {
+      "onboardData": {
+        "data1": {
+          "title": "Emlakınızı Bulun",
+          "description": "Yaşamınıza uygun bir yer bulmayı çok kolaylaştırdık - ister bir oda, ister bir daire, ister bir ev olsun."
+        },
+        "data2": {
+          "title": "Şehirdeki Daire",
+          "description": "Kaybolmadan önce sizi mükemmel mülkle hızlı bir şekilde eşleştirerek zamandan tasarruf ediyoruz, böylece yeni evinizin keyfini çıkarabilir veya kendi evinizi ücretsiz olarak listeleyebilirsiniz."
+        },
+        "data3": {
+          "title": "Konforlu Eviniz",
+          "description": "Yaşamak için bir yer arıyorsanız, kiralık evlerimize bir göz atın. Ülkenin her yerinden seçebileceğiniz çok çeşitli evlerimiz var."
+        }
+      }
+    },
+    "signIn": {
+      "title": "Tekrar Hoş Geldiniz",
+      "subtitle": "Muhteşem bir yolculuğa başlamak için şimdi Giriş Yapın.",
+      "extra": {
+        "rememberMe": "Beni Hatırla",
+        "signUpNavigator(rich)": "Hesabınız yok mu? ${getStarted(@:action.getStarted)}",
+        "forgotPassword": "@:common.forgotPassword?"
+      }
+    },
+    "forgotPassword": {
+      "title": "Şifremi unuttum",
+      "subtitle": "Şifrenizi kurtarmak için e-posta Adresinizi girin."
+    },
+    "otpVerification": {
+      "title": "Doğrulama",
+      "subtitle": "E-posta adresinize 4 haneli bir pin gönderildi. ${email: String}",
+      "extra": {
+        "codeResend": {
+          "codeSendIn": "Kod ${minutes}:${seconds} içinde gönderildi",
+          "resendCode(rich)": " ${resendCode(Kodu tekrar gönder)} "
+        }
+      }
+    },
+    "resetPassword": {
+      "title": "Şifreyi sıfırla",
+      "subtitle": "Şifrenizi kurtarmak ve hesabınıza giriş yapmak için sıfırlayın",
+      "extra": {
+        "dialog": {
+          "title": "Başarıyla değiştirildi!",
+          "subtitle": "Yeni şifrenizle giriş yapın.\nGiriş Yap'a yönlendiriliyorsunuz..."
+        }
+      }
+    },
+    "signUp": {
+      "title": "Bir Hesap Oluştur",
+      "subtitle": "Muhteşem bir yolculuğa başlamak için şimdi Kaydolun",
+      "extra": {
+        "signInNavigator(rich)": "Zaten bir hesabınız var mı? ${signIn(@:action.signIn)}"
+      }
+    },
+    "welcome": {
+      "title": "Sen kimsin?",
+      "subtitle": "Lütfen aşağıdaki seçeneği belirtin.",
+      "extra": {
+        "landlordTag": "Kendi mülklerinizi yönetin",
+        "tenantTag": "Kiralama hesabınıza giriş yapın"
+      }
+    },
+    "aboutUs": {
+      "appbarTitle": "@:common.aboutUs"
+    },
+    "termsAndConditions": {
+      "appbarTitle": "@:common.termsAndConditions"
+    },
+    "notificationList": {
+      "appbarTitle": "Bildirimler"
+    },
+    "contactUs": {
+      "appbarTitle": "@:common.contactUs",
+      "extra": {
+        "messageHint": "Mesaj..."
+      }
+    },
+    "cancelRenting": {
+      "appbarTitle": "@:common.cancelRenting",
+      "title": "Neden @:common.cancelRenting ediyorsunuz?",
+      "form": {
+        "reason": {
+          "hint": "Nedenini yazın",
+          "errors": {
+            "required": "Lütfen kira iptali nedenini girin"
+          }
+        }
+      }
+    },
+    "invoiceDetails": {
+      "appbarTitle": "@:common.viewDetails"
+    },
+    "offlinePayment": {
+      "appbarTitle": "Çevrimdışı Ödeme",
+      "form": {
+        "paymentNote": {
+          "label": "Ödeme Notu (@:common.optional)",
+          "hint": "Bir şeyler yazın..."
+        }
+      },
+      "extra": {
+        "payAmount(rich)": "Ödenecek Tutar: ${amount}",
+        "accountHolderName": "Hesap Sahibi Adı",
+        "accountNumber": "Hesap Numarası",
+        "swiftCode": "Swift Kodu",
+        "branch": "Şube",
+        "fileTypeHint(rich)": "Yalnızca ${fileType(JPG, PNG,PDF)} Veya ${fileType(DOC)} biçimindeki dosyaları seçin. Dosya boyutu ${fileSize(2000 KB)}"
+      }
+    },
+    "paymentStatus": {
+      "success": {
+        "actionButton": "Faturayı Görüntüle",
+        "title": "@:common.thankYou",
+        "description": "Ödemeyi inceleyeceğiz ve 24 saat içinde onaylayacağız."
+      },
+      "fail": {
+        "actionButton": "Tekrar Dene",
+        "title": "Oops! Ödeme Başarısız",
+        "description": "İşleminiz bazı teknik hatalar nedeniyle başarısız oldu."
+      }
+    },
+    "propertyDetails": {
+      "extra": {
+        "landlord(rich)": "@:common.landlord: ${landlordName}",
+        "ratingReviews(rich)": "${rating} ${reviews(@:common.reviews)}",
+        "features(rich)": "Özellikler ${fa((Tesisler ve Olanaklar))}",
+        "selectRentalPeriod": "Kiralama Süresini Seçin",
+        "writeAReview": "+ Yorum Yaz"
+      }
+    },
+    "search": {
+      "appbarTitle": "Ara",
+      "extra": {
+        "hint": "Arsalar, daireler, odalar arayın...",
+        "noRecentSearch": "Son aramalarınız yok."
+      }
+    },
+    "subscriptionPlan": {
+      "appbarTitle": "Planınızı Seçin",
+      "extra": {
+        "subscriptionPaymentSuccess": "Abonelik ödemesi başarılı.\nArtık abone olunan özelliklere erişebilirsiniz."
+      }
+    },
+    "landlordMaintenanceReport": {
+      "totalMaintenanceCost(rich)": "Toplam Bakım Maliyeti: ${amount: string}",
+      "maintenancePending": "@:common.maintenance @:enums.maintenanceStatus.pending",
+      "maintenanceProcessing": "@:common.maintenance @:enums.maintenanceStatus.processing",
+      "maintenanceCompleted": "@:common.maintenance @:enums.maintenanceStatus.completed",
+      "maintenanceRejected": "@:common.maintenance @:enums.maintenanceStatus.rejected"
+    }
+  },
+  "enums": {
+    "propertyStatus": {
+      "allProperty": "Tüm Emlak",
+      "pending": "Bekleyen",
+      "active": "Aktif",
+      "inactive": "Pasif",
+      "rejected": "Reddedildi"
+    },
+    "propertyType": {
+      "apartmentCondominium": "Daire/Kondominyum",
+      "house": "Ev",
+      "commercialProperty": "Ticari Emlak",
+      "land": "Arazi",
+      "room": "Oda"
+    },
+    "applicationStatus": {
+      "all": "Tümü",
+      "pending": "Bekleyen",
+      "processing": "İşleniyor",
+      "approved": "Onaylandı",
+      "rejected": "Reddedildi"
+    },
+    "myRentStatus": {
+      "pending": "Bekleyen",
+      "processing": "İşleniyor",
+      "active": "Aktif",
+      "expired": "Süresi Doldu",
+      "cancelled": "İptal Edildi"
+    },
+    "maintenanceStatus": {
+      "pending": "Bekleyen",
+      "processing": "İşleniyor",
+      "rejected": "Reddedildi",
+      "completed": "Tamamlandı"
+    },
+    "tenantProfileType": {
+      "privateIndividual": "Özel (Bireysel)",
+      "company": "Şirket"
+    },
+    "tenantType": {
+      "newTenant": "Yeni Kiracı",
+      "activeTenant": "Aktif Kiracı",
+      "expiredTenant": "Süresi Dolmuş Kiracı"
+    },
+    "paymentStatus": {
+      "all": "Tümü",
+      "pending": "Bekleyen",
+      "paid": "Ödendi",
+      "unpaid": "Ödenmedi",
+      "rejected": "Reddedildi",
+      "refund": "Geri Ödeme"
+    },
+    "paymentOptions": {
+      "onlinePayment": "Çevrimiçi Ödeme",
+      "offlinePayment": "Çevrimdışı Ödeme"
+    },
+    "paymentType": {
+      "securityDeposit": "Güvenlik Depozitosu",
+      "rentPayment": "Kira Ödemesi",
+      "subscription": "Abonelik"
+    },
+    "gender": {
+      "male": "Erkek",
+      "female": "Kadın",
+      "other": "Diğer"
+    },
+    "ecRelation": {
+      "wife": "Eş",
+      "parent": "Ebeveyn",
+      "friend": "Arkadaş",
+      "brother": "Erkek Kardeş",
+      "sister": "Kız Kardeş",
+      "child": "Çocuk"
+    },
+    "vehicleType": {
+      "car": "Araba",
+      "motorcycles": "Motosiklet",
+      "lorry": "Kamyon"
+    },
+    "sortBy": {
+      "lowToHigh": "Düşükten Yükseğe",
+      "highToLow": "Yüksekten Düşüğe"
+    },
+    "residentialType": {
+      "flat": "Daire",
+      "apartment": "Apartman",
+      "condominium": "Kondominyum",
+      "serviceResidence": "Hizmet Rezidansı",
+      "studio": "Stüdyo",
+      "duplex": "Dubleks",
+      "townhouseCondo": "Townhouse Condo",
+      "others": "Diğer"
+    },
+    "floorRange": {
+      "high": "Yüksek",
+      "medium": "Orta",
+      "low": "Düşük"
+    },
+    "furnishings": {
+      "fullyFurnished": "Tam Eşyalı",
+      "partiallyFurnished": "Kısmen Eşyalı",
+      "notFurnished": "Eşyasız"
+    },
+    "commercialPropertyType": {
+      "officeSpace": "Ofis alanı",
+      "retailSpace": "Perakende alanı",
+      "shopLot": "Dükkan",
+      "warehouseFactory": "Depo / Fabrika",
+      "hotelResort": "Otel / Tatil Köyü",
+      "sofo": "Sofo",
+      "soho": "Soho",
+      "sovo": "Sovo",
+      "others": "Diğer"
+    },
+    "landPropertyType": {
+      "residential": "Konut",
+      "industrial": "Endüstriyel",
+      "agricultural": "Tarım",
+      "commercial": "Ticari",
+      "mixedDevelopment": "Karma Gelişim",
+      "others": "Diğer"
+    },
+    "residentPropertyType": {
+      "condo": "Kondo / Hizmet rezidansı / Çatı katı",
+      "apartment": "Apartman / Daire",
+      "house": "Evler",
+      "shoplot": "Dükkan",
+      "sharing": "Ev / Daire paylaşımı",
+      "others": "Diğer"
+    },
+    "minimumRentalPeriod": {
+      "sixMonths": "6 Ay",
+      "oneYear": "1 Yıl",
+      "oneAndHalfYears": "1.5 Yıl",
+      "twoYears": "2 Yıl",
+      "twoAndHalfYears": "2.5 Yıl"
+    },
+    "dropdownDateFilter": {
+      "daily": "Günlük",
+      "weekly": "Haftalık",
+      "monthly": "Aylık",
+      "yearly": "Yıllık",
+      "custom": "Özel"
+    }
+  }
+}

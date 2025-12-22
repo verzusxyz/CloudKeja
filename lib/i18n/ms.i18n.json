@@ -1,0 +1,950 @@
+{
+    "@@meta": {
+        "languageCode": "ms_MS",
+        "languageName": "Malay",
+        "version": "1.0.0"
+    },
+    "common": {
+        "profile": "Profil",
+        "language": "Bahasa",
+        "subscriptionPlan": "Pelan Langganan",
+        "contactUs": "Hubungi Kami",
+        "termsAndConditions": "Terma & Syarat",
+        "aboutUs": "Tentang Kami",
+        "logout": "Log Keluar",
+        "editProfile": "Edit Profil",
+        "fullName": "Nama Penuh",
+        "email": "Emel",
+        "mobileNumber": "Nombor Telefon Bimbit",
+        "address": "Alamat",
+        "postalCode": "Kod Pos",
+        "city": "Bandar",
+        "country": "Negara",
+        "state": "Negeri",
+        "password": "Kata Laluan",
+        "forgotPassword": "Lupa Kata Laluan",
+        "tenant": "Penyewa",
+        "landlord": "Pemilik Rumah",
+        "cancelRenting": "Batalkan Sewaan",
+        "startDate": "Tarikh Mula",
+        "endDate": "Tarikh Tamat",
+        "fromDate": "Daripada Tarikh",
+        "toDate": "Hingga Tarikh",
+        "online": "Dalam Talian",
+        "bankList": "Senarai Bank",
+        "withdrawMethod": "Kaedah Pengeluaran",
+        "uploadPaymentReceipt": "Muat Naik Resit Pembayaran",
+        "offlinePaymentNote(rich)": "Nota: ${note(Pembayaran memerlukan kelulusan manual oleh pentadbir dalam masa)} ${duraion(24~48 jam.)}",
+        "reviews": "Ulasan",
+        "description": "Keterangan",
+        "about": "Mengenai",
+        "propertyTypes": "Jenis Hartanah",
+        "features": "Ciri-ciri",
+        "floorPlans": "Pelan Lantai",
+        "buildingDetails": "Maklumat Bangunan",
+        "buildingName": "Nama Bangunan",
+        "propertyAddress": "Alamat Hartanah",
+        "completionYear": "Tahun Siap",
+        "lotNumber": "Nombor Lot",
+        "residentialType": "Jenis Residen",
+        "furnishings": "Perabot",
+        "floorRange": "Julat Tingkat",
+        "bedrooms": "Bilik Tidur",
+        "bathrooms": "Bilik Mandi",
+        "propertySize": "Saiz Hartanah",
+        "rentalPeriod": "Tempoh Sewa",
+        "securityDeposit": "Deposit Keselamatan",
+        "utilityBill": "Bil Utiliti",
+        "facilities": "Kemudahan",
+        "amenities": "Kemudahan",
+        "expiringReason": "Sebab Tamat Tempoh",
+        "tenantDetails": "Maklumat Penyewa",
+        "typeOfTenant": "Jenis Penyewa",
+        "tenantName": "Nama Penyewa",
+        "nidPassport": "NID/Pasport",
+        "nidPassportId": "@:common.nidPassport ID",
+        "tenantId": "ID Penyewa",
+        "dateOfBirth": "Tarikh Lahir",
+        "gender": "Jantina",
+        "nominee": "Penama",
+        "name": "Nama",
+        "optional": "Pilihan",
+        "nomineeName": "@:common.nominee @:common.name",
+        "nomineeEmail": "@:common.nominee @:common.email",
+        "nomineeMobile": {
+            "short": "@:common.nominee No. Tel.",
+            "full": "@:common.nominee @:common.mobileNumber"
+        },
+        "emergencyContact": "Hubungan Kecemasan",
+        "relation": "Hubungan",
+        "relationWith": "@:common.relation Dengan",
+        "relationWithYou": "@:common.relationWith Anda",
+        "company": "Syarikat",
+        "companyName": "@:common.company @:common.name",
+        "companySSMNo": "@:common.company SSM No.",
+        "workplace": "Tempat Kerja",
+        "officePhoneNo": "Nombor Telefon Pejabat",
+        "officeMobileNo": "Nombor Telefon Bimbit Pejabat",
+        "vehicle": "Kenderaan",
+        "vehiclesInfo": {
+            "plain": "Maklumat Kenderaan",
+            "optional": "Maklumat Kenderaan (@:common.optional)"
+        },
+        "vehiclesType": "@:common.vehicle Jenis",
+        "vehicleRegistrationNo": {
+            "normal": "Nombor Pendaftaran Kenderaan",
+            "short": "No. Pendaftaran",
+            "alt": "No. Plat"
+        },
+        "vehicleBrand": "Jenama Kenderaan",
+        "rentProperty": "Sewa Hartanah",
+        "propertyDetails": "Maklumat Hartanah",
+        "propertyId": "ID Hartanah",
+        "propertyType": "Jenis Hartanah",
+        "propertyName": "Nama Hartanah",
+        "paymentDetails": "Maklumat Pembayaran",
+        "monthlyRent": "Sewa Bulanan",
+        "thisMonthPayment": "Pembayaran Bulan Ini",
+        "totalPaidRent": "Jumlah Sewa Dibayar",
+        "dueRent": "Sewa Tertunggak",
+        "rentStartDate": "Tarikh Mula Sewa",
+        "rentEndDate": "Tarikh Tamat Sewa",
+        "status": "Status",
+        "rentAgreementPdf": "Perjanjian Sewa PDF",
+        "noFile": "Tiada Fail",
+        "tenantImageOp": "Gambar Penyewa (@:common.optional)",
+        "addNewVechicle": "Tambah Kenderaan Baru",
+        "uploadNidPassport": "Muat Naik NID/Pasport",
+        "nidPassportUploadNote": "Hanya imej jenis fail akan diterima. Had fail sehingga 2.5 MB.",
+        "search": "Carian",
+        "sortBy": "Isih Mengikut",
+        "subscription": "Langganan",
+        "downloading": "Memuat Turun...",
+        "downloadSuccess": "Fail dimuat turun dengan jayanya!",
+        "addPropertyBannerTitle": "Ingin Menyewakan Hartanah Anda?",
+        "application": "Permohonan",
+        "tenantHasPaidDeposit": "Penyewa telah membayar deposit.",
+        "askProcessingRentApplication": "Adakah anda pasti mahu memproses permohonan sewa hartanah ini?",
+        "dateAndTime": "Tarikh & Masa",
+        "applicationDetails": "Maklumat Permohonan",
+        "depositStatus": "Status Deposit",
+        "uploadRentAgreement": "Muat Naik Perjanjian Sewa",
+        "uploadFilePDF": "Muat Naik Fail (PDF)",
+        "askSelectRentAgreement": "Sila pilih fail dokumen perjanjian.",
+        "landlordRentAgreementPDF": "Perjanjian Sewa Pemilik Rumah PDF",
+        "tenantRentAgreementPDF": "Perjanjian Sewa Penyewa PDF",
+        "landlordApplicationApproveNote(rich)": "Nota: ${note(Hanya meluluskan permohonan selepas penyewa membuat pembayaran deposit.)}",
+        "reasonOfRejection": "Sebab Penolakan",
+        "youveRejectedThisApplication": "Anda telah menolak permohonan ini",
+        "landlordDetails": "Maklumat Pemilik Rumah",
+        "landlordName": "Nama Pemilik Rumah",
+        "downloadRentAgreement": "Muat Turun Perjanjian Sewa",
+        "acceptTermsConditions(rich)": "Terima ${toc(Terma & Syarat)}",
+        "tenantAgreementSignNote1(rich)": "Nota: ${note(Sila muat turun dan baca perjanjian. Sila hantar perjanjian yang ditandatangani kepada pemilik rumah melalui WhatsApp atau e-mel.)}",
+        "tenantAgreementSignNote2(rich)": "Nota: ${note(Pemilik rumah meluluskan permohonan, apabila penyewa membayar deposit keselamatan, utiliti, dan bayaran sewa pendahuluan sebulan.)}",
+        "completeRentAgreementPdf(rich)": "Perjanjian Sewa (PDF) ${complete(Perjanjian Lengkap)}",
+        "tenantApplicationDepositNote(rich)": "Nota : ${note(Pemilik rumah meluluskan permohonan, apabila penyewa membayar deposit keselamatan, utiliti, dan bayaran sewa pendahuluan sebulan.)}",
+        "whatsapp": "WhatsApp",
+        "applicationList": "Senarai Permohonan",
+        "viewDetails": "Lihat Maklumat",
+        "searchHint": "@:common.search...",
+        "home": "Laman Utama",
+        "dashboard": "Papan Pemuka",
+        "tenants": "Penyewa",
+        "maintenance": "Penyelenggaraan",
+        "maintenanceList": "Senarai Penyelenggaraan",
+        "maintenanceReport": "Laporan Penyelenggaraan",
+        "labor": "Buruh",
+        "applications": "Permohonan",
+        "rentInvitation": "Jemputan Sewa",
+        "payment": "Pembayaran",
+        "rentPayment": "Bayaran Sewa",
+        "depositUtilityPayment": "Deposit & Bayaran Utiliti",
+        "refundRequest": "Permohonan Bayaran Balik",
+        "withdrawRequest": "Permohonan Pengeluaran",
+        "myProperty": "Hartanah Saya",
+        "myRent": "Sewa Saya",
+        "wishlist": "Senarai Keinginan",
+        "properties": "Hartanah",
+        "allProperties": "Semua Hartanah",
+        "totalPropery": "Jumlah Hartanah",
+        "occupied": "Dihuni",
+        "vacant": "Kosong",
+        "accounting": "Perakaunan",
+        "totalIncome": "Jumlah Pendapatan",
+        "totalExpense": "Jumlah Perbelanjaan",
+        "currentBalance": "Baki Semasa",
+        "totalWithdrawal": "Jumlah (Pengeluaran)",
+        "totalProperties": "Jumlah Hartanah",
+        "totalTenant": "Jumlah Penyewa",
+        "totalRentPaid": "Jumlah Sewa Dibayar",
+        "totalRentDue": "Jumlah Sewa Tertunggak",
+        "totalApplication": "Jumlah Permohonan",
+        "pendingApplication": "Permohonan Tertunggu",
+        "processingApplication": "Permohonan Dalam Proses",
+        "approveApplication": "Luluskan Permohonan",
+        "rejectApplication": "Tolak Permohonan",
+        "maintenanceCost": "Kos Penyelenggaraan",
+        "transactionSummary": "Ringkasan Transaksi",
+        "maintenanceRequest": "Permintaan Penyelenggaraan",
+        "notifications": "Notifikasi",
+        "myProperties": "Hartanah Saya",
+        "recommendationProperties": "Cadangan Hartanah",
+        "laborList": "Senarai Buruh",
+        "addLabor": "Tambah Buruh",
+        "laborDetails": "Maklumat Buruh",
+        "laborSalary": "Gaji Buruh",
+        "editLabor": "Edit Buruh",
+        "addNewLabor": "Tambah Buruh Baru",
+        "enterAmount": "Masukkan Jumlah",
+        "maintenanceDetails": "Maklumat Penyelenggaraan",
+        "laborName": "Nama Buruh",
+        "comment": "Komen",
+        "image": "Imej",
+        "complete": "Selesai",
+        "details": "Maklumat",
+        "title": "Tajuk",
+        "date": "Tarikh",
+        "reason": "Sebab",
+        "edit": "Edit",
+        "property": "Hartanah",
+        "completeYourProfile": "Lengkapkan Profil Anda",
+        "profileImage": "Imej Profil",
+        "imagePickHint": "Hanya JPEG & PNG Imej dengan saiz maksimum 120x120 piksel.",
+        "invoiceId": "ID Invois",
+        "depositAmount": "Jumlah Deposit",
+        "landlordPhone": "Telefon Pemilik Rumah",
+        "rentalAdvance": "Sewa Pendahuluan",
+        "totalAmount": "Jumlah Keseluruhan",
+        "rentalAmount": "Jumlah Sewa",
+        "adminCharge": "Caj Pentadbiran",
+        "editAccount": "Edit Akaun",
+        "addNewAccount": "Tambah Akaun Baru",
+        "transactionId": "ID Transaksi",
+        "transactionType": "Jenis Transaksi",
+        "requestDate": "Tarikh Permintaan",
+        "amount": "Jumlah",
+        "fee": "Yuran",
+        "paymentStatus": "Status Pembayaran",
+        "generatedTime": "Masa Dihasilkan",
+        "systemGeneratedReportHint(rich)": "Ini adalah laporan yang dihasilkan oleh sistem ${appName}",
+        "withdrawHistory": "Sejarah Pengeluaran",
+        "history": "Sejarah",
+        "withdrawAmount": "Jumlah Pengeluaran",
+        "availableBalance": "Baki Boleh Digunakan",
+        "withdrawCharge": "Caj Pengeluaran",
+        "paymentMethod": "Kaedah Pembayaran",
+        "requestSendSuccess": "Permintaan dihantar dengan jayanya!",
+        "paymentReceiptSubmitSuccess": "Resit pembayaran dimuat naik dengan jayanya.",
+        "refundReason": "Sebab Bayaran Balik",
+        "note": "Nota",
+        "refundReceiveSuccess": "Bayaran balik diterima dengan jayanya.",
+        "downloadPaymentReceipt": "Muat Turun Resit Pembayaran",
+        "invoice": "Invois",
+        "selectPropertyToSeeInvoice": "Pilih hartanah untuk melihat nombor invois...",
+        "bankAccName": "Nama Akaun Bank",
+        "bankName": "Nama Bank",
+        "bankAccNum": "Nombor Akaun Bank",
+        "thankYou": "Terima Kasih!",
+        "basicInfo": "Maklumat Asas",
+        "descriptionPricing": "Keterangan & Harga",
+        "contact": "Hubungi",
+        "photos": "Foto",
+        "successfullySubmitted": "Dihantar dengan jayanya!",
+        "editProperty": "Edit Hartanah",
+        "addNewProperty": "Tambah Hartanah Baru",
+        "propertyManageRequestSuccess": "Iklan anda telah dihantar untuk semakan.",
+        "postAnotherProperty": "Pos Hartanah Lain",
+        "browseYourProperty": "Semak Hartanah Anda",
+        "stepIndicator(rich)": "Langkah ${step} daripada ${totalSteps}",
+        "whatWouldYouLikeToPost": "Apakah yang ingin anda pos?",
+        "category": "Kategori",
+        "invalidCategory": "Kategori tidak sah",
+        "unitNumber": "Nombor Unit",
+        "sqft": "sq.ft.",
+        "propertySizeMustBeGreaterThan0": "Saiz hartanah mesti lebih besar daripada sifar",
+        "whatAreTheFacility": "Apakah kemudahannya?",
+        "whatAreTheAmenity": "Apakah kemudahannya?",
+        "parkingLot": "Tempat Letak Kereta",
+        "houseType": "Jenis Rumah",
+        "value": "Nilai",
+        "unitLotSize": "Saiz Unit / Lot",
+        "landSize": "Saiz Tanah",
+        "acres": "ekar",
+        "roomSize": "Saiz Bilik",
+        "askTenantPreference": "Apakah pilihan penyewa anda",
+        "couple": "Pasangan",
+        "describeTheProperty": "Huraikan ${propertyType: String}",
+        "adTitle": "Tajuk Iklan",
+        "minimumRentalPeriod": "Tempoh Sewa Minimum",
+        "whatsappNumber": "@:common.whatsapp Number",
+        "hideOrDisplayEmail": "Sembunyikan atau paparkan alamat e-mel",
+        "thankYouForPostingProperty": "Terima kasih kerana menyiarkan di ${appName: String}!",
+        "propertyList": "Senarai Hartanah",
+        "newInviteRent": "Jemputan Sewa Baru",
+        "rentAgreement": "Perjanjian Sewa",
+        "rentDetails": "Maklumat Sewa",
+        "landlordRentInvitationPendingNote(rich)": "Nota: ${note(Sila tunggu sehingga penyewa menerima jemputan.)}",
+        "rent": "Sewa",
+        "editTenant": "Edit Penyewa",
+        "addNewTenant": "Tambah Penyewa Baru",
+        "shareInstallLink": "Kongsi Pautan Pemasangan",
+        "tenantList": "Senarai Penyewa",
+        "editMaintenanceRequest": "Edit Permintaan Penyelenggaraan",
+        "addNewMaintenance": "Tambah Penyelenggaraan Baru",
+        "landlordId": "ID Pemilik Rumah",
+        "tenantAgrementUnderReviewNote(rich)": "Nota ${note(Perjanjian anda sedang dikaji semula. Sila tunggu sehingga pemilik rumah meluluskan sewa anda.)}",
+        "editReview": "Edit Ulasan",
+        "writeAReview": "Tulis ulasan",
+        "selectRating": "Pilih Penilaian",
+        "enterYourOpinion": "Masukkan Pendapat Anda",
+        "askToEnterReviewMsg": "Sila masukkan mesej ulasan",
+        "pressBackAgainToExit": "Tekan belakang sekali lagi untuk keluar.",
+        "selectPaymentMethod": "Pilih Kaedah Pembayaran",
+        "filter": "Tapis",
+        "perMonth": "/1 Bulan",
+        "searchHintWithAppName": "Cari apa sahaja dalam ${appName: String}..."
+    },
+    "exceptions": {
+        "somethingWentWrong": "Terdapat ralat, sila cuba lagi",
+        "noNidPassport": "Tiada imej NID/Pasport disediakan.",
+        "noRentPropertyFound": "Tiada hartanah sewa dijumpai untuk penyewa ini.",
+        "noPropertyFoundWithKeyWord": "Tiada hartanah dijumpai!\nSila cuba dengan kata kunci yang berbeza",
+        "noSubscriptionFoundRefreshPage": "Tiada pelan langganan dijumpai!\nSila segar semula halaman dan cuba lagi.",
+        "invalidApiDataRefreshPage": "Maklumat ${dataType: String} tidak sah! Sila segar semula halaman dan cuba lagi.",
+        "invalidDownloadUrl": "URL muat turun tidak sah!",
+        "failedToSaveFile": "Gagal menyimpan fail! ${error: String}",
+        "errorOpeningFile": "Ralat membuka fail! ${error: String}",
+        "noVehicleInfoProvided": "Tiada maklumat kenderaan diberikan.",
+        "yourApplicationRejected": "Permohonan anda telah ditolak",
+        "noApplicationFoundHint": {
+            "template": "Tiada permohonan dijumpai!\n${subject: String} akan dipaparkan di sini apabila tersedia.",
+            "subjects": {
+                "tenant": "Permohonan anda",
+                "landlord": "Permohonan penyewa"
+            }
+        },
+        "noPropertyFoundHint": {
+            "landlordHome": "Tiada hartanah dijumpai!\nSila cuba tambah hartanah untuk melihat di sini.",
+            "tenantRecommended": "Tiada Hartanah yang Disyorkan dijumpai\nSila cuba lagi nanti.",
+            "tenantAllProperty": "Hartanah tidak tersedia\nSila cuba lagi nanti."
+        },
+        "noImageProvided": "Tiada Imej Disediakan",
+        "noStatusMaintenantFound": {
+            "landlord": "Tiada penyelenggaraan ${status} dijumpai.",
+            "tenant": "Tiada penyelenggaraan dijumpai! Anda boleh membuat permintaan penyelenggaraan untuk melihatnya di sini."
+        },
+        "noDepositFound": "Tiada deposit keselamatan dijumpai!\nSila lihat deposit keselamatan apabila tersedia",
+        "noRentPaymentFound": "Tiada bayaran sewa dijumpai!\nSila lihat bayaran sewa apabila tersedia",
+        "transactionSummaryApiException": "Gagal mendapatkan ringkasan transaksi.",
+        "noWithdrawRequestFound": "Tiada permintaan dijumpai!\nSila cuba buat permintaan pengeluaran untuk melihat di sini.",
+        "withdrawRequestNotApproved": "Permintaan pengeluaran ini belum diluluskan!.",
+        "nonZeroError": "Sila masukkan jumlah yang sah lebih besar daripada sifar.",
+        "minAmountError": "Jumlah mestilah sekurang-kurangnya ${minValue: String}.",
+        "maxAmountError": "Jumlah tidak boleh melebihi ${maxValue: String}.",
+        "selectPaymentMethodHint": "Sila pilih kaedah pembayaran terlebih dahulu.",
+        "noStatusRefundReqFound": {
+            "landlord": "Tiada permintaan bayaran balik ${status} dijumpai!\nAnda boleh melihat permintaan bayaran balik di sini apabila tersedia.",
+            "tenant": "Tiada permintaan bayaran balik dijumpai!\nAnda boleh membuat permintaan bayaran balik untuk melihatnya di sini."
+        },
+        "refundRequestHint": {
+            "inTenantList": "Penyewa akan meluluskan bayaran balik apabila dia mendapat semula wang tersebut",
+            "tenantReqSuccess": "Kami akan menyemak permintaan Bayaran Balik & meluluskannya dalam masa 24 jam."
+        },
+        "oneToTenRequiredField": "Sila pilih bilangan ${value: String}",
+        "invalidDateRange": "Julat tarikh tidak sah.",
+        "valueMustBeGreaterThanZero": "${value: String} mestilah lebih besar daripada sifar.",
+        "editProperty": {
+            "rentalChange": "Sewa hartanah sedang berubah. Ia hanya sah (berkuat kuasa) untuk pembayaran sewa bulan depan.",
+            "deleteOnRent": "Hartanah anda telah disewa oleh penyewa. Tidak boleh dipadamkan sehingga anda mengeluarkan penyewa terlebih dahulu",
+            "alreayRented": "Hartanah ini telah disewa. Sila cuba lagi nanti.\n Atau anda boleh menghubungi pemilik rumah untuk maklumat lanjut."
+        },
+        "rentInvitation": {
+            "landlordNoRentInvitation": "Tiada jemputan sewa dijumpai!\nSila cuba membuat jemputan sewa untuk melihat di sini.",
+            "tenantNoRentInvitation": "Tiada jemputan sewa dijumpai!\nAnda boleh melihat jemputan sewa di sini apabila tersedia."
+        },
+        "notenantFoundList": "Tiada penyewa!\nSila cuba tambah penyewa untuk melihat di sini.",
+        "noFeaturesProvided": "Tiada ciri-ciri disediakan.",
+        "noNotificationFound": "Tiada pemberitahuan tersedia.\nAnda boleh melihat pemberitahuan anda di sini apabila tersedia."
+    },
+    "prompt": {
+        "logout": {
+            "title": "@:common.logout",
+            "message": "Adakah anda pasti untuk log keluar?"
+        },
+        "application": {
+            "rejectTitle": "Mengapa anda menolak permohonan ini?",
+            "applicationSent": {
+                "successfully": "Permohonan dihantar dengan jayanya!",
+                "sucessDescription": "Anda boleh melihat permohonan ini dalam senarai permohonan anda"
+            }
+        },
+        "labor": {
+            "delete": {
+                "title": "Padam Buruh?",
+                "description": "Adakah anda pasti untuk memadam buruh ini?"
+            }
+        },
+        "maintenanceRequest": {
+            "rejectTitle": "Mengapa permintaan ini ditolak?",
+            "processTitle": "Adakah anda pasti memproses permintaan Penyelenggaraan ini?",
+            "completeTitle": "Adakah kerja selesai?"
+        },
+        "withdrawMethod": {
+            "deleteTitle": "Padam Kaedah Pengeluaran?",
+            "deleteDescription": "Adakah anda pasti untuk memadam kaedah pengeluaran ini?"
+        },
+        "unsavedChanges": {
+            "title": "Adakah anda pasti untuk kembali?",
+            "message": "Medan yang telah diubah tidak akan disimpan!"
+        },
+        "property": {
+            "delete": {
+                "title": "Padam Hartanah?",
+                "message": "Adakah anda pasti untuk memadam hartanah ini?"
+            }
+        },
+        "rentInvitation": {
+            "landlordApprove": {
+                "title": "Adakah anda pasti untuk meluluskan sewa ini?",
+                "description": "Pastikan anda telah menyemak perjanjian yang ditandatangani oleh penyewa."
+            },
+            "tenantAccept": {
+                "title": "Adakah anda pasti untuk menerima jemputan ini?",
+                "description": "Pastikan anda telah memuat turun fail pdf perjanjian!"
+            }
+        },
+        "sessionExpired": {
+            "title": "Sesi Tamat",
+            "message": "Sesi anda telah tamat. Sila log masuk semula",
+            "action": "Log Masuk"
+        },
+        "noInternet": {
+            "title": "Tiada Sambungan Internet",
+            "message": "Sila semak sambungan Wi-Fi atau rangkaian mudah alih anda dan cuba lagi",
+            "action": "Cuba Lagi"
+        },
+        "permissionHandler": {
+            "title": "Kebenaran diperlukan!",
+            "message": "Anda perlu memberikan kebenaran dalam tetapan aplikasi. Adakah anda mahu membuka tetapan sekarang?"
+        },
+        "imagePicker": {
+            "title": "Pilih Pilihan",
+            "gallery": "Galeri",
+            "camera": "Kamera"
+        },
+        "verificationDialog": {
+            "title": "Pengesahan",
+            "message": "Kami telah menghantar e-mel kod pengesahan",
+            "messageWithEmail": "@:prompt.verificationDialog.message ke ${email: String?}"
+        },
+        "notification": {
+            "clearTitle": "Clear notificaions?",
+            "clearMessage": "Are you sure to clear all notifications?"
+        }
+    },
+    "form": {
+        "fullName": {
+            "label": "@:common.fullName",
+            "hint": "Masukkan @:common.fullName",
+            "errors": {
+                "required": "Sila masukkan @:common.fullName anda"
+            }
+        },
+        "email": {
+            "label": "@:common.email",
+            "hint": "Masukkan @:common.email anda",
+            "errors": {
+                "required": "Sila masukkan alamat @:common.email anda",
+                "invalid": "⦸ Emel Tidak Sah, Sila Cuba Lagi"
+            }
+        },
+        "password": {
+            "label": "@:common.password",
+            "hint": "* * * * * * * *",
+            "errors": {
+                "required": "Sila masukkan @:common.password anda",
+                "minLength": "Kata laluan mestilah sekurang-kurangnya ${count} aksara!"
+            }
+        },
+        "confirmPassword": {
+            "label": "Sahkan @:common.password",
+            "hint": "* * * * * * * *",
+            "errors": {
+                "required": "Sila masukkan @:common.password anda",
+                "notMatched": "Sahkan kata laluan tidak sepadan!"
+            }
+        },
+        "mobileNumber": {
+            "label": "@:common.mobileNumber",
+            "hint": "(+60) 555-0123",
+            "errors": {
+                "required": "Sila masukkan @:common.mobileNumber anda"
+            }
+        },
+        "address1": {
+            "label": "@:common.address 1",
+            "hint": "Nombor rumah dan nama jalan",
+            "errors": {
+                "required": "Sila masukkan @:form.address1.label anda"
+            }
+        },
+        "address2": {
+            "label": "@:common.address 2",
+            "hint": "Apartmen, suite, unit, dll",
+            "errors": {
+                "required": "Sila masukkan @:form.address2.label anda"
+            }
+        },
+        "postalCode": {
+            "label": "@:common.postalCode",
+            "hint": "Masukkan @:common.postalCode",
+            "errors": {
+                "required": "Sila masukkan @:common.postalCode anda"
+            }
+        },
+        "city": {
+            "label": "@:common.city",
+            "hint": "Masukkan nama @:common.city.",
+            "errors": {
+                "required": "Sila masukkan nama @:common.city anda."
+            }
+        },
+        "state": {
+            "label": "@:common.state",
+            "hint": "Masukkan nama @:common.state.",
+            "errors": {
+                "required": "Sila masukkan nama @:common.state anda."
+            }
+        },
+        "country": {
+            "label": "@:common.country",
+            "hint": "Pilih @:common.country.",
+            "errors": {
+                "required": "Sila pilih @:common.country anda"
+            }
+        },
+        "otp": {
+            "errors": {
+                "required": "Sila masukkan otp.",
+                "invalid": "Sila masukkan otp yang betul."
+            }
+        },
+        "title": {
+            "label": "Tajuk",
+            "hint": "Masukkan tajuk",
+            "errors": {
+                "required": "Sila masukkan tajuk"
+            }
+        },
+        "date": {
+            "label": "${label: String}",
+            "hint": "Pilih @:form.date.label",
+            "errors": {
+                "required": "Sila pilih @:form.date.label"
+            }
+        },
+        "reason": {
+            "label": "Sebab",
+            "hint": "Masukkan sebab",
+            "errors": {
+                "required": "Sila masukkan sebab"
+            }
+        },
+        "withdrawMethod": {
+            "label": "@:common.withdrawMethod",
+            "hint": "Pilih @:common.withdrawMethod",
+            "errors": {
+                "required": "Sila pilih @:common.withdrawMethod"
+            }
+        },
+        "fileField": {
+            "label": "${label: String}",
+            "hint": "Muat Naik ${label: String}",
+            "errors": {
+                "required": "Sila pilih ${label: String}"
+            }
+        },
+        "note": {
+            "label": "${note: String}",
+            "hint": "Masukkan @:form.note.label",
+            "errors": {
+                "required": "Sila masukkan @:form.note.label"
+            }
+        },
+        "gender": {
+            "label": "@:common.gender",
+            "hint": "Pilih @:common.gender",
+            "errors": {
+                "required": "Sila pilih @:common.gender"
+            }
+        },
+        "anyField": {
+            "label": "${label: String}",
+            "hint": "Masukkan @:form.anyField.label",
+            "errors": {
+                "required": "Sila masukkan @:form.anyField.label",
+                "invalid": "Sila masukkan @form.anyField.label yang sah"
+            }
+        },
+        "anyDropdown": {
+            "label": "${label: String}",
+            "hint": "Pilih @:form.anyDropdown.label",
+            "errors": {
+                "required": "Sila pilih @:form.anyDropdown.label",
+                "invalid": "Sila pilih @form.anyDropdown.label yang sah"
+            }
+        }
+    },
+    "action": {
+        "next": "Seterusnya",
+        "getStarted": "Mulakan",
+        "skip": "Langkau",
+        "select": "Pilih",
+        "save": "Simpan",
+        "signIn": "Log Masuk",
+        "signUp": "Daftar",
+        "continue": "Teruskan",
+        "clearAll": "Kosongkan Semua",
+        "cancelRenting": "@:common.cancelRenting",
+        "send": "Hantar",
+        "pay": "Bayar",
+        "remove": "Buang",
+        "goBack": "Kembali",
+        "buyNow": "Beli Sekarang",
+        "no": "Tidak",
+        "open": "Buka",
+        "addProperty": "Tambah Hartanah",
+        "process": "Proses",
+        "approve": "Luluskan",
+        "reject": "Tolak",
+        "viewRent": "Lihat Sewa",
+        "openNavigationMenu": "Buka menu navigasi",
+        "seeAll": "Lihat Semua",
+        "update": "Kemas kini",
+        "printTransaction": "Cetak Transaksi",
+        "payoutRequest": "Permintaan Pembayaran",
+        "addNew": "+ Tambah Baru",
+        "sendRequest": "Hantar Permintaan",
+        "print": "Cetak",
+        "requestForRefund": "Permintaan Bayaran Balik",
+        "previous": "Sebelum",
+        "delete": "Padam",
+        "applyProperty": "Mohon Hartanah",
+        "viewApplication": "Lihat Permohonan",
+        "inviteTenant": "Jemput Penyewa",
+        "inviteRent": "Jemput Sewa",
+        "cancel": "Batal",
+        "accept": "Terima",
+        "submit": "Hantar",
+        "yes": "Ya",
+        "okay": "Okey",
+        "confirm": "Sahkan",
+        "apply": "Mohon",
+        "reset": "Tetapkan Semula",
+        "retry": "Cuba Lagi",
+        "viewAll": "Lihat Semua"
+    },
+    "pages": {
+        "language": {
+            "appbarTitle": "@:action.select @:common.language"
+        },
+        "onboard": {
+            "onboardData": {
+                "data1": {
+                    "title": "Cari Hartanah Anda",
+                    "description": "Kami memudahkan untuk mencari tempat yang sesuai dengan kehidupan anda - sama ada bilik, pangsapuri, atau rumah."
+                },
+                "data2": {
+                    "title": "Apartmen Di Bandar",
+                    "description": "Kami menjimatkan masa anda dengan cepat mencocokkan anda dengan hartanah yang sempurna sebelum ia hilang supaya anda dapat menikmati rumah baru anda, atau menyenaraikan rumah anda sendiri secara percuma."
+                },
+                "data3": {
+                    "title": "Rumah Keselesaan Anda",
+                    "description": "Jika anda mencari tempat tinggal, maka lihatlah rumah sewa kami. Kami mempunyai pelbagai jenis rumah untuk anda pilih dari seluruh negara."
+                }
+            }
+        },
+        "signIn": {
+            "title": "Selamat Datang Kembali",
+            "subtitle": "Log Masuk sekarang untuk memulakan perjalanan yang menakjubkan.",
+            "extra": {
+                "rememberMe": "Ingat Saya",
+                "signUpNavigator(rich)": "Tidak mempunyai akaun? ${getStarted(@:action.getStarted)}",
+                "forgotPassword": "@:common.forgotPassword?"
+            }
+        },
+        "forgotPassword": {
+            "title": "Lupa Kata Laluan",
+            "subtitle": "Masukkan alamat Emel anda untuk mendapatkan semula kata laluan anda."
+        },
+        "otpVerification": {
+            "title": "Pengesahan",
+            "subtitle": "Pin 4 digit telah dihantar ke alamat emel anda. ${email: String}",
+            "extra": {
+                "codeResend": {
+                    "codeSendIn": "Kod dihantar dalam ${minutes}:${seconds}",
+                    "resendCode(rich)": " ${resendCode(Hantar Semula Kod)} "
+                }
+            }
+        },
+        "resetPassword": {
+            "title": "Tetapkan Semula Kata Laluan",
+            "subtitle": "Tetapkan semula kata laluan anda untuk pulih dan log masuk ke akaun anda",
+            "extra": {
+                "dialog": {
+                    "title": "Bertukar dengan jayanya!",
+                    "subtitle": "Log masuk dengan kata laluan baru anda.\n Mengalihkan anda ke Log Masuk..."
+                }
+            }
+        },
+        "signUp": {
+            "title": "Cipta Akaun",
+            "subtitle": "Daftar sekarang untuk memulakan perjalanan yang menakjubkan",
+            "extra": {
+                "signInNavigator(rich)": "Sudah mempunyai akaun? ${signIn(@:action.signIn)}"
+            }
+        },
+        "welcome": {
+            "title": "Siapa anda?",
+            "subtitle": "Sila pilih pilihan di bawah.",
+            "extra": {
+                "landlordTag": "Uruskan hartanah anda sendiri",
+                "tenantTag": "Log masuk ke akaun sewa anda"
+            }
+        },
+        "aboutUs": {
+            "appbarTitle": "@:common.aboutUs"
+        },
+        "termsAndConditions": {
+            "appbarTitle": "@:common.termsAndConditions"
+        },
+        "notificationList": {
+            "appbarTitle": "Notifikasi"
+        },
+        "contactUs": {
+            "appbarTitle": "@:common.contactUs",
+            "extra": {
+                "messageHint": "Mesej..."
+            }
+        },
+        "cancelRenting": {
+            "appbarTitle": "@:common.cancelRenting",
+            "title": "Mengapa anda mahu @:common.cancelRenting?",
+            "form": {
+                "reason": {
+                    "hint": "Tulis sebab",
+                    "errors": {
+                        "required": "Sila masukkan sebab pembatalan sewa"
+                    }
+                }
+            }
+        },
+        "invoiceDetails": {
+            "appbarTitle": "Lihat Maklumat"
+        },
+        "offlinePayment": {
+            "appbarTitle": "Pembayaran Luar Talian",
+            "form": {
+                "paymentNote": {
+                    "label": "Nota Pembayaran (@:common.optional)",
+                    "hint": "Masukkan beberapa teks..."
+                }
+            },
+            "extra": {
+                "payAmount(rich)": "Jumlah Bayaran: ${amount}",
+                "accountHolderName": "Nama Pemilik Akaun",
+                "accountNumber": "Nombor Akaun",
+                "swiftCode": "Kod Swift",
+                "branch": "Cawangan",
+                "fileTypeHint(rich)": "Pilih ${fileType(JPG, PNG,PDF)} Atau ${fileType(DOC)} format fail sahaja. Saiz fail ${fileSize(2000 KB)}"
+            }
+        },
+        "paymentStatus": {
+            "success": {
+                "actionButton": "Lihat Invois",
+                "title": "@:common.thankYou",
+                "description": "Kami akan menyemak pembayaran & meluluskannya dalam masa 24 jam."
+            },
+            "fail": {
+                "actionButton": "Cuba Lagi",
+                "title": "Oops! Pembayaran Gagal",
+                "description": "Transaksi anda telah gagal disebabkan oleh beberapa ralat teknikal."
+            }
+        },
+        "propertyDetails": {
+            "extra": {
+                "landlord(rich)": "@:common.landlord: ${landlordName}",
+                "ratingReviews(rich)": "${rating} ${reviews(@:common.reviews)}",
+                "features(rich)": "Ciri-ciri ${fa((Kemudahan & Ameniti))}",
+                "selectRentalPeriod": "Pilih Tempoh Sewa",
+                "writeAReview": "+ Tulis ulasan"
+            }
+        },
+        "search": {
+            "appbarTitle": "Carian",
+            "extra": {
+                "hint": "Cari plot, flat, bilik...",
+                "noRecentSearch": "Anda tidak mempunyai carian terkini."
+            }
+        },
+        "subscriptionPlan": {
+            "appbarTitle": "Pilih Pelan Anda",
+            "extra": {
+                "subscriptionPaymentSuccess": "Pembayaran langganan berjaya.\nAnda boleh mengakses ciri-ciri langganan sekarang."
+            }
+        },
+        "landlordMaintenanceReport": {
+            "totalMaintenanceCost(rich)": "Jumlah Kos Penyelenggaraan: ${amount: string}",
+            "maintenancePending": "@:common.maintenance @:enums.maintenanceStatus.pending",
+            "maintenanceProcessing": "@:common.maintenance @:enums.maintenanceStatus.processing",
+            "maintenanceCompleted": "@:common.maintenance @:enums.maintenanceStatus.completed",
+            "maintenanceRejected": "@:common.maintenance @:enums.maintenanceStatus.rejected"
+        }
+    },
+    "enums": {
+        "propertyStatus": {
+            "allProperty": "Semua Hartanah",
+            "pending": "Menunggu",
+            "active": "Aktif",
+            "inactive": "Tidak Aktif",
+            "rejected": "Ditolak"
+        },
+        "propertyType": {
+            "apartmentCondominium": "Apartmen/Kondominium",
+            "house": "Rumah",
+            "commercialProperty": "Hartanah Komersial",
+            "land": "Tanah",
+            "room": "Bilik"
+        },
+        "applicationStatus": {
+            "all": "Semua",
+            "pending": "Menunggu",
+            "processing": "Dalam Proses",
+            "approved": "Diluluskan",
+            "rejected": "Ditolak"
+        },
+        "myRentStatus": {
+            "pending": "Menunggu",
+            "processing": "Dalam Proses",
+            "active": "Aktif",
+            "expired": "Tamat Tempoh",
+            "cancelled": "Dibatalkan"
+        },
+        "maintenanceStatus": {
+            "pending": "Menunggu",
+            "processing": "Dalam Proses",
+            "rejected": "Ditolak",
+            "completed": "Selesai"
+        },
+        "tenantProfileType": {
+            "privateIndividual": "Persendirian (Individu)",
+            "company": "Syarikat"
+        },
+        "tenantType": {
+            "newTenant": "Penyewa Baru",
+            "activeTenant": "Penyewa Aktif",
+            "expiredTenant": "Penyewa Tamat Tempoh"
+        },
+        "paymentStatus": {
+            "all": "Semua",
+            "pending": "Menunggu",
+            "paid": "Diterima",
+            "unpaid": "Belum Dibayar",
+            "rejected": "Ditolak",
+            "refund": "Bayaran Balik"
+        },
+        "paymentOptions": {
+            "onlinePayment": "Pembayaran Dalam Talian",
+            "offlinePayment": "Pembayaran Luar Talian"
+        },
+        "paymentType": {
+            "securityDeposit": "Deposit Keselamatan",
+            "rentPayment": "Bayaran Sewa",
+            "subscription": "Langganan"
+        },
+        "gender": {
+            "male": "Lelaki",
+            "female": "Perempuan",
+            "other": "Lain-lain"
+        },
+        "ecRelation": {
+            "wife": "Isteri",
+            "parent": "Ibu bapa",
+            "friend": "Kawan",
+            "brother": "Abang",
+            "sister": "Kakak",
+            "child": "Anak"
+        },
+        "vehicleType": {
+            "car": "Kereta",
+            "motorcycles": "Motosikal",
+            "lorry": "Lori"
+        },
+        "sortBy": {
+            "lowToHigh": "Rendah ke Tinggi",
+            "highToLow": "Tinggi ke Rendah"
+        },
+        "residentialType": {
+            "flat": "Flat",
+            "apartment": "Apartmen",
+            "condominium": "Kondominium",
+            "serviceResidence": "Perumahan Perkhidmatan",
+            "studio": "Studio",
+            "duplex": "Dupleks",
+            "townhouseCondo": "Kondominium Rumah Teres",
+            "others": "Lain-lain"
+        },
+        "floorRange": {
+            "high": "Tinggi",
+            "medium": "Sederhana",
+            "low": "Rendah"
+        },
+        "furnishings": {
+            "fullyFurnished": "Perabot Lengkap",
+            "partiallyFurnished": "Perabot Separa",
+            "notFurnished": "Tidak Berperabot"
+        },
+        "commercialPropertyType": {
+            "officeSpace": "Ruang pejabat",
+            "retailSpace": "Ruang niaga",
+            "shopLot": "Lot kedai",
+            "warehouseFactory": "Gudang / Kilang",
+            "hotelResort": "Hotel / Resort",
+            "sofo": "Sofo",
+            "soho": "Soho",
+            "sovo": "Sovo",
+            "others": "Lain-lain"
+        },
+        "landPropertyType": {
+            "residential": "Kediaman",
+            "industrial": "Perindustrian",
+            "agricultural": "Pertanian",
+            "commercial": "Komersial",
+            "mixedDevelopment": "Pembangunan Bercampur",
+            "others": "Lain-lain"
+        },
+        "residentPropertyType": {
+            "condo": "Kondominium / Rumah teres / Penthouse",
+            "apartment": "Apartmen / Flat",
+            "house": "Rumah",
+            "shoplot": "Lot kedai",
+            "sharing": "Berkongsi rumah / Flat",
+            "others": "Lain-lain"
+        },
+        "minimumRentalPeriod": {
+            "sixMonths": "6 Bulan",
+            "oneYear": "1 Tahun",
+            "oneAndHalfYears": "1.5 Tahun",
+            "twoYears": "2 Tahun",
+            "twoAndHalfYears": "2.5 Tahun"
+        },
+        "dropdownDateFilter": {
+            "daily": "Harian",
+            "weekly": "Mingguan",
+            "monthly": "Bulanan",
+            "yearly": "Tahunan",
+            "custom": "Kustom"
+        }
+    }
+}
