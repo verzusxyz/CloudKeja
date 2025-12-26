@@ -1,4 +1,4 @@
-<!-- <?php
+<?php
 
 namespace Database\Seeders;
 
@@ -38,4 +38,4 @@ class GatewaySeeder extends Seeder
 
         Gateway::insert($gateways);
     }
-} -->
+}
