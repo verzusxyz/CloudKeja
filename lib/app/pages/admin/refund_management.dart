@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/Get.dart';
-import 'package:cloudkeja/app/data/models/refund_request.dart';
-import 'package:cloudkeja/app/data/models/refund_reason.dart';
-import 'package:cloudkeja/app/data/repositories/admin_repository.dart';
+import 'package:cloudkeja/app/data/models/admin/refund_request.dart';
+import 'package:cloudkeja/app/data/models/admin/refund_reason.dart';
+import 'package:cloudkeja/app/data/repositories/admin_repository/admin_repository.dart';
 
 class RefundManagementPage extends StatefulWidget {
   const RefundManagementPage({super.key});

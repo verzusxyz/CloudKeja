@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:searchfield/searchfield.dart';
 
-import '../../data/models/models.dart' show PaginatedListModel;
+import '../../data/models/admin/models.dart' show PaginatedListModel;
 
 class PaginatedDropdownSearchField<K, V> extends ConsumerStatefulWidget {
   const PaginatedDropdownSearchField({

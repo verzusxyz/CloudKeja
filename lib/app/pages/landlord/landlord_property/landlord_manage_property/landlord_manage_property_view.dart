@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../../../i18n/strings.g.dart';
-import '../../../../data/models/models.dart' as model;
+import '../../../../data/models/admin/models.dart' as model;
 import '../../../../data/repositories/repositories.dart';
 import '../../../../routes/app_routes.gr.dart';
 import '../../../../widgets/widgets.dart';

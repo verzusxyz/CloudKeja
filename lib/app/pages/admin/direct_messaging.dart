@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/Get.dart';
-import 'package:cloudkeja/app/data/models/message.dart';
-import 'package:cloudkeja/app/data/repositories/admin_repository.dart';
+import 'package:cloudkeja/app/data/models/admin/message.dart';
+import 'package:cloudkeja/app/data/repositories/admin_repository/admin_repository.dart';
 
 class DirectMessagingPage extends StatefulWidget {
   const DirectMessagingPage({super.key});

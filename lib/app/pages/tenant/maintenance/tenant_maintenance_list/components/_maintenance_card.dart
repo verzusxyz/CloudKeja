@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../../../../../i18n/strings.g.dart';
 import '../../../../../core/core.dart';
-import '../../../../../data/models/models.dart' show Maintenance;
+import '../../../../../data/models/admin/models.dart' show Maintenance;
 
 class MaintenanceCard extends StatelessWidget {
   const MaintenanceCard({

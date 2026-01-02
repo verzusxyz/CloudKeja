@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/Get.dart';
-import 'package:cloudkeja/app/data/models/withdraw.dart';
-import 'package:cloudkeja/app/data/models/withdraw_method.dart';
-import 'package:cloudkeja/app/data/repositories/admin_repository.dart';
+import 'package:cloudkeja/app/data/models/admin/withdraw.dart';
+import 'package:cloudkeja/app/data/models/admin/withdraw_method.dart';
+import 'package:cloudkeja/app/data/repositories/admin_repository/admin_repository.dart';
 
 class WithdrawalManagementPage extends StatefulWidget {
   const WithdrawalManagementPage({super.key});

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/Get.dart';
-import 'package:cloudkeja/app/data/models/gateway.dart';
-import 'package:cloudkeja/app/data/repositories/admin_repository.dart';
+import 'package:cloudkeja/app/data/models/admin/gateway.dart';
+import 'package:cloudkeja/app/data/repositories/admin_repository/admin_repository.dart';
 
 class PaymentGatewayConfigPage extends StatefulWidget {
   const PaymentGatewayConfigPage({super.key});

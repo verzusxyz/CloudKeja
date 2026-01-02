@@ -2,7 +2,7 @@ import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_feather_icons/flutter_feather_icons.dart';
 
-import '../../../../data/models/models.dart';
+import '../../../../data/models/admin/models.dart';
 import '../../../../routes/app_routes.gr.dart';
 import '../../../../widgets/widgets.dart';
 

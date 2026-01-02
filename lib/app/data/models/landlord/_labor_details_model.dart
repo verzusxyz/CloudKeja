@@ -1,4 +1,4 @@
-import '../models.dart' show Phone;
+import '../admin/models.dart' show Phone;
 
 class LaborDetails {
   String? message;

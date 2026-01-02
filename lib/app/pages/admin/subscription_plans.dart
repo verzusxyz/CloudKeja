@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/Get.dart';
-import 'package:cloudkeja/app/data/models/plan.dart';
-import 'package:cloudkeja/app/data/models/plan_subscribe.dart';
-import 'package:cloudkeja/app/data/repositories/admin_repository.dart';
+import 'package:cloudkeja/app/data/models/admin/plan.dart';
+import 'package:cloudkeja/app/data/models/admin/plan_subscribe.dart';
+import 'package:cloudkeja/app/data/repositories/admin_repository/admin_repository.dart';
 
 class SubscriptionPlansPage extends StatefulWidget {
   const SubscriptionPlansPage({super.key});

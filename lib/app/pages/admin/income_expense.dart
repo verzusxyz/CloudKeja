@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/Get.dart';
-import 'package:cloudkeja/app/data/models/income.dart';
-import 'package:cloudkeja/app/data/models/expense.dart';
-import 'package:cloudkeja/app/data/models/income_category.dart';
-import 'package:cloudkeja/app/data/models/expense_category.dart';
-import 'package:cloudkeja/app/data/repositories/admin_repository.dart';
+import 'package:cloudkeja/app/data/models/admin/income.dart';
+import 'package:cloudkeja/app/data/models/admin/expense.dart';
+import 'package:cloudkeja/app/data/models/admin/income_category.dart';
+import 'package:cloudkeja/app/data/models/admin/expense_category.dart';
+import 'package:cloudkeja/app/data/repositories/admin_repository/admin_repository.dart';
 
 class IncomeExpensePage extends StatefulWidget {
   const IncomeExpensePage({super.key});

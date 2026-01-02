@@ -2,7 +2,7 @@ import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../core/core.dart';
-import '../../../../data/models/models.dart' show DashboardAccountingChartModel;
+import '../../../../data/models/admin/models.dart' show DashboardAccountingChartModel;
 
 class AccountingBarChart extends StatelessWidget {
   const AccountingBarChart({super.key, required this.data});

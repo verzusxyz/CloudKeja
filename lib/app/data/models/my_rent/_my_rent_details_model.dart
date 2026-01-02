@@ -1,7 +1,7 @@
 import 'package:equatable/equatable.dart';
 
 import '../../../core/core.dart';
-import '../models.dart';
+import '../admin/models.dart';
 
 class RentDetailsModel {
   String? message;

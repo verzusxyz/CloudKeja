@@ -1,5 +1,5 @@
 import '../../../core/core.dart' show DynamicFileType;
-import '../models.dart';
+import '../admin/models.dart';
 
 part '_maintenance_report_model.dart';
 

@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:recase/recase.dart';
 
 import '../../../../../../../i18n/strings.g.dart';
-import '../../../../../../data/models/models.dart' as model;
+import '../../../../../../data/models/admin/models.dart' as model;
 import '../../components/components.dart';
 
 class AddPropertyStepFourFields extends StatefulWidget {

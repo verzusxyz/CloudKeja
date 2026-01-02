@@ -1,4 +1,4 @@
-import '../models.dart';
+import '../admin/models.dart';
 
 class Tenant extends User {
   const Tenant({

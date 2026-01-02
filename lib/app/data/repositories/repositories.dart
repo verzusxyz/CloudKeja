@@ -12,3 +12,4 @@ export 'my_rent/_my_rent_repository.dart';
 export 'payments/_payments_repository.dart';
 export 'property/property_repository.dart';
 export 'user_repository/user_repository.dart';
+export 'admin_repository/admin_repository.dart';

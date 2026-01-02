@@ -1,7 +1,7 @@
 import 'package:equatable/equatable.dart';
 
 import '../../../core/core.dart' show DynamicFileType, TenantProfileType;
-import '../models.dart' show SubscriptionPlan;
+import '../admin/models.dart' show SubscriptionPlan;
 
 export '_signin_model.dart';
 export '_submit_otp_model.dart';

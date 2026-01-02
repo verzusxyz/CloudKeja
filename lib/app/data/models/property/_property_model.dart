@@ -1,5 +1,5 @@
 import '../../../core/core.dart';
-import '../models.dart';
+import '../admin/models.dart';
 
 export '_facility_amenity_model.dart';
 

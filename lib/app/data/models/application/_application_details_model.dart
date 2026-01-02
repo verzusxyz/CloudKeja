@@ -1,5 +1,5 @@
 import '../../../core/core.dart';
-import '../models.dart';
+import '../admin/models.dart';
 
 class ApplicationDetailsModel {
   String? message;

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../../../../i18n/strings.g.dart';
 import '../../../../core/core.dart';
-import '../../../../data/models/models.dart';
+import '../../../../data/models/admin/models.dart';
 import '../../../../widgets/widgets.dart';
 
 class TenantProfileDetails extends StatelessWidget {

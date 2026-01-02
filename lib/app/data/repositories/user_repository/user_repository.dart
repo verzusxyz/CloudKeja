@@ -6,7 +6,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../repositories.dart';
 
-export '../../models/models.dart' hide Link;
+export '../../models/admin/models.dart' hide Link;
 
 class UserRepository extends AsyncNotifier<User?> {
   late final HTTPDioClient httpClient;

@@ -11,7 +11,7 @@
 // ignore_for_file: no_leading_underscores_for_library_prefixes
 import 'package:auto_route/auto_route.dart' as _i73;
 import 'package:flutter/material.dart' as _i74;
-import 'package:cloudkeja/app/data/models/models.dart' as _i76;
+import 'package:cloudkeja/app/data/models/admin/models.dart' as _i76;
 import 'package:cloudkeja/app/data/repositories/repositories.dart' as _i75;
 import 'package:cloudkeja/app/pages/_mute_home.dart' as _i35;
 import 'package:cloudkeja/app/pages/auth/forgot_password/forgot_password_view.dart'

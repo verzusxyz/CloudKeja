@@ -3,7 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:recase/recase.dart';
 
 import '../../../../../../../i18n/strings.g.dart';
-import '../../../../../../data/models/models.dart' as model;
+import '../../../../../../data/models/admin/models.dart' as model;
 import '../../../../../../data/repositories/repositories.dart';
 import '../../../../../../widgets/widgets.dart';
 import '../../components/components.dart';

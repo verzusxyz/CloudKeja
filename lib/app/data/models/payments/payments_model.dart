@@ -1,5 +1,5 @@
 import '../../../core/core.dart';
-import '../models.dart';
+import '../admin/models.dart';
 
 part '_offline_payment_method_model.dart';
 part '_refund_request_details_model.dart';
