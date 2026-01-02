@@ -48,6 +48,11 @@ class AuthGuard extends AutoRouteGuard {
 
     if (userState.role == 'landlord') {
       resolver.redirect(const LandlordBottomNavRoute(), replace: true);
+<<<<<<< HEAD
+=======
+    } else if (userState.role == 'Super Admin') {
+      resolver.redirect(const AdminBottomNavRoute(), replace: true);
+>>>>>>> 5defd68 (Super Admin Migration minor fix left)
     } else if (userState.role == 'tenant') {
       resolver.redirect(const TenantBottomNavRoute(), replace: true);
     } else {
