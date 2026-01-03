@@ -402,6 +402,51 @@ class AppRoutes extends RootStackRouter {
             path: 'notification-details',
             page: NotificationDetailsRoute.page,
           ),
+          //Super Admin
+          AutoRoute(
+            path: '/admin/panel',
+            page: FullAdminPanelRoute.page,
+          ),
+          AutoRoute(
+            path: '/admin/user-management',
+            page: UserManagementRoute.page,
+          ),
+          AutoRoute(
+            path: '/admin/gateway',
+            page: PaymentGatewayConfigRoute.page,
+          ),
+          AutoRoute(
+            path: '/admin/plans',
+            page: SubscriptionPlansRoute.page,
+          ),
+          AutoRoute(
+            path: '/admin/income-expense',
+            page: IncomeExpenseRoute.page,
+          ),
+          AutoRoute(
+            path: '/admin/withdrawal',
+            page: WithdrawalManagementRoute.page,
+          ),
+          AutoRoute(
+            path: '/admin/refund',
+            page: RefundManagementRoute.page,
+          ),
+          AutoRoute(
+            path: '/admin/support',
+            page: SupportSystemRoute.page,
+          ),
+          AutoRoute(
+            path: '/admin/messaging',
+            page: DirectMessagingRoute.page,
+          ),
+          AutoRoute(
+            path: '/admin/reviews',
+            page: PropertyReviewsRoute.page,
+          ),
+          AutoRoute(
+            path: '/admin/static-pages',
+            page: StaticPagesRoute.page,
+          ),
         ],
       ),
 

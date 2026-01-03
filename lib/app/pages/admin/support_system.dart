@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:get/Get.dart';
 import 'package:cloudkeja/app/data/models/admin/support.dart';
 import 'package:cloudkeja/app/data/repositories/admin_repository/admin_repository.dart';
 
+import 'package:auto_route/auto_route.dart';
+
+@RoutePage(name: 'SupportSystemRoute')
 class SupportSystemPage extends StatefulWidget {
   const SupportSystemPage({super.key});
 
@@ -12,6 +14,7 @@ class SupportSystemPage extends StatefulWidget {
 
 class _SupportSystemState extends State<SupportSystemPage> {
   List<Support> tickets = [];
+  bool isLoading = true;
 
   @override
   void initState() {
@@ -20,20 +23,32 @@ class _SupportSystemState extends State<SupportSystemPage> {
   }
 
   Future<void> loadTickets() async {
+    setState(() => isLoading = true);
     try {
       tickets = await AdminRepository().getSupports();
-      setState(() {});
     } catch (e) {
-      Get.snackbar('Error', 'Failed to load tickets: $e');
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('Failed to load tickets: $e'), backgroundColor: Colors.red),
+      );
+    } finally {
+      if (mounted) setState(() => isLoading = false);
     }
   }
 
   void updateTicketStatus(Support ticket, String newStatus) async {
     try {
-      await AdminRepository().updateSupport(Support(id: ticket.id, userId: ticket.userId, subject: ticket.subject, message: ticket.message, status: newStatus));
+      await AdminRepository().updateSupport(Support(
+        id: ticket.id,
+        userId: ticket.userId,
+        subject: ticket.subject,
+        message: ticket.message,
+        status: newStatus,
+      ));
       loadTickets();
     } catch (e) {
-      Get.snackbar('Error', 'Failed to update status: $e');
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('Failed to update status: $e'), backgroundColor: Colors.red),
+      );
     }
   }
 
@@ -44,30 +59,38 @@ class _SupportSystemState extends State<SupportSystemPage> {
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
-        title: Text('Reply to Ticket'),
+        title: const Text('Reply to Ticket'),
         content: Form(
           key: formKey,
           child: TextFormField(
-            decoration: InputDecoration(labelText: 'Reply Message'),
+            decoration: const InputDecoration(labelText: 'Reply Message'),
             validator: (value) => value!.isEmpty ? 'Required' : null,
-            onChanged: (value) => reply = value,
+            onChanged: (v) => reply = v,
           ),
         ),
         actions: [
-          TextButton(onPressed: () => Navigator.pop(context), child: Text('Cancel')),
+          TextButton(onPressed: () => Navigator.pop(context), child: const Text('Cancel')),
           TextButton(
             onPressed: () async {
               if (formKey.currentState!.validate()) {
                 try {
-                  await AdminRepository().updateSupport(Support(id: ticket.id, userId: ticket.userId, subject: ticket.subject, message: ticket.message + '\nReply: $reply', status: 'replied'));
-                  Navigator.pop(context);
+                  await AdminRepository().updateSupport(Support(
+                    id: ticket.id,
+                    userId: ticket.userId,
+                    subject: ticket.subject,
+                    message: '${ticket.message}\nReply: $reply',
+                    status: 'replied',
+                  ));
+                  if (mounted) Navigator.pop(context);
                   loadTickets();
                 } catch (e) {
-                  Get.snackbar('Error', 'Failed to send reply: $e');
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    SnackBar(content: Text('Failed to send reply: $e'), backgroundColor: Colors.red),
+                  );
                 }
               }
             },
-            child: Text('Send'),
+            child: const Text('Send'),
           ),
         ],
       ),
@@ -77,25 +100,29 @@ class _SupportSystemState extends State<SupportSystemPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Support System')),
-      body: ListView.builder(
-        itemCount: tickets.length,
-        itemBuilder: (context, index) {
-          final ticket = tickets[index];
-          return ListTile(
-            title: Text(ticket.subject),
-            subtitle: Text('${ticket.message} - Status: ${ticket.status}'),
-            trailing: Row(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                IconButton(icon: Icon(Icons.reply), onPressed: () => showReplyDialog(ticket)),
-                IconButton(icon: Icon(Icons.check), onPressed: () => updateTicketStatus(ticket, 'resolved')),
-                IconButton(icon: Icon(Icons.close), onPressed: () => updateTicketStatus(ticket, 'closed')),
-              ],
-            ),
-          );
-        },
-      ),
+      appBar: AppBar(title: const Text('Support System')),
+      body: isLoading
+          ? const Center(child: CircularProgressIndicator())
+          : tickets.isEmpty
+              ? const Center(child: Text('No support tickets'))
+              : ListView.builder(
+                  itemCount: tickets.length,
+                  itemBuilder: (context, index) {
+                    final ticket = tickets[index];
+                    return ListTile(
+                      title: Text(ticket.subject),
+                      subtitle: Text('${ticket.message} - Status: ${ticket.status}'),
+                      trailing: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          IconButton(icon: const Icon(Icons.reply), onPressed: () => showReplyDialog(ticket)),
+                          IconButton(icon: const Icon(Icons.check), onPressed: () => updateTicketStatus(ticket, 'resolved')),
+                          IconButton(icon: const Icon(Icons.close), onPressed: () => updateTicketStatus(ticket, 'closed')),
+                        ],
+                      ),
+                    );
+                  },
+                ),
     );
   }
 }

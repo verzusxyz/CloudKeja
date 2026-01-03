@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:get/Get.dart';
 import 'package:cloudkeja/app/data/models/admin/income.dart';
 import 'package:cloudkeja/app/data/models/admin/expense.dart';
 import 'package:cloudkeja/app/data/models/admin/income_category.dart';
 import 'package:cloudkeja/app/data/models/admin/expense_category.dart';
 import 'package:cloudkeja/app/data/repositories/admin_repository/admin_repository.dart';
 
+import 'package:auto_route/auto_route.dart';
+
+@RoutePage(name: 'IncomeExpenseRoute')
 class IncomeExpensePage extends StatefulWidget {
   const IncomeExpensePage({super.key});
 
@@ -19,6 +21,7 @@ class _IncomeExpenseState extends State<IncomeExpensePage> with SingleTickerProv
   List<Expense> expenses = [];
   List<IncomeCategory> incomeCategories = [];
   List<ExpenseCategory> expenseCategories = [];
+  bool isLoading = true;
 
   @override
   void initState() {
@@ -28,14 +31,24 @@ class _IncomeExpenseState extends State<IncomeExpensePage> with SingleTickerProv
   }
 
   Future<void> loadData() async {
+    setState(() => isLoading = true);
     try {
-      incomes = await AdminRepository().getIncomes();
-      expenses = await AdminRepository().getExpenses();
-      incomeCategories = await AdminRepository().getIncomeCategories();
-      expenseCategories = await AdminRepository().getExpenseCategories();
-      setState(() {});
+      final results = await Future.wait([
+        AdminRepository().getIncomes(),
+        AdminRepository().getExpenses(),
+        AdminRepository().getIncomeCategories(),
+        AdminRepository().getExpenseCategories(),
+      ]);
+      incomes = results[0] as List<Income>;
+      expenses = results[1] as List<Expense>;
+      incomeCategories = results[2] as List<IncomeCategory>;
+      expenseCategories = results[3] as List<ExpenseCategory>;
     } catch (e) {
-      Get.snackbar('Error', 'Failed to load data: $e');
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('Failed to load data: $e'), backgroundColor: Colors.red),
+      );
+    } finally {
+      if (mounted) setState(() => isLoading = false);
     }
   }
 
@@ -57,28 +70,35 @@ class _IncomeExpenseState extends State<IncomeExpensePage> with SingleTickerProv
             children: [
               TextFormField(
                 initialValue: description,
-                decoration: InputDecoration(labelText: 'Description'),
+                decoration: const InputDecoration(labelText: 'Description'),
                 validator: (value) => value!.isEmpty ? 'Required' : null,
-                onChanged: (value) => description = value,
+                onChanged: (v) => description = v,
               ),
               TextFormField(
                 initialValue: amount.toString(),
-                decoration: InputDecoration(labelText: 'Amount'),
+                decoration: const InputDecoration(labelText: 'Amount'),
                 keyboardType: TextInputType.number,
                 validator: (value) => value!.isEmpty ? 'Required' : null,
-                onChanged: (value) => amount = double.tryParse(value) ?? 0.0,
+                onChanged: (v) => amount = double.tryParse(v) ?? 0.0,
               ),
               DropdownButtonFormField<int>(
                 value: categoryId,
-                decoration: InputDecoration(labelText: 'Category'),
+                decoration: const InputDecoration(labelText: 'Category'),
                 items: incomeCategories.map((cat) => DropdownMenuItem(value: cat.id, child: Text(cat.name))).toList(),
-                validator: (value) => value == 0 ? 'Required' : null,
-                onChanged: (value) => categoryId = value ?? 0,
+                onChanged: (v) => categoryId = v ?? 0,
               ),
               TextButton(
                 onPressed: () async {
-                  final selectedDate = await showDatePicker(context: context, initialDate: date, firstDate: DateTime(2000), lastDate: DateTime.now());
-                  if (selectedDate != null) date = selectedDate;
+                  final selected = await showDatePicker(
+                    context: context,
+                    initialDate: date,
+                    firstDate: DateTime(2000),
+                    lastDate: DateTime.now(),
+                  );
+                  if (selected != null) {
+                    date = selected;
+                    setState(() {});
+                  }
                 },
                 child: Text('Select Date: ${date.toString().split(' ')[0]}'),
               ),
@@ -86,25 +106,33 @@ class _IncomeExpenseState extends State<IncomeExpensePage> with SingleTickerProv
           ),
         ),
         actions: [
-          TextButton(onPressed: () => Navigator.pop(context), child: Text('Cancel')),
+          TextButton(onPressed: () => Navigator.pop(context), child: const Text('Cancel')),
           TextButton(
             onPressed: () async {
               if (formKey.currentState!.validate()) {
-                Income newIncome = Income(id: income?.id ?? 0, description: description, amount: amount, categoryId: categoryId, date: date);
+                final newIncome = Income(
+                  id: income?.id ?? 0,
+                  description: description,
+                  amount: amount,
+                  categoryId: categoryId,
+                  date: date,
+                );
                 try {
                   if (income == null) {
                     await AdminRepository().createIncome(newIncome);
                   } else {
                     await AdminRepository().updateIncome(newIncome);
                   }
-                  Navigator.pop(context);
+                  if (mounted) Navigator.pop(context);
                   loadData();
                 } catch (e) {
-                  Get.snackbar('Error', 'Failed to save income: $e');
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    SnackBar(content: Text('Failed to save income: $e'), backgroundColor: Colors.red),
+                  );
                 }
               }
             },
-            child: Text('Save'),
+            child: const Text('Save'),
           ),
         ],
       ),
@@ -129,28 +157,35 @@ class _IncomeExpenseState extends State<IncomeExpensePage> with SingleTickerProv
             children: [
               TextFormField(
                 initialValue: description,
-                decoration: InputDecoration(labelText: 'Description'),
+                decoration: const InputDecoration(labelText: 'Description'),
                 validator: (value) => value!.isEmpty ? 'Required' : null,
-                onChanged: (value) => description = value,
+                onChanged: (v) => description = v,
               ),
               TextFormField(
                 initialValue: amount.toString(),
-                decoration: InputDecoration(labelText: 'Amount'),
+                decoration: const InputDecoration(labelText: 'Amount'),
                 keyboardType: TextInputType.number,
                 validator: (value) => value!.isEmpty ? 'Required' : null,
-                onChanged: (value) => amount = double.tryParse(value) ?? 0.0,
+                onChanged: (v) => amount = double.tryParse(v) ?? 0.0,
               ),
               DropdownButtonFormField<int>(
                 value: categoryId,
-                decoration: InputDecoration(labelText: 'Category'),
+                decoration: const InputDecoration(labelText: 'Category'),
                 items: expenseCategories.map((cat) => DropdownMenuItem(value: cat.id, child: Text(cat.name))).toList(),
-                validator: (value) => value == 0 ? 'Required' : null,
-                onChanged: (value) => categoryId = value ?? 0,
+                onChanged: (v) => categoryId = v ?? 0,
               ),
               TextButton(
                 onPressed: () async {
-                  final selectedDate = await showDatePicker(context: context, initialDate: date, firstDate: DateTime(2000), lastDate: DateTime.now());
-                  if (selectedDate != null) date = selectedDate;
+                  final selected = await showDatePicker(
+                    context: context,
+                    initialDate: date,
+                    firstDate: DateTime(2000),
+                    lastDate: DateTime.now(),
+                  );
+                  if (selected != null) {
+                    date = selected;
+                    setState(() {});
+                  }
                 },
                 child: Text('Select Date: ${date.toString().split(' ')[0]}'),
               ),
@@ -158,25 +193,33 @@ class _IncomeExpenseState extends State<IncomeExpensePage> with SingleTickerProv
           ),
         ),
         actions: [
-          TextButton(onPressed: () => Navigator.pop(context), child: Text('Cancel')),
+          TextButton(onPressed: () => Navigator.pop(context), child: const Text('Cancel')),
           TextButton(
             onPressed: () async {
               if (formKey.currentState!.validate()) {
-                Expense newExpense = Expense(id: expense?.id ?? 0, description: description, amount: amount, categoryId: categoryId, date: date);
+                final newExpense = Expense(
+                  id: expense?.id ?? 0,
+                  description: description,
+                  amount: amount,
+                  categoryId: categoryId,
+                  date: date,
+                );
                 try {
                   if (expense == null) {
                     await AdminRepository().createExpense(newExpense);
                   } else {
                     await AdminRepository().updateExpense(newExpense);
                   }
-                  Navigator.pop(context);
+                  if (mounted) Navigator.pop(context);
                   loadData();
                 } catch (e) {
-                  Get.snackbar('Error', 'Failed to save expense: $e');
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    SnackBar(content: Text('Failed to save expense: $e'), backgroundColor: Colors.red),
+                  );
                 }
               }
             },
-            child: Text('Save'),
+            child: const Text('Save'),
           ),
         ],
       ),
@@ -195,31 +238,33 @@ class _IncomeExpenseState extends State<IncomeExpensePage> with SingleTickerProv
           key: formKey,
           child: TextFormField(
             initialValue: name,
-            decoration: InputDecoration(labelText: 'Name'),
+            decoration: const InputDecoration(labelText: 'Name'),
             validator: (value) => value!.isEmpty ? 'Required' : null,
-            onChanged: (value) => name = value,
+            onChanged: (v) => name = v,
           ),
         ),
         actions: [
-          TextButton(onPressed: () => Navigator.pop(context), child: Text('Cancel')),
+          TextButton(onPressed: () => Navigator.pop(context), child: const Text('Cancel')),
           TextButton(
             onPressed: () async {
               if (formKey.currentState!.validate()) {
-                IncomeCategory newCategory = IncomeCategory(id: category?.id ?? 0, name: name);
+                final newCategory = IncomeCategory(id: category?.id ?? 0, name: name);
                 try {
                   if (category == null) {
                     await AdminRepository().createIncomeCategory(newCategory);
                   } else {
                     await AdminRepository().updateIncomeCategory(newCategory);
                   }
-                  Navigator.pop(context);
+                  if (mounted) Navigator.pop(context);
                   loadData();
                 } catch (e) {
-                  Get.snackbar('Error', 'Failed to save income category: $e');
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    SnackBar(content: Text('Failed to save income category: $e'), backgroundColor: Colors.red),
+                  );
                 }
               }
             },
-            child: Text('Save'),
+            child: const Text('Save'),
           ),
         ],
       ),
@@ -238,31 +283,33 @@ class _IncomeExpenseState extends State<IncomeExpensePage> with SingleTickerProv
           key: formKey,
           child: TextFormField(
             initialValue: name,
-            decoration: InputDecoration(labelText: 'Name'),
+            decoration: const InputDecoration(labelText: 'Name'),
             validator: (value) => value!.isEmpty ? 'Required' : null,
-            onChanged: (value) => name = value,
+            onChanged: (v) => name = v,
           ),
         ),
         actions: [
-          TextButton(onPressed: () => Navigator.pop(context), child: Text('Cancel')),
+          TextButton(onPressed: () => Navigator.pop(context), child: const Text('Cancel')),
           TextButton(
             onPressed: () async {
               if (formKey.currentState!.validate()) {
-                ExpenseCategory newCategory = ExpenseCategory(id: category?.id ?? 0, name: name);
+                final newCategory = ExpenseCategory(id: category?.id ?? 0, name: name);
                 try {
                   if (category == null) {
                     await AdminRepository().createExpenseCategory(newCategory);
                   } else {
                     await AdminRepository().updateExpenseCategory(newCategory);
                   }
-                  Navigator.pop(context);
+                  if (mounted) Navigator.pop(context);
                   loadData();
                 } catch (e) {
-                  Get.snackbar('Error', 'Failed to save expense category: $e');
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    SnackBar(content: Text('Failed to save expense category: $e'), backgroundColor: Colors.red),
+                  );
                 }
               }
             },
-            child: Text('Save'),
+            child: const Text('Save'),
           ),
         ],
       ),
@@ -273,10 +320,10 @@ class _IncomeExpenseState extends State<IncomeExpensePage> with SingleTickerProv
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Income & Expense Tracking'),
+        title: const Text('Income & Expense Tracking'),
         bottom: TabBar(
           controller: _tabController,
-          tabs: [
+          tabs: const [
             Tab(text: 'Incomes'),
             Tab(text: 'Expenses'),
             Tab(text: 'Income Categories'),
@@ -284,110 +331,156 @@ class _IncomeExpenseState extends State<IncomeExpensePage> with SingleTickerProv
           ],
         ),
       ),
-      body: TabBarView(
-        controller: _tabController,
-        children: [
-          ListView.builder(
-            itemCount: incomes.length,
-            itemBuilder: (context, index) {
-              return ListTile(
-                title: Text(incomes[index].description),
-                subtitle: Text('\$${incomes[index].amount} - ${incomes[index].date.toString().split(' ')[0]}'),
-                trailing: Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    IconButton(icon: Icon(Icons.edit), onPressed: () => showAddEditIncome(income: incomes[index])),
-                    IconButton(icon: Icon(Icons.delete), onPressed: () async {
-                      try {
-                        await AdminRepository().deleteIncome(incomes[index].id);
-                        loadData();
-                      } catch (e) {
-                        Get.snackbar('Error', 'Failed to delete income: $e');
-                      }
-                    }),
-                  ],
-                ),
-              );
-            },
-          ),
-          ListView.builder(
-            itemCount: expenses.length,
-            itemBuilder: (context, index) {
-              return ListTile(
-                title: Text(expenses[index].description),
-                subtitle: Text('\$${expenses[index].amount} - ${expenses[index].date.toString().split(' ')[0]}'),
-                trailing: Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    IconButton(icon: Icon(Icons.edit), onPressed: () => showAddEditExpense(expense: expenses[index])),
-                    IconButton(icon: Icon(Icons.delete), onPressed: () async {
-                      try {
-                        await AdminRepository().deleteExpense(expenses[index].id);
-                        loadData();
-                      } catch (e) {
-                        Get.snackbar('Error', 'Failed to delete expense: $e');
-                      }
-                    }),
-                  ],
-                ),
-              );
-            },
-          ),
-          ListView.builder(
-            itemCount: incomeCategories.length,
-            itemBuilder: (context, index) {
-              return ListTile(
-                title: Text(incomeCategories[index].name),
-                trailing: Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    IconButton(icon: Icon(Icons.edit), onPressed: () => showAddEditIncomeCategory(category: incomeCategories[index])),
-                    IconButton(icon: Icon(Icons.delete), onPressed: () async {
-                      try {
-                        await AdminRepository().deleteIncomeCategory(incomeCategories[index].id);
-                        loadData();
-                      } catch (e) {
-                        Get.snackbar('Error', 'Failed to delete income category: $e');
-                      }
-                    }),
-                  ],
-                ),
-              );
-            },
-          ),
-          ListView.builder(
-            itemCount: expenseCategories.length,
-            itemBuilder: (context, index) {
-              return ListTile(
-                title: Text(expenseCategories[index].name),
-                trailing: Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    IconButton(icon: Icon(Icons.edit), onPressed: () => showAddEditExpenseCategory(category: expenseCategories[index])),
-                    IconButton(icon: Icon(Icons.delete), onPressed: () async {
-                      try {
-                        await AdminRepository().deleteExpenseCategory(expenseCategories[index].id);
-                        loadData();
-                      } catch (e) {
-                        Get.snackbar('Error', 'Failed to delete expense category: $e');
-                      }
-                    }),
-                  ],
-                ),
-              );
-            },
-          ),
-        ],
-      ),
+      body: isLoading
+          ? const Center(child: CircularProgressIndicator())
+          : TabBarView(
+              controller: _tabController,
+              children: [
+                incomes.isEmpty
+                    ? const Center(child: Text('No incomes'))
+                    : ListView.builder(
+                        itemCount: incomes.length,
+                        itemBuilder: (context, index) {
+                          final income = incomes[index];
+                          return ListTile(
+                            title: Text(income.description),
+                            subtitle: Text('\$${income.amount} - ${income.date.toString().split(' ')[0]}'),
+                            trailing: Row(
+                              mainAxisSize: MainAxisSize.min,
+                              children: [
+                                IconButton(
+                                  icon: const Icon(Icons.edit),
+                                  onPressed: () => showAddEditIncome(income: income),
+                                ),
+                                IconButton(
+                                  icon: const Icon(Icons.delete),
+                                  onPressed: () async {
+                                    try {
+                                      await AdminRepository().deleteIncome(income.id);
+                                      loadData();
+                                    } catch (e) {
+                                      ScaffoldMessenger.of(context).showSnackBar(
+                                        SnackBar(content: Text('Failed to delete income: $e'), backgroundColor: Colors.red),
+                                      );
+                                    }
+                                  },
+                                ),
+                              ],
+                            ),
+                          );
+                        },
+                      ),
+                expenses.isEmpty
+                    ? const Center(child: Text('No expenses'))
+                    : ListView.builder(
+                        itemCount: expenses.length,
+                        itemBuilder: (context, index) {
+                          final expense = expenses[index];
+                          return ListTile(
+                            title: Text(expense.description),
+                            subtitle: Text('\$${expense.amount} - ${expense.date.toString().split(' ')[0]}'),
+                            trailing: Row(
+                              mainAxisSize: MainAxisSize.min,
+                              children: [
+                                IconButton(
+                                  icon: const Icon(Icons.edit),
+                                  onPressed: () => showAddEditExpense(expense: expense),
+                                ),
+                                IconButton(
+                                  icon: const Icon(Icons.delete),
+                                  onPressed: () async {
+                                    try {
+                                      await AdminRepository().deleteExpense(expense.id);
+                                      loadData();
+                                    } catch (e) {
+                                      ScaffoldMessenger.of(context).showSnackBar(
+                                        SnackBar(content: Text('Failed to delete expense: $e'), backgroundColor: Colors.red),
+                                      );
+                                    }
+                                  },
+                                ),
+                              ],
+                            ),
+                          );
+                        },
+                      ),
+                incomeCategories.isEmpty
+                    ? const Center(child: Text('No income categories'))
+                    : ListView.builder(
+                        itemCount: incomeCategories.length,
+                        itemBuilder: (context, index) {
+                          final cat = incomeCategories[index];
+                          return ListTile(
+                            title: Text(cat.name),
+                            trailing: Row(
+                              mainAxisSize: MainAxisSize.min,
+                              children: [
+                                IconButton(
+                                  icon: const Icon(Icons.edit),
+                                  onPressed: () => showAddEditIncomeCategory(category: cat),
+                                ),
+                                IconButton(
+                                  icon: const Icon(Icons.delete),
+                                  onPressed: () async {
+                                    try {
+                                      await AdminRepository().deleteIncomeCategory(cat.id);
+                                      loadData();
+                                    } catch (e) {
+                                      ScaffoldMessenger.of(context).showSnackBar(
+                                        SnackBar(content: Text('Failed to delete income category: $e'), backgroundColor: Colors.red),
+                                      );
+                                    }
+                                  },
+                                ),
+                              ],
+                            ),
+                          );
+                        },
+                      ),
+                expenseCategories.isEmpty
+                    ? const Center(child: Text('No expense categories'))
+                    : ListView.builder(
+                        itemCount: expenseCategories.length,
+                        itemBuilder: (context, index) {
+                          final cat = expenseCategories[index];
+                          return ListTile(
+                            title: Text(cat.name),
+                            trailing: Row(
+                              mainAxisSize: MainAxisSize.min,
+                              children: [
+                                IconButton(
+                                  icon: const Icon(Icons.edit),
+                                  onPressed: () => showAddEditExpenseCategory(category: cat),
+                                ),
+                                IconButton(
+                                  icon: const Icon(Icons.delete),
+                                  onPressed: () async {
+                                    try {
+                                      await AdminRepository().deleteExpenseCategory(cat.id);
+                                      loadData();
+                                    } catch (e) {
+                                      ScaffoldMessenger.of(context).showSnackBar(
+                                        SnackBar(content: Text('Failed to delete expense category: $e'), backgroundColor: Colors.red),
+                                      );
+                                    }
+                                  },
+                                ),
+                              ],
+                            ),
+                          );
+                        },
+                      ),
+              ],
+            ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          int index = _tabController.index;
+          final index = _tabController.index;
           if (index == 0) showAddEditIncome();
           else if (index == 1) showAddEditExpense();
           else if (index == 2) showAddEditIncomeCategory();
           else showAddEditExpenseCategory();
         },
-        child: Icon(Icons.add),
+        child: const Icon(Icons.add),
       ),
     );
   }

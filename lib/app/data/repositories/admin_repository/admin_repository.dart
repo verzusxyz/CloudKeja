@@ -1,5 +1,5 @@
 import 'package:cloudkeja/app/services/api_client/_api_http_client.dart'  as ApiClient;
-import 'package:cloudkeja/app/data/models/user.dart';
+import 'package:cloudkeja/app/data/models/user/user_model.dart';
 import 'package:cloudkeja/app/data/models/admin/gateway.dart';
 import 'package:cloudkeja/app/data/models/admin/plan.dart';
 import 'package:cloudkeja/app/data/models/admin/plan_subscribe.dart';
@@ -22,9 +22,8 @@ class AdminRepository {
     return (response.data as List).map((e) => User.fromJson(e)).toList();
   }
 
-  Future<User> updateUserRole(User user) async {
-    var response = await ApiClient.put('/users/${user.id}', data: user.toJson());
-    return User.fromJson(response.data);
+  Future<void> updateUserRole(User user) async {
+    await ApiClient.put('/users/${user.id}', data: user.toJson());
   }
 
   Future<List<Gateway>> getGateways() async {
@@ -32,14 +31,12 @@ class AdminRepository {
     return (response.data as List).map((e) => Gateway.fromJson(e)).toList();
   }
 
-  Future<Gateway> createGateway(Gateway gateway) async {
-    var response = await ApiClient.post('/gateways', data: gateway.toJson());
-    return Gateway.fromJson(response.data);
+  Future<void> createGateway(Gateway gateway) async {
+    await ApiClient.post('/gateways', data: gateway.toJson());
   }
 
-  Future<Gateway> updateGateway(Gateway gateway) async {
-    var response = await ApiClient.put('/gateways/${gateway.id}', data: gateway.toJson());
-    return Gateway.fromJson(response.data);
+  Future<void> updateGateway(Gateway gateway) async {
+    await ApiClient.put('/gateways/${gateway.id}', data: gateway.toJson());
   }
 
   Future<void> deleteGateway(int id) async {
@@ -51,14 +48,12 @@ class AdminRepository {
     return (response.data as List).map((e) => Plan.fromJson(e)).toList();
   }
 
-  Future<Plan> createPlan(Plan plan) async {
-    var response = await ApiClient.post('/plans', data: plan.toJson());
-    return Plan.fromJson(response.data);
+  Future<void> createPlan(Plan plan) async {
+    await ApiClient.post('/plans', data: plan.toJson());
   }
 
-  Future<Plan> updatePlan(Plan plan) async {
-    var response = await ApiClient.put('/plans/${plan.id}', data: plan.toJson());
-    return Plan.fromJson(response.data);
+  Future<void> updatePlan(Plan plan) async {
+    await ApiClient.put('/plans/${plan.id}', data: plan.toJson());
   }
 
   Future<void> deletePlan(int id) async {
@@ -70,14 +65,12 @@ class AdminRepository {
     return (response.data as List).map((e) => PlanSubscribe.fromJson(e)).toList();
   }
 
-  Future<PlanSubscribe> createPlanSubscribe(PlanSubscribe subscribe) async {
-    var response = await ApiClient.post('/plan_subscribes', data: subscribe.toJson());
-    return PlanSubscribe.fromJson(response.data);
+  Future<void> createPlanSubscribe(PlanSubscribe subscribe) async {
+    await ApiClient.post('/plan_subscribes', data: subscribe.toJson());
   }
 
-  Future<PlanSubscribe> updatePlanSubscribe(PlanSubscribe subscribe) async {
-    var response = await ApiClient.put('/plan_subscribes/${subscribe.id}', data: subscribe.toJson());
-    return PlanSubscribe.fromJson(response.data);
+  Future<void> updatePlanSubscribe(PlanSubscribe subscribe) async {
+    await ApiClient.put('/plan_subscribes/${subscribe.id}', data: subscribe.toJson());
   }
 
   Future<void> deletePlanSubscribe(int id) async {
@@ -89,14 +82,12 @@ class AdminRepository {
     return (response.data as List).map((e) => Income.fromJson(e)).toList();
   }
 
-  Future<Income> createIncome(Income income) async {
-    var response = await ApiClient.post('/incomes', data: income.toJson());
-    return Income.fromJson(response.data);
+  Future<void> createIncome(Income income) async {
+    await ApiClient.post('/incomes', data: income.toJson());
   }
 
-  Future<Income> updateIncome(Income income) async {
-    var response = await ApiClient.put('/incomes/${income.id}', data: income.toJson());
-    return Income.fromJson(response.data);
+  Future<void> updateIncome(Income income) async {
+    await ApiClient.put('/incomes/${income.id}', data: income.toJson());
   }
 
   Future<void> deleteIncome(int id) async {
@@ -108,14 +99,12 @@ class AdminRepository {
     return (response.data as List).map((e) => IncomeCategory.fromJson(e)).toList();
   }
 
-  Future<IncomeCategory> createIncomeCategory(IncomeCategory category) async {
-    var response = await ApiClient.post('/income_categories', data: category.toJson());
-    return IncomeCategory.fromJson(response.data);
+  Future<void> createIncomeCategory(IncomeCategory category) async {
+    await ApiClient.post('/income_categories', data: category.toJson());
   }
 
-  Future<IncomeCategory> updateIncomeCategory(IncomeCategory category) async {
-    var response = await ApiClient.put('/income_categories/${category.id}', data: category.toJson());
-    return IncomeCategory.fromJson(response.data);
+  Future<void> updateIncomeCategory(IncomeCategory category) async {
+    await ApiClient.put('/income_categories/${category.id}', data: category.toJson());
   }
 
   Future<void> deleteIncomeCategory(int id) async {
@@ -127,14 +116,12 @@ class AdminRepository {
     return (response.data as List).map((e) => Expense.fromJson(e)).toList();
   }
 
-  Future<Expense> createExpense(Expense expense) async {
-    var response = await ApiClient.post('/expenses', data: expense.toJson());
-    return Expense.fromJson(response.data);
+  Future<void> createExpense(Expense expense) async {
+    await ApiClient.post('/expenses', data: expense.toJson());
   }
 
-  Future<Expense> updateExpense(Expense expense) async {
-    var response = await ApiClient.put('/expenses/${expense.id}', data: expense.toJson());
-    return Expense.fromJson(response.data);
+  Future<void> updateExpense(Expense expense) async {
+    await ApiClient.put('/expenses/${expense.id}', data: expense.toJson());
   }
 
   Future<void> deleteExpense(int id) async {
@@ -146,14 +133,12 @@ class AdminRepository {
     return (response.data as List).map((e) => ExpenseCategory.fromJson(e)).toList();
   }
 
-  Future<ExpenseCategory> createExpenseCategory(ExpenseCategory category) async {
-    var response = await ApiClient.post('/expense_categories', data: category.toJson());
-    return ExpenseCategory.fromJson(response.data);
+  Future<void> createExpenseCategory(ExpenseCategory category) async {
+    await ApiClient.post('/expense_categories', data: category.toJson());
   }
 
-  Future<ExpenseCategory> updateExpenseCategory(ExpenseCategory category) async {
-    var response = await ApiClient.put('/expense_categories/${category.id}', data: category.toJson());
-    return ExpenseCategory.fromJson(response.data);
+  Future<void> updateExpenseCategory(ExpenseCategory category) async {
+    await ApiClient.put('/expense_categories/${category.id}', data: category.toJson());
   }
 
   Future<void> deleteExpenseCategory(int id) async {
@@ -165,9 +150,8 @@ class AdminRepository {
     return (response.data as List).map((e) => Withdraw.fromJson(e)).toList();
   }
 
-  Future<Withdraw> updateWithdraw(Withdraw withdraw) async {
-    var response = await ApiClient.put('/withdrawals/${withdraw.id}', data: withdraw.toJson());
-    return Withdraw.fromJson(response.data);
+  Future<void> updateWithdraw(Withdraw withdraw) async {
+    await ApiClient.put('/withdrawals/${withdraw.id}', data: withdraw.toJson());
   }
 
   Future<List<WithdrawMethod>> getWithdrawMethods() async {
@@ -175,14 +159,12 @@ class AdminRepository {
     return (response.data as List).map((e) => WithdrawMethod.fromJson(e)).toList();
   }
 
-  Future<WithdrawMethod> createWithdrawMethod(WithdrawMethod method) async {
-    var response = await ApiClient.post('/withdraw_methods', data: method.toJson());
-    return WithdrawMethod.fromJson(response.data);
+  Future<void> createWithdrawMethod(WithdrawMethod method) async {
+    await ApiClient.post('/withdraw_methods', data: method.toJson());
   }
 
-  Future<WithdrawMethod> updateWithdrawMethod(WithdrawMethod method) async {
-    var response = await ApiClient.put('/withdraw_methods/${method.id}', data: method.toJson());
-    return WithdrawMethod.fromJson(response.data);
+  Future<void> updateWithdrawMethod(WithdrawMethod method) async {
+    await ApiClient.put('/withdraw_methods/${method.id}', data: method.toJson());
   }
 
   Future<void> deleteWithdrawMethod(int id) async {
@@ -194,9 +176,8 @@ class AdminRepository {
     return (response.data as List).map((e) => RefundRequest.fromJson(e)).toList();
   }
 
-  Future<RefundRequest> updateRefundRequest(RefundRequest request) async {
-    var response = await ApiClient.put('/refund_requests/${request.id}', data: request.toJson());
-    return RefundRequest.fromJson(response.data);
+  Future<void> updateRefundRequest(RefundRequest request) async {
+    await ApiClient.put('/refund_requests/${request.id}', data: request.toJson());
   }
 
   Future<List<RefundReason>> getRefundReasons() async {
@@ -204,14 +185,12 @@ class AdminRepository {
     return (response.data as List).map((e) => RefundReason.fromJson(e)).toList();
   }
 
-  Future<RefundReason> createRefundReason(RefundReason reason) async {
-    var response = await ApiClient.post('/refund_reasons', data: reason.toJson());
-    return RefundReason.fromJson(response.data);
+  Future<void> createRefundReason(RefundReason reason) async {
+    await ApiClient.post('/refund_reasons', data: reason.toJson());
   }
 
-  Future<RefundReason> updateRefundReason(RefundReason reason) async {
-    var response = await ApiClient.put('/refund_reasons/${reason.id}', data: reason.toJson());
-    return RefundReason.fromJson(response.data);
+  Future<void> updateRefundReason(RefundReason reason) async {
+    await ApiClient.put('/refund_reasons/${reason.id}', data: reason.toJson());
   }
 
   Future<void> deleteRefundReason(int id) async {
@@ -223,9 +202,8 @@ class AdminRepository {
     return (response.data as List).map((e) => Support.fromJson(e)).toList();
   }
 
-  Future<Support> updateSupport(Support support) async {
-    var response = await ApiClient.put('/supports/${support.id}', data: support.toJson());
-    return Support.fromJson(response.data);
+  Future<void> updateSupport(Support support) async {
+    await ApiClient.put('/supports/${support.id}', data: support.toJson());
   }
 
   Future<List<Message>> getMessages() async {
@@ -242,9 +220,8 @@ class AdminRepository {
     return (response.data as List).map((e) => Review.fromJson(e)).toList();
   }
 
-  Future<Review> updateReview(Review review) async {
-    var response = await ApiClient.put('/reviews/${review.id}', data: review.toJson());
-    return Review.fromJson(response.data);
+  Future<void> updateReview(Review review) async {
+    await ApiClient.put('/reviews/${review.id}', data: review.toJson());
   }
 
   Future<void> deleteReview(int id) async {
@@ -256,8 +233,7 @@ class AdminRepository {
     return (response.data as List).map((e) => PageContent.fromJson(e)).toList();
   }
 
-  Future<PageContent> updatePageContent(PageContent content) async {
-    var response = await ApiClient.put('/page_contents/${content.id}', data: content.toJson());
-    return PageContent.fromJson(response.data);
+  Future<void> updatePageContent(PageContent content) async {
+    await ApiClient.put('/page_contents/${content.id}', data: content.toJson());
   }
 }

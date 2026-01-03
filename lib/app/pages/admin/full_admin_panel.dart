@@ -1,26 +1,56 @@
+import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:cloudkeja/app/routes/app_routes.dart';
 
+@RoutePage(name: 'FullAdminPanelRoute')
 class FullAdminPanelPage extends StatelessWidget {
   const FullAdminPanelPage({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Full Admin Panel')),
+      appBar: AppBar(title: const Text('Full Admin Panel')),
       body: ListView(
         children: [
-          ListTile(title: Text('User Management'), onTap: () => Get.toNamed(AppRoutes.USER_MANAGEMENT)),
-          ListTile(title: Text('Payment Gateways'), onTap: () => Get.toNamed(AppRoutes.PAYMENT_GATEWAY)),
-          ListTile(title: Text('Subscription Plans'), onTap: () => Get.toNamed(AppRoutes.SUBSCRIPTION_PLANS)),
-          ListTile(title: Text('Income & Expense Tracking'), onTap: () => Get.toNamed(AppRoutes.INCOME_EXPENSE)),
-          ListTile(title: Text('Withdrawal Management'), onTap: () => Get.toNamed(AppRoutes.WITHDRAWAL)),
-          ListTile(title: Text('Refund Management'), onTap: () => Get.toNamed(AppRoutes.REFUND)),
-          ListTile(title: Text('Support System'), onTap: () => Get.toNamed(AppRoutes.SUPPORT)),
-          ListTile(title: Text('Direct Messaging'), onTap: () => Get.toNamed(AppRoutes.MESSAGING)),
-          ListTile(title: Text('Property Reviews'), onTap: () => Get.toNamed(AppRoutes.REVIEWS)),
-          ListTile(title: Text('Static Pages Management'), onTap: () => Get.toNamed(AppRoutes.STATIC_PAGES)),
+          ListTile(
+            title: const Text('User Management'),
+            onTap: () => context.router.push(const UserManagementRoute()),
+          ),
+          ListTile(
+            title: const Text('Payment Gateways'),
+            onTap: () => context.router.push(const PaymentGatewayConfigRoute()),
+          ),
+          ListTile(
+            title: const Text('Subscription Plans'),
+            onTap: () => context.router.push(const SubscriptionPlansRoute()),
+          ),
+          ListTile(
+            title: const Text('Income & Expense Tracking'),
+            onTap: () => context.router.push(const IncomeExpenseRoute()),
+          ),
+          ListTile(
+            title: const Text('Withdrawal Management'),
+            onTap: () => context.router.push(const WithdrawalManagementRoute()),
+          ),
+          ListTile(
+            title: const Text('Refund Management'),
+            onTap: () => context.router.push(const RefundManagementRoute()),
+          ),
+          ListTile(
+            title: const Text('Support System'),
+            onTap: () => context.router.push(const SupportSystemRoute()),
+          ),
+          ListTile(
+            title: const Text('Direct Messaging'),
+            onTap: () => context.router.push(const DirectMessagingRoute()),
+          ),
+          ListTile(
+            title: const Text('Property Reviews'),
+            onTap: () => context.router.push(const PropertyReviewsRoute()),
+          ),
+          ListTile(
+            title: const Text('Static Pages Management'),
+            onTap: () => context.router.push(const StaticPagesRoute()),
+          ),
         ],
       ),
     );

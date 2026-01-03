@@ -10,6 +10,17 @@
 
 // ignore_for_file: no_leading_underscores_for_library_prefixes
 import 'package:auto_route/auto_route.dart' as _i73;
+import 'package:auto_route/auto_route.dart' as _i78;
+import 'package:auto_route/auto_route.dart' as _i79;
+import 'package:auto_route/auto_route.dart' as _i80;
+import 'package:auto_route/auto_route.dart' as _i81;
+import 'package:auto_route/auto_route.dart' as _i82;
+import 'package:auto_route/auto_route.dart' as _i83;
+import 'package:auto_route/auto_route.dart' as _i84;
+import 'package:auto_route/auto_route.dart' as _i85;
+import 'package:auto_route/auto_route.dart' as _i86;
+import 'package:auto_route/auto_route.dart' as _i87;
+import 'package:auto_route/auto_route.dart' as _i88;
 import 'package:flutter/material.dart' as _i74;
 import 'package:cloudkeja/app/data/models/admin/models.dart' as _i76;
 import 'package:cloudkeja/app/data/repositories/repositories.dart' as _i75;
@@ -152,6 +163,30 @@ import 'package:cloudkeja/app/pages/tenant/tenant_settings/tenant_settings_view.
 import 'package:cloudkeja/app/pages/tenant/tenant_wishlist/tenant_wishlist_view.dart'
     as _i70;
 
+import 'package:cloudkeja/app/pages/admin/full_admin_panel.dart' 
+    as _i78;
+import 'package:cloudkeja/app/pages/admin/user_management.dart' 
+    as _i79;
+import 'package:cloudkeja/app/pages/admin/payment_gateway_config.dart' 
+    as _i80;
+import 'package:cloudkeja/app/pages/admin/subscription_plans.dart'  
+    as _i81;
+import 'package:cloudkeja/app/pages/admin/income_expense.dart'  
+    as _i82;
+import 'package:cloudkeja/app/pages/admin/withdrawal_management.dart' 
+    as _i83;
+import 'package:cloudkeja/app/pages/admin/refund_management.dart'
+    as _i84;
+import 'package:cloudkeja/app/pages/admin/support_system.dart' 
+    as _i85;
+import 'package:cloudkeja/app/pages/admin/direct_messaging.dart' 
+    as _i86;
+import 'package:cloudkeja/app/pages/admin/property_reviews.dart' 
+    as _i87;
+import 'package:cloudkeja/app/pages/admin/static_pages.dart' 
+    as _i88;
+
+
 /// generated route for
 /// [_i1.AboutUsView]
 class AboutUsRoute extends _i73.PageRouteInfo<void> {
@@ -164,6 +199,182 @@ class AboutUsRoute extends _i73.PageRouteInfo<void> {
     name,
     builder: (data) {
       return const _i1.AboutUsView();
+    },
+  );
+}
+
+/// generated route for
+/// [_i78.FullAdminPanelPage]
+class FullAdminPanelRoute extends _i78.PageRouteInfo<void> {
+  const FullAdminPanelRoute({List<_i78.PageRouteInfo>? children})
+    : super(FullAdminPanelRoute.name, initialChildren: children);
+
+  static const String name = 'FullAdminPanelRoute';
+
+  static _i78.PageInfo page = _i78.PageInfo(
+    name,
+    builder: (data) {
+      return const _i78.FullAdminPanelPage();
+    },
+  );
+}
+
+/// generated route for
+/// [_i79.UserManagementPage]
+class UserManagementRoute extends _i79.PageRouteInfo<void> {
+  const UserManagementRoute({List<_i79.PageRouteInfo>? children})
+    : super(UserManagementRoute.name, initialChildren: children);
+
+  static const String name = 'UserManagementRoute';
+
+  static _i79.PageInfo page = _i79.PageInfo(
+    name,
+    builder: (data) {
+      return const _i79.UserManagementPage();
+    },
+  );
+}
+
+/// generated route for
+/// [_i80.PaymentGatewayConfigPage]
+class PaymentGatewayConfigRoute extends _i80.PageRouteInfo<void> {
+  const PaymentGatewayConfigRoute({List<_i80.PageRouteInfo>? children})
+    : super(PaymentGatewayConfigRoute.name, initialChildren: children);
+
+  static const String name = 'PaymentGatewayConfigRoute';
+
+  static _i80.PageInfo page = _i80.PageInfo(
+    name,
+    builder: (data) {
+      return const _i80.PaymentGatewayConfigPage();
+    },
+  );
+}
+
+/// generated route for
+/// [_i81.SubscriptionPlansPage]
+class SubscriptionPlansRoute extends _i81.PageRouteInfo<void> {
+  const SubscriptionPlansRoute({List<_i81.PageRouteInfo>? children})
+    : super(SubscriptionPlansRoute.name, initialChildren: children);
+
+  static const String name = 'SubscriptionPlansRoute';
+
+  static _i81.PageInfo page = _i81.PageInfo(
+    name,
+    builder: (data) {
+      return const _i81.SubscriptionPlansPage();
+    },
+  );
+}
+
+/// generated route for
+/// [_i82.IncomeExpensePage]
+class IncomeExpenseRoute extends _i82.PageRouteInfo<void> {
+  const IncomeExpenseRoute({List<_i82.PageRouteInfo>? children})
+    : super(IncomeExpenseRoute.name, initialChildren: children);
+
+  static const String name = 'IncomeExpenseRoute';
+
+  static _i82.PageInfo page = _i82.PageInfo(
+    name,
+    builder: (data) {
+      return const _i82.IncomeExpensePage();
+    },
+  );
+}
+
+/// generated route for
+/// [_i83.WithdrawalManagementPage]
+class WithdrawalManagementRoute extends _i83.PageRouteInfo<void> {
+  const WithdrawalManagementRoute({List<_i83.PageRouteInfo>? children})
+    : super(WithdrawalManagementRoute.name, initialChildren: children);
+
+  static const String name = 'WithdrawalManagementRoute';
+
+  static _i83.PageInfo page = _i83.PageInfo(
+    name,
+    builder: (data) {
+      return const _i83.WithdrawalManagementPage();
+    },
+  );
+}
+
+/// generated route for
+/// [_i84.RefundManagementPage]
+class RefundManagementRoute extends _i84.PageRouteInfo<void> {
+  const RefundManagementRoute({List<_i84.PageRouteInfo>? children})
+    : super(RefundManagementRoute.name, initialChildren: children);
+
+  static const String name = 'RefundManagementRoute';
+
+  static _i84.PageInfo page = _i84.PageInfo(
+    name,
+    builder: (data) {
+      return const _i84.RefundManagementPage();
+    },
+  );
+}
+
+/// generated route for
+/// [_i85.SupportSystemPage]
+class SupportSystemRoute extends _i85.PageRouteInfo<void> {
+  const SupportSystemRoute({List<_i85.PageRouteInfo>? children})
+    : super(SupportSystemRoute.name, initialChildren: children);
+
+  static const String name = 'SupportSystemRoute';
+
+  static _i85.PageInfo page = _i85.PageInfo(
+    name,
+    builder: (data) {
+      return const _i85.SupportSystemPage();
+    },
+  );
+}
+
+/// generated route for
+/// [_i86.DirectMessagingPage]
+class DirectMessagingRoute extends _i86.PageRouteInfo<void> {
+  const DirectMessagingRoute({List<_i86.PageRouteInfo>? children})
+    : super(DirectMessagingRoute.name, initialChildren: children);
+
+  static const String name = 'DirectMessagingRoute';
+
+  static _i86.PageInfo page = _i86.PageInfo(
+    name,
+    builder: (data) {
+      return const _i86.DirectMessagingPage();
+    },
+  );
+}
+
+/// generated route for
+/// [_i87.PropertyReviewsPage]
+class PropertyReviewsRoute extends _i87.PageRouteInfo<void> {
+  const PropertyReviewsRoute({List<_i87.PageRouteInfo>? children})
+    : super(PropertyReviewsRoute.name, initialChildren: children);
+
+  static const String name = 'PropertyReviewsRoute';
+
+  static _i87.PageInfo page = _i87.PageInfo(
+    name,
+    builder: (data) {
+      return const _i87.PropertyReviewsPage();
+    },
+  );
+}
+
+/// generated route for
+/// [_i88.StaticPagesPage]
+class StaticPagesRoute extends _i88.PageRouteInfo<void> {
+  const StaticPagesRoute({List<_i88.PageRouteInfo>? children})
+    : super(StaticPagesRoute.name, initialChildren: children);
+
+  static const String name = 'StaticPagesRoute';
+
+  static _i88.PageInfo page = _i88.PageInfo(
+    name,
+    builder: (data) {
+      return const _i88.StaticPagesPage();
     },
   );
 }

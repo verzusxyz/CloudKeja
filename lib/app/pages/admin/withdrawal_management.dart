@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:get/Get.dart';
 import 'package:cloudkeja/app/data/models/admin/withdraw.dart';
 import 'package:cloudkeja/app/data/models/admin/withdraw_method.dart';
 import 'package:cloudkeja/app/data/repositories/admin_repository/admin_repository.dart';
 
+import 'package:auto_route/auto_route.dart';
+
+@RoutePage(name: 'WithdrawalManagementRoute')
 class WithdrawalManagementPage extends StatefulWidget {
   const WithdrawalManagementPage({super.key});
 
@@ -15,6 +17,7 @@ class _WithdrawalManagementState extends State<WithdrawalManagementPage> with Si
   late TabController _tabController;
   List<Withdraw> withdrawals = [];
   List<WithdrawMethod> methods = [];
+  bool isLoading = true;
 
   @override
   void initState() {
@@ -24,30 +27,54 @@ class _WithdrawalManagementState extends State<WithdrawalManagementPage> with Si
   }
 
   Future<void> loadData() async {
+    setState(() => isLoading = true);
     try {
-      withdrawals = await AdminRepository().getWithdrawals();
-      methods = await AdminRepository().getWithdrawMethods();
-      setState(() {});
+      final results = await Future.wait([
+        AdminRepository().getWithdrawals(),
+        AdminRepository().getWithdrawMethods(),
+      ]);
+      withdrawals = results[0] as List<Withdraw>;
+      methods = results[1] as List<WithdrawMethod>;
     } catch (e) {
-      Get.snackbar('Error', 'Failed to load data: $e');
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('Failed to load data: $e'), backgroundColor: Colors.red),
+      );
+    } finally {
+      if (mounted) setState(() => isLoading = false);
     }
   }
 
   void approveWithdraw(Withdraw withdraw) async {
     try {
-      await AdminRepository().updateWithdraw(Withdraw(id: withdraw.id, landlordId: withdraw.landlordId, amount: withdraw.amount, status: 'approved', date: withdraw.date));
+      await AdminRepository().updateWithdraw(Withdraw(
+        id: withdraw.id,
+        landlordId: withdraw.landlordId,
+        amount: withdraw.amount,
+        status: 'approved',
+        date: withdraw.date,
+      ));
       loadData();
     } catch (e) {
-      Get.snackbar('Error', 'Failed to approve withdrawal: $e');
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('Failed to approve withdrawal: $e'), backgroundColor: Colors.red),
+      );
     }
   }
 
   void rejectWithdraw(Withdraw withdraw) async {
     try {
-      await AdminRepository().updateWithdraw(Withdraw(id: withdraw.id, landlordId: withdraw.landlordId, amount: withdraw.amount, status: 'rejected', date: withdraw.date));
+      await AdminRepository().updateWithdraw(Withdraw(
+        id: withdraw.id,
+        landlordId: withdraw.landlordId,
+        amount: withdraw.amount,
+        status: 'rejected',
+        date: withdraw.date,
+      ));
       loadData();
     } catch (e) {
-      Get.snackbar('Error', 'Failed to reject withdrawal: $e');
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('Failed to reject withdrawal: $e'), backgroundColor: Colors.red),
+      );
     }
   }
 
@@ -67,39 +94,41 @@ class _WithdrawalManagementState extends State<WithdrawalManagementPage> with Si
             children: [
               TextFormField(
                 initialValue: name,
-                decoration: InputDecoration(labelText: 'Name'),
+                decoration: const InputDecoration(labelText: 'Name'),
                 validator: (value) => value!.isEmpty ? 'Required' : null,
-                onChanged: (value) => name = value,
+                onChanged: (v) => name = v,
               ),
               TextFormField(
                 initialValue: details,
-                decoration: InputDecoration(labelText: 'Details'),
+                decoration: const InputDecoration(labelText: 'Details'),
                 validator: (value) => value!.isEmpty ? 'Required' : null,
-                onChanged: (value) => details = value,
+                onChanged: (v) => details = v,
               ),
             ],
           ),
         ),
         actions: [
-          TextButton(onPressed: () => Navigator.pop(context), child: Text('Cancel')),
+          TextButton(onPressed: () => Navigator.pop(context), child: const Text('Cancel')),
           TextButton(
             onPressed: () async {
               if (formKey.currentState!.validate()) {
-                WithdrawMethod newMethod = WithdrawMethod(id: method?.id ?? 0, name: name, details: details);
+                final newMethod = WithdrawMethod(id: method?.id ?? 0, name: name, details: details);
                 try {
                   if (method == null) {
                     await AdminRepository().createWithdrawMethod(newMethod);
                   } else {
                     await AdminRepository().updateWithdrawMethod(newMethod);
                   }
-                  Navigator.pop(context);
+                  if (mounted) Navigator.pop(context);
                   loadData();
                 } catch (e) {
-                  Get.snackbar('Error', 'Failed to save method: $e');
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    SnackBar(content: Text('Failed to save method: $e'), backgroundColor: Colors.red),
+                  );
                 }
               }
             },
-            child: Text('Save'),
+            child: const Text('Save'),
           ),
         ],
       ),
@@ -110,64 +139,83 @@ class _WithdrawalManagementState extends State<WithdrawalManagementPage> with Si
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Withdrawal Management'),
+        title: const Text('Withdrawal Management'),
         bottom: TabBar(
           controller: _tabController,
-          tabs: [
+          tabs: const [
             Tab(text: 'Withdrawals'),
             Tab(text: 'Methods'),
           ],
         ),
       ),
-      body: TabBarView(
-        controller: _tabController,
-        children: [
-          ListView.builder(
-            itemCount: withdrawals.length,
-            itemBuilder: (context, index) {
-              final withdraw = withdrawals[index];
-              return ListTile(
-                title: Text('Landlord ${withdraw.landlordId} - \$${withdraw.amount}'),
-                subtitle: Text('Status: ${withdraw.status} - Date: ${withdraw.date.toString().split(' ')[0]}'),
-                trailing: withdraw.status == 'pending' ? Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    IconButton(icon: Icon(Icons.check), onPressed: () => approveWithdraw(withdraw)),
-                    IconButton(icon: Icon(Icons.close), onPressed: () => rejectWithdraw(withdraw)),
-                  ],
-                ) : null,
-              );
-            },
-          ),
-          ListView.builder(
-            itemCount: methods.length,
-            itemBuilder: (context, index) {
-              return ListTile(
-                title: Text(methods[index].name),
-                subtitle: Text(methods[index].details),
-                trailing: Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    IconButton(icon: Icon(Icons.edit), onPressed: () => showAddEditMethod(method: methods[index])),
-                    IconButton(icon: Icon(Icons.delete), onPressed: () async {
-                      try {
-                        await AdminRepository().deleteWithdrawMethod(methods[index].id);
-                        loadData();
-                      } catch (e) {
-                        Get.snackbar('Error', 'Failed to delete method: $e');
-                      }
-                    }),
-                  ],
-                ),
-              );
-            },
-          ),
-        ],
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () => showAddEditMethod(),
-        child: Icon(Icons.add),
-      ),
+      body: isLoading
+          ? const Center(child: CircularProgressIndicator())
+          : TabBarView(
+              controller: _tabController,
+              children: [
+                withdrawals.isEmpty
+                    ? const Center(child: Text('No withdrawals'))
+                    : ListView.builder(
+                        itemCount: withdrawals.length,
+                        itemBuilder: (context, index) {
+                          final withdraw = withdrawals[index];
+                          return ListTile(
+                            title: Text('Landlord ${withdraw.landlordId} - \$${withdraw.amount}'),
+                            subtitle: Text('Status: ${withdraw.status} - Date: ${withdraw.date.toString().split(' ')[0]}'),
+                            trailing: withdraw.status == 'pending'
+                                ? Row(
+                                    mainAxisSize: MainAxisSize.min,
+                                    children: [
+                                      IconButton(icon: const Icon(Icons.check), onPressed: () => approveWithdraw(withdraw)),
+                                      IconButton(icon: const Icon(Icons.close), onPressed: () => rejectWithdraw(withdraw)),
+                                    ],
+                                  )
+                                : null,
+                          );
+                        },
+                      ),
+                methods.isEmpty
+                    ? const Center(child: Text('No methods'))
+                    : ListView.builder(
+                        itemCount: methods.length,
+                        itemBuilder: (context, index) {
+                          final method = methods[index];
+                          return ListTile(
+                            title: Text(method.name),
+                            subtitle: Text(method.details),
+                            trailing: Row(
+                              mainAxisSize: MainAxisSize.min,
+                              children: [
+                                IconButton(
+                                  icon: const Icon(Icons.edit),
+                                  onPressed: () => showAddEditMethod(method: method),
+                                ),
+                                IconButton(
+                                  icon: const Icon(Icons.delete),
+                                  onPressed: () async {
+                                    try {
+                                      await AdminRepository().deleteWithdrawMethod(method.id);
+                                      loadData();
+                                    } catch (e) {
+                                      ScaffoldMessenger.of(context).showSnackBar(
+                                        SnackBar(content: Text('Failed to delete method: $e'), backgroundColor: Colors.red),
+                                      );
+                                    }
+                                  },
+                                ),
+                              ],
+                            ),
+                          );
+                        },
+                      ),
+              ],
+            ),
+      floatingActionButton: _tabController.index == 1
+          ? FloatingActionButton(
+              onPressed: () => showAddEditMethod(),
+              child: const Icon(Icons.add),
+            )
+          : null,
     );
   }
 
